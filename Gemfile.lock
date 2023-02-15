@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    costa_rica_address_utils (0.1.01)
+    costa_rica_address_utils (0.1.02)
 
 GEM
   remote: https://rubygems.org/
