@@ -15,7 +15,7 @@ RSpec.describe CostaRicaAddressUtils do
   let(:address_limon) {{
     province: "Limón",
     canton: "Pococí",
-    district: "Guapiles",
+    district: "Guápiles",
   }}
 
   let(:address_limon2) {{
@@ -24,11 +24,22 @@ RSpec.describe CostaRicaAddressUtils do
     district: "Cahuita",
   }}
 
+  let(:address_isla_coco) {{ province: "Puntarenas", canton: "Central", district: "Isla del Coco" }}
+  let(:address_dulce_nombre) {{ province: "San José", canton: "Vázquez de Coronado", district: "Dulce Nombre de Jesús" }}
+
   describe "address_valid?" do
     it "returns true for valid addresses" do
       expect(described_class.address_valid?(**address_san_jose)).to eq(true)
       expect(described_class.address_valid?(**address_limon)).to eq(true)
       expect(described_class.address_valid?(**address_limon2)).to eq(true)
+    end
+
+    it "Validate case sensitive and accent differences" do
+      expect(described_class.address_valid?(**address_isla_coco)).to eq(true)
+      expect(described_class.address_valid?(**address_dulce_nombre)).to eq(true)
+      
+      expect(described_class.address_valid?(**address_isla_coco.merge(district: "Isla Del Coco"))).to eq(false)
+      expect(described_class.address_valid?(**address_dulce_nombre.merge(district: "Dulce Nombre de Jesus"))).to eq(false)
     end
 
     it "returns false for invalid addresses" do

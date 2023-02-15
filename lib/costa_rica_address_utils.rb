@@ -1,10 +1,14 @@
 # frozen_string_literal: true
 # TODO find way to optimize dataset loading
+require 'json'
 require_relative "costa_rica_address_utils/version"
-require_relative "costa_rica_address_utils/dataset" # Constant LOCATIONS_DATASET with a big hash of all Costa Rica combinations for Province, Cantons, Districts
 require_relative "costa_rica_address_utils/errors"
 
+JSON_FILE_PATH = File.join(File.dirname(__FILE__), '..', 'data', 'locations_dataset.json')
+
 module CostaRicaAddressUtils
+  # Load the JSON file and parse it into a Ruby object for general usage
+  LOCATIONS_DATASET = JSON.parse(File.read(JSON_FILE_PATH))
   VAlID_PROVIDERS = [:shopify, :brightpearl]
 
   class Error < StandardError; end
