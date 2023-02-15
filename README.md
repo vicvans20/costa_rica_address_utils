@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "costa_rica_address_utils"
+
+some_address = { province: "San José", canton: "Central", district: "Pavas" }
+# Check if address is valid
+CostaRicaAddressUtils.address_valid?(**some_address) # => true
+
+# Get address zip
+address_info = CostaRicaAddressUtils.fetch_address_data(**some_address)
+puts address_info[:zip] # => "10109"
+```
 
 ## Development
 
