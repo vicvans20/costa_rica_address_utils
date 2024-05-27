@@ -35,6 +35,28 @@ module CostaRicaAddressUtils
     }
   end
 
+  # Get one address information from a zip code
+  def self.fetch_address_from_zip(zip_code)
+    raise "Zip code provided #{zip_code} is invalid. Must be a 5 digits number" if !zip_code || zip_code.to_s.length != 5
+    zip_code_s = zip_code.to_s
+    LOCATIONS_DATASET.each do |province, province_data|
+      province_data["cantons"].each do |canton, canton_data|
+        canton_data["districts"].each do |district, district_data|
+          if district_data["zip_code"] == zip_code_s
+            return {
+              province: province,
+              canton: canton,
+              district: district,
+              zip: zip_code_s,
+            }
+          end
+        end
+      end
+    end
+
+    return nil
+  end
+
   def self.address_valid?(province:, canton:, district:)
     is_valid = true
     begin
@@ -46,7 +68,6 @@ module CostaRicaAddressUtils
 
     return is_valid
   end
-
 
   # Build a Costa Rica address from an address of an external provider (Shopify, Brightpearl, etc)
   # https://shopify.dev/api/admin-graphql/2022-10/objects/mailingaddress

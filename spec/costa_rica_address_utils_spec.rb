@@ -11,18 +11,21 @@ RSpec.describe CostaRicaAddressUtils do
     canton: "Central",
     district: "Pavas",
   }}
+  let(:zip_san_jose) { "10109"}
 
   let(:address_limon) {{
     province: "Limón",
     canton: "Pococí",
     district: "Guápiles",
   }}
+  let(:zip_limon) { "70201"}
 
   let(:address_limon2) {{
     province: "Limón",
     canton: "Talamanca",
     district: "Cahuita",
   }}
+  let(:zip_limon2) { "70403"}
 
   let(:address_isla_coco) {{ province: "Puntarenas", canton: "Central", district: "Isla del Coco" }}
   let(:address_dulce_nombre) {{ province: "San José", canton: "Vázquez de Coronado", district: "Dulce Nombre de Jesús" }}
@@ -54,9 +57,9 @@ RSpec.describe CostaRicaAddressUtils do
 
   describe "fetch_address_data" do
     it "return zip code for valid addresses" do
-      expect(described_class.fetch_address_data(**address_san_jose)).to include(zip: "10109")
-      expect(described_class.fetch_address_data(**address_limon)).to include(zip: "70201")
-      expect(described_class.fetch_address_data(**address_limon2)).to include(zip: "70403")
+      expect(described_class.fetch_address_data(**address_san_jose)).to include(zip: zip_san_jose)
+      expect(described_class.fetch_address_data(**address_limon)).to include(zip: zip_limon)
+      expect(described_class.fetch_address_data(**address_limon2)).to include(zip: zip_limon2)
     end
     
     it "return nil zip for invalid or incomplete addresses" do
@@ -91,6 +94,32 @@ RSpec.describe CostaRicaAddressUtils do
         company: "12345678",
       )
       expect(described_class.build_address_from_provider(address: input, provider: :shopify)).to eq(costa_rica_address)
+    end
+  end
+
+  describe "fetch_address_from_zip" do
+    it "Get address from zip code" do
+      expect(described_class.fetch_address_from_zip(zip_san_jose)).to include(address_san_jose)
+      expect(described_class.fetch_address_from_zip(zip_san_jose.to_i)).to include(address_san_jose) # Works with integers
+
+      expect(described_class.fetch_address_from_zip(zip_limon)).to include(address_limon)
+      expect(described_class.fetch_address_from_zip(zip_limon2)).to include(address_limon2)
+    end
+
+    it "Return nil for invalid zip code" do
+      expect(described_class.fetch_address_from_zip("00000")).to be_nil
+      expect(described_class.fetch_address_from_zip("99999")).to be_nil
+      expect(described_class.fetch_address_from_zip("12345")).to be_nil
+    end
+
+    it "Return error for nil argument" do
+      expect { described_class.fetch_address_from_zip(nil) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+    end
+
+    it "Return error for invalid format zip code" do
+      expect { described_class.fetch_address_from_zip(123) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip("123") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip("123456") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
     end
   end
 end
