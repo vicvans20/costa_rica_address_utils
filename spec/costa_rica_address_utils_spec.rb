@@ -97,29 +97,40 @@ RSpec.describe CostaRicaAddressUtils do
     end
   end
 
-  describe "fetch_address_from_zip" do
+  describe "fetch_address_from_zip!" do
     it "Get address from zip code" do
-      expect(described_class.fetch_address_from_zip(zip_san_jose)).to include(address_san_jose)
-      expect(described_class.fetch_address_from_zip(zip_san_jose.to_i)).to include(address_san_jose) # Works with integers
+      expect(described_class.fetch_address_from_zip!(zip_san_jose)).to include(address_san_jose)
+      expect(described_class.fetch_address_from_zip!(zip_san_jose.to_i)).to include(address_san_jose) # Works with integers
 
-      expect(described_class.fetch_address_from_zip(zip_limon)).to include(address_limon)
-      expect(described_class.fetch_address_from_zip(zip_limon2)).to include(address_limon2)
+      expect(described_class.fetch_address_from_zip!(zip_limon)).to include(address_limon)
+      expect(described_class.fetch_address_from_zip!(zip_limon2)).to include(address_limon2)
     end
 
     it "Return nil for invalid zip code" do
-      expect(described_class.fetch_address_from_zip("00000")).to be_nil
-      expect(described_class.fetch_address_from_zip("99999")).to be_nil
-      expect(described_class.fetch_address_from_zip("12345")).to be_nil
+      expect(described_class.fetch_address_from_zip!("00000")).to be_nil
+      expect(described_class.fetch_address_from_zip!("99999")).to be_nil
+      expect(described_class.fetch_address_from_zip!("12345")).to be_nil
     end
 
     it "Return error for nil argument" do
-      expect { described_class.fetch_address_from_zip(nil) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip!(nil) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
     end
 
     it "Return error for invalid format zip code" do
-      expect { described_class.fetch_address_from_zip(123) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
-      expect { described_class.fetch_address_from_zip("123") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
-      expect { described_class.fetch_address_from_zip("123456") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip!(123) }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip!("123") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+      expect { described_class.fetch_address_from_zip!("123456") }.to raise_error(RuntimeError, include("Must be a 5 digits number"))
+    end
+  end
+
+  describe "fetch_address_from_zip" do
+    it "Return nil for nil zip code" do
+      expect(described_class.fetch_address_from_zip(nil)).to be_nil
+    end
+
+    it "Return nil for invalid format zip code" do
+      expect(described_class.fetch_address_from_zip("123")).to be_nil
+      expect(described_class.fetch_address_from_zip("123456")).to be_nil
     end
   end
 end
