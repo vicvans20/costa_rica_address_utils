@@ -37,7 +37,7 @@ module CostaRicaAddressUtils
 
   # Get one address information from a zip code
   def self.fetch_address_from_zip(zip_code)
-    raise "Zip code provided #{zip_code} is invalid. Must be a 5 digits number" if !zip_code || zip_code.to_s.length != 5
+    return nil unless zip_valid?(zip_code)
     zip_code_s = zip_code.to_s
     LOCATIONS_DATASET.each do |province, province_data|
       province_data["cantons"].each do |canton, canton_data|
@@ -57,6 +57,11 @@ module CostaRicaAddressUtils
     return nil
   end
 
+  def self.fetch_address_from_zip!(zip_code)
+    raise "Zip code provided #{zip_code} is invalid. Must be a 5 digits number" unless zip_valid?(zip_code)
+    fetch_address_from_zip(zip_code)
+  end
+
   def self.address_valid?(province:, canton:, district:)
     is_valid = true
     begin
@@ -67,6 +72,10 @@ module CostaRicaAddressUtils
     end
 
     return is_valid
+  end
+
+  def self.zip_valid?(zip_code)
+    !!zip_code && zip_code.to_s.length == 5
   end
 
   # Build a Costa Rica address from an address of an external provider (Shopify, Brightpearl, etc)
@@ -104,4 +113,6 @@ module CostaRicaAddressUtils
       raise InvalidData("Invalid provider, valid providers are: #{VAlID_PROVIDERS}")
     end
   end
+
+  private
 end # module CostaRicaAddressUtils
