@@ -40,11 +40,17 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`. 
 
-To release a new version, update the version number in `version.rb` and `Gemfile.lock` (using bundle), and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Release
 
-> `Gemfile.lock` update for version is done after running `bundle install` with the `version.rb` updated
+To release a new version follow these steps:,
+1. Update CHANGELOG.md with the new version changes
+2. Update the version number in `version.rb` 
+3. Execute bundle to update version on `Gemfile.lock` automatically
+4. Commit the changes and change the branch to `main`
+5. Run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 > Remember to execute `bundle exec rake release` on `main` branch
+> `Gemfile.lock` update for version is done after running `bundle install` with the `version.rb` updated
 
 ## Contributing
 
