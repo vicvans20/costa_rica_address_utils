@@ -8,7 +8,6 @@ module CostaRicaAddressUtils
 
     # Load the JSON file and parse it into a Ruby object for general usage
     LOCATIONS_DATASET = JSON.parse(File.read(JSON_FILE_PATH))
-    VALID_PROVIDERS = %i[shopify brightpearl].freeze
 
     class Error < StandardError; end
     # Your code goes here...
@@ -77,42 +76,6 @@ module CostaRicaAddressUtils
 
     def zip_valid?(zip_code)
       !!zip_code && zip_code.to_s.length == 5
-    end
-
-    # Build a Costa Rica address from an address of an external provider (Shopify, Brightpearl, etc)
-    # https://shopify.dev/api/admin-graphql/2022-10/objects/mailingaddress
-    # https://api-docs.brightpearl.com/contact/postal-address/get.html
-    def build_address_from_provider(address:, provider:)
-      case provider
-      when :shopify
-        {
-          name: address.name, # Customer name
-          address1: address.address1,
-
-          province: address.province,
-          canton: address.city,
-          district: address.address2,
-          zip: address.zip,
-
-          national_id: address.company,
-          phone: address.phone
-        }
-      when :brightpearl
-        {
-          name: address['addressFullName'], # Customer name
-          address1: address['addressLine1'],
-
-          province: address['addressLine4'],
-          canton: address['addressLine3'],
-          district: address['addressLine2'],
-          zip: address['postalCode'],
-
-          national_id: address['companyName'],
-          phone: address['telephone']
-        }
-      else
-        raise CostaRicaAddressUtils::InvalidData("Invalid provider, valid providers are: #{VAlID_PROVIDERS}")
-      end
     end
   end # CostaRica
 end
