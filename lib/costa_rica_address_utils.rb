@@ -1,118 +1,67 @@
 # frozen_string_literal: true
-# TODO find way to optimize dataset loading
-require 'json'
-require_relative "costa_rica_address_utils/version"
-require_relative "costa_rica_address_utils/errors"
 
-JSON_FILE_PATH = File.join(File.dirname(__FILE__), '..', 'data', 'locations_dataset.json')
+require_relative 'costa_rica_address_utils/version'
+require_relative 'costa_rica_address_utils/errors'
+require_relative 'costa_rica_address_utils/costa_rica'
+require_relative 'costa_rica_address_utils/guatemala'
 
-module CostaRicaAddressUtils
-  # Load the JSON file and parse it into a Ruby object for general usage
-  LOCATIONS_DATASET = JSON.parse(File.read(JSON_FILE_PATH))
-  VAlID_PROVIDERS = [:shopify, :brightpearl]
+module CostaRicaAddressUtils # rubocop:disable Style/Documentation
+  # Backwards compatibility before usage of for_country
+  # Old version will be able to call methods with CostaRicaAddressUtils directly
+  extend CostaRicaAddressUtils::CostaRica
 
-  class Error < StandardError; end
-  # Your code goes here...
+  SUPPORTED_COUNTRIES = %i[costa_rica guatemala].freeze
+  VALID_INPUT_PROVIDERS = %i[shopify brightpearl].freeze
 
-  # Fetch the address data from provided input, return options for subaddresses on each level and zip code if full address is valid
-  def self.fetch_address_data(province:, canton: nil, district: nil)
-    raise InvalidData, "Province is required" if province.nil? || province.empty?
+  # TODO: merge the methods from both countries using new dataset for costa rica instead of previous one
+  # Newer files contains a standarized format for fields.
 
-    province_data = LOCATIONS_DATASET[province]
-    canton_data = !!province_data ? province_data["cantons"][canton] : nil
-    district_data = !!canton_data ? canton_data["districts"][district] : nil
-
-    canton_options = !!province_data ? province_data["cantons"].keys : [] # Cantons options, only if province is valid
-    district_options = !!canton_data ? canton_data["districts"].keys : [] # Districts options, only if canton is valid
-    zip = (!!district_data && district_data["zip_code"]) || nil # Zip code, only if full address is valid
-
-    return {
-      zip: zip,
-      # Names options
-      province_options: LOCATIONS_DATASET.keys,
-      canton_options: canton_options,
-      district_options: district_options,
-    }
-  end
-
-  # Get one address information from a zip code
-  def self.fetch_address_from_zip(zip_code)
-    return nil unless zip_valid?(zip_code)
-    zip_code_s = zip_code.to_s
-    LOCATIONS_DATASET.each do |province, province_data|
-      province_data["cantons"].each do |canton, canton_data|
-        canton_data["districts"].each do |district, district_data|
-          if district_data["zip_code"] == zip_code_s
-            return {
-              province: province,
-              canton: canton,
-              district: district,
-              zip: zip_code_s,
-            }
-          end
-        end
-      end
+  def self.for_country(country)
+    case country.to_sym
+    when :costa_rica
+      CostaRicaAddressUtils::CostaRica
+    when :guatemala
+      CostaRicaAddressUtils::Guatemala
+    else
+      raise ArgumentError, "Unsupported country: #{country}. Supported countries are: #{SUPPORTED_COUNTRIES}"
     end
-
-    return nil
-  end
-
-  def self.fetch_address_from_zip!(zip_code)
-    raise "Zip code provided #{zip_code} is invalid. Must be a 5 digits number" unless zip_valid?(zip_code)
-    fetch_address_from_zip(zip_code)
-  end
-
-  def self.address_valid?(province:, canton:, district:)
-    is_valid = true
-    begin
-      data = fetch_address_data(province: province, canton: canton, district: district)
-      is_valid = !!data[:zip] # Is valid if matched to a zip code
-    rescue InvalidData => e
-      is_valid = false
-    end
-
-    return is_valid
-  end
-
-  def self.zip_valid?(zip_code)
-    !!zip_code && zip_code.to_s.length == 5
   end
 
   # Build a Costa Rica address from an address of an external provider (Shopify, Brightpearl, etc)
   # https://shopify.dev/api/admin-graphql/2022-10/objects/mailingaddress
   # https://api-docs.brightpearl.com/contact/postal-address/get.html
-  def self.build_address_from_provider(address:, provider:) 
+  # Standarized format locationLevelX for the address Province/Department, Municipality/Canton, District/Parish
+  # since they are named differently in each country
+  def self.build_address_from_provider(address:, provider:)
     case provider
     when :shopify
-      return {
+      {
         name: address.name, # Customer name
         address1: address.address1,
-        
-        province: address.province,
-        canton: address.city,
-        district: address.address2,
+
+        locationLevel1: address.province,
+        locationLevel2: address.city,
+        locationLevel3: address.address2,
         zip: address.zip,
 
         national_id: address.company,
-        phone: address.phone,
+        phone: address.phone
       }
     when :brightpearl
-      return {
-        name: address["addressFullName"], # Customer name
-        address1: address["addressLine1"],
-        
-        province: address["addressLine4"],
-        canton: address["addressLine3"],
-        district: address["addressLine2"],
-        zip: address["postalCode"],
+      {
+        name: address['addressFullName'], # Customer name
+        address1: address['addressLine1'],
 
-        national_id: address["companyName"],
-        phone: address["telephone"],
+        locationLevel1: address['addressLine4'],
+        locationLevel2: address['addressLine3'],
+        locationLevel3: address['addressLine2'],
+        zip: address['postalCode'],
+
+        national_id: address['companyName'],
+        phone: address['telephone']
       }
     else
-      raise InvalidData("Invalid provider, valid providers are: #{VAlID_PROVIDERS}")
+      raise InvalidData("Invalid provider, valid providers are: #{VALID_INPUT_PROVIDERS}")
     end
   end
-
-  private
-end # module CostaRicaAddressUtils
+end
