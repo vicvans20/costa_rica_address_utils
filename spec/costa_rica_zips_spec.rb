@@ -1067,28 +1067,173 @@ RSpec.describe CostaRicaAddressUtils do
   # Province Puntarenas
   describe "Province Puntarenas" do
     context "Canton 'Central'" do
-      it "validates zip codes for 'Central'" do
-        expect(described_class.fetch_address_from_zip!('60101')).to include(province: 'Puntarenas', canton: 'Central', district: 'Puntarenas')
-        expect(described_class.fetch_address_from_zip!('60102')).to include(province: 'Puntarenas', canton: 'Central', district: 'Pitahaya')
-        expect(described_class.fetch_address_from_zip!('60103')).to include(province: 'Puntarenas', canton: 'Central', district: 'Chomes')
-        expect(described_class.fetch_address_from_zip!('60104')).to include(province: 'Puntarenas', canton: 'Central', district: 'Lepanto')
-        expect(described_class.fetch_address_from_zip!('60105')).to include(province: 'Puntarenas', canton: 'Central', district: 'Paquera')
-        expect(described_class.fetch_address_from_zip!('60106')).to include(province: 'Puntarenas', canton: 'Central', district: 'Manzanillo')
-        expect(described_class.fetch_address_from_zip!('60107')).to include(province: 'Puntarenas', canton: 'Central', district: 'Guacimal')
-        expect(described_class.fetch_address_from_zip!('60108')).to include(province: 'Puntarenas', canton: 'Central', district: 'Barranca')
-        expect(described_class.fetch_address_from_zip!('60109')).to include(province: 'Puntarenas', canton: 'Central', district: 'Monte Verde')
-        expect(described_class.fetch_address_from_zip!('60110')).to include(province: 'Puntarenas', canton: 'Central', district: 'Isla del Coco')
-        expect(described_class.fetch_address_from_zip!('60111')).to include(province: 'Puntarenas', canton: 'Central', district: 'Cóbano')
-        expect(described_class.fetch_address_from_zip!('60112')).to include(province: 'Puntarenas', canton: 'Central', district: 'Chacarita')
-        expect(described_class.fetch_address_from_zip!('60113')).to include(province: 'Puntarenas', canton: 'Central', district: 'Chira')
-        expect(described_class.fetch_address_from_zip!('60114')).to include(province: 'Puntarenas', canton: 'Central', district: 'Acapulco')
-        expect(described_class.fetch_address_from_zip!('60115')).to include(province: 'Puntarenas', canton: 'Central', district: 'El Roble')
-        expect(described_class.fetch_address_from_zip!('60116')).to include(province: 'Puntarenas', canton: 'Central', district: 'Arancibia')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Central'" do
+          expect(described_class.fetch_address_from_zip!('60101', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Puntarenas')
+          expect(described_class.fetch_address_from_zip!('60102', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Pitahaya')
+          expect(described_class.fetch_address_from_zip!('60103', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Chomes')
+          expect(described_class.fetch_address_from_zip!('60104', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Lepanto')
+          expect(described_class.fetch_address_from_zip!('60105', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Paquera')
+          expect(described_class.fetch_address_from_zip!('60106', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Manzanillo')
+          expect(described_class.fetch_address_from_zip!('60107', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Guacimal')
+          expect(described_class.fetch_address_from_zip!('60108', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Barranca')
+          expect(described_class.fetch_address_from_zip!('60109', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Monte Verde')
+          expect(described_class.fetch_address_from_zip!('60110', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Isla del Coco')
+          expect(described_class.fetch_address_from_zip!('60111', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Cóbano')
+          expect(described_class.fetch_address_from_zip!('60112', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Chacarita')
+          expect(described_class.fetch_address_from_zip!('60113', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Chira')
+          expect(described_class.fetch_address_from_zip!('60114', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Acapulco')
+          expect(described_class.fetch_address_from_zip!('60115', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'El Roble')
+          expect(described_class.fetch_address_from_zip!('60116', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Arancibia')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
-    # Continue with all other cantons in Puntarenas province
-    # ... (remaining Puntarenas cantons)
+    context "Canton 'Esparza'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Esparza'" do
+          expect(described_class.fetch_address_from_zip!('60201', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'Espíritu Santo')
+          expect(described_class.fetch_address_from_zip!('60202', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'San Juan Grande')
+          expect(described_class.fetch_address_from_zip!('60203', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'Macacona')
+          expect(described_class.fetch_address_from_zip!('60204', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('60205', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'San Jerónimo')
+          expect(described_class.fetch_address_from_zip!('60206', new_dataset:)).to include(province: 'Puntarenas', canton: 'Esparza', district: 'Caldera')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Buenos Aires'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Buenos Aires'" do
+          expect(described_class.fetch_address_from_zip!('60301', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Buenos Aires')
+          expect(described_class.fetch_address_from_zip!('60302', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Volcán')
+          expect(described_class.fetch_address_from_zip!('60303', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Potrero Grande')
+          expect(described_class.fetch_address_from_zip!('60304', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Boruca')
+          expect(described_class.fetch_address_from_zip!('60305', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Pilas')
+          expect(described_class.fetch_address_from_zip!('60306', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Colinas')
+          expect(described_class.fetch_address_from_zip!('60307', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Chánguena')
+          expect(described_class.fetch_address_from_zip!('60308', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Biolley')
+          expect(described_class.fetch_address_from_zip!('60309', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Brunka')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Montes de Oro'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Montes de Oro'" do
+          expect(described_class.fetch_address_from_zip!('60401', new_dataset:)).to include(province: 'Puntarenas', canton: 'Montes de Oro', district: 'Miramar')
+          expect(described_class.fetch_address_from_zip!('60402', new_dataset:)).to include(province: 'Puntarenas', canton: 'Montes de Oro', district: 'La Unión')
+          expect(described_class.fetch_address_from_zip!('60403', new_dataset:)).to include(province: 'Puntarenas', canton: 'Montes de Oro', district: 'San Isidro')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Osa'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Osa'" do
+          expect(described_class.fetch_address_from_zip!('60501', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Puerto Cortés')
+          expect(described_class.fetch_address_from_zip!('60502', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Palmar')
+          expect(described_class.fetch_address_from_zip!('60503', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Sierpe')
+          expect(described_class.fetch_address_from_zip!('60504', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Bahía Ballena')
+          expect(described_class.fetch_address_from_zip!('60505', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Piedras Blancas')
+          expect(described_class.fetch_address_from_zip!('60506', new_dataset:)).to include(province: 'Puntarenas', canton: 'Osa', district: 'Bahía Drake')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Quepos'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Quepos'" do
+          expect(described_class.fetch_address_from_zip!('60601', new_dataset:)).to include(province: 'Puntarenas', canton: 'Quepos', district: 'Quepos')
+          expect(described_class.fetch_address_from_zip!('60602', new_dataset:)).to include(province: 'Puntarenas', canton: 'Quepos', district: 'Savegre')
+          expect(described_class.fetch_address_from_zip!('60603', new_dataset:)).to include(province: 'Puntarenas', canton: 'Quepos', district: 'Naranjito')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Golfito'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Golfito'" do
+          expect(described_class.fetch_address_from_zip!('60701', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Golfito')
+          expect(described_class.fetch_address_from_zip!('60702', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Puerto Jiménez')
+          expect(described_class.fetch_address_from_zip!('60703', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Guaycará')
+          expect(described_class.fetch_address_from_zip!('60704', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Pavón')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Coto Brus'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Coto Brus'" do
+          expect(described_class.fetch_address_from_zip!('60801', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'San Vito')
+          expect(described_class.fetch_address_from_zip!('60802', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Sabalito')
+          expect(described_class.fetch_address_from_zip!('60803', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Aguabuena')
+          expect(described_class.fetch_address_from_zip!('60804', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Limoncito')
+          expect(described_class.fetch_address_from_zip!('60805', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Pittier')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Parrita'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Parrita'" do
+          expect(described_class.fetch_address_from_zip!('60901', new_dataset:)).to include(province: 'Puntarenas', canton: 'Parrita', district: 'Parrita')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Corredores'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Corredores'" do
+          expect(described_class.fetch_address_from_zip!('61001', new_dataset:)).to include(province: 'Puntarenas', canton: 'Corredores', district: 'Corredor')
+          expect(described_class.fetch_address_from_zip!('61002', new_dataset:)).to include(province: 'Puntarenas', canton: 'Corredores', district: 'La Cuesta')
+          expect(described_class.fetch_address_from_zip!('61003', new_dataset:)).to include(province: 'Puntarenas', canton: 'Corredores', district: 'Canoas')
+          expect(described_class.fetch_address_from_zip!('61004', new_dataset:)).to include(province: 'Puntarenas', canton: 'Corredores', district: 'Laurel')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Garabito'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Garabito'" do
+          expect(described_class.fetch_address_from_zip!('61101', new_dataset:)).to include(province: 'Puntarenas', canton: 'Garabito', district: 'Jacó')
+          expect(described_class.fetch_address_from_zip!('61102', new_dataset:)).to include(province: 'Puntarenas', canton: 'Garabito', district: 'Tárcoles')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
   end
 
   # Province Limón

@@ -2452,9 +2452,9 @@
             "name":"Monte Verde",
             "zipCode":"60109"
           },
-          "Isla Del Coco":{
+          "Isla del Coco":{
             "id":"10",
-            "name":"Isla Del Coco",
+            "name":"Isla del Coco",
             "zipCode":"60110"
           },
           "Cóbano":{
@@ -2559,9 +2559,9 @@
             "name":"Colinas",
             "zipCode":"60306"
           },
-          "Changuena":{
+          "Chánguena":{
             "id":"7",
-            "name":"Changuena",
+            "name":"Chánguena",
             "zipCode":"60307"
           },
           "Biolley":{
@@ -2576,9 +2576,9 @@
           }
         }
       },
-      "Montes De Oro":{
+      "Montes de Oro":{
         "id":"4",
-        "name":"Montes De Oro",
+        "name":"Montes de Oro",
         "locationsLevel3":{
           "Miramar":{
             "id":"1",
@@ -2668,9 +2668,9 @@
             "name":"Puerto Jiménez",
             "zipCode":"60702"
           },
-          "Guaycara":{
+          "Guaycará":{
             "id":"3",
-            "name":"Guaycara",
+            "name":"Guaycará",
             "zipCode":"60703"
           },
           "Pavón":{
