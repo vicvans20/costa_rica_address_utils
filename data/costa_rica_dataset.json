@@ -242,9 +242,9 @@
             "name":"Tarbaca",
             "zipCode":"10602"
           },
-          "Vuelta De Jorco":{
+          "Vuelta de Jorco":{
             "id":"3",
-            "name":"Vuelta De Jorco",
+            "name":"Vuelta de Jorco",
             "zipCode":"10603"
           },
           "San Gabriel":{
@@ -324,9 +324,9 @@
             "name":"Calle Blancos",
             "zipCode":"10803"
           },
-          "Mata De Platano":{
+          "Mata de Plátano":{
             "id":"4",
-            "name":"Mata De Platano",
+            "name":"Mata de Plátano",
             "zipCode":"10804"
           },
           "Ipís":{
@@ -413,9 +413,9 @@
           }
         }
       },
-      "Vázquez De Coronado":{
+      "Vázquez de Coronado":{
         "id":"11",
-        "name":"Vázquez De Coronado",
+        "name":"Vázquez de Coronado",
         "locationsLevel3":{
           "San Isidro":{
             "id":"1",
@@ -427,9 +427,9 @@
             "name":"San Rafael",
             "zipCode":"11102"
           },
-          "Dulce Nombre De Jesus":{
+          "Dulce Nombre de Jesús":{
             "id":"3",
-            "name":"Dulce Nombre De Jesus",
+            "name":"Dulce Nombre de Jesús",
             "zipCode":"11103"
           },
           "Patalillo":{
@@ -527,9 +527,9 @@
           }
         }
       },
-      "Montes De Oca":{
+      "Montes de Oca":{
         "id":"15",
-        "name":"Montes De Oca",
+        "name":"Montes de Oca",
         "locationsLevel3":{
           "San Pedro":{
             "id":"1",
@@ -567,9 +567,9 @@
             "name":"San Pedro",
             "zipCode":"11602"
           },
-          "San Juan De Mata":{
+          "San Juan de Mata":{
             "id":"3",
-            "name":"San Juan De Mata",
+            "name":"San Juan de Mata",
             "zipCode":"11603"
           },
           "San Luis":{
@@ -593,9 +593,9 @@
             "name":"Santa María",
             "zipCode":"11701"
           },
-          "Jardin":{
+          "Jardín":{
             "id":"2",
-            "name":"Jardin",
+            "name":"Jardín",
             "zipCode":"11702"
           },
           "Copey":{
@@ -635,9 +635,9 @@
         "id":"19",
         "name":"Pérez Zeledón",
         "locationsLevel3":{
-          "San Isidro De El General":{
+          "San Isidro de El General":{
             "id":"1",
-            "name":"San Isidro De El General",
+            "name":"San Isidro de El General",
             "zipCode":"11901"
           },
           "El General":{
@@ -670,19 +670,19 @@
             "name":"Pejibaye",
             "zipCode":"11907"
           },
-          "Cajon":{
+          "Cajón":{
             "id":"8",
-            "name":"Cajon",
+            "name":"Cajón",
             "zipCode":"11908"
           },
-          "Baru":{
+          "Barú":{
             "id":"9",
-            "name":"Baru",
+            "name":"Barú",
             "zipCode":"11909"
           },
-          "Rio Nuevo":{
+          "Río Nuevo":{
             "id":"10",
-            "name":"Rio Nuevo",
+            "name":"Río Nuevo",
             "zipCode":"11910"
           },
           "Páramo":{
