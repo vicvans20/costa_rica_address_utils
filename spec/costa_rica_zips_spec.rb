@@ -745,17 +745,151 @@ RSpec.describe CostaRicaAddressUtils do
   # Province Heredia
   describe "Province Heredia" do
     context "Canton 'Central'" do
-      it "validates zip codes for 'Central'" do
-        expect(described_class.fetch_address_from_zip!('40101')).to include(province: 'Heredia', canton: 'Central', district: 'Heredia')
-        expect(described_class.fetch_address_from_zip!('40102')).to include(province: 'Heredia', canton: 'Central', district: 'Mercedes')
-        expect(described_class.fetch_address_from_zip!('40103')).to include(province: 'Heredia', canton: 'Central', district: 'San Francisco')
-        expect(described_class.fetch_address_from_zip!('40104')).to include(province: 'Heredia', canton: 'Central', district: 'Ulloa')
-        expect(described_class.fetch_address_from_zip!('40105')).to include(province: 'Heredia', canton: 'Central', district: 'Varablanca')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Central'" do
+          expect(described_class.fetch_address_from_zip!('40101', new_dataset:)).to include(province: 'Heredia', canton: 'Central', district: 'Heredia')
+          expect(described_class.fetch_address_from_zip!('40102', new_dataset:)).to include(province: 'Heredia', canton: 'Central', district: 'Mercedes')
+          expect(described_class.fetch_address_from_zip!('40103', new_dataset:)).to include(province: 'Heredia', canton: 'Central', district: 'San Francisco')
+          expect(described_class.fetch_address_from_zip!('40104', new_dataset:)).to include(province: 'Heredia', canton: 'Central', district: 'Ulloa')
+          expect(described_class.fetch_address_from_zip!('40105', new_dataset:)).to include(province: 'Heredia', canton: 'Central', district: 'Varablanca')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
-    # Continue with all other cantons in Heredia province
-    # ... (remaining Heredia cantons)
+    context "Canton 'Barva'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Barva'" do
+          expect(described_class.fetch_address_from_zip!('40201', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'Barva')
+          expect(described_class.fetch_address_from_zip!('40202', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San Pedro')
+          expect(described_class.fetch_address_from_zip!('40203', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San Pablo')
+          expect(described_class.fetch_address_from_zip!('40204', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San Roque')
+          expect(described_class.fetch_address_from_zip!('40205', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'Santa Lucía')
+          expect(described_class.fetch_address_from_zip!('40206', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San José de la Montaña')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Santo Domingo'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Santo Domingo'" do
+          expect(described_class.fetch_address_from_zip!('40301', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Santo Domingo')
+          expect(described_class.fetch_address_from_zip!('40302', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'San Vicente')
+          expect(described_class.fetch_address_from_zip!('40303', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'San Miguel')
+          expect(described_class.fetch_address_from_zip!('40304', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Paracito')
+          expect(described_class.fetch_address_from_zip!('40305', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Santo Tomás')
+          expect(described_class.fetch_address_from_zip!('40306', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Santa Rosa')
+          expect(described_class.fetch_address_from_zip!('40307', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Tures')
+          expect(described_class.fetch_address_from_zip!('40308', new_dataset:)).to include(province: 'Heredia', canton: 'Santo Domingo', district: 'Pará')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Santa Bárbara'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Santa Bárbara'" do
+          expect(described_class.fetch_address_from_zip!('40401', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'Santa Bárbara')
+          expect(described_class.fetch_address_from_zip!('40402', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'San Pedro')
+          expect(described_class.fetch_address_from_zip!('40403', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'San Juan')
+          expect(described_class.fetch_address_from_zip!('40404', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'Jesús')
+          expect(described_class.fetch_address_from_zip!('40405', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'Santo Domingo')
+          expect(described_class.fetch_address_from_zip!('40406', new_dataset:)).to include(province: 'Heredia', canton: 'Santa Bárbara', district: 'Purabá')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'San Rafael'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'San Rafael'" do
+          expect(described_class.fetch_address_from_zip!('40501', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('40502', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'San Josecito')
+          expect(described_class.fetch_address_from_zip!('40503', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Santiago')
+          expect(described_class.fetch_address_from_zip!('40504', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Los Ángeles')
+          expect(described_class.fetch_address_from_zip!('40505', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Concepción')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'San Isidro'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'San Isidro'" do
+          expect(described_class.fetch_address_from_zip!('40601', new_dataset:)).to include(province: 'Heredia', canton: 'San Isidro', district: 'San Isidro')
+          expect(described_class.fetch_address_from_zip!('40602', new_dataset:)).to include(province: 'Heredia', canton: 'San Isidro', district: 'San José')
+          expect(described_class.fetch_address_from_zip!('40603', new_dataset:)).to include(province: 'Heredia', canton: 'San Isidro', district: 'Concepción')
+          expect(described_class.fetch_address_from_zip!('40604', new_dataset:)).to include(province: 'Heredia', canton: 'San Isidro', district: 'San Francisco')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Belén'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Belén'" do
+          expect(described_class.fetch_address_from_zip!('40701', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('40702', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'La Ribera')
+          expect(described_class.fetch_address_from_zip!('40703', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'La Asuncion')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Flores'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Flores'" do
+          expect(described_class.fetch_address_from_zip!('40801', new_dataset:)).to include(province: 'Heredia', canton: 'Flores', district: 'San Joaquín')
+          expect(described_class.fetch_address_from_zip!('40802', new_dataset:)).to include(province: 'Heredia', canton: 'Flores', district: 'Barrantes')
+          expect(described_class.fetch_address_from_zip!('40803', new_dataset:)).to include(province: 'Heredia', canton: 'Flores', district: 'Llorente')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'San Pablo'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'San Pablo'" do
+          expect(described_class.fetch_address_from_zip!('40901', new_dataset:)).to include(province: 'Heredia', canton: 'San Pablo', district: 'San Pablo')
+          expect(described_class.fetch_address_from_zip!('40902', new_dataset:)).to include(province: 'Heredia', canton: 'San Pablo', district: 'Rincon de Sabanilla')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Sarapiquí'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Sarapiquí'" do
+          expect(described_class.fetch_address_from_zip!('41001', new_dataset:)).to include(province: 'Heredia', canton: 'Sarapiquí', district: 'Puerto Viejo')
+          expect(described_class.fetch_address_from_zip!('41002', new_dataset:)).to include(province: 'Heredia', canton: 'Sarapiquí', district: 'La Virgen')
+          expect(described_class.fetch_address_from_zip!('41003', new_dataset:)).to include(province: 'Heredia', canton: 'Sarapiquí', district: 'Las Horquetas')
+          expect(described_class.fetch_address_from_zip!('41004', new_dataset:)).to include(province: 'Heredia', canton: 'Sarapiquí', district: 'Llanuras del Gaspar')
+          expect(described_class.fetch_address_from_zip!('41005', new_dataset:)).to include(province: 'Heredia', canton: 'Sarapiquí', district: 'Cureña')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
   end
 
   # Province Guanacaste

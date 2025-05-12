@@ -1836,16 +1836,16 @@
             "name":"Tures",
             "zipCode":"40307"
           },
-          "Para":{
+          "Pará":{
             "id":"8",
-            "name":"Para",
+            "name":"Pará",
             "zipCode":"40308"
           }
         }
       },
-      "Santa Barbara":{
+      "Santa Bárbara":{
         "id":"4",
-        "name":"Santa Barbara",
+        "name":"Santa Bárbara",
         "locationsLevel3":{
           "Santa Bárbara":{
             "id":"1",
@@ -1872,9 +1872,9 @@
             "name":"Santo Domingo",
             "zipCode":"40405"
           },
-          "Puraba":{
+          "Purabá":{
             "id":"6",
-            "name":"Puraba",
+            "name":"Purabá",
             "zipCode":"40406"
           }
         }
@@ -1987,9 +1987,9 @@
             "name":"San Pablo",
             "zipCode":"40901"
           },
-          "Rincon De Sabanilla":{
+          "Rincon de Sabanilla":{
             "id":"2",
-            "name":"Rincon De Sabanilla",
+            "name":"Rincon de Sabanilla",
             "zipCode":"40902"
           }
         }
@@ -2013,9 +2013,9 @@
             "name":"Las Horquetas",
             "zipCode":"41003"
           },
-          "Llanuras Del Gaspar":{
+          "Llanuras del Gaspar":{
             "id":"4",
-            "name":"Llanuras Del Gaspar",
+            "name":"Llanuras del Gaspar",
             "zipCode":"41004"
           },
           "Cureña":{
