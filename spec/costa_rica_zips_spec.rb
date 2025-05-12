@@ -895,17 +895,173 @@ RSpec.describe CostaRicaAddressUtils do
   # Province Guanacaste
   describe "Province Guanacaste" do
     context "Canton 'Liberia'" do
-      it "validates zip codes for 'Liberia'" do
-        expect(described_class.fetch_address_from_zip!('50101')).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Liberia')
-        expect(described_class.fetch_address_from_zip!('50102')).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Cañas Dulces')
-        expect(described_class.fetch_address_from_zip!('50103')).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Mayorga')
-        expect(described_class.fetch_address_from_zip!('50104')).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Nacascolo')
-        expect(described_class.fetch_address_from_zip!('50105')).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Curubandé')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Liberia'" do
+          expect(described_class.fetch_address_from_zip!('50101', new_dataset:)).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Liberia')
+          expect(described_class.fetch_address_from_zip!('50102', new_dataset:)).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Cañas Dulces')
+          expect(described_class.fetch_address_from_zip!('50103', new_dataset:)).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Mayorga')
+          expect(described_class.fetch_address_from_zip!('50104', new_dataset:)).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Nacascolo')
+          expect(described_class.fetch_address_from_zip!('50105', new_dataset:)).to include(province: 'Guanacaste', canton: 'Liberia', district: 'Curubandé')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
-    # Continue with all other cantons in Guanacaste province
-    # ... (remaining Guanacaste cantons)
+    context "Canton 'Nicoya'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Nicoya'" do
+          expect(described_class.fetch_address_from_zip!('50201', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Nicoya')
+          expect(described_class.fetch_address_from_zip!('50202', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Mansión')
+          expect(described_class.fetch_address_from_zip!('50203', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('50204', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Quebrada Honda')
+          expect(described_class.fetch_address_from_zip!('50205', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Sámara')
+          expect(described_class.fetch_address_from_zip!('50206', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Nosara')
+          expect(described_class.fetch_address_from_zip!('50207', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nicoya', district: 'Belén de Nosarita')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Santa Cruz'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Santa Cruz'" do
+          expect(described_class.fetch_address_from_zip!('50301', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Santa Cruz')
+          expect(described_class.fetch_address_from_zip!('50302', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Bolsón')
+          expect(described_class.fetch_address_from_zip!('50303', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Veintisiete de Abril')
+          expect(described_class.fetch_address_from_zip!('50304', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Tempate')
+          expect(described_class.fetch_address_from_zip!('50305', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Cartagena')
+          expect(described_class.fetch_address_from_zip!('50306', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Cuajiniquil')
+          expect(described_class.fetch_address_from_zip!('50307', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Diriá')
+          expect(described_class.fetch_address_from_zip!('50308', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Cabo Velas')
+          expect(described_class.fetch_address_from_zip!('50309', new_dataset:)).to include(province: 'Guanacaste', canton: 'Santa Cruz', district: 'Tamarindo')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Bagaces'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Bagaces'" do
+          expect(described_class.fetch_address_from_zip!('50401', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Bagaces')
+          expect(described_class.fetch_address_from_zip!('50402', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'La Fortuna')
+          expect(described_class.fetch_address_from_zip!('50403', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Mogote')
+          expect(described_class.fetch_address_from_zip!('50404', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Río Naranjo')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Carrillo'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Carrillo'" do
+          expect(described_class.fetch_address_from_zip!('50501', new_dataset:)).to include(province: 'Guanacaste', canton: 'Carrillo', district: 'Filadelfia')
+          expect(described_class.fetch_address_from_zip!('50502', new_dataset:)).to include(province: 'Guanacaste', canton: 'Carrillo', district: 'Palmira')
+          expect(described_class.fetch_address_from_zip!('50503', new_dataset:)).to include(province: 'Guanacaste', canton: 'Carrillo', district: 'Sardinal')
+          expect(described_class.fetch_address_from_zip!('50504', new_dataset:)).to include(province: 'Guanacaste', canton: 'Carrillo', district: 'Belén')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Cañas'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Cañas'" do
+          expect(described_class.fetch_address_from_zip!('50601', new_dataset:)).to include(province: 'Guanacaste', canton: 'Cañas', district: 'Cañas')
+          expect(described_class.fetch_address_from_zip!('50602', new_dataset:)).to include(province: 'Guanacaste', canton: 'Cañas', district: 'Palmira')
+          expect(described_class.fetch_address_from_zip!('50603', new_dataset:)).to include(province: 'Guanacaste', canton: 'Cañas', district: 'San Miguel')
+          expect(described_class.fetch_address_from_zip!('50604', new_dataset:)).to include(province: 'Guanacaste', canton: 'Cañas', district: 'Bebedero')
+          expect(described_class.fetch_address_from_zip!('50605', new_dataset:)).to include(province: 'Guanacaste', canton: 'Cañas', district: 'Porozal')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Abangares'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Abangares'" do
+          expect(described_class.fetch_address_from_zip!('50701', new_dataset:)).to include(province: 'Guanacaste', canton: 'Abangares', district: 'Las Juntas')
+          expect(described_class.fetch_address_from_zip!('50702', new_dataset:)).to include(province: 'Guanacaste', canton: 'Abangares', district: 'Sierra')
+          expect(described_class.fetch_address_from_zip!('50703', new_dataset:)).to include(province: 'Guanacaste', canton: 'Abangares', district: 'San Juan')
+          expect(described_class.fetch_address_from_zip!('50704', new_dataset:)).to include(province: 'Guanacaste', canton: 'Abangares', district: 'Colorado')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Tilarán'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Tilarán'" do
+          expect(described_class.fetch_address_from_zip!('50801', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Tilarán')
+          expect(described_class.fetch_address_from_zip!('50802', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Quebrada Grande')
+          expect(described_class.fetch_address_from_zip!('50803', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Tronadora')
+          expect(described_class.fetch_address_from_zip!('50804', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Santa Rosa')
+          expect(described_class.fetch_address_from_zip!('50805', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Líbano')
+          expect(described_class.fetch_address_from_zip!('50806', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Tierras Morenas')
+          expect(described_class.fetch_address_from_zip!('50807', new_dataset:)).to include(province: 'Guanacaste', canton: 'Tilarán', district: 'Arenal')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Nandayure'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Nandayure'" do
+          expect(described_class.fetch_address_from_zip!('50901', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'Carmona')
+          expect(described_class.fetch_address_from_zip!('50902', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'Santa Rita')
+          expect(described_class.fetch_address_from_zip!('50903', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'Zapotal')
+          expect(described_class.fetch_address_from_zip!('50904', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'San Pablo')
+          expect(described_class.fetch_address_from_zip!('50905', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'Porvenir')
+          expect(described_class.fetch_address_from_zip!('50906', new_dataset:)).to include(province: 'Guanacaste', canton: 'Nandayure', district: 'Bejuco')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'La Cruz'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'La Cruz'" do
+          expect(described_class.fetch_address_from_zip!('51001', new_dataset:)).to include(province: 'Guanacaste', canton: 'La Cruz', district: 'La Cruz')
+          expect(described_class.fetch_address_from_zip!('51002', new_dataset:)).to include(province: 'Guanacaste', canton: 'La Cruz', district: 'Santa Cecilia')
+          expect(described_class.fetch_address_from_zip!('51003', new_dataset:)).to include(province: 'Guanacaste', canton: 'La Cruz', district: 'La Garita')
+          expect(described_class.fetch_address_from_zip!('51004', new_dataset:)).to include(province: 'Guanacaste', canton: 'La Cruz', district: 'Santa Elena')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Hojancha'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Hojancha'" do
+          expect(described_class.fetch_address_from_zip!('51101', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Hojancha')
+          expect(described_class.fetch_address_from_zip!('51102', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Monte Romo')
+          expect(described_class.fetch_address_from_zip!('51103', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Puerto Carrillo')
+          expect(described_class.fetch_address_from_zip!('51104', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Huacas')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
   end
 
   # Province Puntarenas
