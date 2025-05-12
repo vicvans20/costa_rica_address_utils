@@ -843,7 +843,7 @@ RSpec.describe CostaRicaAddressUtils do
         it "validates zip codes for 'Belén'" do
           expect(described_class.fetch_address_from_zip!('40701', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'San Antonio')
           expect(described_class.fetch_address_from_zip!('40702', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'La Ribera')
-          expect(described_class.fetch_address_from_zip!('40703', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'La Asuncion')
+          expect(described_class.fetch_address_from_zip!('40703', new_dataset:)).to include(province: 'Heredia', canton: 'Belén', district: 'La Asunción')
         end
       end
 
@@ -868,7 +868,7 @@ RSpec.describe CostaRicaAddressUtils do
       shared_examples "zip code dataset" do |new_dataset|
         it "validates zip codes for 'San Pablo'" do
           expect(described_class.fetch_address_from_zip!('40901', new_dataset:)).to include(province: 'Heredia', canton: 'San Pablo', district: 'San Pablo')
-          expect(described_class.fetch_address_from_zip!('40902', new_dataset:)).to include(province: 'Heredia', canton: 'San Pablo', district: 'Rincon de Sabanilla')
+          expect(described_class.fetch_address_from_zip!('40902', new_dataset:)).to include(province: 'Heredia', canton: 'San Pablo', district: 'Rincón de Sabanilla')
         end
       end
 
