@@ -778,9 +778,9 @@
             "name":"San Rafael",
             "zipCode":"20108"
           },
-          "Rio Segundo":{
+          "Río Segundo":{
             "id":"9",
-            "name":"Rio Segundo",
+            "name":"Río Segundo",
             "zipCode":"20109"
           },
           "Desamparados":{
@@ -788,9 +788,9 @@
             "name":"Desamparados",
             "zipCode":"20110"
           },
-          "Turrucares":{
+          "Turrúcares":{
             "id":"11",
-            "name":"Turrucares",
+            "name":"Turrúcares",
             "zipCode":"20111"
           },
           "Tambor":{
@@ -915,14 +915,14 @@
             "name":"Tacares",
             "zipCode":"20305"
           },
-          "Rio Cuarto":{
+          "Río Cuarto":{
             "id":"6",
-            "name":"Rio Cuarto",
+            "name":"Río Cuarto",
             "zipCode":"20306"
           },
-          "Puente De Piedra":{
+          "Puente de Piedra":{
             "id":"7",
-            "name":"Puente De Piedra",
+            "name":"Puente de Piedra",
             "zipCode":"20307"
           },
           "Bolivar":{
@@ -1325,9 +1325,9 @@
             "name":"Delicias",
             "zipCode":"21305"
           },
-          "Dos Rios":{
+          "Dos Ríos":{
             "id":"6",
-            "name":"Dos Rios",
+            "name":"Dos Ríos",
             "zipCode":"21306"
           },
           "Yolillal":{
