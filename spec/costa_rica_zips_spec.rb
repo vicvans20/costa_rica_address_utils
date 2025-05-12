@@ -1239,15 +1239,92 @@ RSpec.describe CostaRicaAddressUtils do
   # Province Limón
   describe "Province Limón" do
     context "Canton 'Central'" do
-      it "validates zip codes for 'Central'" do
-        expect(described_class.fetch_address_from_zip!('70101')).to include(province: 'Limón', canton: 'Central', district: 'Limón')
-        expect(described_class.fetch_address_from_zip!('70102')).to include(province: 'Limón', canton: 'Central', district: 'Valle La Estrella')
-        expect(described_class.fetch_address_from_zip!('70103')).to include(province: 'Limón', canton: 'Central', district: 'Río Blanco')
-        expect(described_class.fetch_address_from_zip!('70104')).to include(province: 'Limón', canton: 'Central', district: 'Matama')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Central'" do
+          expect(described_class.fetch_address_from_zip!('70101', new_dataset:)).to include(province: 'Limón', canton: 'Central', district: 'Limón')
+          expect(described_class.fetch_address_from_zip!('70102', new_dataset:)).to include(province: 'Limón', canton: 'Central', district: 'Valle La Estrella')
+          expect(described_class.fetch_address_from_zip!('70103', new_dataset:)).to include(province: 'Limón', canton: 'Central', district: 'Río Blanco')
+          expect(described_class.fetch_address_from_zip!('70104', new_dataset:)).to include(province: 'Limón', canton: 'Central', district: 'Matama')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
-    # Continue with all other cantons in Limón province
-    # ... (remaining Limón cantons)
+    context "Canton 'Pococí'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Pococí'" do
+          expect(described_class.fetch_address_from_zip!('70201', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Guápiles')
+          expect(described_class.fetch_address_from_zip!('70202', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Jiménez')
+          expect(described_class.fetch_address_from_zip!('70203', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Rita')
+          expect(described_class.fetch_address_from_zip!('70204', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Roxana')
+          expect(described_class.fetch_address_from_zip!('70205', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Cariari')
+          expect(described_class.fetch_address_from_zip!('70206', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'Colorado')
+          expect(described_class.fetch_address_from_zip!('70207', new_dataset:)).to include(province: 'Limón', canton: 'Pococí', district: 'La Colonia')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Siquirres'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Siquirres'" do
+          expect(described_class.fetch_address_from_zip!('70301', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Siquirres')
+          expect(described_class.fetch_address_from_zip!('70302', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Pacuarito')
+          expect(described_class.fetch_address_from_zip!('70303', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Florida')
+          expect(described_class.fetch_address_from_zip!('70304', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Germania')
+          expect(described_class.fetch_address_from_zip!('70305', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'El Cairo')
+          expect(described_class.fetch_address_from_zip!('70306', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Alegría')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Talamanca'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Talamanca'" do
+          expect(described_class.fetch_address_from_zip!('70401', new_dataset:)).to include(province: 'Limón', canton: 'Talamanca', district: 'Bratsi')
+          expect(described_class.fetch_address_from_zip!('70402', new_dataset:)).to include(province: 'Limón', canton: 'Talamanca', district: 'Sixaola')
+          expect(described_class.fetch_address_from_zip!('70403', new_dataset:)).to include(province: 'Limón', canton: 'Talamanca', district: 'Cahuita')
+          expect(described_class.fetch_address_from_zip!('70404', new_dataset:)).to include(province: 'Limón', canton: 'Talamanca', district: 'Telire')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Matina'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Matina'" do
+          expect(described_class.fetch_address_from_zip!('70501', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Matina')
+          expect(described_class.fetch_address_from_zip!('70502', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Batán')
+          expect(described_class.fetch_address_from_zip!('70503', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Carrandi')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Guácimo'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Guácimo'" do
+          expect(described_class.fetch_address_from_zip!('70601', new_dataset:)).to include(province: 'Limón', canton: 'Guácimo', district: 'Guácimo')
+          expect(described_class.fetch_address_from_zip!('70602', new_dataset:)).to include(province: 'Limón', canton: 'Guácimo', district: 'Mercedes')
+          expect(described_class.fetch_address_from_zip!('70603', new_dataset:)).to include(province: 'Limón', canton: 'Guácimo', district: 'Pocora')
+          expect(described_class.fetch_address_from_zip!('70604', new_dataset:)).to include(province: 'Limón', canton: 'Guácimo', district: 'Río Jiménez')
+          expect(described_class.fetch_address_from_zip!('70605', new_dataset:)).to include(province: 'Limón', canton: 'Guácimo', district: 'Duacarí')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
   end
 end

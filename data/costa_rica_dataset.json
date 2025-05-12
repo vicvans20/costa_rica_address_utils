@@ -2784,9 +2784,9 @@
             "name":"Valle La Estrella",
             "zipCode":"70102"
           },
-          "Rio Blanco":{
+          "Río Blanco":{
             "id":"3",
-            "name":"Rio Blanco",
+            "name":"Río Blanco",
             "zipCode":"70103"
           },
           "Matama":{
@@ -2800,9 +2800,9 @@
         "id":"2",
         "name":"Pococí",
         "locationsLevel3":{
-          "Guapiles":{
+          "Guápiles":{
             "id":"1",
-            "name":"Guapiles",
+            "name":"Guápiles",
             "zipCode":"70201"
           },
           "Jiménez":{
@@ -2939,14 +2939,14 @@
             "name":"Pocora",
             "zipCode":"70603"
           },
-          "Rio Jiménez":{
+          "Río Jiménez":{
             "id":"4",
-            "name":"Rio Jiménez",
+            "name":"Río Jiménez",
             "zipCode":"70604"
           },
-          "Duacari":{
+          "Duacarí":{
             "id":"5",
-            "name":"Duacari",
+            "name":"Duacarí",
             "zipCode":"70605"
           }
         }
