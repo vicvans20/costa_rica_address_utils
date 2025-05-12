@@ -48,8 +48,184 @@ RSpec.describe CostaRicaAddressUtils do
       end
     end
 
-    # Continue with all other cantons in San José province
-    # ... (remaining San José cantons)
+    context "Canton 'Puriscal'" do
+      it "validates zip codes for 'Puriscal'" do
+        expect(described_class.fetch_address_from_zip!('10401')).to include(province: 'San José', canton: 'Puriscal', district: 'Santiago')
+        expect(described_class.fetch_address_from_zip!('10402')).to include(province: 'San José', canton: 'Puriscal', district: 'Mercedes Sur')
+        expect(described_class.fetch_address_from_zip!('10403')).to include(province: 'San José', canton: 'Puriscal', district: 'Barbacoas')
+        expect(described_class.fetch_address_from_zip!('10404')).to include(province: 'San José', canton: 'Puriscal', district: 'Grifo Alto')
+        expect(described_class.fetch_address_from_zip!('10405')).to include(province: 'San José', canton: 'Puriscal', district: 'San Rafael')
+        expect(described_class.fetch_address_from_zip!('10406')).to include(province: 'San José', canton: 'Puriscal', district: 'Candelarita')
+        expect(described_class.fetch_address_from_zip!('10407')).to include(province: 'San José', canton: 'Puriscal', district: 'Desamparaditos')
+        expect(described_class.fetch_address_from_zip!('10408')).to include(province: 'San José', canton: 'Puriscal', district: 'San Antonio')
+        expect(described_class.fetch_address_from_zip!('10409')).to include(province: 'San José', canton: 'Puriscal', district: 'Chires')
+      end
+    end
+
+    context "Canton 'Tarrazú'" do
+      it "validates zip codes for 'Tarrazú'" do
+        expect(described_class.fetch_address_from_zip!('10501')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Marcos')
+        expect(described_class.fetch_address_from_zip!('10502')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Lorenzo')
+        expect(described_class.fetch_address_from_zip!('10503')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Carlos')
+      end
+    end
+
+    context "Canton 'Aserrí'" do
+      it "validates zip codes for 'Aserrí'" do
+        expect(described_class.fetch_address_from_zip!('10601')).to include(province: 'San José', canton: 'Aserrí', district: 'Aserrí')
+        expect(described_class.fetch_address_from_zip!('10602')).to include(province: 'San José', canton: 'Aserrí', district: 'Tarbaca')
+        expect(described_class.fetch_address_from_zip!('10603')).to include(province: 'San José', canton: 'Aserrí', district: 'Vuelta de Jorco')
+        expect(described_class.fetch_address_from_zip!('10604')).to include(province: 'San José', canton: 'Aserrí', district: 'San Gabriel')
+        expect(described_class.fetch_address_from_zip!('10605')).to include(province: 'San José', canton: 'Aserrí', district: 'Legua')
+        expect(described_class.fetch_address_from_zip!('10606')).to include(province: 'San José', canton: 'Aserrí', district: 'Monterrey')
+        expect(described_class.fetch_address_from_zip!('10607')).to include(province: 'San José', canton: 'Aserrí', district: 'Salitrillos')
+      end
+    end
+
+    context "Canton 'Mora'" do
+      it "validates zip codes for 'Mora'" do
+        expect(described_class.fetch_address_from_zip!('10701')).to include(province: 'San José', canton: 'Mora', district: 'Colón')
+        expect(described_class.fetch_address_from_zip!('10702')).to include(province: 'San José', canton: 'Mora', district: 'Guayabo')
+        expect(described_class.fetch_address_from_zip!('10703')).to include(province: 'San José', canton: 'Mora', district: 'Tabarcia')
+        expect(described_class.fetch_address_from_zip!('10704')).to include(province: 'San José', canton: 'Mora', district: 'Piedras Negras')
+        expect(described_class.fetch_address_from_zip!('10705')).to include(province: 'San José', canton: 'Mora', district: 'Picagres')
+        expect(described_class.fetch_address_from_zip!('10706')).to include(province: 'San José', canton: 'Mora', district: 'Jaris')
+      end
+    end
+
+    context "Canton 'Goicoechea'" do
+      it "validates zip codes for 'Goicoechea'" do
+        expect(described_class.fetch_address_from_zip!('10801')).to include(province: 'San José', canton: 'Goicoechea', district: 'Guadalupe')
+        expect(described_class.fetch_address_from_zip!('10802')).to include(province: 'San José', canton: 'Goicoechea', district: 'San Francisco')
+        expect(described_class.fetch_address_from_zip!('10803')).to include(province: 'San José', canton: 'Goicoechea', district: 'Calle Blancos')
+        expect(described_class.fetch_address_from_zip!('10804')).to include(province: 'San José', canton: 'Goicoechea', district: 'Mata de Plátano')
+        expect(described_class.fetch_address_from_zip!('10805')).to include(province: 'San José', canton: 'Goicoechea', district: 'Ipís')
+        expect(described_class.fetch_address_from_zip!('10806')).to include(province: 'San José', canton: 'Goicoechea', district: 'Rancho Redondo')
+        expect(described_class.fetch_address_from_zip!('10807')).to include(province: 'San José', canton: 'Goicoechea', district: 'Purral')
+      end
+    end
+
+    context "Canton 'Santa Ana'" do
+      it "validates zip codes for 'Santa Ana'" do
+        expect(described_class.fetch_address_from_zip!('10901')).to include(province: 'San José', canton: 'Santa Ana', district: 'Santa Ana')
+        expect(described_class.fetch_address_from_zip!('10902')).to include(province: 'San José', canton: 'Santa Ana', district: 'Salitral')
+        expect(described_class.fetch_address_from_zip!('10903')).to include(province: 'San José', canton: 'Santa Ana', district: 'Pozos')
+        expect(described_class.fetch_address_from_zip!('10904')).to include(province: 'San José', canton: 'Santa Ana', district: 'Uruca')
+        expect(described_class.fetch_address_from_zip!('10905')).to include(province: 'San José', canton: 'Santa Ana', district: 'Piedades')
+        expect(described_class.fetch_address_from_zip!('10906')).to include(province: 'San José', canton: 'Santa Ana', district: 'Brasil')
+      end
+    end
+
+    context "Canton 'Alajuelita'" do
+      it "validates zip codes for 'Alajuelita'" do
+        expect(described_class.fetch_address_from_zip!('11001')).to include(province: 'San José', canton: 'Alajuelita', district: 'Alajuelita')
+        expect(described_class.fetch_address_from_zip!('11002')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Josecito')
+        expect(described_class.fetch_address_from_zip!('11003')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Antonio')
+        expect(described_class.fetch_address_from_zip!('11004')).to include(province: 'San José', canton: 'Alajuelita', district: 'Concepción')
+        expect(described_class.fetch_address_from_zip!('11005')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Felipe')
+      end
+    end
+
+    context "Canton 'Vázquez de Coronado'" do
+      it "validates zip codes for 'Vázquez de Coronado'" do
+        expect(described_class.fetch_address_from_zip!('11101')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Isidro')
+        expect(described_class.fetch_address_from_zip!('11102')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Rafael')
+        expect(described_class.fetch_address_from_zip!('11103')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Dulce Nombre de Jesús')
+        expect(described_class.fetch_address_from_zip!('11104')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Patalillo')
+        expect(described_class.fetch_address_from_zip!('11105')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Cascajal')
+      end
+    end
+
+    context "Canton 'Acosta'" do
+      it "validates zip codes for 'Acosta'" do
+        expect(described_class.fetch_address_from_zip!('11201')).to include(province: 'San José', canton: 'Acosta', district: 'San Ignacio')
+        expect(described_class.fetch_address_from_zip!('11202')).to include(province: 'San José', canton: 'Acosta', district: 'Guaitil')
+        expect(described_class.fetch_address_from_zip!('11203')).to include(province: 'San José', canton: 'Acosta', district: 'Palmichal')
+        expect(described_class.fetch_address_from_zip!('11204')).to include(province: 'San José', canton: 'Acosta', district: 'Cangrejal')
+        expect(described_class.fetch_address_from_zip!('11205')).to include(province: 'San José', canton: 'Acosta', district: 'Sabanillas')
+      end
+    end
+
+    context "Canton 'Tibás'" do
+      it "validates zip codes for 'Tibás'" do
+        expect(described_class.fetch_address_from_zip!('11301')).to include(province: 'San José', canton: 'Tibás', district: 'San Juan')
+        expect(described_class.fetch_address_from_zip!('11302')).to include(province: 'San José', canton: 'Tibás', district: 'Cinco Esquinas')
+        expect(described_class.fetch_address_from_zip!('11303')).to include(province: 'San José', canton: 'Tibás', district: 'Anselmo Llorente')
+        expect(described_class.fetch_address_from_zip!('11304')).to include(province: 'San José', canton: 'Tibás', district: 'León Xiii')
+        expect(described_class.fetch_address_from_zip!('11305')).to include(province: 'San José', canton: 'Tibás', district: 'Colima')
+      end
+    end
+
+    context "Canton 'Moravia'" do
+      it "validates zip codes for 'Moravia'" do
+        expect(described_class.fetch_address_from_zip!('11401')).to include(province: 'San José', canton: 'Moravia', district: 'San Vicente')
+        expect(described_class.fetch_address_from_zip!('11402')).to include(province: 'San José', canton: 'Moravia', district: 'San Jerónimo')
+        expect(described_class.fetch_address_from_zip!('11403')).to include(province: 'San José', canton: 'Moravia', district: 'La Trinidad')
+      end
+    end
+
+    context "Canton 'Montes de Oca'" do
+      it "validates zip codes for 'Montes de Oca'" do
+        expect(described_class.fetch_address_from_zip!('11501')).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Pedro')
+        expect(described_class.fetch_address_from_zip!('11502')).to include(province: 'San José', canton: 'Montes de Oca', district: 'Sabanilla')
+        expect(described_class.fetch_address_from_zip!('11503')).to include(province: 'San José', canton: 'Montes de Oca', district: 'Mercedes')
+        expect(described_class.fetch_address_from_zip!('11504')).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Rafael')
+      end
+    end
+
+    context "Canton 'Turrubares'" do
+      it "validates zip codes for 'Turrubares'" do
+        expect(described_class.fetch_address_from_zip!('11601')).to include(province: 'San José', canton: 'Turrubares', district: 'San Pablo')
+        expect(described_class.fetch_address_from_zip!('11602')).to include(province: 'San José', canton: 'Turrubares', district: 'San Pedro')
+        expect(described_class.fetch_address_from_zip!('11603')).to include(province: 'San José', canton: 'Turrubares', district: 'San Juan de Mata')
+        expect(described_class.fetch_address_from_zip!('11604')).to include(province: 'San José', canton: 'Turrubares', district: 'San Luis')
+        expect(described_class.fetch_address_from_zip!('11605')).to include(province: 'San José', canton: 'Turrubares', district: 'Carara')
+      end
+    end
+
+    context "Canton 'Dota'" do
+      it "validates zip codes for 'Dota'" do
+        expect(described_class.fetch_address_from_zip!('11701')).to include(province: 'San José', canton: 'Dota', district: 'Santa María')
+        expect(described_class.fetch_address_from_zip!('11702')).to include(province: 'San José', canton: 'Dota', district: 'Jardín')
+        expect(described_class.fetch_address_from_zip!('11703')).to include(province: 'San José', canton: 'Dota', district: 'Copey')
+      end
+    end
+
+    context "Canton 'Curridabat'" do
+      it "validates zip codes for 'Curridabat'" do
+        expect(described_class.fetch_address_from_zip!('11801')).to include(province: 'San José', canton: 'Curridabat', district: 'Curridabat')
+        expect(described_class.fetch_address_from_zip!('11802')).to include(province: 'San José', canton: 'Curridabat', district: 'Granadilla')
+        expect(described_class.fetch_address_from_zip!('11803')).to include(province: 'San José', canton: 'Curridabat', district: 'Sánchez')
+        expect(described_class.fetch_address_from_zip!('11804')).to include(province: 'San José', canton: 'Curridabat', district: 'Tirrases')
+      end
+    end
+
+    context "Canton 'Pérez Zeledón'" do
+      it "validates zip codes for 'Pérez Zeledón'" do
+        expect(described_class.fetch_address_from_zip!('11901')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Isidro de El General')
+        expect(described_class.fetch_address_from_zip!('11902')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'El General')
+        expect(described_class.fetch_address_from_zip!('11903')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Daniel Flores')
+        expect(described_class.fetch_address_from_zip!('11904')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Rivas')
+        expect(described_class.fetch_address_from_zip!('11905')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Pedro')
+        expect(described_class.fetch_address_from_zip!('11906')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Platanares')
+        expect(described_class.fetch_address_from_zip!('11907')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Pejibaye')
+        expect(described_class.fetch_address_from_zip!('11908')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Cajón')
+        expect(described_class.fetch_address_from_zip!('11909')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Barú')
+        expect(described_class.fetch_address_from_zip!('11910')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Río Nuevo')
+        expect(described_class.fetch_address_from_zip!('11911')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Páramo')
+      end
+    end
+
+    context "Canton 'León Cortés Castro'" do
+      it "validates zip codes for 'León Cortés Castro'" do
+        expect(described_class.fetch_address_from_zip!('12001')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Pablo')
+        expect(described_class.fetch_address_from_zip!('12002')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Andres')
+        expect(described_class.fetch_address_from_zip!('12003')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Llano Bonito')
+        expect(described_class.fetch_address_from_zip!('12004')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Isidro')
+        expect(described_class.fetch_address_from_zip!('12005')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Santa Cruz')
+        expect(described_class.fetch_address_from_zip!('12006')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Antonio')
+      end
+    end
   end
 
   # Province Alajuela
