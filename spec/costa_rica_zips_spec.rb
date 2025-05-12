@@ -1,232 +1,332 @@
 # frozen_string_literal: true
 
 require 'ostruct'
-
+require 'spec_helper'
 # Test ALL zip codes for Costa Rica
 RSpec.describe CostaRicaAddressUtils do
   # Province San José
   describe "Province San José" do
     context "Canton 'Central'" do
-      it "validates zip codes for 'Central'" do
-        expect(described_class.fetch_address_from_zip!('10101')).to include(province: 'San José', canton: 'Central', district: 'Carmen')
-        expect(described_class.fetch_address_from_zip!('10102')).to include(province: 'San José', canton: 'Central', district: 'Merced')
-        expect(described_class.fetch_address_from_zip!('10103')).to include(province: 'San José', canton: 'Central', district: 'Hospital')
-        expect(described_class.fetch_address_from_zip!('10104')).to include(province: 'San José', canton: 'Central', district: 'Catedral')
-        expect(described_class.fetch_address_from_zip!('10105')).to include(province: 'San José', canton: 'Central', district: 'Zapote')
-        expect(described_class.fetch_address_from_zip!('10106')).to include(province: 'San José', canton: 'Central', district: 'San Francisco de Dos Ríos')
-        expect(described_class.fetch_address_from_zip!('10107')).to include(province: 'San José', canton: 'Central', district: 'Uruca')
-        expect(described_class.fetch_address_from_zip!('10108')).to include(province: 'San José', canton: 'Central', district: 'Mata Redonda')
-        expect(described_class.fetch_address_from_zip!('10109')).to include(province: 'San José', canton: 'Central', district: 'Pavas')
-        expect(described_class.fetch_address_from_zip!('10110')).to include(province: 'San José', canton: 'Central', district: 'Hatillo')
-        expect(described_class.fetch_address_from_zip!('10111')).to include(province: 'San José', canton: 'Central', district: 'San Sebastián')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Central'" do
+          expect(described_class.fetch_address_from_zip!('10101', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Carmen')
+          expect(described_class.fetch_address_from_zip!('10102', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Merced')
+          expect(described_class.fetch_address_from_zip!('10103', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Hospital')
+          expect(described_class.fetch_address_from_zip!('10104', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Catedral')
+          expect(described_class.fetch_address_from_zip!('10105', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Zapote')
+          expect(described_class.fetch_address_from_zip!('10106', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'San Francisco de Dos Ríos')
+          expect(described_class.fetch_address_from_zip!('10107', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Uruca')
+          expect(described_class.fetch_address_from_zip!('10108', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Mata Redonda')
+          expect(described_class.fetch_address_from_zip!('10109', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Pavas')
+          expect(described_class.fetch_address_from_zip!('10110', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'Hatillo')
+          expect(described_class.fetch_address_from_zip!('10111', new_dataset:)).to include(province: 'San José', canton: 'Central', district: 'San Sebastián')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Escazú'" do
-      it "validates zip codes for 'Escazú'" do
-        expect(described_class.fetch_address_from_zip!('10201')).to include(province: 'San José', canton: 'Escazú', district: 'Escazú')
-        expect(described_class.fetch_address_from_zip!('10202')).to include(province: 'San José', canton: 'Escazú', district: 'San Antonio')
-        expect(described_class.fetch_address_from_zip!('10203')).to include(province: 'San José', canton: 'Escazú', district: 'San Rafael')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Escazú'" do
+          expect(described_class.fetch_address_from_zip!('10201', new_dataset:)).to include(province: 'San José', canton: 'Escazú', district: 'Escazú')
+          expect(described_class.fetch_address_from_zip!('10202', new_dataset:)).to include(province: 'San José', canton: 'Escazú', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('10203', new_dataset:)).to include(province: 'San José', canton: 'Escazú', district: 'San Rafael')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Desamparados'" do
-      it "validates zip codes for 'Desamparados'" do
-        expect(described_class.fetch_address_from_zip!('10301')).to include(province: 'San José', canton: 'Desamparados', district: 'Desamparados')
-        expect(described_class.fetch_address_from_zip!('10302')).to include(province: 'San José', canton: 'Desamparados', district: 'San Miguel')
-        expect(described_class.fetch_address_from_zip!('10303')).to include(province: 'San José', canton: 'Desamparados', district: 'San Juan de Dios')
-        expect(described_class.fetch_address_from_zip!('10304')).to include(province: 'San José', canton: 'Desamparados', district: 'San Rafael Arriba')
-        expect(described_class.fetch_address_from_zip!('10305')).to include(province: 'San José', canton: 'Desamparados', district: 'San Antonio')
-        expect(described_class.fetch_address_from_zip!('10306')).to include(province: 'San José', canton: 'Desamparados', district: 'Frailes')
-        expect(described_class.fetch_address_from_zip!('10307')).to include(province: 'San José', canton: 'Desamparados', district: 'Patarrá')
-        expect(described_class.fetch_address_from_zip!('10308')).to include(province: 'San José', canton: 'Desamparados', district: 'San Cristóbal')
-        expect(described_class.fetch_address_from_zip!('10309')).to include(province: 'San José', canton: 'Desamparados', district: 'Rosario')
-        expect(described_class.fetch_address_from_zip!('10310')).to include(province: 'San José', canton: 'Desamparados', district: 'Damas')
-        expect(described_class.fetch_address_from_zip!('10311')).to include(province: 'San José', canton: 'Desamparados', district: 'San Rafael Abajo')
-        expect(described_class.fetch_address_from_zip!('10312')).to include(province: 'San José', canton: 'Desamparados', district: 'Gravilias')
-        expect(described_class.fetch_address_from_zip!('10313')).to include(province: 'San José', canton: 'Desamparados', district: 'Los Guido')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Desamparados'" do
+          expect(described_class.fetch_address_from_zip!('10301', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Desamparados')
+          expect(described_class.fetch_address_from_zip!('10302', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Miguel')
+          expect(described_class.fetch_address_from_zip!('10303', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Juan de Dios')
+          expect(described_class.fetch_address_from_zip!('10304', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Rafael Arriba')
+          expect(described_class.fetch_address_from_zip!('10305', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('10306', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Frailes')
+          expect(described_class.fetch_address_from_zip!('10307', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Patarrá')
+          expect(described_class.fetch_address_from_zip!('10308', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Cristóbal')
+          expect(described_class.fetch_address_from_zip!('10309', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Rosario')
+          expect(described_class.fetch_address_from_zip!('10310', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Damas')
+          expect(described_class.fetch_address_from_zip!('10311', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'San Rafael Abajo')
+          expect(described_class.fetch_address_from_zip!('10312', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Gravilias')
+          expect(described_class.fetch_address_from_zip!('10313', new_dataset:)).to include(province: 'San José', canton: 'Desamparados', district: 'Los Guido')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Puriscal'" do
-      it "validates zip codes for 'Puriscal'" do
-        expect(described_class.fetch_address_from_zip!('10401')).to include(province: 'San José', canton: 'Puriscal', district: 'Santiago')
-        expect(described_class.fetch_address_from_zip!('10402')).to include(province: 'San José', canton: 'Puriscal', district: 'Mercedes Sur')
-        expect(described_class.fetch_address_from_zip!('10403')).to include(province: 'San José', canton: 'Puriscal', district: 'Barbacoas')
-        expect(described_class.fetch_address_from_zip!('10404')).to include(province: 'San José', canton: 'Puriscal', district: 'Grifo Alto')
-        expect(described_class.fetch_address_from_zip!('10405')).to include(province: 'San José', canton: 'Puriscal', district: 'San Rafael')
-        expect(described_class.fetch_address_from_zip!('10406')).to include(province: 'San José', canton: 'Puriscal', district: 'Candelarita')
-        expect(described_class.fetch_address_from_zip!('10407')).to include(province: 'San José', canton: 'Puriscal', district: 'Desamparaditos')
-        expect(described_class.fetch_address_from_zip!('10408')).to include(province: 'San José', canton: 'Puriscal', district: 'San Antonio')
-        expect(described_class.fetch_address_from_zip!('10409')).to include(province: 'San José', canton: 'Puriscal', district: 'Chires')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Puriscal'" do
+          expect(described_class.fetch_address_from_zip!('10401', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Santiago')
+          expect(described_class.fetch_address_from_zip!('10402', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Mercedes Sur')
+          expect(described_class.fetch_address_from_zip!('10403', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Barbacoas')
+          expect(described_class.fetch_address_from_zip!('10404', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Grifo Alto')
+          expect(described_class.fetch_address_from_zip!('10405', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('10406', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Candelarita')
+          expect(described_class.fetch_address_from_zip!('10407', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Desamparaditos')
+          expect(described_class.fetch_address_from_zip!('10408', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('10409', new_dataset:)).to include(province: 'San José', canton: 'Puriscal', district: 'Chires')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Tarrazú'" do
-      it "validates zip codes for 'Tarrazú'" do
-        expect(described_class.fetch_address_from_zip!('10501')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Marcos')
-        expect(described_class.fetch_address_from_zip!('10502')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Lorenzo')
-        expect(described_class.fetch_address_from_zip!('10503')).to include(province: 'San José', canton: 'Tarrazú', district: 'San Carlos')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Tarrazú'" do
+          expect(described_class.fetch_address_from_zip!('10501', new_dataset:)).to include(province: 'San José', canton: 'Tarrazú', district: 'San Marcos')
+          expect(described_class.fetch_address_from_zip!('10502', new_dataset:)).to include(province: 'San José', canton: 'Tarrazú', district: 'San Lorenzo')
+          expect(described_class.fetch_address_from_zip!('10503', new_dataset:)).to include(province: 'San José', canton: 'Tarrazú', district: 'San Carlos')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Aserrí'" do
-      it "validates zip codes for 'Aserrí'" do
-        expect(described_class.fetch_address_from_zip!('10601')).to include(province: 'San José', canton: 'Aserrí', district: 'Aserrí')
-        expect(described_class.fetch_address_from_zip!('10602')).to include(province: 'San José', canton: 'Aserrí', district: 'Tarbaca')
-        expect(described_class.fetch_address_from_zip!('10603')).to include(province: 'San José', canton: 'Aserrí', district: 'Vuelta de Jorco')
-        expect(described_class.fetch_address_from_zip!('10604')).to include(province: 'San José', canton: 'Aserrí', district: 'San Gabriel')
-        expect(described_class.fetch_address_from_zip!('10605')).to include(province: 'San José', canton: 'Aserrí', district: 'Legua')
-        expect(described_class.fetch_address_from_zip!('10606')).to include(province: 'San José', canton: 'Aserrí', district: 'Monterrey')
-        expect(described_class.fetch_address_from_zip!('10607')).to include(province: 'San José', canton: 'Aserrí', district: 'Salitrillos')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Aserrí'" do
+          expect(described_class.fetch_address_from_zip!('10601', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Aserrí')
+          expect(described_class.fetch_address_from_zip!('10602', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Tarbaca')
+          expect(described_class.fetch_address_from_zip!('10603', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Vuelta de Jorco')
+          expect(described_class.fetch_address_from_zip!('10604', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'San Gabriel')
+          expect(described_class.fetch_address_from_zip!('10605', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Legua')
+          expect(described_class.fetch_address_from_zip!('10606', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Monterrey')
+          expect(described_class.fetch_address_from_zip!('10607', new_dataset:)).to include(province: 'San José', canton: 'Aserrí', district: 'Salitrillos')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Mora'" do
-      it "validates zip codes for 'Mora'" do
-        expect(described_class.fetch_address_from_zip!('10701')).to include(province: 'San José', canton: 'Mora', district: 'Colón')
-        expect(described_class.fetch_address_from_zip!('10702')).to include(province: 'San José', canton: 'Mora', district: 'Guayabo')
-        expect(described_class.fetch_address_from_zip!('10703')).to include(province: 'San José', canton: 'Mora', district: 'Tabarcia')
-        expect(described_class.fetch_address_from_zip!('10704')).to include(province: 'San José', canton: 'Mora', district: 'Piedras Negras')
-        expect(described_class.fetch_address_from_zip!('10705')).to include(province: 'San José', canton: 'Mora', district: 'Picagres')
-        expect(described_class.fetch_address_from_zip!('10706')).to include(province: 'San José', canton: 'Mora', district: 'Jaris')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Mora'" do
+          expect(described_class.fetch_address_from_zip!('10701', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Colón')
+          expect(described_class.fetch_address_from_zip!('10702', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Guayabo')
+          expect(described_class.fetch_address_from_zip!('10703', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Tabarcia')
+          expect(described_class.fetch_address_from_zip!('10704', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Piedras Negras')
+          expect(described_class.fetch_address_from_zip!('10705', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Picagres')
+          expect(described_class.fetch_address_from_zip!('10706', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Jaris')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Goicoechea'" do
-      it "validates zip codes for 'Goicoechea'" do
-        expect(described_class.fetch_address_from_zip!('10801')).to include(province: 'San José', canton: 'Goicoechea', district: 'Guadalupe')
-        expect(described_class.fetch_address_from_zip!('10802')).to include(province: 'San José', canton: 'Goicoechea', district: 'San Francisco')
-        expect(described_class.fetch_address_from_zip!('10803')).to include(province: 'San José', canton: 'Goicoechea', district: 'Calle Blancos')
-        expect(described_class.fetch_address_from_zip!('10804')).to include(province: 'San José', canton: 'Goicoechea', district: 'Mata de Plátano')
-        expect(described_class.fetch_address_from_zip!('10805')).to include(province: 'San José', canton: 'Goicoechea', district: 'Ipís')
-        expect(described_class.fetch_address_from_zip!('10806')).to include(province: 'San José', canton: 'Goicoechea', district: 'Rancho Redondo')
-        expect(described_class.fetch_address_from_zip!('10807')).to include(province: 'San José', canton: 'Goicoechea', district: 'Purral')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Goicoechea'" do
+          expect(described_class.fetch_address_from_zip!('10801', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Guadalupe')
+          expect(described_class.fetch_address_from_zip!('10802', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'San Francisco')
+          expect(described_class.fetch_address_from_zip!('10803', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Calle Blancos')
+          expect(described_class.fetch_address_from_zip!('10804', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Mata de Plátano')
+          expect(described_class.fetch_address_from_zip!('10805', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Ipís')
+          expect(described_class.fetch_address_from_zip!('10806', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Rancho Redondo')
+          expect(described_class.fetch_address_from_zip!('10807', new_dataset:)).to include(province: 'San José', canton: 'Goicoechea', district: 'Purral')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Santa Ana'" do
-      it "validates zip codes for 'Santa Ana'" do
-        expect(described_class.fetch_address_from_zip!('10901')).to include(province: 'San José', canton: 'Santa Ana', district: 'Santa Ana')
-        expect(described_class.fetch_address_from_zip!('10902')).to include(province: 'San José', canton: 'Santa Ana', district: 'Salitral')
-        expect(described_class.fetch_address_from_zip!('10903')).to include(province: 'San José', canton: 'Santa Ana', district: 'Pozos')
-        expect(described_class.fetch_address_from_zip!('10904')).to include(province: 'San José', canton: 'Santa Ana', district: 'Uruca')
-        expect(described_class.fetch_address_from_zip!('10905')).to include(province: 'San José', canton: 'Santa Ana', district: 'Piedades')
-        expect(described_class.fetch_address_from_zip!('10906')).to include(province: 'San José', canton: 'Santa Ana', district: 'Brasil')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Santa Ana'" do
+          expect(described_class.fetch_address_from_zip!('10901', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Santa Ana')
+          expect(described_class.fetch_address_from_zip!('10902', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Salitral')
+          expect(described_class.fetch_address_from_zip!('10903', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Pozos')
+          expect(described_class.fetch_address_from_zip!('10904', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Uruca')
+          expect(described_class.fetch_address_from_zip!('10905', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Piedades')
+          expect(described_class.fetch_address_from_zip!('10906', new_dataset:)).to include(province: 'San José', canton: 'Santa Ana', district: 'Brasil')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Alajuelita'" do
-      it "validates zip codes for 'Alajuelita'" do
-        expect(described_class.fetch_address_from_zip!('11001')).to include(province: 'San José', canton: 'Alajuelita', district: 'Alajuelita')
-        expect(described_class.fetch_address_from_zip!('11002')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Josecito')
-        expect(described_class.fetch_address_from_zip!('11003')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Antonio')
-        expect(described_class.fetch_address_from_zip!('11004')).to include(province: 'San José', canton: 'Alajuelita', district: 'Concepción')
-        expect(described_class.fetch_address_from_zip!('11005')).to include(province: 'San José', canton: 'Alajuelita', district: 'San Felipe')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Alajuelita'" do
+          expect(described_class.fetch_address_from_zip!('11001', new_dataset:)).to include(province: 'San José', canton: 'Alajuelita', district: 'Alajuelita')
+          expect(described_class.fetch_address_from_zip!('11002', new_dataset:)).to include(province: 'San José', canton: 'Alajuelita', district: 'San Josecito')
+          expect(described_class.fetch_address_from_zip!('11003', new_dataset:)).to include(province: 'San José', canton: 'Alajuelita', district: 'San Antonio')
+          expect(described_class.fetch_address_from_zip!('11004', new_dataset:)).to include(province: 'San José', canton: 'Alajuelita', district: 'Concepción')
+          expect(described_class.fetch_address_from_zip!('11005', new_dataset:)).to include(province: 'San José', canton: 'Alajuelita', district: 'San Felipe')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Vázquez de Coronado'" do
-      it "validates zip codes for 'Vázquez de Coronado'" do
-        expect(described_class.fetch_address_from_zip!('11101')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Isidro')
-        expect(described_class.fetch_address_from_zip!('11102')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Rafael')
-        expect(described_class.fetch_address_from_zip!('11103')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Dulce Nombre de Jesús')
-        expect(described_class.fetch_address_from_zip!('11104')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Patalillo')
-        expect(described_class.fetch_address_from_zip!('11105')).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Cascajal')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Vázquez de Coronado'" do
+          expect(described_class.fetch_address_from_zip!('11101', new_dataset:)).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Isidro')
+          expect(described_class.fetch_address_from_zip!('11102', new_dataset:)).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('11103', new_dataset:)).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Dulce Nombre de Jesús')
+          expect(described_class.fetch_address_from_zip!('11104', new_dataset:)).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Patalillo')
+          expect(described_class.fetch_address_from_zip!('11105', new_dataset:)).to include(province: 'San José', canton: 'Vázquez de Coronado', district: 'Cascajal')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Acosta'" do
-      it "validates zip codes for 'Acosta'" do
-        expect(described_class.fetch_address_from_zip!('11201')).to include(province: 'San José', canton: 'Acosta', district: 'San Ignacio')
-        expect(described_class.fetch_address_from_zip!('11202')).to include(province: 'San José', canton: 'Acosta', district: 'Guaitil')
-        expect(described_class.fetch_address_from_zip!('11203')).to include(province: 'San José', canton: 'Acosta', district: 'Palmichal')
-        expect(described_class.fetch_address_from_zip!('11204')).to include(province: 'San José', canton: 'Acosta', district: 'Cangrejal')
-        expect(described_class.fetch_address_from_zip!('11205')).to include(province: 'San José', canton: 'Acosta', district: 'Sabanillas')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Acosta'" do
+          expect(described_class.fetch_address_from_zip!('11201', new_dataset:)).to include(province: 'San José', canton: 'Acosta', district: 'San Ignacio')
+          expect(described_class.fetch_address_from_zip!('11202', new_dataset:)).to include(province: 'San José', canton: 'Acosta', district: 'Guaitil')
+          expect(described_class.fetch_address_from_zip!('11203', new_dataset:)).to include(province: 'San José', canton: 'Acosta', district: 'Palmichal')
+          expect(described_class.fetch_address_from_zip!('11204', new_dataset:)).to include(province: 'San José', canton: 'Acosta', district: 'Cangrejal')
+          expect(described_class.fetch_address_from_zip!('11205', new_dataset:)).to include(province: 'San José', canton: 'Acosta', district: 'Sabanillas')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Tibás'" do
-      it "validates zip codes for 'Tibás'" do
-        expect(described_class.fetch_address_from_zip!('11301')).to include(province: 'San José', canton: 'Tibás', district: 'San Juan')
-        expect(described_class.fetch_address_from_zip!('11302')).to include(province: 'San José', canton: 'Tibás', district: 'Cinco Esquinas')
-        expect(described_class.fetch_address_from_zip!('11303')).to include(province: 'San José', canton: 'Tibás', district: 'Anselmo Llorente')
-        expect(described_class.fetch_address_from_zip!('11304')).to include(province: 'San José', canton: 'Tibás', district: 'León Xiii')
-        expect(described_class.fetch_address_from_zip!('11305')).to include(province: 'San José', canton: 'Tibás', district: 'Colima')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Tibás'" do
+          expect(described_class.fetch_address_from_zip!('11301', new_dataset:)).to include(province: 'San José', canton: 'Tibás', district: 'San Juan')
+          expect(described_class.fetch_address_from_zip!('11302', new_dataset:)).to include(province: 'San José', canton: 'Tibás', district: 'Cinco Esquinas')
+          expect(described_class.fetch_address_from_zip!('11303', new_dataset:)).to include(province: 'San José', canton: 'Tibás', district: 'Anselmo Llorente')
+          expect(described_class.fetch_address_from_zip!('11304', new_dataset:)).to include(province: 'San José', canton: 'Tibás', district: 'León XIII')
+          expect(described_class.fetch_address_from_zip!('11305', new_dataset:)).to include(province: 'San José', canton: 'Tibás', district: 'Colima')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Moravia'" do
-      it "validates zip codes for 'Moravia'" do
-        expect(described_class.fetch_address_from_zip!('11401')).to include(province: 'San José', canton: 'Moravia', district: 'San Vicente')
-        expect(described_class.fetch_address_from_zip!('11402')).to include(province: 'San José', canton: 'Moravia', district: 'San Jerónimo')
-        expect(described_class.fetch_address_from_zip!('11403')).to include(province: 'San José', canton: 'Moravia', district: 'La Trinidad')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Moravia'" do
+          expect(described_class.fetch_address_from_zip!('11401', new_dataset:)).to include(province: 'San José', canton: 'Moravia', district: 'San Vicente')
+          expect(described_class.fetch_address_from_zip!('11402', new_dataset:)).to include(province: 'San José', canton: 'Moravia', district: 'San Jerónimo')
+          expect(described_class.fetch_address_from_zip!('11403', new_dataset:)).to include(province: 'San José', canton: 'Moravia', district: 'La Trinidad')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Montes de Oca'" do
-      it "validates zip codes for 'Montes de Oca'" do
-        expect(described_class.fetch_address_from_zip!('11501')).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Pedro')
-        expect(described_class.fetch_address_from_zip!('11502')).to include(province: 'San José', canton: 'Montes de Oca', district: 'Sabanilla')
-        expect(described_class.fetch_address_from_zip!('11503')).to include(province: 'San José', canton: 'Montes de Oca', district: 'Mercedes')
-        expect(described_class.fetch_address_from_zip!('11504')).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Rafael')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Montes de Oca'" do
+          expect(described_class.fetch_address_from_zip!('11501', new_dataset:)).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Pedro')
+          expect(described_class.fetch_address_from_zip!('11502', new_dataset:)).to include(province: 'San José', canton: 'Montes de Oca', district: 'Sabanilla')
+          expect(described_class.fetch_address_from_zip!('11503', new_dataset:)).to include(province: 'San José', canton: 'Montes de Oca', district: 'Mercedes')
+          expect(described_class.fetch_address_from_zip!('11504', new_dataset:)).to include(province: 'San José', canton: 'Montes de Oca', district: 'San Rafael')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Turrubares'" do
-      it "validates zip codes for 'Turrubares'" do
-        expect(described_class.fetch_address_from_zip!('11601')).to include(province: 'San José', canton: 'Turrubares', district: 'San Pablo')
-        expect(described_class.fetch_address_from_zip!('11602')).to include(province: 'San José', canton: 'Turrubares', district: 'San Pedro')
-        expect(described_class.fetch_address_from_zip!('11603')).to include(province: 'San José', canton: 'Turrubares', district: 'San Juan de Mata')
-        expect(described_class.fetch_address_from_zip!('11604')).to include(province: 'San José', canton: 'Turrubares', district: 'San Luis')
-        expect(described_class.fetch_address_from_zip!('11605')).to include(province: 'San José', canton: 'Turrubares', district: 'Carara')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Turrubares'" do
+          expect(described_class.fetch_address_from_zip!('11601', new_dataset:)).to include(province: 'San José', canton: 'Turrubares', district: 'San Pablo')
+          expect(described_class.fetch_address_from_zip!('11602', new_dataset:)).to include(province: 'San José', canton: 'Turrubares', district: 'San Pedro')
+          expect(described_class.fetch_address_from_zip!('11603', new_dataset:)).to include(province: 'San José', canton: 'Turrubares', district: 'San Juan de Mata')
+          expect(described_class.fetch_address_from_zip!('11604', new_dataset:)).to include(province: 'San José', canton: 'Turrubares', district: 'San Luis')
+          expect(described_class.fetch_address_from_zip!('11605', new_dataset:)).to include(province: 'San José', canton: 'Turrubares', district: 'Carara')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Dota'" do
-      it "validates zip codes for 'Dota'" do
-        expect(described_class.fetch_address_from_zip!('11701')).to include(province: 'San José', canton: 'Dota', district: 'Santa María')
-        expect(described_class.fetch_address_from_zip!('11702')).to include(province: 'San José', canton: 'Dota', district: 'Jardín')
-        expect(described_class.fetch_address_from_zip!('11703')).to include(province: 'San José', canton: 'Dota', district: 'Copey')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Dota'" do
+          expect(described_class.fetch_address_from_zip!('11701', new_dataset:)).to include(province: 'San José', canton: 'Dota', district: 'Santa María')
+          expect(described_class.fetch_address_from_zip!('11702', new_dataset:)).to include(province: 'San José', canton: 'Dota', district: 'Jardín')
+          expect(described_class.fetch_address_from_zip!('11703', new_dataset:)).to include(province: 'San José', canton: 'Dota', district: 'Copey')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Curridabat'" do
-      it "validates zip codes for 'Curridabat'" do
-        expect(described_class.fetch_address_from_zip!('11801')).to include(province: 'San José', canton: 'Curridabat', district: 'Curridabat')
-        expect(described_class.fetch_address_from_zip!('11802')).to include(province: 'San José', canton: 'Curridabat', district: 'Granadilla')
-        expect(described_class.fetch_address_from_zip!('11803')).to include(province: 'San José', canton: 'Curridabat', district: 'Sánchez')
-        expect(described_class.fetch_address_from_zip!('11804')).to include(province: 'San José', canton: 'Curridabat', district: 'Tirrases')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Curridabat'" do
+          expect(described_class.fetch_address_from_zip!('11801', new_dataset:)).to include(province: 'San José', canton: 'Curridabat', district: 'Curridabat')
+          expect(described_class.fetch_address_from_zip!('11802', new_dataset:)).to include(province: 'San José', canton: 'Curridabat', district: 'Granadilla')
+          expect(described_class.fetch_address_from_zip!('11803', new_dataset:)).to include(province: 'San José', canton: 'Curridabat', district: 'Sánchez')
+          expect(described_class.fetch_address_from_zip!('11804', new_dataset:)).to include(province: 'San José', canton: 'Curridabat', district: 'Tirrases')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'Pérez Zeledón'" do
-      it "validates zip codes for 'Pérez Zeledón'" do
-        expect(described_class.fetch_address_from_zip!('11901')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Isidro de El General')
-        expect(described_class.fetch_address_from_zip!('11902')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'El General')
-        expect(described_class.fetch_address_from_zip!('11903')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Daniel Flores')
-        expect(described_class.fetch_address_from_zip!('11904')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Rivas')
-        expect(described_class.fetch_address_from_zip!('11905')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Pedro')
-        expect(described_class.fetch_address_from_zip!('11906')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Platanares')
-        expect(described_class.fetch_address_from_zip!('11907')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Pejibaye')
-        expect(described_class.fetch_address_from_zip!('11908')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Cajón')
-        expect(described_class.fetch_address_from_zip!('11909')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Barú')
-        expect(described_class.fetch_address_from_zip!('11910')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Río Nuevo')
-        expect(described_class.fetch_address_from_zip!('11911')).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Páramo')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Pérez Zeledón'" do
+          expect(described_class.fetch_address_from_zip!('11901', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Isidro de El General')
+          expect(described_class.fetch_address_from_zip!('11902', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'El General')
+          expect(described_class.fetch_address_from_zip!('11903', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Daniel Flores')
+          expect(described_class.fetch_address_from_zip!('11904', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Rivas')
+          expect(described_class.fetch_address_from_zip!('11905', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'San Pedro')
+          expect(described_class.fetch_address_from_zip!('11906', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Platanares')
+          expect(described_class.fetch_address_from_zip!('11907', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Pejibaye')
+          expect(described_class.fetch_address_from_zip!('11908', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Cajón')
+          expect(described_class.fetch_address_from_zip!('11909', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Barú')
+          expect(described_class.fetch_address_from_zip!('11910', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Río Nuevo')
+          expect(described_class.fetch_address_from_zip!('11911', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Páramo')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
     context "Canton 'León Cortés Castro'" do
-      it "validates zip codes for 'León Cortés Castro'" do
-        expect(described_class.fetch_address_from_zip!('12001')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Pablo')
-        expect(described_class.fetch_address_from_zip!('12002')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Andres')
-        expect(described_class.fetch_address_from_zip!('12003')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Llano Bonito')
-        expect(described_class.fetch_address_from_zip!('12004')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Isidro')
-        expect(described_class.fetch_address_from_zip!('12005')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Santa Cruz')
-        expect(described_class.fetch_address_from_zip!('12006')).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Antonio')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'León Cortés Castro'" do
+          expect(described_class.fetch_address_from_zip!('12001', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Pablo')
+          expect(described_class.fetch_address_from_zip!('12002', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Andres')
+          expect(described_class.fetch_address_from_zip!('12003', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Llano Bonito')
+          expect(described_class.fetch_address_from_zip!('12004', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Isidro')
+          expect(described_class.fetch_address_from_zip!('12005', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Santa Cruz')
+          expect(described_class.fetch_address_from_zip!('12006', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Antonio')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
-  end
+  end # Province San José
 
   # Province Alajuela
   describe "Province Alajuela" do
