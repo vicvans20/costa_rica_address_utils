@@ -32,9 +32,9 @@
             "name":"Zapote",
             "zipCode":"10105"
           },
-          "San Francisco De Dos Rios":{
+          "San Francisco de Dos Ríos":{
             "id":"6",
-            "name":"San Francisco De Dos Rios",
+            "name":"San Francisco de Dos Ríos",
             "zipCode":"10106"
           },
           "Uruca":{
@@ -99,9 +99,9 @@
             "name":"San Miguel",
             "zipCode":"10302"
           },
-          "San Juan De Dios":{
+          "San Juan de Dios":{
             "id":"3",
-            "name":"San Juan De Dios",
+            "name":"San Juan de Dios",
             "zipCode":"10303"
           },
           "San Rafael Arriba":{
@@ -109,39 +109,39 @@
             "name":"San Rafael Arriba",
             "zipCode":"10304"
           },
-          "San Rafael Abajo":{
+          "San Antonio":{
             "id":"5",
-            "name":"San Rafael Abajo",
+            "name":"San Antonio",
             "zipCode":"10305"
           },
-          "San Antonio":{
+          "Frailes":{
             "id":"6",
-            "name":"San Antonio",
+            "name":"Frailes",
             "zipCode":"10306"
           },
-          "Frailes":{
+          "Patarrá":{
             "id":"7",
-            "name":"Frailes",
+            "name":"Patarrá",
             "zipCode":"10307"
           },
-          "Patarra":{
+          "San Cristóbal":{
             "id":"8",
-            "name":"Patarra",
+            "name":"San Cristóbal",
             "zipCode":"10308"
           },
-          "San Cristobal":{
+          "Rosario":{
             "id":"9",
-            "name":"San Cristobal",
+            "name":"Rosario",
             "zipCode":"10309"
           },
-          "Rosario":{
+          "Damas":{
             "id":"10",
-            "name":"Rosario",
+            "name":"Damas",
             "zipCode":"10310"
           },
-          "Damas":{
+          "San Rafael Abajo":{
             "id":"11",
-            "name":"Damas",
+            "name":"San Rafael Abajo",
             "zipCode":"10311"
           },
           "Gravilias":{
@@ -494,9 +494,9 @@
             "name":"Anselmo Llorente",
             "zipCode":"11303"
           },
-          "Leon Xiii":{
+          "León XIII":{
             "id":"4",
-            "name":"Leon Xiii",
+            "name":"León XIII",
             "zipCode":"11304"
           },
           "Colima":{
@@ -515,9 +515,9 @@
             "name":"San Vicente",
             "zipCode":"11401"
           },
-          "San Jeronimo":{
+          "San Jerónimo":{
             "id":"2",
-            "name":"San Jeronimo",
+            "name":"San Jerónimo",
             "zipCode":"11402"
           },
           "La Trinidad":{
@@ -619,9 +619,9 @@
             "name":"Granadilla",
             "zipCode":"11802"
           },
-          "Sanchez":{
+          "Sánchez":{
             "id":"3",
-            "name":"Sanchez",
+            "name":"Sánchez",
             "zipCode":"11803"
           },
           "Tirrases":{
@@ -849,9 +849,9 @@
             "name":"San Isidro",
             "zipCode":"20207"
           },
-          "Angeles":{
+          "Ángeles":{
             "id":"8",
-            "name":"Angeles",
+            "name":"Ángeles",
             "zipCode":"20208"
           },
           "Alfaro":{
