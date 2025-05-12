@@ -611,23 +611,135 @@ RSpec.describe CostaRicaAddressUtils do
   # Province Cartago
   describe "Province Cartago" do
     context "Canton 'Central'" do
-      it "validates zip codes for 'Central'" do
-        expect(described_class.fetch_address_from_zip!('30101')).to include(province: 'Cartago', canton: 'Central', district: 'Oriental')
-        expect(described_class.fetch_address_from_zip!('30102')).to include(province: 'Cartago', canton: 'Central', district: 'Occidental')
-        expect(described_class.fetch_address_from_zip!('30103')).to include(province: 'Cartago', canton: 'Central', district: 'Carmen')
-        expect(described_class.fetch_address_from_zip!('30104')).to include(province: 'Cartago', canton: 'Central', district: 'San Nicolás')
-        expect(described_class.fetch_address_from_zip!('30105')).to include(province: 'Cartago', canton: 'Central', district: 'Aguacaliente o San Francisco')
-        expect(described_class.fetch_address_from_zip!('30106')).to include(province: 'Cartago', canton: 'Central', district: 'Guadalupe o Arenilla')
-        expect(described_class.fetch_address_from_zip!('30107')).to include(province: 'Cartago', canton: 'Central', district: 'Corralillo')
-        expect(described_class.fetch_address_from_zip!('30108')).to include(province: 'Cartago', canton: 'Central', district: 'Tierra Blanca')
-        expect(described_class.fetch_address_from_zip!('30109')).to include(province: 'Cartago', canton: 'Central', district: 'Dulce Nombre')
-        expect(described_class.fetch_address_from_zip!('30110')).to include(province: 'Cartago', canton: 'Central', district: 'Llano Grande')
-        expect(described_class.fetch_address_from_zip!('30111')).to include(province: 'Cartago', canton: 'Central', district: 'Quebradilla')
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Central'" do
+          expect(described_class.fetch_address_from_zip!('30101', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Oriental')
+          expect(described_class.fetch_address_from_zip!('30102', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Occidental')
+          expect(described_class.fetch_address_from_zip!('30103', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Carmen')
+          expect(described_class.fetch_address_from_zip!('30104', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'San Nicolás')
+          expect(described_class.fetch_address_from_zip!('30105', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Aguacaliente o San Francisco')
+          expect(described_class.fetch_address_from_zip!('30106', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Guadalupe o Arenilla')
+          expect(described_class.fetch_address_from_zip!('30107', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Corralillo')
+          expect(described_class.fetch_address_from_zip!('30108', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Tierra Blanca')
+          expect(described_class.fetch_address_from_zip!('30109', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Dulce Nombre')
+          expect(described_class.fetch_address_from_zip!('30110', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Llano Grande')
+          expect(described_class.fetch_address_from_zip!('30111', new_dataset:)).to include(province: 'Cartago', canton: 'Central', district: 'Quebradilla')
+        end
       end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
     end
 
-    # Continue with all other cantons in Cartago province
-    # ... (remaining Cartago cantons)
+    context "Canton 'Paraíso'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Paraíso'" do
+          expect(described_class.fetch_address_from_zip!('30201', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Paraíso')
+          expect(described_class.fetch_address_from_zip!('30202', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Santiago')
+          expect(described_class.fetch_address_from_zip!('30203', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Orosi')
+          expect(described_class.fetch_address_from_zip!('30204', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Cachí')
+          expect(described_class.fetch_address_from_zip!('30205', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Llanos de Santa Lucía')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'La Unión'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'La Unión'" do
+          expect(described_class.fetch_address_from_zip!('30301', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'Tres Ríos')
+          expect(described_class.fetch_address_from_zip!('30302', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'San Diego')
+          expect(described_class.fetch_address_from_zip!('30303', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'San Juan')
+          expect(described_class.fetch_address_from_zip!('30304', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('30305', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'Concepción')
+          expect(described_class.fetch_address_from_zip!('30306', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'Dulce Nombre')
+          expect(described_class.fetch_address_from_zip!('30307', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'San Ramón')
+          expect(described_class.fetch_address_from_zip!('30308', new_dataset:)).to include(province: 'Cartago', canton: 'La Unión', district: 'Río Azul')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Jiménez'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Jiménez'" do
+          expect(described_class.fetch_address_from_zip!('30401', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Juan Viñas')
+          expect(described_class.fetch_address_from_zip!('30402', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Tucurrique')
+          expect(described_class.fetch_address_from_zip!('30403', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Pejibaye')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Turrialba'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Turrialba'" do
+          expect(described_class.fetch_address_from_zip!('30501', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Turrialba')
+          expect(described_class.fetch_address_from_zip!('30502', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'La Suiza')
+          expect(described_class.fetch_address_from_zip!('30503', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Peralta')
+          expect(described_class.fetch_address_from_zip!('30504', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Santa Cruz')
+          expect(described_class.fetch_address_from_zip!('30505', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Santa Teresita')
+          expect(described_class.fetch_address_from_zip!('30506', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Pavones')
+          expect(described_class.fetch_address_from_zip!('30507', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Tuis')
+          expect(described_class.fetch_address_from_zip!('30508', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Tayutic')
+          expect(described_class.fetch_address_from_zip!('30509', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Santa Rosa')
+          expect(described_class.fetch_address_from_zip!('30510', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Tres Equis')
+          expect(described_class.fetch_address_from_zip!('30511', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'La Isabel')
+          expect(described_class.fetch_address_from_zip!('30512', new_dataset:)).to include(province: 'Cartago', canton: 'Turrialba', district: 'Chirripó')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Alvarado'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Alvarado'" do
+          expect(described_class.fetch_address_from_zip!('30601', new_dataset:)).to include(province: 'Cartago', canton: 'Alvarado', district: 'Pacayas')
+          expect(described_class.fetch_address_from_zip!('30602', new_dataset:)).to include(province: 'Cartago', canton: 'Alvarado', district: 'Cervantes')
+          expect(described_class.fetch_address_from_zip!('30603', new_dataset:)).to include(province: 'Cartago', canton: 'Alvarado', district: 'Capellades')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Oreamuno'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Oreamuno'" do
+          expect(described_class.fetch_address_from_zip!('30701', new_dataset:)).to include(province: 'Cartago', canton: 'Oreamuno', district: 'San Rafael')
+          expect(described_class.fetch_address_from_zip!('30702', new_dataset:)).to include(province: 'Cartago', canton: 'Oreamuno', district: 'Cot')
+          expect(described_class.fetch_address_from_zip!('30703', new_dataset:)).to include(province: 'Cartago', canton: 'Oreamuno', district: 'Potrero Cerrado')
+          expect(described_class.fetch_address_from_zip!('30704', new_dataset:)).to include(province: 'Cartago', canton: 'Oreamuno', district: 'Cipreses')
+          expect(described_class.fetch_address_from_zip!('30705', new_dataset:)).to include(province: 'Cartago', canton: 'Oreamuno', district: 'Santa Rosa')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'El Guarco'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'El Guarco'" do
+          expect(described_class.fetch_address_from_zip!('30801', new_dataset:)).to include(province: 'Cartago', canton: 'El Guarco', district: 'El Tejar')
+          expect(described_class.fetch_address_from_zip!('30802', new_dataset:)).to include(province: 'Cartago', canton: 'El Guarco', district: 'San Isidro')
+          expect(described_class.fetch_address_from_zip!('30803', new_dataset:)).to include(province: 'Cartago', canton: 'El Guarco', district: 'Tobosi')
+          expect(described_class.fetch_address_from_zip!('30804', new_dataset:)).to include(province: 'Cartago', canton: 'El Guarco', district: 'Patio de Agua')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
   end
 
   # Province Heredia

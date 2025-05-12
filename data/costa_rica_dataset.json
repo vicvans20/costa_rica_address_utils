@@ -1486,9 +1486,9 @@
         "id":"2",
         "name":"Paraíso",
         "locationsLevel3":{
-          "Paraiso":{
+          "Paraíso":{
             "id":"1",
-            "name":"Paraiso",
+            "name":"Paraíso",
             "zipCode":"30201"
           },
           "Santiago":{
@@ -1517,9 +1517,9 @@
         "id":"3",
         "name":"La Unión",
         "locationsLevel3":{
-          "Tres Rios":{
+          "Tres Ríos":{
             "id":"1",
-            "name":"Tres Rios",
+            "name":"Tres Ríos",
             "zipCode":"30301"
           },
           "San Diego":{
@@ -1552,9 +1552,9 @@
             "name":"San Ramón",
             "zipCode":"30307"
           },
-          "Rio Azul":{
+          "Río Azul":{
             "id":"8",
-            "name":"Rio Azul",
+            "name":"Río Azul",
             "zipCode":"30308"
           }
         }
@@ -1717,9 +1717,9 @@
             "name":"Tobosi",
             "zipCode":"30803"
           },
-          "Patio De Agua":{
+          "Patio de Agua":{
             "id":"4",
-            "name":"Patio De Agua",
+            "name":"Patio de Agua",
             "zipCode":"30804"
           }
         }
