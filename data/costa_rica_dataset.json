@@ -1,2956 +1,2956 @@
 {
   "San José":{
-     "id":"1",
-     "name":"San José",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Carmen":{
-                 "id":"1",
-                 "name":"Carmen",
-                 "zipCode":"10101"
-              },
-              "Merced":{
-                 "id":"2",
-                 "name":"Merced",
-                 "zipCode":"10102"
-              },
-              "Hospital":{
-                 "id":"3",
-                 "name":"Hospital",
-                 "zipCode":"10103"
-              },
-              "Catedral":{
-                 "id":"4",
-                 "name":"Catedral",
-                 "zipCode":"10104"
-              },
-              "Zapote":{
-                 "id":"5",
-                 "name":"Zapote",
-                 "zipCode":"10105"
-              },
-              "San Francisco De Dos Rios":{
-                 "id":"6",
-                 "name":"San Francisco De Dos Rios",
-                 "zipCode":"10106"
-              },
-              "Uruca":{
-                 "id":"7",
-                 "name":"Uruca",
-                 "zipCode":"10107"
-              },
-              "Mata Redonda":{
-                 "id":"8",
-                 "name":"Mata Redonda",
-                 "zipCode":"10108"
-              },
-              "Pavas":{
-                 "id":"9",
-                 "name":"Pavas",
-                 "zipCode":"10109"
-              },
-              "Hatillo":{
-                 "id":"10",
-                 "name":"Hatillo",
-                 "zipCode":"10110"
-              },
-              "San Sebastián":{
-                 "id":"11",
-                 "name":"San Sebastián",
-                 "zipCode":"10111"
-              }
-           }
-        },
-        "Escazú":{
-           "id":"2",
-           "name":"Escazú",
-           "locationsLevel3":{
-              "Escazú":{
-                 "id":"1",
-                 "name":"Escazú",
-                 "zipCode":"10201"
-              },
-              "San Antonio":{
-                 "id":"2",
-                 "name":"San Antonio",
-                 "zipCode":"10202"
-              },
-              "San Rafael":{
-                 "id":"3",
-                 "name":"San Rafael",
-                 "zipCode":"10203"
-              }
-           }
-        },
-        "Desamparados":{
-           "id":"3",
-           "name":"Desamparados",
-           "locationsLevel3":{
-              "Desamparados":{
-                 "id":"1",
-                 "name":"Desamparados",
-                 "zipCode":"10301"
-              },
-              "San Miguel":{
-                 "id":"2",
-                 "name":"San Miguel",
-                 "zipCode":"10302"
-              },
-              "San Juan De Dios":{
-                 "id":"3",
-                 "name":"San Juan De Dios",
-                 "zipCode":"10303"
-              },
-              "San Rafael Arriba":{
-                 "id":"4",
-                 "name":"San Rafael Arriba",
-                 "zipCode":"10304"
-              },
-              "San Rafael Abajo":{
-                 "id":"5",
-                 "name":"San Rafael Abajo",
-                 "zipCode":"10305"
-              },
-              "San Antonio":{
-                 "id":"6",
-                 "name":"San Antonio",
-                 "zipCode":"10306"
-              },
-              "Frailes":{
-                 "id":"7",
-                 "name":"Frailes",
-                 "zipCode":"10307"
-              },
-              "Patarra":{
-                 "id":"8",
-                 "name":"Patarra",
-                 "zipCode":"10308"
-              },
-              "San Cristobal":{
-                 "id":"9",
-                 "name":"San Cristobal",
-                 "zipCode":"10309"
-              },
-              "Rosario":{
-                 "id":"10",
-                 "name":"Rosario",
-                 "zipCode":"10310"
-              },
-              "Damas":{
-                 "id":"11",
-                 "name":"Damas",
-                 "zipCode":"10311"
-              },
-              "Gravilias":{
-                 "id":"12",
-                 "name":"Gravilias",
-                 "zipCode":"10312"
-              },
-              "Los Guido":{
-                 "id":"13",
-                 "name":"Los Guido",
-                 "zipCode":"10313"
-              }
-           }
-        },
-        "Puriscal":{
-           "id":"4",
-           "name":"Puriscal",
-           "locationsLevel3":{
-              "Santiago":{
-                 "id":"1",
-                 "name":"Santiago",
-                 "zipCode":"10401"
-              },
-              "Mercedes Sur":{
-                 "id":"2",
-                 "name":"Mercedes Sur",
-                 "zipCode":"10402"
-              },
-              "Barbacoas":{
-                 "id":"3",
-                 "name":"Barbacoas",
-                 "zipCode":"10403"
-              },
-              "Grifo Alto":{
-                 "id":"4",
-                 "name":"Grifo Alto",
-                 "zipCode":"10404"
-              },
-              "San Rafael":{
-                 "id":"5",
-                 "name":"San Rafael",
-                 "zipCode":"10405"
-              },
-              "Candelarita":{
-                 "id":"6",
-                 "name":"Candelarita",
-                 "zipCode":"10406"
-              },
-              "Desamparaditos":{
-                 "id":"7",
-                 "name":"Desamparaditos",
-                 "zipCode":"10407"
-              },
-              "San Antonio":{
-                 "id":"8",
-                 "name":"San Antonio",
-                 "zipCode":"10408"
-              },
-              "Chires":{
-                 "id":"9",
-                 "name":"Chires",
-                 "zipCode":"10409"
-              }
-           }
-        },
-        "Tarrazú":{
-           "id":"5",
-           "name":"Tarrazú",
-           "locationsLevel3":{
-              "San Marcos":{
-                 "id":"1",
-                 "name":"San Marcos",
-                 "zipCode":"10501"
-              },
-              "San Lorenzo":{
-                 "id":"2",
-                 "name":"San Lorenzo",
-                 "zipCode":"10502"
-              },
-              "San Carlos":{
-                 "id":"3",
-                 "name":"San Carlos",
-                 "zipCode":"10503"
-              }
-           }
-        },
-        "Aserrí":{
-           "id":"6",
-           "name":"Aserrí",
-           "locationsLevel3":{
-              "Aserrí":{
-                 "id":"1",
-                 "name":"Aserrí",
-                 "zipCode":"10601"
-              },
-              "Tarbaca":{
-                 "id":"2",
-                 "name":"Tarbaca",
-                 "zipCode":"10602"
-              },
-              "Vuelta De Jorco":{
-                 "id":"3",
-                 "name":"Vuelta De Jorco",
-                 "zipCode":"10603"
-              },
-              "San Gabriel":{
-                 "id":"4",
-                 "name":"San Gabriel",
-                 "zipCode":"10604"
-              },
-              "Legua":{
-                 "id":"5",
-                 "name":"Legua",
-                 "zipCode":"10605"
-              },
-              "Monterrey":{
-                 "id":"6",
-                 "name":"Monterrey",
-                 "zipCode":"10606"
-              },
-              "Salitrillos":{
-                 "id":"7",
-                 "name":"Salitrillos",
-                 "zipCode":"10607"
-              }
-           }
-        },
-        "Mora":{
-           "id":"7",
-           "name":"Mora",
-           "locationsLevel3":{
-              "Colón":{
-                 "id":"1",
-                 "name":"Colón",
-                 "zipCode":"10701"
-              },
-              "Guayabo":{
-                 "id":"2",
-                 "name":"Guayabo",
-                 "zipCode":"10702"
-              },
-              "Tabarcia":{
-                 "id":"3",
-                 "name":"Tabarcia",
-                 "zipCode":"10703"
-              },
-              "Piedras Negras":{
-                 "id":"4",
-                 "name":"Piedras Negras",
-                 "zipCode":"10704"
-              },
-              "Picagres":{
-                 "id":"5",
-                 "name":"Picagres",
-                 "zipCode":"10705"
-              },
-              "Jaris":{
-                 "id":"6",
-                 "name":"Jaris",
-                 "zipCode":"10706"
-              }
-           }
-        },
-        "Goicoechea":{
-           "id":"8",
-           "name":"Goicoechea",
-           "locationsLevel3":{
-              "Guadalupe":{
-                 "id":"1",
-                 "name":"Guadalupe",
-                 "zipCode":"10801"
-              },
-              "San Francisco":{
-                 "id":"2",
-                 "name":"San Francisco",
-                 "zipCode":"10802"
-              },
-              "Calle Blancos":{
-                 "id":"3",
-                 "name":"Calle Blancos",
-                 "zipCode":"10803"
-              },
-              "Mata De Platano":{
-                 "id":"4",
-                 "name":"Mata De Platano",
-                 "zipCode":"10804"
-              },
-              "Ipís":{
-                 "id":"5",
-                 "name":"Ipís",
-                 "zipCode":"10805"
-              },
-              "Rancho Redondo":{
-                 "id":"6",
-                 "name":"Rancho Redondo",
-                 "zipCode":"10806"
-              },
-              "Purral":{
-                 "id":"7",
-                 "name":"Purral",
-                 "zipCode":"10807"
-              }
-           }
-        },
-        "Santa Ana":{
-           "id":"9",
-           "name":"Santa Ana",
-           "locationsLevel3":{
-              "Santa Ana":{
-                 "id":"1",
-                 "name":"Santa Ana",
-                 "zipCode":"10901"
-              },
-              "Salitral":{
-                 "id":"2",
-                 "name":"Salitral",
-                 "zipCode":"10902"
-              },
-              "Pozos":{
-                 "id":"3",
-                 "name":"Pozos",
-                 "zipCode":"10903"
-              },
-              "Uruca":{
-                 "id":"4",
-                 "name":"Uruca",
-                 "zipCode":"10904"
-              },
-              "Piedades":{
-                 "id":"5",
-                 "name":"Piedades",
-                 "zipCode":"10905"
-              },
-              "Brasil":{
-                 "id":"6",
-                 "name":"Brasil",
-                 "zipCode":"10906"
-              }
-           }
-        },
-        "Alajuelita":{
-           "id":"10",
-           "name":"Alajuelita",
-           "locationsLevel3":{
-              "Alajuelita":{
-                 "id":"1",
-                 "name":"Alajuelita",
-                 "zipCode":"11001"
-              },
-              "San Josecito":{
-                 "id":"2",
-                 "name":"San Josecito",
-                 "zipCode":"11002"
-              },
-              "San Antonio":{
-                 "id":"3",
-                 "name":"San Antonio",
-                 "zipCode":"11003"
-              },
-              "Concepción":{
-                 "id":"4",
-                 "name":"Concepción",
-                 "zipCode":"11004"
-              },
-              "San Felipe":{
-                 "id":"5",
-                 "name":"San Felipe",
-                 "zipCode":"11005"
-              }
-           }
-        },
-        "Vázquez De Coronado":{
-           "id":"11",
-           "name":"Vázquez De Coronado",
-           "locationsLevel3":{
-              "San Isidro":{
-                 "id":"1",
-                 "name":"San Isidro",
-                 "zipCode":"11101"
-              },
-              "San Rafael":{
-                 "id":"2",
-                 "name":"San Rafael",
-                 "zipCode":"11102"
-              },
-              "Dulce Nombre De Jesus":{
-                 "id":"3",
-                 "name":"Dulce Nombre De Jesus",
-                 "zipCode":"11103"
-              },
-              "Patalillo":{
-                 "id":"4",
-                 "name":"Patalillo",
-                 "zipCode":"11104"
-              },
-              "Cascajal":{
-                 "id":"5",
-                 "name":"Cascajal",
-                 "zipCode":"11105"
-              }
-           }
-        },
-        "Acosta":{
-           "id":"12",
-           "name":"Acosta",
-           "locationsLevel3":{
-              "San Ignacio":{
-                 "id":"1",
-                 "name":"San Ignacio",
-                 "zipCode":"11201"
-              },
-              "Guaitil":{
-                 "id":"2",
-                 "name":"Guaitil",
-                 "zipCode":"11202"
-              },
-              "Palmichal":{
-                 "id":"3",
-                 "name":"Palmichal",
-                 "zipCode":"11203"
-              },
-              "Cangrejal":{
-                 "id":"4",
-                 "name":"Cangrejal",
-                 "zipCode":"11204"
-              },
-              "Sabanillas":{
-                 "id":"5",
-                 "name":"Sabanillas",
-                 "zipCode":"11205"
-              }
-           }
-        },
-        "Tibás":{
-           "id":"13",
-           "name":"Tibás",
-           "locationsLevel3":{
-              "San Juan":{
-                 "id":"1",
-                 "name":"San Juan",
-                 "zipCode":"11301"
-              },
-              "Cinco Esquinas":{
-                 "id":"2",
-                 "name":"Cinco Esquinas",
-                 "zipCode":"11302"
-              },
-              "Anselmo Llorente":{
-                 "id":"3",
-                 "name":"Anselmo Llorente",
-                 "zipCode":"11303"
-              },
-              "Leon Xiii":{
-                 "id":"4",
-                 "name":"Leon Xiii",
-                 "zipCode":"11304"
-              },
-              "Colima":{
-                 "id":"5",
-                 "name":"Colima",
-                 "zipCode":"11305"
-              }
-           }
-        },
-        "Moravia":{
-           "id":"14",
-           "name":"Moravia",
-           "locationsLevel3":{
-              "San Vicente":{
-                 "id":"1",
-                 "name":"San Vicente",
-                 "zipCode":"11401"
-              },
-              "San Jeronimo":{
-                 "id":"2",
-                 "name":"San Jeronimo",
-                 "zipCode":"11402"
-              },
-              "La Trinidad":{
-                 "id":"3",
-                 "name":"La Trinidad",
-                 "zipCode":"11403"
-              }
-           }
-        },
-        "Montes De Oca":{
-           "id":"15",
-           "name":"Montes De Oca",
-           "locationsLevel3":{
-              "San Pedro":{
-                 "id":"1",
-                 "name":"San Pedro",
-                 "zipCode":"11501"
-              },
-              "Sabanilla":{
-                 "id":"2",
-                 "name":"Sabanilla",
-                 "zipCode":"11502"
-              },
-              "Mercedes":{
-                 "id":"3",
-                 "name":"Mercedes",
-                 "zipCode":"11503"
-              },
-              "San Rafael":{
-                 "id":"4",
-                 "name":"San Rafael",
-                 "zipCode":"11504"
-              }
-           }
-        },
-        "Turrubares":{
-           "id":"16",
-           "name":"Turrubares",
-           "locationsLevel3":{
-              "San Pablo":{
-                 "id":"1",
-                 "name":"San Pablo",
-                 "zipCode":"11601"
-              },
-              "San Pedro":{
-                 "id":"2",
-                 "name":"San Pedro",
-                 "zipCode":"11602"
-              },
-              "San Juan De Mata":{
-                 "id":"3",
-                 "name":"San Juan De Mata",
-                 "zipCode":"11603"
-              },
-              "San Luis":{
-                 "id":"4",
-                 "name":"San Luis",
-                 "zipCode":"11604"
-              },
-              "Carara":{
-                 "id":"5",
-                 "name":"Carara",
-                 "zipCode":"11605"
-              }
-           }
-        },
-        "Dota":{
-           "id":"17",
-           "name":"Dota",
-           "locationsLevel3":{
-              "Santa María":{
-                 "id":"1",
-                 "name":"Santa María",
-                 "zipCode":"11701"
-              },
-              "Jardin":{
-                 "id":"2",
-                 "name":"Jardin",
-                 "zipCode":"11702"
-              },
-              "Copey":{
-                 "id":"3",
-                 "name":"Copey",
-                 "zipCode":"11703"
-              }
-           }
-        },
-        "Curridabat":{
-           "id":"18",
-           "name":"Curridabat",
-           "locationsLevel3":{
-              "Curridabat":{
-                 "id":"1",
-                 "name":"Curridabat",
-                 "zipCode":"11801"
-              },
-              "Granadilla":{
-                 "id":"2",
-                 "name":"Granadilla",
-                 "zipCode":"11802"
-              },
-              "Sanchez":{
-                 "id":"3",
-                 "name":"Sanchez",
-                 "zipCode":"11803"
-              },
-              "Tirrases":{
-                 "id":"4",
-                 "name":"Tirrases",
-                 "zipCode":"11804"
-              }
-           }
-        },
-        "Pérez Zeledón":{
-           "id":"19",
-           "name":"Pérez Zeledón",
-           "locationsLevel3":{
-              "San Isidro De El General":{
-                 "id":"1",
-                 "name":"San Isidro De El General",
-                 "zipCode":"11901"
-              },
-              "El General":{
-                 "id":"2",
-                 "name":"El General",
-                 "zipCode":"11902"
-              },
-              "Daniel Flores":{
-                 "id":"3",
-                 "name":"Daniel Flores",
-                 "zipCode":"11903"
-              },
-              "Rivas":{
-                 "id":"4",
-                 "name":"Rivas",
-                 "zipCode":"11904"
-              },
-              "San Pedro":{
-                 "id":"5",
-                 "name":"San Pedro",
-                 "zipCode":"11905"
-              },
-              "Platanares":{
-                 "id":"6",
-                 "name":"Platanares",
-                 "zipCode":"11906"
-              },
-              "Pejibaye":{
-                 "id":"7",
-                 "name":"Pejibaye",
-                 "zipCode":"11907"
-              },
-              "Cajon":{
-                 "id":"8",
-                 "name":"Cajon",
-                 "zipCode":"11908"
-              },
-              "Baru":{
-                 "id":"9",
-                 "name":"Baru",
-                 "zipCode":"11909"
-              },
-              "Rio Nuevo":{
-                 "id":"10",
-                 "name":"Rio Nuevo",
-                 "zipCode":"11910"
-              },
-              "Páramo":{
-                 "id":"11",
-                 "name":"Páramo",
-                 "zipCode":"11911"
-              }
-           }
-        },
-        "León Cortés Castro":{
-           "id":"20",
-           "name":"León Cortés Castro",
-           "locationsLevel3":{
-              "San Pablo":{
-                 "id":"1",
-                 "name":"San Pablo",
-                 "zipCode":"12001"
-              },
-              "San Andres":{
-                 "id":"2",
-                 "name":"San Andres",
-                 "zipCode":"12002"
-              },
-              "Llano Bonito":{
-                 "id":"3",
-                 "name":"Llano Bonito",
-                 "zipCode":"12003"
-              },
-              "San Isidro":{
-                 "id":"4",
-                 "name":"San Isidro",
-                 "zipCode":"12004"
-              },
-              "Santa Cruz":{
-                 "id":"5",
-                 "name":"Santa Cruz",
-                 "zipCode":"12005"
-              },
-              "San Antonio":{
-                 "id":"6",
-                 "name":"San Antonio",
-                 "zipCode":"12006"
-              }
-           }
+    "id":"1",
+    "name":"San José",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Carmen":{
+            "id":"1",
+            "name":"Carmen",
+            "zipCode":"10101"
+          },
+          "Merced":{
+            "id":"2",
+            "name":"Merced",
+            "zipCode":"10102"
+          },
+          "Hospital":{
+            "id":"3",
+            "name":"Hospital",
+            "zipCode":"10103"
+          },
+          "Catedral":{
+            "id":"4",
+            "name":"Catedral",
+            "zipCode":"10104"
+          },
+          "Zapote":{
+            "id":"5",
+            "name":"Zapote",
+            "zipCode":"10105"
+          },
+          "San Francisco De Dos Rios":{
+            "id":"6",
+            "name":"San Francisco De Dos Rios",
+            "zipCode":"10106"
+          },
+          "Uruca":{
+            "id":"7",
+            "name":"Uruca",
+            "zipCode":"10107"
+          },
+          "Mata Redonda":{
+            "id":"8",
+            "name":"Mata Redonda",
+            "zipCode":"10108"
+          },
+          "Pavas":{
+            "id":"9",
+            "name":"Pavas",
+            "zipCode":"10109"
+          },
+          "Hatillo":{
+            "id":"10",
+            "name":"Hatillo",
+            "zipCode":"10110"
+          },
+          "San Sebastián":{
+            "id":"11",
+            "name":"San Sebastián",
+            "zipCode":"10111"
+          }
         }
-     }
+      },
+      "Escazú":{
+        "id":"2",
+        "name":"Escazú",
+        "locationsLevel3":{
+          "Escazú":{
+            "id":"1",
+            "name":"Escazú",
+            "zipCode":"10201"
+          },
+          "San Antonio":{
+            "id":"2",
+            "name":"San Antonio",
+            "zipCode":"10202"
+          },
+          "San Rafael":{
+            "id":"3",
+            "name":"San Rafael",
+            "zipCode":"10203"
+          }
+        }
+      },
+      "Desamparados":{
+        "id":"3",
+        "name":"Desamparados",
+        "locationsLevel3":{
+          "Desamparados":{
+            "id":"1",
+            "name":"Desamparados",
+            "zipCode":"10301"
+          },
+          "San Miguel":{
+            "id":"2",
+            "name":"San Miguel",
+            "zipCode":"10302"
+          },
+          "San Juan De Dios":{
+            "id":"3",
+            "name":"San Juan De Dios",
+            "zipCode":"10303"
+          },
+          "San Rafael Arriba":{
+            "id":"4",
+            "name":"San Rafael Arriba",
+            "zipCode":"10304"
+          },
+          "San Rafael Abajo":{
+            "id":"5",
+            "name":"San Rafael Abajo",
+            "zipCode":"10305"
+          },
+          "San Antonio":{
+            "id":"6",
+            "name":"San Antonio",
+            "zipCode":"10306"
+          },
+          "Frailes":{
+            "id":"7",
+            "name":"Frailes",
+            "zipCode":"10307"
+          },
+          "Patarra":{
+            "id":"8",
+            "name":"Patarra",
+            "zipCode":"10308"
+          },
+          "San Cristobal":{
+            "id":"9",
+            "name":"San Cristobal",
+            "zipCode":"10309"
+          },
+          "Rosario":{
+            "id":"10",
+            "name":"Rosario",
+            "zipCode":"10310"
+          },
+          "Damas":{
+            "id":"11",
+            "name":"Damas",
+            "zipCode":"10311"
+          },
+          "Gravilias":{
+            "id":"12",
+            "name":"Gravilias",
+            "zipCode":"10312"
+          },
+          "Los Guido":{
+            "id":"13",
+            "name":"Los Guido",
+            "zipCode":"10313"
+          }
+        }
+      },
+      "Puriscal":{
+        "id":"4",
+        "name":"Puriscal",
+        "locationsLevel3":{
+          "Santiago":{
+            "id":"1",
+            "name":"Santiago",
+            "zipCode":"10401"
+          },
+          "Mercedes Sur":{
+            "id":"2",
+            "name":"Mercedes Sur",
+            "zipCode":"10402"
+          },
+          "Barbacoas":{
+            "id":"3",
+            "name":"Barbacoas",
+            "zipCode":"10403"
+          },
+          "Grifo Alto":{
+            "id":"4",
+            "name":"Grifo Alto",
+            "zipCode":"10404"
+          },
+          "San Rafael":{
+            "id":"5",
+            "name":"San Rafael",
+            "zipCode":"10405"
+          },
+          "Candelarita":{
+            "id":"6",
+            "name":"Candelarita",
+            "zipCode":"10406"
+          },
+          "Desamparaditos":{
+            "id":"7",
+            "name":"Desamparaditos",
+            "zipCode":"10407"
+          },
+          "San Antonio":{
+            "id":"8",
+            "name":"San Antonio",
+            "zipCode":"10408"
+          },
+          "Chires":{
+            "id":"9",
+            "name":"Chires",
+            "zipCode":"10409"
+          }
+        }
+      },
+      "Tarrazú":{
+        "id":"5",
+        "name":"Tarrazú",
+        "locationsLevel3":{
+          "San Marcos":{
+            "id":"1",
+            "name":"San Marcos",
+            "zipCode":"10501"
+          },
+          "San Lorenzo":{
+            "id":"2",
+            "name":"San Lorenzo",
+            "zipCode":"10502"
+          },
+          "San Carlos":{
+            "id":"3",
+            "name":"San Carlos",
+            "zipCode":"10503"
+          }
+        }
+      },
+      "Aserrí":{
+        "id":"6",
+        "name":"Aserrí",
+        "locationsLevel3":{
+          "Aserrí":{
+            "id":"1",
+            "name":"Aserrí",
+            "zipCode":"10601"
+          },
+          "Tarbaca":{
+            "id":"2",
+            "name":"Tarbaca",
+            "zipCode":"10602"
+          },
+          "Vuelta De Jorco":{
+            "id":"3",
+            "name":"Vuelta De Jorco",
+            "zipCode":"10603"
+          },
+          "San Gabriel":{
+            "id":"4",
+            "name":"San Gabriel",
+            "zipCode":"10604"
+          },
+          "Legua":{
+            "id":"5",
+            "name":"Legua",
+            "zipCode":"10605"
+          },
+          "Monterrey":{
+            "id":"6",
+            "name":"Monterrey",
+            "zipCode":"10606"
+          },
+          "Salitrillos":{
+            "id":"7",
+            "name":"Salitrillos",
+            "zipCode":"10607"
+          }
+        }
+      },
+      "Mora":{
+        "id":"7",
+        "name":"Mora",
+        "locationsLevel3":{
+          "Colón":{
+            "id":"1",
+            "name":"Colón",
+            "zipCode":"10701"
+          },
+          "Guayabo":{
+            "id":"2",
+            "name":"Guayabo",
+            "zipCode":"10702"
+          },
+          "Tabarcia":{
+            "id":"3",
+            "name":"Tabarcia",
+            "zipCode":"10703"
+          },
+          "Piedras Negras":{
+            "id":"4",
+            "name":"Piedras Negras",
+            "zipCode":"10704"
+          },
+          "Picagres":{
+            "id":"5",
+            "name":"Picagres",
+            "zipCode":"10705"
+          },
+          "Jaris":{
+            "id":"6",
+            "name":"Jaris",
+            "zipCode":"10706"
+          }
+        }
+      },
+      "Goicoechea":{
+        "id":"8",
+        "name":"Goicoechea",
+        "locationsLevel3":{
+          "Guadalupe":{
+            "id":"1",
+            "name":"Guadalupe",
+            "zipCode":"10801"
+          },
+          "San Francisco":{
+            "id":"2",
+            "name":"San Francisco",
+            "zipCode":"10802"
+          },
+          "Calle Blancos":{
+            "id":"3",
+            "name":"Calle Blancos",
+            "zipCode":"10803"
+          },
+          "Mata De Platano":{
+            "id":"4",
+            "name":"Mata De Platano",
+            "zipCode":"10804"
+          },
+          "Ipís":{
+            "id":"5",
+            "name":"Ipís",
+            "zipCode":"10805"
+          },
+          "Rancho Redondo":{
+            "id":"6",
+            "name":"Rancho Redondo",
+            "zipCode":"10806"
+          },
+          "Purral":{
+            "id":"7",
+            "name":"Purral",
+            "zipCode":"10807"
+          }
+        }
+      },
+      "Santa Ana":{
+        "id":"9",
+        "name":"Santa Ana",
+        "locationsLevel3":{
+          "Santa Ana":{
+            "id":"1",
+            "name":"Santa Ana",
+            "zipCode":"10901"
+          },
+          "Salitral":{
+            "id":"2",
+            "name":"Salitral",
+            "zipCode":"10902"
+          },
+          "Pozos":{
+            "id":"3",
+            "name":"Pozos",
+            "zipCode":"10903"
+          },
+          "Uruca":{
+            "id":"4",
+            "name":"Uruca",
+            "zipCode":"10904"
+          },
+          "Piedades":{
+            "id":"5",
+            "name":"Piedades",
+            "zipCode":"10905"
+          },
+          "Brasil":{
+            "id":"6",
+            "name":"Brasil",
+            "zipCode":"10906"
+          }
+        }
+      },
+      "Alajuelita":{
+        "id":"10",
+        "name":"Alajuelita",
+        "locationsLevel3":{
+          "Alajuelita":{
+            "id":"1",
+            "name":"Alajuelita",
+            "zipCode":"11001"
+          },
+          "San Josecito":{
+            "id":"2",
+            "name":"San Josecito",
+            "zipCode":"11002"
+          },
+          "San Antonio":{
+            "id":"3",
+            "name":"San Antonio",
+            "zipCode":"11003"
+          },
+          "Concepción":{
+            "id":"4",
+            "name":"Concepción",
+            "zipCode":"11004"
+          },
+          "San Felipe":{
+            "id":"5",
+            "name":"San Felipe",
+            "zipCode":"11005"
+          }
+        }
+      },
+      "Vázquez De Coronado":{
+        "id":"11",
+        "name":"Vázquez De Coronado",
+        "locationsLevel3":{
+          "San Isidro":{
+            "id":"1",
+            "name":"San Isidro",
+            "zipCode":"11101"
+          },
+          "San Rafael":{
+            "id":"2",
+            "name":"San Rafael",
+            "zipCode":"11102"
+          },
+          "Dulce Nombre De Jesus":{
+            "id":"3",
+            "name":"Dulce Nombre De Jesus",
+            "zipCode":"11103"
+          },
+          "Patalillo":{
+            "id":"4",
+            "name":"Patalillo",
+            "zipCode":"11104"
+          },
+          "Cascajal":{
+            "id":"5",
+            "name":"Cascajal",
+            "zipCode":"11105"
+          }
+        }
+      },
+      "Acosta":{
+        "id":"12",
+        "name":"Acosta",
+        "locationsLevel3":{
+          "San Ignacio":{
+            "id":"1",
+            "name":"San Ignacio",
+            "zipCode":"11201"
+          },
+          "Guaitil":{
+            "id":"2",
+            "name":"Guaitil",
+            "zipCode":"11202"
+          },
+          "Palmichal":{
+            "id":"3",
+            "name":"Palmichal",
+            "zipCode":"11203"
+          },
+          "Cangrejal":{
+            "id":"4",
+            "name":"Cangrejal",
+            "zipCode":"11204"
+          },
+          "Sabanillas":{
+            "id":"5",
+            "name":"Sabanillas",
+            "zipCode":"11205"
+          }
+        }
+      },
+      "Tibás":{
+        "id":"13",
+        "name":"Tibás",
+        "locationsLevel3":{
+          "San Juan":{
+            "id":"1",
+            "name":"San Juan",
+            "zipCode":"11301"
+          },
+          "Cinco Esquinas":{
+            "id":"2",
+            "name":"Cinco Esquinas",
+            "zipCode":"11302"
+          },
+          "Anselmo Llorente":{
+            "id":"3",
+            "name":"Anselmo Llorente",
+            "zipCode":"11303"
+          },
+          "Leon Xiii":{
+            "id":"4",
+            "name":"Leon Xiii",
+            "zipCode":"11304"
+          },
+          "Colima":{
+            "id":"5",
+            "name":"Colima",
+            "zipCode":"11305"
+          }
+        }
+      },
+      "Moravia":{
+        "id":"14",
+        "name":"Moravia",
+        "locationsLevel3":{
+          "San Vicente":{
+            "id":"1",
+            "name":"San Vicente",
+            "zipCode":"11401"
+          },
+          "San Jeronimo":{
+            "id":"2",
+            "name":"San Jeronimo",
+            "zipCode":"11402"
+          },
+          "La Trinidad":{
+            "id":"3",
+            "name":"La Trinidad",
+            "zipCode":"11403"
+          }
+        }
+      },
+      "Montes De Oca":{
+        "id":"15",
+        "name":"Montes De Oca",
+        "locationsLevel3":{
+          "San Pedro":{
+            "id":"1",
+            "name":"San Pedro",
+            "zipCode":"11501"
+          },
+          "Sabanilla":{
+            "id":"2",
+            "name":"Sabanilla",
+            "zipCode":"11502"
+          },
+          "Mercedes":{
+            "id":"3",
+            "name":"Mercedes",
+            "zipCode":"11503"
+          },
+          "San Rafael":{
+            "id":"4",
+            "name":"San Rafael",
+            "zipCode":"11504"
+          }
+        }
+      },
+      "Turrubares":{
+        "id":"16",
+        "name":"Turrubares",
+        "locationsLevel3":{
+          "San Pablo":{
+            "id":"1",
+            "name":"San Pablo",
+            "zipCode":"11601"
+          },
+          "San Pedro":{
+            "id":"2",
+            "name":"San Pedro",
+            "zipCode":"11602"
+          },
+          "San Juan De Mata":{
+            "id":"3",
+            "name":"San Juan De Mata",
+            "zipCode":"11603"
+          },
+          "San Luis":{
+            "id":"4",
+            "name":"San Luis",
+            "zipCode":"11604"
+          },
+          "Carara":{
+            "id":"5",
+            "name":"Carara",
+            "zipCode":"11605"
+          }
+        }
+      },
+      "Dota":{
+        "id":"17",
+        "name":"Dota",
+        "locationsLevel3":{
+          "Santa María":{
+            "id":"1",
+            "name":"Santa María",
+            "zipCode":"11701"
+          },
+          "Jardin":{
+            "id":"2",
+            "name":"Jardin",
+            "zipCode":"11702"
+          },
+          "Copey":{
+            "id":"3",
+            "name":"Copey",
+            "zipCode":"11703"
+          }
+        }
+      },
+      "Curridabat":{
+        "id":"18",
+        "name":"Curridabat",
+        "locationsLevel3":{
+          "Curridabat":{
+            "id":"1",
+            "name":"Curridabat",
+            "zipCode":"11801"
+          },
+          "Granadilla":{
+            "id":"2",
+            "name":"Granadilla",
+            "zipCode":"11802"
+          },
+          "Sanchez":{
+            "id":"3",
+            "name":"Sanchez",
+            "zipCode":"11803"
+          },
+          "Tirrases":{
+            "id":"4",
+            "name":"Tirrases",
+            "zipCode":"11804"
+          }
+        }
+      },
+      "Pérez Zeledón":{
+        "id":"19",
+        "name":"Pérez Zeledón",
+        "locationsLevel3":{
+          "San Isidro De El General":{
+            "id":"1",
+            "name":"San Isidro De El General",
+            "zipCode":"11901"
+          },
+          "El General":{
+            "id":"2",
+            "name":"El General",
+            "zipCode":"11902"
+          },
+          "Daniel Flores":{
+            "id":"3",
+            "name":"Daniel Flores",
+            "zipCode":"11903"
+          },
+          "Rivas":{
+            "id":"4",
+            "name":"Rivas",
+            "zipCode":"11904"
+          },
+          "San Pedro":{
+            "id":"5",
+            "name":"San Pedro",
+            "zipCode":"11905"
+          },
+          "Platanares":{
+            "id":"6",
+            "name":"Platanares",
+            "zipCode":"11906"
+          },
+          "Pejibaye":{
+            "id":"7",
+            "name":"Pejibaye",
+            "zipCode":"11907"
+          },
+          "Cajon":{
+            "id":"8",
+            "name":"Cajon",
+            "zipCode":"11908"
+          },
+          "Baru":{
+            "id":"9",
+            "name":"Baru",
+            "zipCode":"11909"
+          },
+          "Rio Nuevo":{
+            "id":"10",
+            "name":"Rio Nuevo",
+            "zipCode":"11910"
+          },
+          "Páramo":{
+            "id":"11",
+            "name":"Páramo",
+            "zipCode":"11911"
+          }
+        }
+      },
+      "León Cortés Castro":{
+        "id":"20",
+        "name":"León Cortés Castro",
+        "locationsLevel3":{
+          "San Pablo":{
+            "id":"1",
+            "name":"San Pablo",
+            "zipCode":"12001"
+          },
+          "San Andres":{
+            "id":"2",
+            "name":"San Andres",
+            "zipCode":"12002"
+          },
+          "Llano Bonito":{
+            "id":"3",
+            "name":"Llano Bonito",
+            "zipCode":"12003"
+          },
+          "San Isidro":{
+            "id":"4",
+            "name":"San Isidro",
+            "zipCode":"12004"
+          },
+          "Santa Cruz":{
+            "id":"5",
+            "name":"Santa Cruz",
+            "zipCode":"12005"
+          },
+          "San Antonio":{
+            "id":"6",
+            "name":"San Antonio",
+            "zipCode":"12006"
+          }
+        }
+      }
+    }
   },
   "Alajuela":{
-     "id":"2",
-     "name":"Alajuela",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Alajuela":{
-                 "id":"1",
-                 "name":"Alajuela",
-                 "zipCode":"20101"
-              },
-              "San José":{
-                 "id":"2",
-                 "name":"San José",
-                 "zipCode":"20102"
-              },
-              "Carrizal":{
-                 "id":"3",
-                 "name":"Carrizal",
-                 "zipCode":"20103"
-              },
-              "San Antonio":{
-                 "id":"4",
-                 "name":"San Antonio",
-                 "zipCode":"20104"
-              },
-              "Guácima":{
-                 "id":"5",
-                 "name":"Guácima",
-                 "zipCode":"20105"
-              },
-              "San Isidro":{
-                 "id":"6",
-                 "name":"San Isidro",
-                 "zipCode":"20106"
-              },
-              "Sabanilla":{
-                 "id":"7",
-                 "name":"Sabanilla",
-                 "zipCode":"20107"
-              },
-              "San Rafael":{
-                 "id":"8",
-                 "name":"San Rafael",
-                 "zipCode":"20108"
-              },
-              "Rio Segundo":{
-                 "id":"9",
-                 "name":"Rio Segundo",
-                 "zipCode":"20109"
-              },
-              "Desamparados":{
-                 "id":"10",
-                 "name":"Desamparados",
-                 "zipCode":"20110"
-              },
-              "Turrucares":{
-                 "id":"11",
-                 "name":"Turrucares",
-                 "zipCode":"20111"
-              },
-              "Tambor":{
-                 "id":"12",
-                 "name":"Tambor",
-                 "zipCode":"20112"
-              },
-              "Garita":{
-                 "id":"13",
-                 "name":"Garita",
-                 "zipCode":"20113"
-              },
-              "Sarapiquí":{
-                 "id":"14",
-                 "name":"Sarapiquí",
-                 "zipCode":"20114"
-              }
-           }
-        },
-        "San Ramón":{
-           "id":"2",
-           "name":"San Ramón",
-           "locationsLevel3":{
-              "San Ramón":{
-                 "id":"1",
-                 "name":"San Ramón",
-                 "zipCode":"20201"
-              },
-              "Santiago":{
-                 "id":"2",
-                 "name":"Santiago",
-                 "zipCode":"20202"
-              },
-              "San Juan":{
-                 "id":"3",
-                 "name":"San Juan",
-                 "zipCode":"20203"
-              },
-              "Piedades Norte":{
-                 "id":"4",
-                 "name":"Piedades Norte",
-                 "zipCode":"20204"
-              },
-              "Piedades Sur":{
-                 "id":"5",
-                 "name":"Piedades Sur",
-                 "zipCode":"20205"
-              },
-              "San Rafael":{
-                 "id":"6",
-                 "name":"San Rafael",
-                 "zipCode":"20206"
-              },
-              "San Isidro":{
-                 "id":"7",
-                 "name":"San Isidro",
-                 "zipCode":"20207"
-              },
-              "Angeles":{
-                 "id":"8",
-                 "name":"Angeles",
-                 "zipCode":"20208"
-              },
-              "Alfaro":{
-                 "id":"9",
-                 "name":"Alfaro",
-                 "zipCode":"20209"
-              },
-              "Volio":{
-                 "id":"10",
-                 "name":"Volio",
-                 "zipCode":"20210"
-              },
-              "Concepción":{
-                 "id":"11",
-                 "name":"Concepción",
-                 "zipCode":"20211"
-              },
-              "Zapotal":{
-                 "id":"12",
-                 "name":"Zapotal",
-                 "zipCode":"20212"
-              },
-              "Peñas Blancas":{
-                 "id":"13",
-                 "name":"Peñas Blancas",
-                 "zipCode":"20213"
-              },
-              "San Lorenzo":{
-                 "id":"14",
-                 "name":"San Lorenzo",
-                 "zipCode":"20214"
-              }
-           }
-        },
-        "Grecia":{
-           "id":"3",
-           "name":"Grecia",
-           "locationsLevel3":{
-              "Grecia":{
-                 "id":"1",
-                 "name":"Grecia",
-                 "zipCode":"20301"
-              },
-              "San Isidro":{
-                 "id":"2",
-                 "name":"San Isidro",
-                 "zipCode":"20302"
-              },
-              "San José":{
-                 "id":"3",
-                 "name":"San José",
-                 "zipCode":"20303"
-              },
-              "San Roque":{
-                 "id":"4",
-                 "name":"San Roque",
-                 "zipCode":"20304"
-              },
-              "Tacares":{
-                 "id":"5",
-                 "name":"Tacares",
-                 "zipCode":"20305"
-              },
-              "Rio Cuarto":{
-                 "id":"6",
-                 "name":"Rio Cuarto",
-                 "zipCode":"20306"
-              },
-              "Puente De Piedra":{
-                 "id":"7",
-                 "name":"Puente De Piedra",
-                 "zipCode":"20307"
-              },
-              "Bolivar":{
-                 "id":"8",
-                 "name":"Bolivar",
-                 "zipCode":"20308"
-              }
-           }
-        },
-        "San Mateo":{
-           "id":"4",
-           "name":"San Mateo",
-           "locationsLevel3":{
-              "San Mateo":{
-                 "id":"1",
-                 "name":"San Mateo",
-                 "zipCode":"20401"
-              },
-              "Desmonte":{
-                 "id":"2",
-                 "name":"Desmonte",
-                 "zipCode":"20402"
-              },
-              "Jesús María":{
-                 "id":"3",
-                 "name":"Jesús María",
-                 "zipCode":"20403"
-              },
-              "Labrador":{
-                 "id":"4",
-                 "name":"Labrador",
-                 "zipCode":"20404"
-              }
-           }
-        },
-        "Atenas":{
-           "id":"5",
-           "name":"Atenas",
-           "locationsLevel3":{
-              "Atenas":{
-                 "id":"1",
-                 "name":"Atenas",
-                 "zipCode":"20501"
-              },
-              "Jesús":{
-                 "id":"2",
-                 "name":"Jesús",
-                 "zipCode":"20502"
-              },
-              "Mercedes":{
-                 "id":"3",
-                 "name":"Mercedes",
-                 "zipCode":"20503"
-              },
-              "San Isidro":{
-                 "id":"4",
-                 "name":"San Isidro",
-                 "zipCode":"20504"
-              },
-              "Concepción":{
-                 "id":"5",
-                 "name":"Concepción",
-                 "zipCode":"20505"
-              },
-              "San José":{
-                 "id":"6",
-                 "name":"San José",
-                 "zipCode":"20506"
-              },
-              "Santa Eulalia":{
-                 "id":"7",
-                 "name":"Santa Eulalia",
-                 "zipCode":"20507"
-              },
-              "Escobal":{
-                 "id":"8",
-                 "name":"Escobal",
-                 "zipCode":"20508"
-              }
-           }
-        },
-        "Naranjo":{
-           "id":"6",
-           "name":"Naranjo",
-           "locationsLevel3":{
-              "Naranjo":{
-                 "id":"1",
-                 "name":"Naranjo",
-                 "zipCode":"20601"
-              },
-              "San Juan":{
-                 "id":"6",
-                 "name":"San Juan",
-                 "zipCode":"20606"
-              },
-              "San Miguel":{
-                 "id":"2",
-                 "name":"San Miguel",
-                 "zipCode":"20602"
-              },
-              "Palmitos":{
-                 "id":"8",
-                 "name":"Palmitos",
-                 "zipCode":"20608"
-              },
-              "El Rosario":{
-                 "id":"7",
-                 "name":"El Rosario",
-                 "zipCode":"20607"
-              },
-              "San José":{
-                 "id":"3",
-                 "name":"San José",
-                 "zipCode":"20603"
-              },
-              "Cirrí Sur":{
-                 "id":"4",
-                 "name":"Cirrí Sur",
-                 "zipCode":"20604"
-              },
-              "San Jerónimo":{
-                 "id":"5",
-                 "name":"San Jerónimo",
-                 "zipCode":"20605"
-              }
-           }
-        },
-        "Palmares":{
-           "id":"7",
-           "name":"Palmares",
-           "locationsLevel3":{
-              "Palmares":{
-                 "id":"1",
-                 "name":"Palmares",
-                 "zipCode":"20701"
-              },
-              "Zaragoza":{
-                 "id":"2",
-                 "name":"Zaragoza",
-                 "zipCode":"20702"
-              },
-              "Buenos Aires":{
-                 "id":"3",
-                 "name":"Buenos Aires",
-                 "zipCode":"20703"
-              },
-              "Santiago":{
-                 "id":"4",
-                 "name":"Santiago",
-                 "zipCode":"20704"
-              },
-              "Candelaria":{
-                 "id":"5",
-                 "name":"Candelaria",
-                 "zipCode":"20705"
-              },
-              "Esquipulas":{
-                 "id":"6",
-                 "name":"Esquipulas",
-                 "zipCode":"20706"
-              },
-              "La Granja":{
-                 "id":"7",
-                 "name":"La Granja",
-                 "zipCode":"20707"
-              }
-           }
-        },
-        "Poás":{
-           "id":"8",
-           "name":"Poás",
-           "locationsLevel3":{
-              "San Pedro":{
-                 "id":"1",
-                 "name":"San Pedro",
-                 "zipCode":"20801"
-              },
-              "San Juan":{
-                 "id":"2",
-                 "name":"San Juan",
-                 "zipCode":"20802"
-              },
-              "San Rafael":{
-                 "id":"3",
-                 "name":"San Rafael",
-                 "zipCode":"20803"
-              },
-              "Carrillos":{
-                 "id":"4",
-                 "name":"Carrillos",
-                 "zipCode":"20804"
-              },
-              "Sabana Redonda":{
-                 "id":"5",
-                 "name":"Sabana Redonda",
-                 "zipCode":"20805"
-              }
-           }
-        },
-        "Orotina":{
-           "id":"9",
-           "name":"Orotina",
-           "locationsLevel3":{
-              "Orotina":{
-                 "id":"1",
-                 "name":"Orotina",
-                 "zipCode":"20901"
-              },
-              "El Mastate":{
-                 "id":"2",
-                 "name":"El Mastate",
-                 "zipCode":"20902"
-              },
-              "Hacienda Vieja":{
-                 "id":"3",
-                 "name":"Hacienda Vieja",
-                 "zipCode":"20903"
-              },
-              "Coyolar":{
-                 "id":"4",
-                 "name":"Coyolar",
-                 "zipCode":"20904"
-              },
-              "La Ceiba":{
-                 "id":"5",
-                 "name":"La Ceiba",
-                 "zipCode":"20905"
-              }
-           }
-        },
-        "San Carlos":{
-           "id":"10",
-           "name":"San Carlos",
-           "locationsLevel3":{
-              "Quesada":{
-                 "id":"1",
-                 "name":"Quesada",
-                 "zipCode":"21001"
-              },
-              "Florencia":{
-                 "id":"2",
-                 "name":"Florencia",
-                 "zipCode":"21002"
-              },
-              "Buenavista":{
-                 "id":"3",
-                 "name":"Buenavista",
-                 "zipCode":"21003"
-              },
-              "Aguas Zarcas":{
-                 "id":"4",
-                 "name":"Aguas Zarcas",
-                 "zipCode":"21004"
-              },
-              "Venecia":{
-                 "id":"5",
-                 "name":"Venecia",
-                 "zipCode":"21005"
-              },
-              "Pital":{
-                 "id":"6",
-                 "name":"Pital",
-                 "zipCode":"21006"
-              },
-              "La Fortuna":{
-                 "id":"7",
-                 "name":"La Fortuna",
-                 "zipCode":"21007"
-              },
-              "La Tigra":{
-                 "id":"8",
-                 "name":"La Tigra",
-                 "zipCode":"21008"
-              },
-              "La Palmera":{
-                 "id":"9",
-                 "name":"La Palmera",
-                 "zipCode":"21009"
-              },
-              "Venado":{
-                 "id":"10",
-                 "name":"Venado",
-                 "zipCode":"21010"
-              },
-              "Cutris":{
-                 "id":"11",
-                 "name":"Cutris",
-                 "zipCode":"21011"
-              },
-              "Monterrey":{
-                 "id":"12",
-                 "name":"Monterrey",
-                 "zipCode":"21012"
-              },
-              "Pocosol":{
-                 "id":"13",
-                 "name":"Pocosol",
-                 "zipCode":"21013"
-              }
-           }
-        },
-        "Zarcero":{
-           "id":"11",
-           "name":"Zarcero",
-           "locationsLevel3":{
-              "Zarcero":{
-                 "id":"1",
-                 "name":"Zarcero",
-                 "zipCode":"21101"
-              },
-              "Laguna":{
-                 "id":"2",
-                 "name":"Laguna",
-                 "zipCode":"21102"
-              },
-              "Tapesco":{
-                 "id":"3",
-                 "name":"Tapesco",
-                 "zipCode":"21103"
-              },
-              "Guadalupe":{
-                 "id":"4",
-                 "name":"Guadalupe",
-                 "zipCode":"21104"
-              },
-              "Palmira":{
-                 "id":"5",
-                 "name":"Palmira",
-                 "zipCode":"21105"
-              },
-              "Zapote":{
-                 "id":"6",
-                 "name":"Zapote",
-                 "zipCode":"21106"
-              },
-              "Brisas":{
-                 "id":"7",
-                 "name":"Brisas",
-                 "zipCode":"21107"
-              }
-           }
-        },
-        "Sarchí":{
-           "id":"12",
-           "name":"Sarchí",
-           "locationsLevel3":{
-              "Sarchí Norte":{
-                 "id":"1",
-                 "name":"Sarchí Norte",
-                 "zipCode":"21201"
-              },
-              "Sarchí Sur":{
-                 "id":"2",
-                 "name":"Sarchí Sur",
-                 "zipCode":"21202"
-              },
-              "Toro Amarillo":{
-                 "id":"3",
-                 "name":"Toro Amarillo",
-                 "zipCode":"21203"
-              },
-              "San Pedro":{
-                 "id":"4",
-                 "name":"San Pedro",
-                 "zipCode":"21204"
-              },
-              "Rodriguez":{
-                 "id":"5",
-                 "name":"Rodriguez",
-                 "zipCode":"21205"
-              }
-           }
-        },
-        "Upala":{
-           "id":"13",
-           "name":"Upala",
-           "locationsLevel3":{
-              "Upala":{
-                 "id":"1",
-                 "name":"Upala",
-                 "zipCode":"21301"
-              },
-              "Aguas Claras":{
-                 "id":"2",
-                 "name":"Aguas Claras",
-                 "zipCode":"21302"
-              },
-              "San José o Pizote":{
-                 "id":"3",
-                 "name":"San José o Pizote",
-                 "zipCode":"21303"
-              },
-              "Bijagua":{
-                 "id":"4",
-                 "name":"Bijagua",
-                 "zipCode":"21304"
-              },
-              "Delicias":{
-                 "id":"5",
-                 "name":"Delicias",
-                 "zipCode":"21305"
-              },
-              "Dos Rios":{
-                 "id":"6",
-                 "name":"Dos Rios",
-                 "zipCode":"21306"
-              },
-              "Yolillal":{
-                 "id":"7",
-                 "name":"Yolillal",
-                 "zipCode":"21307"
-              },
-              "Canalete":{
-                 "id":"8",
-                 "name":"Canalete",
-                 "zipCode":"21308"
-              }
-           }
-        },
-        "Los Chiles":{
-           "id":"14",
-           "name":"Los Chiles",
-           "locationsLevel3":{
-              "Los Chiles":{
-                 "id":"1",
-                 "name":"Los Chiles",
-                 "zipCode":"21401"
-              },
-              "Caño Negro":{
-                 "id":"2",
-                 "name":"Caño Negro",
-                 "zipCode":"21402"
-              },
-              "El Amparo":{
-                 "id":"3",
-                 "name":"El Amparo",
-                 "zipCode":"21403"
-              },
-              "San Jorge":{
-                 "id":"4",
-                 "name":"San Jorge",
-                 "zipCode":"21404"
-              }
-           }
-        },
-        "Guatuso":{
-           "id":"15",
-           "name":"Guatuso",
-           "locationsLevel3":{
-              "San Rafael":{
-                 "id":"1",
-                 "name":"San Rafael",
-                 "zipCode":"21501"
-              },
-              "Buenavista":{
-                 "id":"2",
-                 "name":"Buenavista",
-                 "zipCode":"21502"
-              },
-              "Cote":{
-                 "id":"3",
-                 "name":"Cote",
-                 "zipCode":"21503"
-              },
-              "Katira":{
-                 "id":"4",
-                 "name":"Katira",
-                 "zipCode":"21504"
-              }
-           }
-        },
-        "Río Cuarto":{
-           "id":"16",
-           "name":"Río Cuarto",
-           "locationsLevel3":{
-              "Río Cuarto":{
-                 "id":"1",
-                 "name":"Río Cuarto",
-                 "zipCode":"21601"
-              },
-              "Santa Rita":{
-                 "id":"2",
-                 "name":"Santa Rita",
-                 "zipCode":"21602"
-              },
-              "Santa Isabel":{
-                 "id":"3",
-                 "name":"Santa Isabel",
-                 "zipCode":"21603"
-              }
-           }
+    "id":"2",
+    "name":"Alajuela",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Alajuela":{
+            "id":"1",
+            "name":"Alajuela",
+            "zipCode":"20101"
+          },
+          "San José":{
+            "id":"2",
+            "name":"San José",
+            "zipCode":"20102"
+          },
+          "Carrizal":{
+            "id":"3",
+            "name":"Carrizal",
+            "zipCode":"20103"
+          },
+          "San Antonio":{
+            "id":"4",
+            "name":"San Antonio",
+            "zipCode":"20104"
+          },
+          "Guácima":{
+            "id":"5",
+            "name":"Guácima",
+            "zipCode":"20105"
+          },
+          "San Isidro":{
+            "id":"6",
+            "name":"San Isidro",
+            "zipCode":"20106"
+          },
+          "Sabanilla":{
+            "id":"7",
+            "name":"Sabanilla",
+            "zipCode":"20107"
+          },
+          "San Rafael":{
+            "id":"8",
+            "name":"San Rafael",
+            "zipCode":"20108"
+          },
+          "Rio Segundo":{
+            "id":"9",
+            "name":"Rio Segundo",
+            "zipCode":"20109"
+          },
+          "Desamparados":{
+            "id":"10",
+            "name":"Desamparados",
+            "zipCode":"20110"
+          },
+          "Turrucares":{
+            "id":"11",
+            "name":"Turrucares",
+            "zipCode":"20111"
+          },
+          "Tambor":{
+            "id":"12",
+            "name":"Tambor",
+            "zipCode":"20112"
+          },
+          "Garita":{
+            "id":"13",
+            "name":"Garita",
+            "zipCode":"20113"
+          },
+          "Sarapiquí":{
+            "id":"14",
+            "name":"Sarapiquí",
+            "zipCode":"20114"
+          }
         }
-     }
+      },
+      "San Ramón":{
+        "id":"2",
+        "name":"San Ramón",
+        "locationsLevel3":{
+          "San Ramón":{
+            "id":"1",
+            "name":"San Ramón",
+            "zipCode":"20201"
+          },
+          "Santiago":{
+            "id":"2",
+            "name":"Santiago",
+            "zipCode":"20202"
+          },
+          "San Juan":{
+            "id":"3",
+            "name":"San Juan",
+            "zipCode":"20203"
+          },
+          "Piedades Norte":{
+            "id":"4",
+            "name":"Piedades Norte",
+            "zipCode":"20204"
+          },
+          "Piedades Sur":{
+            "id":"5",
+            "name":"Piedades Sur",
+            "zipCode":"20205"
+          },
+          "San Rafael":{
+            "id":"6",
+            "name":"San Rafael",
+            "zipCode":"20206"
+          },
+          "San Isidro":{
+            "id":"7",
+            "name":"San Isidro",
+            "zipCode":"20207"
+          },
+          "Angeles":{
+            "id":"8",
+            "name":"Angeles",
+            "zipCode":"20208"
+          },
+          "Alfaro":{
+            "id":"9",
+            "name":"Alfaro",
+            "zipCode":"20209"
+          },
+          "Volio":{
+            "id":"10",
+            "name":"Volio",
+            "zipCode":"20210"
+          },
+          "Concepción":{
+            "id":"11",
+            "name":"Concepción",
+            "zipCode":"20211"
+          },
+          "Zapotal":{
+            "id":"12",
+            "name":"Zapotal",
+            "zipCode":"20212"
+          },
+          "Peñas Blancas":{
+            "id":"13",
+            "name":"Peñas Blancas",
+            "zipCode":"20213"
+          },
+          "San Lorenzo":{
+            "id":"14",
+            "name":"San Lorenzo",
+            "zipCode":"20214"
+          }
+        }
+      },
+      "Grecia":{
+        "id":"3",
+        "name":"Grecia",
+        "locationsLevel3":{
+          "Grecia":{
+            "id":"1",
+            "name":"Grecia",
+            "zipCode":"20301"
+          },
+          "San Isidro":{
+            "id":"2",
+            "name":"San Isidro",
+            "zipCode":"20302"
+          },
+          "San José":{
+            "id":"3",
+            "name":"San José",
+            "zipCode":"20303"
+          },
+          "San Roque":{
+            "id":"4",
+            "name":"San Roque",
+            "zipCode":"20304"
+          },
+          "Tacares":{
+            "id":"5",
+            "name":"Tacares",
+            "zipCode":"20305"
+          },
+          "Rio Cuarto":{
+            "id":"6",
+            "name":"Rio Cuarto",
+            "zipCode":"20306"
+          },
+          "Puente De Piedra":{
+            "id":"7",
+            "name":"Puente De Piedra",
+            "zipCode":"20307"
+          },
+          "Bolivar":{
+            "id":"8",
+            "name":"Bolivar",
+            "zipCode":"20308"
+          }
+        }
+      },
+      "San Mateo":{
+        "id":"4",
+        "name":"San Mateo",
+        "locationsLevel3":{
+          "San Mateo":{
+            "id":"1",
+            "name":"San Mateo",
+            "zipCode":"20401"
+          },
+          "Desmonte":{
+            "id":"2",
+            "name":"Desmonte",
+            "zipCode":"20402"
+          },
+          "Jesús María":{
+            "id":"3",
+            "name":"Jesús María",
+            "zipCode":"20403"
+          },
+          "Labrador":{
+            "id":"4",
+            "name":"Labrador",
+            "zipCode":"20404"
+          }
+        }
+      },
+      "Atenas":{
+        "id":"5",
+        "name":"Atenas",
+        "locationsLevel3":{
+          "Atenas":{
+            "id":"1",
+            "name":"Atenas",
+            "zipCode":"20501"
+          },
+          "Jesús":{
+            "id":"2",
+            "name":"Jesús",
+            "zipCode":"20502"
+          },
+          "Mercedes":{
+            "id":"3",
+            "name":"Mercedes",
+            "zipCode":"20503"
+          },
+          "San Isidro":{
+            "id":"4",
+            "name":"San Isidro",
+            "zipCode":"20504"
+          },
+          "Concepción":{
+            "id":"5",
+            "name":"Concepción",
+            "zipCode":"20505"
+          },
+          "San José":{
+            "id":"6",
+            "name":"San José",
+            "zipCode":"20506"
+          },
+          "Santa Eulalia":{
+            "id":"7",
+            "name":"Santa Eulalia",
+            "zipCode":"20507"
+          },
+          "Escobal":{
+            "id":"8",
+            "name":"Escobal",
+            "zipCode":"20508"
+          }
+        }
+      },
+      "Naranjo":{
+        "id":"6",
+        "name":"Naranjo",
+        "locationsLevel3":{
+          "Naranjo":{
+            "id":"1",
+            "name":"Naranjo",
+            "zipCode":"20601"
+          },
+          "San Juan":{
+            "id":"6",
+            "name":"San Juan",
+            "zipCode":"20606"
+          },
+          "San Miguel":{
+            "id":"2",
+            "name":"San Miguel",
+            "zipCode":"20602"
+          },
+          "Palmitos":{
+            "id":"8",
+            "name":"Palmitos",
+            "zipCode":"20608"
+          },
+          "El Rosario":{
+            "id":"7",
+            "name":"El Rosario",
+            "zipCode":"20607"
+          },
+          "San José":{
+            "id":"3",
+            "name":"San José",
+            "zipCode":"20603"
+          },
+          "Cirrí Sur":{
+            "id":"4",
+            "name":"Cirrí Sur",
+            "zipCode":"20604"
+          },
+          "San Jerónimo":{
+            "id":"5",
+            "name":"San Jerónimo",
+            "zipCode":"20605"
+          }
+        }
+      },
+      "Palmares":{
+        "id":"7",
+        "name":"Palmares",
+        "locationsLevel3":{
+          "Palmares":{
+            "id":"1",
+            "name":"Palmares",
+            "zipCode":"20701"
+          },
+          "Zaragoza":{
+            "id":"2",
+            "name":"Zaragoza",
+            "zipCode":"20702"
+          },
+          "Buenos Aires":{
+            "id":"3",
+            "name":"Buenos Aires",
+            "zipCode":"20703"
+          },
+          "Santiago":{
+            "id":"4",
+            "name":"Santiago",
+            "zipCode":"20704"
+          },
+          "Candelaria":{
+            "id":"5",
+            "name":"Candelaria",
+            "zipCode":"20705"
+          },
+          "Esquipulas":{
+            "id":"6",
+            "name":"Esquipulas",
+            "zipCode":"20706"
+          },
+          "La Granja":{
+            "id":"7",
+            "name":"La Granja",
+            "zipCode":"20707"
+          }
+        }
+      },
+      "Poás":{
+        "id":"8",
+        "name":"Poás",
+        "locationsLevel3":{
+          "San Pedro":{
+            "id":"1",
+            "name":"San Pedro",
+            "zipCode":"20801"
+          },
+          "San Juan":{
+            "id":"2",
+            "name":"San Juan",
+            "zipCode":"20802"
+          },
+          "San Rafael":{
+            "id":"3",
+            "name":"San Rafael",
+            "zipCode":"20803"
+          },
+          "Carrillos":{
+            "id":"4",
+            "name":"Carrillos",
+            "zipCode":"20804"
+          },
+          "Sabana Redonda":{
+            "id":"5",
+            "name":"Sabana Redonda",
+            "zipCode":"20805"
+          }
+        }
+      },
+      "Orotina":{
+        "id":"9",
+        "name":"Orotina",
+        "locationsLevel3":{
+          "Orotina":{
+            "id":"1",
+            "name":"Orotina",
+            "zipCode":"20901"
+          },
+          "El Mastate":{
+            "id":"2",
+            "name":"El Mastate",
+            "zipCode":"20902"
+          },
+          "Hacienda Vieja":{
+            "id":"3",
+            "name":"Hacienda Vieja",
+            "zipCode":"20903"
+          },
+          "Coyolar":{
+            "id":"4",
+            "name":"Coyolar",
+            "zipCode":"20904"
+          },
+          "La Ceiba":{
+            "id":"5",
+            "name":"La Ceiba",
+            "zipCode":"20905"
+          }
+        }
+      },
+      "San Carlos":{
+        "id":"10",
+        "name":"San Carlos",
+        "locationsLevel3":{
+          "Quesada":{
+            "id":"1",
+            "name":"Quesada",
+            "zipCode":"21001"
+          },
+          "Florencia":{
+            "id":"2",
+            "name":"Florencia",
+            "zipCode":"21002"
+          },
+          "Buenavista":{
+            "id":"3",
+            "name":"Buenavista",
+            "zipCode":"21003"
+          },
+          "Aguas Zarcas":{
+            "id":"4",
+            "name":"Aguas Zarcas",
+            "zipCode":"21004"
+          },
+          "Venecia":{
+            "id":"5",
+            "name":"Venecia",
+            "zipCode":"21005"
+          },
+          "Pital":{
+            "id":"6",
+            "name":"Pital",
+            "zipCode":"21006"
+          },
+          "La Fortuna":{
+            "id":"7",
+            "name":"La Fortuna",
+            "zipCode":"21007"
+          },
+          "La Tigra":{
+            "id":"8",
+            "name":"La Tigra",
+            "zipCode":"21008"
+          },
+          "La Palmera":{
+            "id":"9",
+            "name":"La Palmera",
+            "zipCode":"21009"
+          },
+          "Venado":{
+            "id":"10",
+            "name":"Venado",
+            "zipCode":"21010"
+          },
+          "Cutris":{
+            "id":"11",
+            "name":"Cutris",
+            "zipCode":"21011"
+          },
+          "Monterrey":{
+            "id":"12",
+            "name":"Monterrey",
+            "zipCode":"21012"
+          },
+          "Pocosol":{
+            "id":"13",
+            "name":"Pocosol",
+            "zipCode":"21013"
+          }
+        }
+      },
+      "Zarcero":{
+        "id":"11",
+        "name":"Zarcero",
+        "locationsLevel3":{
+          "Zarcero":{
+            "id":"1",
+            "name":"Zarcero",
+            "zipCode":"21101"
+          },
+          "Laguna":{
+            "id":"2",
+            "name":"Laguna",
+            "zipCode":"21102"
+          },
+          "Tapesco":{
+            "id":"3",
+            "name":"Tapesco",
+            "zipCode":"21103"
+          },
+          "Guadalupe":{
+            "id":"4",
+            "name":"Guadalupe",
+            "zipCode":"21104"
+          },
+          "Palmira":{
+            "id":"5",
+            "name":"Palmira",
+            "zipCode":"21105"
+          },
+          "Zapote":{
+            "id":"6",
+            "name":"Zapote",
+            "zipCode":"21106"
+          },
+          "Brisas":{
+            "id":"7",
+            "name":"Brisas",
+            "zipCode":"21107"
+          }
+        }
+      },
+      "Sarchí":{
+        "id":"12",
+        "name":"Sarchí",
+        "locationsLevel3":{
+          "Sarchí Norte":{
+            "id":"1",
+            "name":"Sarchí Norte",
+            "zipCode":"21201"
+          },
+          "Sarchí Sur":{
+            "id":"2",
+            "name":"Sarchí Sur",
+            "zipCode":"21202"
+          },
+          "Toro Amarillo":{
+            "id":"3",
+            "name":"Toro Amarillo",
+            "zipCode":"21203"
+          },
+          "San Pedro":{
+            "id":"4",
+            "name":"San Pedro",
+            "zipCode":"21204"
+          },
+          "Rodriguez":{
+            "id":"5",
+            "name":"Rodriguez",
+            "zipCode":"21205"
+          }
+        }
+      },
+      "Upala":{
+        "id":"13",
+        "name":"Upala",
+        "locationsLevel3":{
+          "Upala":{
+            "id":"1",
+            "name":"Upala",
+            "zipCode":"21301"
+          },
+          "Aguas Claras":{
+            "id":"2",
+            "name":"Aguas Claras",
+            "zipCode":"21302"
+          },
+          "San José o Pizote":{
+            "id":"3",
+            "name":"San José o Pizote",
+            "zipCode":"21303"
+          },
+          "Bijagua":{
+            "id":"4",
+            "name":"Bijagua",
+            "zipCode":"21304"
+          },
+          "Delicias":{
+            "id":"5",
+            "name":"Delicias",
+            "zipCode":"21305"
+          },
+          "Dos Rios":{
+            "id":"6",
+            "name":"Dos Rios",
+            "zipCode":"21306"
+          },
+          "Yolillal":{
+            "id":"7",
+            "name":"Yolillal",
+            "zipCode":"21307"
+          },
+          "Canalete":{
+            "id":"8",
+            "name":"Canalete",
+            "zipCode":"21308"
+          }
+        }
+      },
+      "Los Chiles":{
+        "id":"14",
+        "name":"Los Chiles",
+        "locationsLevel3":{
+          "Los Chiles":{
+            "id":"1",
+            "name":"Los Chiles",
+            "zipCode":"21401"
+          },
+          "Caño Negro":{
+            "id":"2",
+            "name":"Caño Negro",
+            "zipCode":"21402"
+          },
+          "El Amparo":{
+            "id":"3",
+            "name":"El Amparo",
+            "zipCode":"21403"
+          },
+          "San Jorge":{
+            "id":"4",
+            "name":"San Jorge",
+            "zipCode":"21404"
+          }
+        }
+      },
+      "Guatuso":{
+        "id":"15",
+        "name":"Guatuso",
+        "locationsLevel3":{
+          "San Rafael":{
+            "id":"1",
+            "name":"San Rafael",
+            "zipCode":"21501"
+          },
+          "Buenavista":{
+            "id":"2",
+            "name":"Buenavista",
+            "zipCode":"21502"
+          },
+          "Cote":{
+            "id":"3",
+            "name":"Cote",
+            "zipCode":"21503"
+          },
+          "Katira":{
+            "id":"4",
+            "name":"Katira",
+            "zipCode":"21504"
+          }
+        }
+      },
+      "Río Cuarto":{
+        "id":"16",
+        "name":"Río Cuarto",
+        "locationsLevel3":{
+          "Río Cuarto":{
+            "id":"1",
+            "name":"Río Cuarto",
+            "zipCode":"21601"
+          },
+          "Santa Rita":{
+            "id":"2",
+            "name":"Santa Rita",
+            "zipCode":"21602"
+          },
+          "Santa Isabel":{
+            "id":"3",
+            "name":"Santa Isabel",
+            "zipCode":"21603"
+          }
+        }
+      }
+    }
   },
   "Cartago":{
-     "id":"3",
-     "name":"Cartago",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Oriental":{
-                 "id":"1",
-                 "name":"Oriental",
-                 "zipCode":"30101"
-              },
-              "Occidental":{
-                 "id":"2",
-                 "name":"Occidental",
-                 "zipCode":"30102"
-              },
-              "Carmen":{
-                 "id":"3",
-                 "name":"Carmen",
-                 "zipCode":"30103"
-              },
-              "San Nicolás":{
-                 "id":"4",
-                 "name":"San Nicolás",
-                 "zipCode":"30104"
-              },
-              "Aguacaliente o San Francisco":{
-                 "id":"5",
-                 "name":"Aguacaliente o San Francisco",
-                 "zipCode":"30105"
-              },
-              "Guadalupe o Arenilla":{
-                 "id":"6",
-                 "name":"Guadalupe o Arenilla",
-                 "zipCode":"30106"
-              },
-              "Corralillo":{
-                 "id":"7",
-                 "name":"Corralillo",
-                 "zipCode":"30107"
-              },
-              "Tierra Blanca":{
-                 "id":"8",
-                 "name":"Tierra Blanca",
-                 "zipCode":"30108"
-              },
-              "Dulce Nombre":{
-                 "id":"9",
-                 "name":"Dulce Nombre",
-                 "zipCode":"30109"
-              },
-              "Llano Grande":{
-                 "id":"10",
-                 "name":"Llano Grande",
-                 "zipCode":"30110"
-              },
-              "Quebradilla":{
-                 "id":"11",
-                 "name":"Quebradilla",
-                 "zipCode":"30111"
-              }
-           }
-        },
-        "Paraíso":{
-           "id":"2",
-           "name":"Paraíso",
-           "locationsLevel3":{
-              "Paraiso":{
-                 "id":"1",
-                 "name":"Paraiso",
-                 "zipCode":"30201"
-              },
-              "Santiago":{
-                 "id":"2",
-                 "name":"Santiago",
-                 "zipCode":"30202"
-              },
-              "Orosi":{
-                 "id":"3",
-                 "name":"Orosi",
-                 "zipCode":"30203"
-              },
-              "Cachí":{
-                 "id":"4",
-                 "name":"Cachí",
-                 "zipCode":"30204"
-              },
-              "Llanos de Santa Lucía":{
-                 "id":"5",
-                 "name":"Llanos de Santa Lucía",
-                 "zipCode":"30205"
-              }
-           }
-        },
-        "La Unión":{
-           "id":"3",
-           "name":"La Unión",
-           "locationsLevel3":{
-              "Tres Rios":{
-                 "id":"1",
-                 "name":"Tres Rios",
-                 "zipCode":"30301"
-              },
-              "San Diego":{
-                 "id":"2",
-                 "name":"San Diego",
-                 "zipCode":"30302"
-              },
-              "San Juan":{
-                 "id":"3",
-                 "name":"San Juan",
-                 "zipCode":"30303"
-              },
-              "San Rafael":{
-                 "id":"4",
-                 "name":"San Rafael",
-                 "zipCode":"30304"
-              },
-              "Concepción":{
-                 "id":"5",
-                 "name":"Concepción",
-                 "zipCode":"30305"
-              },
-              "Dulce Nombre":{
-                 "id":"6",
-                 "name":"Dulce Nombre",
-                 "zipCode":"30306"
-              },
-              "San Ramón":{
-                 "id":"7",
-                 "name":"San Ramón",
-                 "zipCode":"30307"
-              },
-              "Rio Azul":{
-                 "id":"8",
-                 "name":"Rio Azul",
-                 "zipCode":"30308"
-              }
-           }
-        },
-        "Jiménez":{
-           "id":"4",
-           "name":"Jiménez",
-           "locationsLevel3":{
-              "Juan Viñas":{
-                 "id":"1",
-                 "name":"Juan Viñas",
-                 "zipCode":"30401"
-              },
-              "Tucurrique":{
-                 "id":"2",
-                 "name":"Tucurrique",
-                 "zipCode":"30402"
-              },
-              "Pejibaye":{
-                 "id":"3",
-                 "name":"Pejibaye",
-                 "zipCode":"30403"
-              }
-           }
-        },
-        "Turrialba":{
-           "id":"5",
-           "name":"Turrialba",
-           "locationsLevel3":{
-              "Turrialba":{
-                 "id":"1",
-                 "name":"Turrialba",
-                 "zipCode":"30501"
-              },
-              "La Suiza":{
-                 "id":"2",
-                 "name":"La Suiza",
-                 "zipCode":"30502"
-              },
-              "Peralta":{
-                 "id":"3",
-                 "name":"Peralta",
-                 "zipCode":"30503"
-              },
-              "Santa Cruz":{
-                 "id":"4",
-                 "name":"Santa Cruz",
-                 "zipCode":"30504"
-              },
-              "Santa Teresita":{
-                 "id":"5",
-                 "name":"Santa Teresita",
-                 "zipCode":"30505"
-              },
-              "Pavones":{
-                 "id":"6",
-                 "name":"Pavones",
-                 "zipCode":"30506"
-              },
-              "Tuis":{
-                 "id":"7",
-                 "name":"Tuis",
-                 "zipCode":"30507"
-              },
-              "Tayutic":{
-                 "id":"8",
-                 "name":"Tayutic",
-                 "zipCode":"30508"
-              },
-              "Santa Rosa":{
-                 "id":"9",
-                 "name":"Santa Rosa",
-                 "zipCode":"30509"
-              },
-              "Tres Equis":{
-                 "id":"10",
-                 "name":"Tres Equis",
-                 "zipCode":"30510"
-              },
-              "La Isabel":{
-                 "id":"11",
-                 "name":"La Isabel",
-                 "zipCode":"30511"
-              },
-              "Chirripó":{
-                 "id":"12",
-                 "name":"Chirripó",
-                 "zipCode":"30512"
-              }
-           }
-        },
-        "Alvarado":{
-           "id":"6",
-           "name":"Alvarado",
-           "locationsLevel3":{
-              "Pacayas":{
-                 "id":"1",
-                 "name":"Pacayas",
-                 "zipCode":"30601"
-              },
-              "Cervantes":{
-                 "id":"2",
-                 "name":"Cervantes",
-                 "zipCode":"30602"
-              },
-              "Capellades":{
-                 "id":"3",
-                 "name":"Capellades",
-                 "zipCode":"30603"
-              }
-           }
-        },
-        "Oreamuno":{
-           "id":"7",
-           "name":"Oreamuno",
-           "locationsLevel3":{
-              "San Rafael":{
-                 "id":"1",
-                 "name":"San Rafael",
-                 "zipCode":"30701"
-              },
-              "Cot":{
-                 "id":"2",
-                 "name":"Cot",
-                 "zipCode":"30702"
-              },
-              "Potrero Cerrado":{
-                 "id":"3",
-                 "name":"Potrero Cerrado",
-                 "zipCode":"30703"
-              },
-              "Cipreses":{
-                 "id":"4",
-                 "name":"Cipreses",
-                 "zipCode":"30704"
-              },
-              "Santa Rosa":{
-                 "id":"5",
-                 "name":"Santa Rosa",
-                 "zipCode":"30705"
-              }
-           }
-        },
-        "El Guarco":{
-           "id":"8",
-           "name":"El Guarco",
-           "locationsLevel3":{
-              "El Tejar":{
-                 "id":"1",
-                 "name":"El Tejar",
-                 "zipCode":"30801"
-              },
-              "San Isidro":{
-                 "id":"2",
-                 "name":"San Isidro",
-                 "zipCode":"30802"
-              },
-              "Tobosi":{
-                 "id":"3",
-                 "name":"Tobosi",
-                 "zipCode":"30803"
-              },
-              "Patio De Agua":{
-                 "id":"4",
-                 "name":"Patio De Agua",
-                 "zipCode":"30804"
-              }
-           }
+    "id":"3",
+    "name":"Cartago",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Oriental":{
+            "id":"1",
+            "name":"Oriental",
+            "zipCode":"30101"
+          },
+          "Occidental":{
+            "id":"2",
+            "name":"Occidental",
+            "zipCode":"30102"
+          },
+          "Carmen":{
+            "id":"3",
+            "name":"Carmen",
+            "zipCode":"30103"
+          },
+          "San Nicolás":{
+            "id":"4",
+            "name":"San Nicolás",
+            "zipCode":"30104"
+          },
+          "Aguacaliente o San Francisco":{
+            "id":"5",
+            "name":"Aguacaliente o San Francisco",
+            "zipCode":"30105"
+          },
+          "Guadalupe o Arenilla":{
+            "id":"6",
+            "name":"Guadalupe o Arenilla",
+            "zipCode":"30106"
+          },
+          "Corralillo":{
+            "id":"7",
+            "name":"Corralillo",
+            "zipCode":"30107"
+          },
+          "Tierra Blanca":{
+            "id":"8",
+            "name":"Tierra Blanca",
+            "zipCode":"30108"
+          },
+          "Dulce Nombre":{
+            "id":"9",
+            "name":"Dulce Nombre",
+            "zipCode":"30109"
+          },
+          "Llano Grande":{
+            "id":"10",
+            "name":"Llano Grande",
+            "zipCode":"30110"
+          },
+          "Quebradilla":{
+            "id":"11",
+            "name":"Quebradilla",
+            "zipCode":"30111"
+          }
         }
-     }
+      },
+      "Paraíso":{
+        "id":"2",
+        "name":"Paraíso",
+        "locationsLevel3":{
+          "Paraiso":{
+            "id":"1",
+            "name":"Paraiso",
+            "zipCode":"30201"
+          },
+          "Santiago":{
+            "id":"2",
+            "name":"Santiago",
+            "zipCode":"30202"
+          },
+          "Orosi":{
+            "id":"3",
+            "name":"Orosi",
+            "zipCode":"30203"
+          },
+          "Cachí":{
+            "id":"4",
+            "name":"Cachí",
+            "zipCode":"30204"
+          },
+          "Llanos de Santa Lucía":{
+            "id":"5",
+            "name":"Llanos de Santa Lucía",
+            "zipCode":"30205"
+          }
+        }
+      },
+      "La Unión":{
+        "id":"3",
+        "name":"La Unión",
+        "locationsLevel3":{
+          "Tres Rios":{
+            "id":"1",
+            "name":"Tres Rios",
+            "zipCode":"30301"
+          },
+          "San Diego":{
+            "id":"2",
+            "name":"San Diego",
+            "zipCode":"30302"
+          },
+          "San Juan":{
+            "id":"3",
+            "name":"San Juan",
+            "zipCode":"30303"
+          },
+          "San Rafael":{
+            "id":"4",
+            "name":"San Rafael",
+            "zipCode":"30304"
+          },
+          "Concepción":{
+            "id":"5",
+            "name":"Concepción",
+            "zipCode":"30305"
+          },
+          "Dulce Nombre":{
+            "id":"6",
+            "name":"Dulce Nombre",
+            "zipCode":"30306"
+          },
+          "San Ramón":{
+            "id":"7",
+            "name":"San Ramón",
+            "zipCode":"30307"
+          },
+          "Rio Azul":{
+            "id":"8",
+            "name":"Rio Azul",
+            "zipCode":"30308"
+          }
+        }
+      },
+      "Jiménez":{
+        "id":"4",
+        "name":"Jiménez",
+        "locationsLevel3":{
+          "Juan Viñas":{
+            "id":"1",
+            "name":"Juan Viñas",
+            "zipCode":"30401"
+          },
+          "Tucurrique":{
+            "id":"2",
+            "name":"Tucurrique",
+            "zipCode":"30402"
+          },
+          "Pejibaye":{
+            "id":"3",
+            "name":"Pejibaye",
+            "zipCode":"30403"
+          }
+        }
+      },
+      "Turrialba":{
+        "id":"5",
+        "name":"Turrialba",
+        "locationsLevel3":{
+          "Turrialba":{
+            "id":"1",
+            "name":"Turrialba",
+            "zipCode":"30501"
+          },
+          "La Suiza":{
+            "id":"2",
+            "name":"La Suiza",
+            "zipCode":"30502"
+          },
+          "Peralta":{
+            "id":"3",
+            "name":"Peralta",
+            "zipCode":"30503"
+          },
+          "Santa Cruz":{
+            "id":"4",
+            "name":"Santa Cruz",
+            "zipCode":"30504"
+          },
+          "Santa Teresita":{
+            "id":"5",
+            "name":"Santa Teresita",
+            "zipCode":"30505"
+          },
+          "Pavones":{
+            "id":"6",
+            "name":"Pavones",
+            "zipCode":"30506"
+          },
+          "Tuis":{
+            "id":"7",
+            "name":"Tuis",
+            "zipCode":"30507"
+          },
+          "Tayutic":{
+            "id":"8",
+            "name":"Tayutic",
+            "zipCode":"30508"
+          },
+          "Santa Rosa":{
+            "id":"9",
+            "name":"Santa Rosa",
+            "zipCode":"30509"
+          },
+          "Tres Equis":{
+            "id":"10",
+            "name":"Tres Equis",
+            "zipCode":"30510"
+          },
+          "La Isabel":{
+            "id":"11",
+            "name":"La Isabel",
+            "zipCode":"30511"
+          },
+          "Chirripó":{
+            "id":"12",
+            "name":"Chirripó",
+            "zipCode":"30512"
+          }
+        }
+      },
+      "Alvarado":{
+        "id":"6",
+        "name":"Alvarado",
+        "locationsLevel3":{
+          "Pacayas":{
+            "id":"1",
+            "name":"Pacayas",
+            "zipCode":"30601"
+          },
+          "Cervantes":{
+            "id":"2",
+            "name":"Cervantes",
+            "zipCode":"30602"
+          },
+          "Capellades":{
+            "id":"3",
+            "name":"Capellades",
+            "zipCode":"30603"
+          }
+        }
+      },
+      "Oreamuno":{
+        "id":"7",
+        "name":"Oreamuno",
+        "locationsLevel3":{
+          "San Rafael":{
+            "id":"1",
+            "name":"San Rafael",
+            "zipCode":"30701"
+          },
+          "Cot":{
+            "id":"2",
+            "name":"Cot",
+            "zipCode":"30702"
+          },
+          "Potrero Cerrado":{
+            "id":"3",
+            "name":"Potrero Cerrado",
+            "zipCode":"30703"
+          },
+          "Cipreses":{
+            "id":"4",
+            "name":"Cipreses",
+            "zipCode":"30704"
+          },
+          "Santa Rosa":{
+            "id":"5",
+            "name":"Santa Rosa",
+            "zipCode":"30705"
+          }
+        }
+      },
+      "El Guarco":{
+        "id":"8",
+        "name":"El Guarco",
+        "locationsLevel3":{
+          "El Tejar":{
+            "id":"1",
+            "name":"El Tejar",
+            "zipCode":"30801"
+          },
+          "San Isidro":{
+            "id":"2",
+            "name":"San Isidro",
+            "zipCode":"30802"
+          },
+          "Tobosi":{
+            "id":"3",
+            "name":"Tobosi",
+            "zipCode":"30803"
+          },
+          "Patio De Agua":{
+            "id":"4",
+            "name":"Patio De Agua",
+            "zipCode":"30804"
+          }
+        }
+      }
+    }
   },
   "Heredia":{
-     "id":"4",
-     "name":"Heredia",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Heredia":{
-                 "id":"1",
-                 "name":"Heredia",
-                 "zipCode":"40101"
-              },
-              "Mercedes":{
-                 "id":"2",
-                 "name":"Mercedes",
-                 "zipCode":"40102"
-              },
-              "San Francisco":{
-                 "id":"3",
-                 "name":"San Francisco",
-                 "zipCode":"40103"
-              },
-              "Ulloa":{
-                 "id":"4",
-                 "name":"Ulloa",
-                 "zipCode":"40104"
-              },
-              "Varablanca":{
-                 "id":"5",
-                 "name":"Varablanca",
-                 "zipCode":"40105"
-              }
-           }
-        },
-        "Barva":{
-           "id":"2",
-           "name":"Barva",
-           "locationsLevel3":{
-              "Barva":{
-                 "id":"1",
-                 "name":"Barva",
-                 "zipCode":"40201"
-              },
-              "San Pedro":{
-                 "id":"2",
-                 "name":"San Pedro",
-                 "zipCode":"40202"
-              },
-              "San Pablo":{
-                 "id":"3",
-                 "name":"San Pablo",
-                 "zipCode":"40203"
-              },
-              "San Roque":{
-                 "id":"4",
-                 "name":"San Roque",
-                 "zipCode":"40204"
-              },
-              "Santa Lucía":{
-                 "id":"5",
-                 "name":"Santa Lucía",
-                 "zipCode":"40205"
-              },
-              "San José de la Montaña":{
-                 "id":"6",
-                 "name":"San José de la Montaña",
-                 "zipCode":"40206"
-              }
-           }
-        },
-        "Santo Domingo":{
-           "id":"3",
-           "name":"Santo Domingo",
-           "locationsLevel3":{
-              "Santo Domingo":{
-                 "id":"1",
-                 "name":"Santo Domingo",
-                 "zipCode":"40301"
-              },
-              "San Vicente":{
-                 "id":"2",
-                 "name":"San Vicente",
-                 "zipCode":"40302"
-              },
-              "San Miguel":{
-                 "id":"3",
-                 "name":"San Miguel",
-                 "zipCode":"40303"
-              },
-              "Paracito":{
-                 "id":"4",
-                 "name":"Paracito",
-                 "zipCode":"40304"
-              },
-              "Santo Tomás":{
-                 "id":"5",
-                 "name":"Santo Tomás",
-                 "zipCode":"40305"
-              },
-              "Santa Rosa":{
-                 "id":"6",
-                 "name":"Santa Rosa",
-                 "zipCode":"40306"
-              },
-              "Tures":{
-                 "id":"7",
-                 "name":"Tures",
-                 "zipCode":"40307"
-              },
-              "Para":{
-                 "id":"8",
-                 "name":"Para",
-                 "zipCode":"40308"
-              }
-           }
-        },
-        "Santa Barbara":{
-           "id":"4",
-           "name":"Santa Barbara",
-           "locationsLevel3":{
-              "Santa Bárbara":{
-                 "id":"1",
-                 "name":"Santa Bárbara",
-                 "zipCode":"40401"
-              },
-              "San Pedro":{
-                 "id":"2",
-                 "name":"San Pedro",
-                 "zipCode":"40402"
-              },
-              "San Juan":{
-                 "id":"3",
-                 "name":"San Juan",
-                 "zipCode":"40403"
-              },
-              "Jesús":{
-                 "id":"4",
-                 "name":"Jesús",
-                 "zipCode":"40404"
-              },
-              "Santo Domingo":{
-                 "id":"5",
-                 "name":"Santo Domingo",
-                 "zipCode":"40405"
-              },
-              "Puraba":{
-                 "id":"6",
-                 "name":"Puraba",
-                 "zipCode":"40406"
-              }
-           }
-        },
-        "San Rafael":{
-           "id":"5",
-           "name":"San Rafael",
-           "locationsLevel3":{
-              "San Rafael":{
-                 "id":"1",
-                 "name":"San Rafael",
-                 "zipCode":"40501"
-              },
-              "San Josecito":{
-                 "id":"2",
-                 "name":"San Josecito",
-                 "zipCode":"40502"
-              },
-              "Santiago":{
-                 "id":"3",
-                 "name":"Santiago",
-                 "zipCode":"40503"
-              },
-              "Los Ángeles":{
-                 "id":"4",
-                 "name":"Los Ángeles",
-                 "zipCode":"40504"
-              },
-              "Concepción":{
-                 "id":"5",
-                 "name":"Concepción",
-                 "zipCode":"40505"
-              }
-           }
-        },
-        "San Isidro":{
-           "id":"6",
-           "name":"San Isidro",
-           "locationsLevel3":{
-              "San Isidro":{
-                 "id":"1",
-                 "name":"San Isidro",
-                 "zipCode":"40601"
-              },
-              "San José":{
-                 "id":"2",
-                 "name":"San José",
-                 "zipCode":"40602"
-              },
-              "Concepción":{
-                 "id":"3",
-                 "name":"Concepción",
-                 "zipCode":"40603"
-              },
-              "San Francisco":{
-                 "id":"4",
-                 "name":"San Francisco",
-                 "zipCode":"40604"
-              }
-           }
-        },
-        "Belén":{
-           "id":"7",
-           "name":"Belén",
-           "locationsLevel3":{
-              "San Antonio":{
-                 "id":"1",
-                 "name":"San Antonio",
-                 "zipCode":"40701"
-              },
-              "La Ribera":{
-                 "id":"2",
-                 "name":"La Ribera",
-                 "zipCode":"40702"
-              },
-              "La Asuncion":{
-                 "id":"3",
-                 "name":"La Asuncion",
-                 "zipCode":"40703"
-              }
-           }
-        },
-        "Flores":{
-           "id":"8",
-           "name":"Flores",
-           "locationsLevel3":{
-              "San Joaquín":{
-                 "id":"1",
-                 "name":"San Joaquín",
-                 "zipCode":"40801"
-              },
-              "Barrantes":{
-                 "id":"2",
-                 "name":"Barrantes",
-                 "zipCode":"40802"
-              },
-              "Llorente":{
-                 "id":"3",
-                 "name":"Llorente",
-                 "zipCode":"40803"
-              }
-           }
-        },
-        "San Pablo":{
-           "id":"9",
-           "name":"San Pablo",
-           "locationsLevel3":{
-              "San Pablo":{
-                 "id":"1",
-                 "name":"San Pablo",
-                 "zipCode":"40901"
-              },
-              "Rincon De Sabanilla":{
-                 "id":"2",
-                 "name":"Rincon De Sabanilla",
-                 "zipCode":"40902"
-              }
-           }
-        },
-        "Sarapiquí":{
-           "id":"10",
-           "name":"Sarapiquí",
-           "locationsLevel3":{
-              "Puerto Viejo":{
-                 "id":"1",
-                 "name":"Puerto Viejo",
-                 "zipCode":"41001"
-              },
-              "La Virgen":{
-                 "id":"2",
-                 "name":"La Virgen",
-                 "zipCode":"41002"
-              },
-              "Las Horquetas":{
-                 "id":"3",
-                 "name":"Las Horquetas",
-                 "zipCode":"41003"
-              },
-              "Llanuras Del Gaspar":{
-                 "id":"4",
-                 "name":"Llanuras Del Gaspar",
-                 "zipCode":"41004"
-              },
-              "Cureña":{
-                 "id":"5",
-                 "name":"Cureña",
-                 "zipCode":"41005"
-              }
-           }
+    "id":"4",
+    "name":"Heredia",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Heredia":{
+            "id":"1",
+            "name":"Heredia",
+            "zipCode":"40101"
+          },
+          "Mercedes":{
+            "id":"2",
+            "name":"Mercedes",
+            "zipCode":"40102"
+          },
+          "San Francisco":{
+            "id":"3",
+            "name":"San Francisco",
+            "zipCode":"40103"
+          },
+          "Ulloa":{
+            "id":"4",
+            "name":"Ulloa",
+            "zipCode":"40104"
+          },
+          "Varablanca":{
+            "id":"5",
+            "name":"Varablanca",
+            "zipCode":"40105"
+          }
         }
-     }
+      },
+      "Barva":{
+        "id":"2",
+        "name":"Barva",
+        "locationsLevel3":{
+          "Barva":{
+            "id":"1",
+            "name":"Barva",
+            "zipCode":"40201"
+          },
+          "San Pedro":{
+            "id":"2",
+            "name":"San Pedro",
+            "zipCode":"40202"
+          },
+          "San Pablo":{
+            "id":"3",
+            "name":"San Pablo",
+            "zipCode":"40203"
+          },
+          "San Roque":{
+            "id":"4",
+            "name":"San Roque",
+            "zipCode":"40204"
+          },
+          "Santa Lucía":{
+            "id":"5",
+            "name":"Santa Lucía",
+            "zipCode":"40205"
+          },
+          "San José de la Montaña":{
+            "id":"6",
+            "name":"San José de la Montaña",
+            "zipCode":"40206"
+          }
+        }
+      },
+      "Santo Domingo":{
+        "id":"3",
+        "name":"Santo Domingo",
+        "locationsLevel3":{
+          "Santo Domingo":{
+            "id":"1",
+            "name":"Santo Domingo",
+            "zipCode":"40301"
+          },
+          "San Vicente":{
+            "id":"2",
+            "name":"San Vicente",
+            "zipCode":"40302"
+          },
+          "San Miguel":{
+            "id":"3",
+            "name":"San Miguel",
+            "zipCode":"40303"
+          },
+          "Paracito":{
+            "id":"4",
+            "name":"Paracito",
+            "zipCode":"40304"
+          },
+          "Santo Tomás":{
+            "id":"5",
+            "name":"Santo Tomás",
+            "zipCode":"40305"
+          },
+          "Santa Rosa":{
+            "id":"6",
+            "name":"Santa Rosa",
+            "zipCode":"40306"
+          },
+          "Tures":{
+            "id":"7",
+            "name":"Tures",
+            "zipCode":"40307"
+          },
+          "Para":{
+            "id":"8",
+            "name":"Para",
+            "zipCode":"40308"
+          }
+        }
+      },
+      "Santa Barbara":{
+        "id":"4",
+        "name":"Santa Barbara",
+        "locationsLevel3":{
+          "Santa Bárbara":{
+            "id":"1",
+            "name":"Santa Bárbara",
+            "zipCode":"40401"
+          },
+          "San Pedro":{
+            "id":"2",
+            "name":"San Pedro",
+            "zipCode":"40402"
+          },
+          "San Juan":{
+            "id":"3",
+            "name":"San Juan",
+            "zipCode":"40403"
+          },
+          "Jesús":{
+            "id":"4",
+            "name":"Jesús",
+            "zipCode":"40404"
+          },
+          "Santo Domingo":{
+            "id":"5",
+            "name":"Santo Domingo",
+            "zipCode":"40405"
+          },
+          "Puraba":{
+            "id":"6",
+            "name":"Puraba",
+            "zipCode":"40406"
+          }
+        }
+      },
+      "San Rafael":{
+        "id":"5",
+        "name":"San Rafael",
+        "locationsLevel3":{
+          "San Rafael":{
+            "id":"1",
+            "name":"San Rafael",
+            "zipCode":"40501"
+          },
+          "San Josecito":{
+            "id":"2",
+            "name":"San Josecito",
+            "zipCode":"40502"
+          },
+          "Santiago":{
+            "id":"3",
+            "name":"Santiago",
+            "zipCode":"40503"
+          },
+          "Los Ángeles":{
+            "id":"4",
+            "name":"Los Ángeles",
+            "zipCode":"40504"
+          },
+          "Concepción":{
+            "id":"5",
+            "name":"Concepción",
+            "zipCode":"40505"
+          }
+        }
+      },
+      "San Isidro":{
+        "id":"6",
+        "name":"San Isidro",
+        "locationsLevel3":{
+          "San Isidro":{
+            "id":"1",
+            "name":"San Isidro",
+            "zipCode":"40601"
+          },
+          "San José":{
+            "id":"2",
+            "name":"San José",
+            "zipCode":"40602"
+          },
+          "Concepción":{
+            "id":"3",
+            "name":"Concepción",
+            "zipCode":"40603"
+          },
+          "San Francisco":{
+            "id":"4",
+            "name":"San Francisco",
+            "zipCode":"40604"
+          }
+        }
+      },
+      "Belén":{
+        "id":"7",
+        "name":"Belén",
+        "locationsLevel3":{
+          "San Antonio":{
+            "id":"1",
+            "name":"San Antonio",
+            "zipCode":"40701"
+          },
+          "La Ribera":{
+            "id":"2",
+            "name":"La Ribera",
+            "zipCode":"40702"
+          },
+          "La Asuncion":{
+            "id":"3",
+            "name":"La Asuncion",
+            "zipCode":"40703"
+          }
+        }
+      },
+      "Flores":{
+        "id":"8",
+        "name":"Flores",
+        "locationsLevel3":{
+          "San Joaquín":{
+            "id":"1",
+            "name":"San Joaquín",
+            "zipCode":"40801"
+          },
+          "Barrantes":{
+            "id":"2",
+            "name":"Barrantes",
+            "zipCode":"40802"
+          },
+          "Llorente":{
+            "id":"3",
+            "name":"Llorente",
+            "zipCode":"40803"
+          }
+        }
+      },
+      "San Pablo":{
+        "id":"9",
+        "name":"San Pablo",
+        "locationsLevel3":{
+          "San Pablo":{
+            "id":"1",
+            "name":"San Pablo",
+            "zipCode":"40901"
+          },
+          "Rincon De Sabanilla":{
+            "id":"2",
+            "name":"Rincon De Sabanilla",
+            "zipCode":"40902"
+          }
+        }
+      },
+      "Sarapiquí":{
+        "id":"10",
+        "name":"Sarapiquí",
+        "locationsLevel3":{
+          "Puerto Viejo":{
+            "id":"1",
+            "name":"Puerto Viejo",
+            "zipCode":"41001"
+          },
+          "La Virgen":{
+            "id":"2",
+            "name":"La Virgen",
+            "zipCode":"41002"
+          },
+          "Las Horquetas":{
+            "id":"3",
+            "name":"Las Horquetas",
+            "zipCode":"41003"
+          },
+          "Llanuras Del Gaspar":{
+            "id":"4",
+            "name":"Llanuras Del Gaspar",
+            "zipCode":"41004"
+          },
+          "Cureña":{
+            "id":"5",
+            "name":"Cureña",
+            "zipCode":"41005"
+          }
+        }
+      }
+    }
   },
   "Guanacaste":{
-     "id":"5",
-     "name":"Guanacaste",
-     "locationsLevel2":{
-        "Liberia":{
-           "id":"1",
-           "name":"Liberia",
-           "locationsLevel3":{
-              "Liberia":{
-                 "id":"1",
-                 "name":"Liberia",
-                 "zipCode":"50101"
-              },
-              "Nacascolo":{
-                 "id":"4",
-                 "name":"Nacascolo",
-                 "zipCode":"50104"
-              },
-              "Cañas Dulces":{
-                 "id":"2",
-                 "name":"Cañas Dulces",
-                 "zipCode":"50102"
-              },
-              "Mayorga":{
-                 "id":"3",
-                 "name":"Mayorga",
-                 "zipCode":"50103"
-              },
-              "Curubande":{
-                 "id":"5",
-                 "name":"Curubande",
-                 "zipCode":"50105"
-              }
-           }
-        },
-        "Nicoya":{
-           "id":"2",
-           "name":"Nicoya",
-           "locationsLevel3":{
-              "Nicoya":{
-                 "id":"1",
-                 "name":"Nicoya",
-                 "zipCode":"50201"
-              },
-              "Mansión":{
-                 "id":"2",
-                 "name":"Mansión",
-                 "zipCode":"50202"
-              },
-              "San Antonio":{
-                 "id":"3",
-                 "name":"San Antonio",
-                 "zipCode":"50203"
-              },
-              "Quebrada Honda":{
-                 "id":"4",
-                 "name":"Quebrada Honda",
-                 "zipCode":"50204"
-              },
-              "Sámara":{
-                 "id":"5",
-                 "name":"Sámara",
-                 "zipCode":"50205"
-              },
-              "Nosara":{
-                 "id":"6",
-                 "name":"Nosara",
-                 "zipCode":"50206"
-              },
-              "Belén De Nosarita":{
-                 "id":"7",
-                 "name":"Belén De Nosarita",
-                 "zipCode":"50207"
-              }
-           }
-        },
-        "Santa Cruz":{
-           "id":"3",
-           "name":"Santa Cruz",
-           "locationsLevel3":{
-              "Santa Cruz":{
-                 "id":"1",
-                 "name":"Santa Cruz",
-                 "zipCode":"50301"
-              },
-              "Bolson":{
-                 "id":"2",
-                 "name":"Bolson",
-                 "zipCode":"50302"
-              },
-              "Veintisiete de Abril":{
-                 "id":"3",
-                 "name":"Veintisiete de Abril",
-                 "zipCode":"50303"
-              },
-              "Tempate":{
-                 "id":"4",
-                 "name":"Tempate",
-                 "zipCode":"50304"
-              },
-              "Cartagena":{
-                 "id":"5",
-                 "name":"Cartagena",
-                 "zipCode":"50305"
-              },
-              "Cuajiniquil":{
-                 "id":"6",
-                 "name":"Cuajiniquil",
-                 "zipCode":"50306"
-              },
-              "Diria":{
-                 "id":"7",
-                 "name":"Diria",
-                 "zipCode":"50307"
-              },
-              "Cabo Velas":{
-                 "id":"8",
-                 "name":"Cabo Velas",
-                 "zipCode":"50308"
-              },
-              "Tamarindo":{
-                 "id":"9",
-                 "name":"Tamarindo",
-                 "zipCode":"50309"
-              }
-           }
-        },
-        "Bagaces":{
-           "id":"4",
-           "name":"Bagaces",
-           "locationsLevel3":{
-              "Bagaces":{
-                 "id":"1",
-                 "name":"Bagaces",
-                 "zipCode":"50401"
-              },
-              "La Fortuna":{
-                 "id":"2",
-                 "name":"La Fortuna",
-                 "zipCode":"50402"
-              },
-              "Mogote":{
-                 "id":"3",
-                 "name":"Mogote",
-                 "zipCode":"50403"
-              },
-              "Rio Naranjo":{
-                 "id":"4",
-                 "name":"Rio Naranjo",
-                 "zipCode":"50404"
-              }
-           }
-        },
-        "Carrillo":{
-           "id":"5",
-           "name":"Carrillo",
-           "locationsLevel3":{
-              "Filadelfia":{
-                 "id":"1",
-                 "name":"Filadelfia",
-                 "zipCode":"50501"
-              },
-              "Palmira":{
-                 "id":"2",
-                 "name":"Palmira",
-                 "zipCode":"50502"
-              },
-              "Sardinal":{
-                 "id":"3",
-                 "name":"Sardinal",
-                 "zipCode":"50503"
-              },
-              "Belen":{
-                 "id":"4",
-                 "name":"Belen",
-                 "zipCode":"50504"
-              }
-           }
-        },
-        "Cañas":{
-           "id":"6",
-           "name":"Cañas",
-           "locationsLevel3":{
-              "Cañas":{
-                 "id":"1",
-                 "name":"Cañas",
-                 "zipCode":"50601"
-              },
-              "Palmira":{
-                 "id":"2",
-                 "name":"Palmira",
-                 "zipCode":"50602"
-              },
-              "San Miguel":{
-                 "id":"3",
-                 "name":"San Miguel",
-                 "zipCode":"50603"
-              },
-              "Bebedero":{
-                 "id":"4",
-                 "name":"Bebedero",
-                 "zipCode":"50604"
-              },
-              "Porozal":{
-                 "id":"5",
-                 "name":"Porozal",
-                 "zipCode":"50605"
-              }
-           }
-        },
-        "Abangares":{
-           "id":"7",
-           "name":"Abangares",
-           "locationsLevel3":{
-              "Las Juntas":{
-                 "id":"1",
-                 "name":"Las Juntas",
-                 "zipCode":"50701"
-              },
-              "Sierra":{
-                 "id":"2",
-                 "name":"Sierra",
-                 "zipCode":"50702"
-              },
-              "San Juan":{
-                 "id":"3",
-                 "name":"San Juan",
-                 "zipCode":"50703"
-              },
-              "Colorado":{
-                 "id":"4",
-                 "name":"Colorado",
-                 "zipCode":"50704"
-              }
-           }
-        },
-        "Tilarán":{
-           "id":"8",
-           "name":"Tilarán",
-           "locationsLevel3":{
-              "Tilarán":{
-                 "id":"1",
-                 "name":"Tilarán",
-                 "zipCode":"50801"
-              },
-              "Quebrada Grande":{
-                 "id":"2",
-                 "name":"Quebrada Grande",
-                 "zipCode":"50802"
-              },
-              "Tronadora":{
-                 "id":"3",
-                 "name":"Tronadora",
-                 "zipCode":"50803"
-              },
-              "Santa Rosa":{
-                 "id":"4",
-                 "name":"Santa Rosa",
-                 "zipCode":"50804"
-              },
-              "Líbano":{
-                 "id":"5",
-                 "name":"Líbano",
-                 "zipCode":"50805"
-              },
-              "Tierras Morenas":{
-                 "id":"6",
-                 "name":"Tierras Morenas",
-                 "zipCode":"50806"
-              },
-              "Arenal":{
-                 "id":"7",
-                 "name":"Arenal",
-                 "zipCode":"50807"
-              },
-              "Cabeceras":{
-                 "id":"8",
-                 "name":"Cabeceras",
-                 "zipCode":"50808"
-              }
-           }
-        },
-        "Nandayure":{
-           "id":"9",
-           "name":"Nandayure",
-           "locationsLevel3":{
-              "Carmona":{
-                 "id":"1",
-                 "name":"Carmona",
-                 "zipCode":"50901"
-              },
-              "Santa Rita":{
-                 "id":"2",
-                 "name":"Santa Rita",
-                 "zipCode":"50902"
-              },
-              "Zapotal":{
-                 "id":"3",
-                 "name":"Zapotal",
-                 "zipCode":"50903"
-              },
-              "San Pablo":{
-                 "id":"4",
-                 "name":"San Pablo",
-                 "zipCode":"50904"
-              },
-              "Porvenir":{
-                 "id":"5",
-                 "name":"Porvenir",
-                 "zipCode":"50905"
-              },
-              "Bejuco":{
-                 "id":"6",
-                 "name":"Bejuco",
-                 "zipCode":"50906"
-              }
-           }
-        },
-        "La Cruz":{
-           "id":"10",
-           "name":"La Cruz",
-           "locationsLevel3":{
-              "La Cruz":{
-                 "id":"1",
-                 "name":"La Cruz",
-                 "zipCode":"51001"
-              },
-              "Santa Cecilia":{
-                 "id":"2",
-                 "name":"Santa Cecilia",
-                 "zipCode":"51002"
-              },
-              "La Garita":{
-                 "id":"3",
-                 "name":"La Garita",
-                 "zipCode":"51003"
-              },
-              "Santa Elena":{
-                 "id":"4",
-                 "name":"Santa Elena",
-                 "zipCode":"51004"
-              }
-           }
-        },
-        "Hojancha":{
-           "id":"11",
-           "name":"Hojancha",
-           "locationsLevel3":{
-              "Hojancha":{
-                 "id":"1",
-                 "name":"Hojancha",
-                 "zipCode":"51101"
-              },
-              "Monte Romo":{
-                 "id":"2",
-                 "name":"Monte Romo",
-                 "zipCode":"51102"
-              },
-              "Puerto Carrillo":{
-                 "id":"3",
-                 "name":"Puerto Carrillo",
-                 "zipCode":"51103"
-              },
-              "Huacas":{
-                 "id":"4",
-                 "name":"Huacas",
-                 "zipCode":"51104"
-              }
-           }
+    "id":"5",
+    "name":"Guanacaste",
+    "locationsLevel2":{
+      "Liberia":{
+        "id":"1",
+        "name":"Liberia",
+        "locationsLevel3":{
+          "Liberia":{
+            "id":"1",
+            "name":"Liberia",
+            "zipCode":"50101"
+          },
+          "Nacascolo":{
+            "id":"4",
+            "name":"Nacascolo",
+            "zipCode":"50104"
+          },
+          "Cañas Dulces":{
+            "id":"2",
+            "name":"Cañas Dulces",
+            "zipCode":"50102"
+          },
+          "Mayorga":{
+            "id":"3",
+            "name":"Mayorga",
+            "zipCode":"50103"
+          },
+          "Curubande":{
+            "id":"5",
+            "name":"Curubande",
+            "zipCode":"50105"
+          }
         }
-     }
+      },
+      "Nicoya":{
+        "id":"2",
+        "name":"Nicoya",
+        "locationsLevel3":{
+          "Nicoya":{
+            "id":"1",
+            "name":"Nicoya",
+            "zipCode":"50201"
+          },
+          "Mansión":{
+            "id":"2",
+            "name":"Mansión",
+            "zipCode":"50202"
+          },
+          "San Antonio":{
+            "id":"3",
+            "name":"San Antonio",
+            "zipCode":"50203"
+          },
+          "Quebrada Honda":{
+            "id":"4",
+            "name":"Quebrada Honda",
+            "zipCode":"50204"
+          },
+          "Sámara":{
+            "id":"5",
+            "name":"Sámara",
+            "zipCode":"50205"
+          },
+          "Nosara":{
+            "id":"6",
+            "name":"Nosara",
+            "zipCode":"50206"
+          },
+          "Belén De Nosarita":{
+            "id":"7",
+            "name":"Belén De Nosarita",
+            "zipCode":"50207"
+          }
+        }
+      },
+      "Santa Cruz":{
+        "id":"3",
+        "name":"Santa Cruz",
+        "locationsLevel3":{
+          "Santa Cruz":{
+            "id":"1",
+            "name":"Santa Cruz",
+            "zipCode":"50301"
+          },
+          "Bolson":{
+            "id":"2",
+            "name":"Bolson",
+            "zipCode":"50302"
+          },
+          "Veintisiete de Abril":{
+            "id":"3",
+            "name":"Veintisiete de Abril",
+            "zipCode":"50303"
+          },
+          "Tempate":{
+            "id":"4",
+            "name":"Tempate",
+            "zipCode":"50304"
+          },
+          "Cartagena":{
+            "id":"5",
+            "name":"Cartagena",
+            "zipCode":"50305"
+          },
+          "Cuajiniquil":{
+            "id":"6",
+            "name":"Cuajiniquil",
+            "zipCode":"50306"
+          },
+          "Diria":{
+            "id":"7",
+            "name":"Diria",
+            "zipCode":"50307"
+          },
+          "Cabo Velas":{
+            "id":"8",
+            "name":"Cabo Velas",
+            "zipCode":"50308"
+          },
+          "Tamarindo":{
+            "id":"9",
+            "name":"Tamarindo",
+            "zipCode":"50309"
+          }
+        }
+      },
+      "Bagaces":{
+        "id":"4",
+        "name":"Bagaces",
+        "locationsLevel3":{
+          "Bagaces":{
+            "id":"1",
+            "name":"Bagaces",
+            "zipCode":"50401"
+          },
+          "La Fortuna":{
+            "id":"2",
+            "name":"La Fortuna",
+            "zipCode":"50402"
+          },
+          "Mogote":{
+            "id":"3",
+            "name":"Mogote",
+            "zipCode":"50403"
+          },
+          "Rio Naranjo":{
+            "id":"4",
+            "name":"Rio Naranjo",
+            "zipCode":"50404"
+          }
+        }
+      },
+      "Carrillo":{
+        "id":"5",
+        "name":"Carrillo",
+        "locationsLevel3":{
+          "Filadelfia":{
+            "id":"1",
+            "name":"Filadelfia",
+            "zipCode":"50501"
+          },
+          "Palmira":{
+            "id":"2",
+            "name":"Palmira",
+            "zipCode":"50502"
+          },
+          "Sardinal":{
+            "id":"3",
+            "name":"Sardinal",
+            "zipCode":"50503"
+          },
+          "Belen":{
+            "id":"4",
+            "name":"Belen",
+            "zipCode":"50504"
+          }
+        }
+      },
+      "Cañas":{
+        "id":"6",
+        "name":"Cañas",
+        "locationsLevel3":{
+          "Cañas":{
+            "id":"1",
+            "name":"Cañas",
+            "zipCode":"50601"
+          },
+          "Palmira":{
+            "id":"2",
+            "name":"Palmira",
+            "zipCode":"50602"
+          },
+          "San Miguel":{
+            "id":"3",
+            "name":"San Miguel",
+            "zipCode":"50603"
+          },
+          "Bebedero":{
+            "id":"4",
+            "name":"Bebedero",
+            "zipCode":"50604"
+          },
+          "Porozal":{
+            "id":"5",
+            "name":"Porozal",
+            "zipCode":"50605"
+          }
+        }
+      },
+      "Abangares":{
+        "id":"7",
+        "name":"Abangares",
+        "locationsLevel3":{
+          "Las Juntas":{
+            "id":"1",
+            "name":"Las Juntas",
+            "zipCode":"50701"
+          },
+          "Sierra":{
+            "id":"2",
+            "name":"Sierra",
+            "zipCode":"50702"
+          },
+          "San Juan":{
+            "id":"3",
+            "name":"San Juan",
+            "zipCode":"50703"
+          },
+          "Colorado":{
+            "id":"4",
+            "name":"Colorado",
+            "zipCode":"50704"
+          }
+        }
+      },
+      "Tilarán":{
+        "id":"8",
+        "name":"Tilarán",
+        "locationsLevel3":{
+          "Tilarán":{
+            "id":"1",
+            "name":"Tilarán",
+            "zipCode":"50801"
+          },
+          "Quebrada Grande":{
+            "id":"2",
+            "name":"Quebrada Grande",
+            "zipCode":"50802"
+          },
+          "Tronadora":{
+            "id":"3",
+            "name":"Tronadora",
+            "zipCode":"50803"
+          },
+          "Santa Rosa":{
+            "id":"4",
+            "name":"Santa Rosa",
+            "zipCode":"50804"
+          },
+          "Líbano":{
+            "id":"5",
+            "name":"Líbano",
+            "zipCode":"50805"
+          },
+          "Tierras Morenas":{
+            "id":"6",
+            "name":"Tierras Morenas",
+            "zipCode":"50806"
+          },
+          "Arenal":{
+            "id":"7",
+            "name":"Arenal",
+            "zipCode":"50807"
+          },
+          "Cabeceras":{
+            "id":"8",
+            "name":"Cabeceras",
+            "zipCode":"50808"
+          }
+        }
+      },
+      "Nandayure":{
+        "id":"9",
+        "name":"Nandayure",
+        "locationsLevel3":{
+          "Carmona":{
+            "id":"1",
+            "name":"Carmona",
+            "zipCode":"50901"
+          },
+          "Santa Rita":{
+            "id":"2",
+            "name":"Santa Rita",
+            "zipCode":"50902"
+          },
+          "Zapotal":{
+            "id":"3",
+            "name":"Zapotal",
+            "zipCode":"50903"
+          },
+          "San Pablo":{
+            "id":"4",
+            "name":"San Pablo",
+            "zipCode":"50904"
+          },
+          "Porvenir":{
+            "id":"5",
+            "name":"Porvenir",
+            "zipCode":"50905"
+          },
+          "Bejuco":{
+            "id":"6",
+            "name":"Bejuco",
+            "zipCode":"50906"
+          }
+        }
+      },
+      "La Cruz":{
+        "id":"10",
+        "name":"La Cruz",
+        "locationsLevel3":{
+          "La Cruz":{
+            "id":"1",
+            "name":"La Cruz",
+            "zipCode":"51001"
+          },
+          "Santa Cecilia":{
+            "id":"2",
+            "name":"Santa Cecilia",
+            "zipCode":"51002"
+          },
+          "La Garita":{
+            "id":"3",
+            "name":"La Garita",
+            "zipCode":"51003"
+          },
+          "Santa Elena":{
+            "id":"4",
+            "name":"Santa Elena",
+            "zipCode":"51004"
+          }
+        }
+      },
+      "Hojancha":{
+        "id":"11",
+        "name":"Hojancha",
+        "locationsLevel3":{
+          "Hojancha":{
+            "id":"1",
+            "name":"Hojancha",
+            "zipCode":"51101"
+          },
+          "Monte Romo":{
+            "id":"2",
+            "name":"Monte Romo",
+            "zipCode":"51102"
+          },
+          "Puerto Carrillo":{
+            "id":"3",
+            "name":"Puerto Carrillo",
+            "zipCode":"51103"
+          },
+          "Huacas":{
+            "id":"4",
+            "name":"Huacas",
+            "zipCode":"51104"
+          }
+        }
+      }
+    }
   },
   "Puntarenas":{
-     "id":"6",
-     "name":"Puntarenas",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Puntarenas":{
-                 "id":"1",
-                 "name":"Puntarenas",
-                 "zipCode":"60101"
-              },
-              "Pitahaya":{
-                 "id":"2",
-                 "name":"Pitahaya",
-                 "zipCode":"60102"
-              },
-              "Chomes":{
-                 "id":"3",
-                 "name":"Chomes",
-                 "zipCode":"60103"
-              },
-              "Lepanto":{
-                 "id":"4",
-                 "name":"Lepanto",
-                 "zipCode":"60104"
-              },
-              "Paquera":{
-                 "id":"5",
-                 "name":"Paquera",
-                 "zipCode":"60105"
-              },
-              "Manzanillo":{
-                 "id":"6",
-                 "name":"Manzanillo",
-                 "zipCode":"60106"
-              },
-              "Guacimal":{
-                 "id":"7",
-                 "name":"Guacimal",
-                 "zipCode":"60107"
-              },
-              "Barranca":{
-                 "id":"8",
-                 "name":"Barranca",
-                 "zipCode":"60108"
-              },
-              "Monte Verde":{
-                 "id":"9",
-                 "name":"Monte Verde",
-                 "zipCode":"60109"
-              },
-              "Isla Del Coco":{
-                 "id":"10",
-                 "name":"Isla Del Coco",
-                 "zipCode":"60110"
-              },
-              "Cóbano":{
-                 "id":"11",
-                 "name":"Cóbano",
-                 "zipCode":"60111"
-              },
-              "Chacarita":{
-                 "id":"12",
-                 "name":"Chacarita",
-                 "zipCode":"60112"
-              },
-              "Chira":{
-                 "id":"13",
-                 "name":"Chira",
-                 "zipCode":"60113"
-              },
-              "Acapulco":{
-                 "id":"14",
-                 "name":"Acapulco",
-                 "zipCode":"60114"
-              },
-              "El Roble":{
-                 "id":"15",
-                 "name":"El Roble",
-                 "zipCode":"60115"
-              },
-              "Arancibia":{
-                 "id":"16",
-                 "name":"Arancibia",
-                 "zipCode":"60116"
-              }
-           }
-        },
-        "Esparza":{
-           "id":"2",
-           "name":"Esparza",
-           "locationsLevel3":{
-              "Espíritu Santo":{
-                 "id":"1",
-                 "name":"Espíritu Santo",
-                 "zipCode":"60201"
-              },
-              "San Juan Grande":{
-                 "id":"2",
-                 "name":"San Juan Grande",
-                 "zipCode":"60202"
-              },
-              "Macacona":{
-                 "id":"3",
-                 "name":"Macacona",
-                 "zipCode":"60203"
-              },
-              "San Rafael":{
-                 "id":"4",
-                 "name":"San Rafael",
-                 "zipCode":"60204"
-              },
-              "San Jerónimo":{
-                 "id":"5",
-                 "name":"San Jerónimo",
-                 "zipCode":"60205"
-              },
-              "Caldera":{
-                 "id":"6",
-                 "name":"Caldera",
-                 "zipCode":"60206"
-              }
-           }
-        },
-        "Buenos Aires":{
-           "id":"3",
-           "name":"Buenos Aires",
-           "locationsLevel3":{
-              "Buenos Aires":{
-                 "id":"1",
-                 "name":"Buenos Aires",
-                 "zipCode":"60301"
-              },
-              "Volcán":{
-                 "id":"2",
-                 "name":"Volcán",
-                 "zipCode":"60302"
-              },
-              "Potrero Grande":{
-                 "id":"3",
-                 "name":"Potrero Grande",
-                 "zipCode":"60303"
-              },
-              "Boruca":{
-                 "id":"4",
-                 "name":"Boruca",
-                 "zipCode":"60304"
-              },
-              "Pilas":{
-                 "id":"5",
-                 "name":"Pilas",
-                 "zipCode":"60305"
-              },
-              "Colinas":{
-                 "id":"6",
-                 "name":"Colinas",
-                 "zipCode":"60306"
-              },
-              "Changuena":{
-                 "id":"7",
-                 "name":"Changuena",
-                 "zipCode":"60307"
-              },
-              "Biolley":{
-                 "id":"8",
-                 "name":"Biolley",
-                 "zipCode":"60308"
-              },
-              "Brunka":{
-                 "id":"9",
-                 "name":"Brunka",
-                 "zipCode":"60309"
-              }
-           }
-        },
-        "Montes De Oro":{
-           "id":"4",
-           "name":"Montes De Oro",
-           "locationsLevel3":{
-              "Miramar":{
-                 "id":"1",
-                 "name":"Miramar",
-                 "zipCode":"60401"
-              },
-              "La Unión":{
-                 "id":"2",
-                 "name":"La Unión",
-                 "zipCode":"60402"
-              },
-              "San Isidro":{
-                 "id":"3",
-                 "name":"San Isidro",
-                 "zipCode":"60403"
-              }
-           }
-        },
-        "Osa":{
-           "id":"5",
-           "name":"Osa",
-           "locationsLevel3":{
-              "Puerto Cortés":{
-                 "id":"1",
-                 "name":"Puerto Cortés",
-                 "zipCode":"60501"
-              },
-              "Palmar":{
-                 "id":"2",
-                 "name":"Palmar",
-                 "zipCode":"60502"
-              },
-              "Sierpe":{
-                 "id":"3",
-                 "name":"Sierpe",
-                 "zipCode":"60503"
-              },
-              "Bahía Ballena":{
-                 "id":"4",
-                 "name":"Bahía Ballena",
-                 "zipCode":"60504"
-              },
-              "Piedras Blancas":{
-                 "id":"5",
-                 "name":"Piedras Blancas",
-                 "zipCode":"60505"
-              },
-              "Bahía Drake":{
-                 "id":"6",
-                 "name":"Bahía Drake",
-                 "zipCode":"60506"
-              }
-           }
-        },
-        "Quepos":{
-           "id":"6",
-           "name":"Quepos",
-           "locationsLevel3":{
-              "Quepos":{
-                 "id":"1",
-                 "name":"Quepos",
-                 "zipCode":"60601"
-              },
-              "Savegre":{
-                 "id":"2",
-                 "name":"Savegre",
-                 "zipCode":"60602"
-              },
-              "Naranjito":{
-                 "id":"3",
-                 "name":"Naranjito",
-                 "zipCode":"60603"
-              }
-           }
-        },
-        "Golfito":{
-           "id":"7",
-           "name":"Golfito",
-           "locationsLevel3":{
-              "Golfito":{
-                 "id":"1",
-                 "name":"Golfito",
-                 "zipCode":"60701"
-              },
-              "Puerto Jiménez":{
-                 "id":"2",
-                 "name":"Puerto Jiménez",
-                 "zipCode":"60702"
-              },
-              "Guaycara":{
-                 "id":"3",
-                 "name":"Guaycara",
-                 "zipCode":"60703"
-              },
-              "Pavón":{
-                 "id":"4",
-                 "name":"Pavón",
-                 "zipCode":"60704"
-              }
-           }
-        },
-        "Coto Brus":{
-           "id":"8",
-           "name":"Coto Brus",
-           "locationsLevel3":{
-              "San Vito":{
-                 "id":"1",
-                 "name":"San Vito",
-                 "zipCode":"60801"
-              },
-              "Sabalito":{
-                 "id":"2",
-                 "name":"Sabalito",
-                 "zipCode":"60802"
-              },
-              "Aguabuena":{
-                 "id":"3",
-                 "name":"Aguabuena",
-                 "zipCode":"60803"
-              },
-              "Limoncito":{
-                 "id":"4",
-                 "name":"Limoncito",
-                 "zipCode":"60804"
-              },
-              "Pittier":{
-                 "id":"5",
-                 "name":"Pittier",
-                 "zipCode":"60805"
-              }
-           }
-        },
-        "Parrita":{
-           "id":"9",
-           "name":"Parrita",
-           "locationsLevel3":{
-              "Parrita":{
-                 "id":"1",
-                 "name":"Parrita",
-                 "zipCode":"60901"
-              }
-           }
-        },
-        "Corredores":{
-           "id":"10",
-           "name":"Corredores",
-           "locationsLevel3":{
-              "Corredor":{
-                 "id":"1",
-                 "name":"Corredor",
-                 "zipCode":"61001"
-              },
-              "La Cuesta":{
-                 "id":"2",
-                 "name":"La Cuesta",
-                 "zipCode":"61002"
-              },
-              "Canoas":{
-                 "id":"3",
-                 "name":"Canoas",
-                 "zipCode":"61003"
-              },
-              "Laurel":{
-                 "id":"4",
-                 "name":"Laurel",
-                 "zipCode":"61004"
-              }
-           }
-        },
-        "Garabito":{
-           "id":"11",
-           "name":"Garabito",
-           "locationsLevel3":{
-              "Jacó":{
-                 "id":"1",
-                 "name":"Jacó",
-                 "zipCode":"61101"
-              },
-              "Tárcoles":{
-                 "id":"2",
-                 "name":"Tárcoles",
-                 "zipCode":"61102"
-              }
-           }
+    "id":"6",
+    "name":"Puntarenas",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Puntarenas":{
+            "id":"1",
+            "name":"Puntarenas",
+            "zipCode":"60101"
+          },
+          "Pitahaya":{
+            "id":"2",
+            "name":"Pitahaya",
+            "zipCode":"60102"
+          },
+          "Chomes":{
+            "id":"3",
+            "name":"Chomes",
+            "zipCode":"60103"
+          },
+          "Lepanto":{
+            "id":"4",
+            "name":"Lepanto",
+            "zipCode":"60104"
+          },
+          "Paquera":{
+            "id":"5",
+            "name":"Paquera",
+            "zipCode":"60105"
+          },
+          "Manzanillo":{
+            "id":"6",
+            "name":"Manzanillo",
+            "zipCode":"60106"
+          },
+          "Guacimal":{
+            "id":"7",
+            "name":"Guacimal",
+            "zipCode":"60107"
+          },
+          "Barranca":{
+            "id":"8",
+            "name":"Barranca",
+            "zipCode":"60108"
+          },
+          "Monte Verde":{
+            "id":"9",
+            "name":"Monte Verde",
+            "zipCode":"60109"
+          },
+          "Isla Del Coco":{
+            "id":"10",
+            "name":"Isla Del Coco",
+            "zipCode":"60110"
+          },
+          "Cóbano":{
+            "id":"11",
+            "name":"Cóbano",
+            "zipCode":"60111"
+          },
+          "Chacarita":{
+            "id":"12",
+            "name":"Chacarita",
+            "zipCode":"60112"
+          },
+          "Chira":{
+            "id":"13",
+            "name":"Chira",
+            "zipCode":"60113"
+          },
+          "Acapulco":{
+            "id":"14",
+            "name":"Acapulco",
+            "zipCode":"60114"
+          },
+          "El Roble":{
+            "id":"15",
+            "name":"El Roble",
+            "zipCode":"60115"
+          },
+          "Arancibia":{
+            "id":"16",
+            "name":"Arancibia",
+            "zipCode":"60116"
+          }
         }
-     }
+      },
+      "Esparza":{
+        "id":"2",
+        "name":"Esparza",
+        "locationsLevel3":{
+          "Espíritu Santo":{
+            "id":"1",
+            "name":"Espíritu Santo",
+            "zipCode":"60201"
+          },
+          "San Juan Grande":{
+            "id":"2",
+            "name":"San Juan Grande",
+            "zipCode":"60202"
+          },
+          "Macacona":{
+            "id":"3",
+            "name":"Macacona",
+            "zipCode":"60203"
+          },
+          "San Rafael":{
+            "id":"4",
+            "name":"San Rafael",
+            "zipCode":"60204"
+          },
+          "San Jerónimo":{
+            "id":"5",
+            "name":"San Jerónimo",
+            "zipCode":"60205"
+          },
+          "Caldera":{
+            "id":"6",
+            "name":"Caldera",
+            "zipCode":"60206"
+          }
+        }
+      },
+      "Buenos Aires":{
+        "id":"3",
+        "name":"Buenos Aires",
+        "locationsLevel3":{
+          "Buenos Aires":{
+            "id":"1",
+            "name":"Buenos Aires",
+            "zipCode":"60301"
+          },
+          "Volcán":{
+            "id":"2",
+            "name":"Volcán",
+            "zipCode":"60302"
+          },
+          "Potrero Grande":{
+            "id":"3",
+            "name":"Potrero Grande",
+            "zipCode":"60303"
+          },
+          "Boruca":{
+            "id":"4",
+            "name":"Boruca",
+            "zipCode":"60304"
+          },
+          "Pilas":{
+            "id":"5",
+            "name":"Pilas",
+            "zipCode":"60305"
+          },
+          "Colinas":{
+            "id":"6",
+            "name":"Colinas",
+            "zipCode":"60306"
+          },
+          "Changuena":{
+            "id":"7",
+            "name":"Changuena",
+            "zipCode":"60307"
+          },
+          "Biolley":{
+            "id":"8",
+            "name":"Biolley",
+            "zipCode":"60308"
+          },
+          "Brunka":{
+            "id":"9",
+            "name":"Brunka",
+            "zipCode":"60309"
+          }
+        }
+      },
+      "Montes De Oro":{
+        "id":"4",
+        "name":"Montes De Oro",
+        "locationsLevel3":{
+          "Miramar":{
+            "id":"1",
+            "name":"Miramar",
+            "zipCode":"60401"
+          },
+          "La Unión":{
+            "id":"2",
+            "name":"La Unión",
+            "zipCode":"60402"
+          },
+          "San Isidro":{
+            "id":"3",
+            "name":"San Isidro",
+            "zipCode":"60403"
+          }
+        }
+      },
+      "Osa":{
+        "id":"5",
+        "name":"Osa",
+        "locationsLevel3":{
+          "Puerto Cortés":{
+            "id":"1",
+            "name":"Puerto Cortés",
+            "zipCode":"60501"
+          },
+          "Palmar":{
+            "id":"2",
+            "name":"Palmar",
+            "zipCode":"60502"
+          },
+          "Sierpe":{
+            "id":"3",
+            "name":"Sierpe",
+            "zipCode":"60503"
+          },
+          "Bahía Ballena":{
+            "id":"4",
+            "name":"Bahía Ballena",
+            "zipCode":"60504"
+          },
+          "Piedras Blancas":{
+            "id":"5",
+            "name":"Piedras Blancas",
+            "zipCode":"60505"
+          },
+          "Bahía Drake":{
+            "id":"6",
+            "name":"Bahía Drake",
+            "zipCode":"60506"
+          }
+        }
+      },
+      "Quepos":{
+        "id":"6",
+        "name":"Quepos",
+        "locationsLevel3":{
+          "Quepos":{
+            "id":"1",
+            "name":"Quepos",
+            "zipCode":"60601"
+          },
+          "Savegre":{
+            "id":"2",
+            "name":"Savegre",
+            "zipCode":"60602"
+          },
+          "Naranjito":{
+            "id":"3",
+            "name":"Naranjito",
+            "zipCode":"60603"
+          }
+        }
+      },
+      "Golfito":{
+        "id":"7",
+        "name":"Golfito",
+        "locationsLevel3":{
+          "Golfito":{
+            "id":"1",
+            "name":"Golfito",
+            "zipCode":"60701"
+          },
+          "Puerto Jiménez":{
+            "id":"2",
+            "name":"Puerto Jiménez",
+            "zipCode":"60702"
+          },
+          "Guaycara":{
+            "id":"3",
+            "name":"Guaycara",
+            "zipCode":"60703"
+          },
+          "Pavón":{
+            "id":"4",
+            "name":"Pavón",
+            "zipCode":"60704"
+          }
+        }
+      },
+      "Coto Brus":{
+        "id":"8",
+        "name":"Coto Brus",
+        "locationsLevel3":{
+          "San Vito":{
+            "id":"1",
+            "name":"San Vito",
+            "zipCode":"60801"
+          },
+          "Sabalito":{
+            "id":"2",
+            "name":"Sabalito",
+            "zipCode":"60802"
+          },
+          "Aguabuena":{
+            "id":"3",
+            "name":"Aguabuena",
+            "zipCode":"60803"
+          },
+          "Limoncito":{
+            "id":"4",
+            "name":"Limoncito",
+            "zipCode":"60804"
+          },
+          "Pittier":{
+            "id":"5",
+            "name":"Pittier",
+            "zipCode":"60805"
+          }
+        }
+      },
+      "Parrita":{
+        "id":"9",
+        "name":"Parrita",
+        "locationsLevel3":{
+          "Parrita":{
+            "id":"1",
+            "name":"Parrita",
+            "zipCode":"60901"
+          }
+        }
+      },
+      "Corredores":{
+        "id":"10",
+        "name":"Corredores",
+        "locationsLevel3":{
+          "Corredor":{
+            "id":"1",
+            "name":"Corredor",
+            "zipCode":"61001"
+          },
+          "La Cuesta":{
+            "id":"2",
+            "name":"La Cuesta",
+            "zipCode":"61002"
+          },
+          "Canoas":{
+            "id":"3",
+            "name":"Canoas",
+            "zipCode":"61003"
+          },
+          "Laurel":{
+            "id":"4",
+            "name":"Laurel",
+            "zipCode":"61004"
+          }
+        }
+      },
+      "Garabito":{
+        "id":"11",
+        "name":"Garabito",
+        "locationsLevel3":{
+          "Jacó":{
+            "id":"1",
+            "name":"Jacó",
+            "zipCode":"61101"
+          },
+          "Tárcoles":{
+            "id":"2",
+            "name":"Tárcoles",
+            "zipCode":"61102"
+          }
+        }
+      }
+    }
   },
   "Limón":{
-     "id":"7",
-     "name":"Limón",
-     "locationsLevel2":{
-        "Central":{
-           "id":"1",
-           "name":"Central",
-           "locationsLevel3":{
-              "Limón":{
-                 "id":"1",
-                 "name":"Limón",
-                 "zipCode":"70101"
-              },
-              "Valle La Estrella":{
-                 "id":"2",
-                 "name":"Valle La Estrella",
-                 "zipCode":"70102"
-              },
-              "Rio Blanco":{
-                 "id":"3",
-                 "name":"Rio Blanco",
-                 "zipCode":"70103"
-              },
-              "Matama":{
-                 "id":"4",
-                 "name":"Matama",
-                 "zipCode":"70104"
-              }
-           }
-        },
-        "Pococí":{
-           "id":"2",
-           "name":"Pococí",
-           "locationsLevel3":{
-              "Guapiles":{
-                 "id":"1",
-                 "name":"Guapiles",
-                 "zipCode":"70201"
-              },
-              "Jiménez":{
-                 "id":"2",
-                 "name":"Jiménez",
-                 "zipCode":"70202"
-              },
-              "Rita":{
-                 "id":"3",
-                 "name":"Rita",
-                 "zipCode":"70203"
-              },
-              "Roxana":{
-                 "id":"4",
-                 "name":"Roxana",
-                 "zipCode":"70204"
-              },
-              "Cariari":{
-                 "id":"5",
-                 "name":"Cariari",
-                 "zipCode":"70205"
-              },
-              "Colorado":{
-                 "id":"6",
-                 "name":"Colorado",
-                 "zipCode":"70206"
-              },
-              "La Colonia":{
-                 "id":"7",
-                 "name":"La Colonia",
-                 "zipCode":"70207"
-              }
-           }
-        },
-        "Siquirres":{
-           "id":"3",
-           "name":"Siquirres",
-           "locationsLevel3":{
-              "Siquirres":{
-                 "id":"1",
-                 "name":"Siquirres",
-                 "zipCode":"70301"
-              },
-              "Pacuarito":{
-                 "id":"2",
-                 "name":"Pacuarito",
-                 "zipCode":"70302"
-              },
-              "Florida":{
-                 "id":"3",
-                 "name":"Florida",
-                 "zipCode":"70303"
-              },
-              "Germania":{
-                 "id":"4",
-                 "name":"Germania",
-                 "zipCode":"70304"
-              },
-              "El Cairo":{
-                 "id":"5",
-                 "name":"El Cairo",
-                 "zipCode":"70305"
-              },
-              "Alegría":{
-                 "id":"6",
-                 "name":"Alegría",
-                 "zipCode":"70306"
-              }
-           }
-        },
-        "Talamanca":{
-           "id":"4",
-           "name":"Talamanca",
-           "locationsLevel3":{
-              "Bratsi":{
-                 "id":"1",
-                 "name":"Bratsi",
-                 "zipCode":"70401"
-              },
-              "Sixaola":{
-                 "id":"2",
-                 "name":"Sixaola",
-                 "zipCode":"70402"
-              },
-              "Cahuita":{
-                 "id":"3",
-                 "name":"Cahuita",
-                 "zipCode":"70403"
-              },
-              "Telire":{
-                 "id":"4",
-                 "name":"Telire",
-                 "zipCode":"70404"
-              }
-           }
-        },
-        "Matina":{
-           "id":"5",
-           "name":"Matina",
-           "locationsLevel3":{
-              "Matina":{
-                 "id":"1",
-                 "name":"Matina",
-                 "zipCode":"70501"
-              },
-              "Batán":{
-                 "id":"2",
-                 "name":"Batán",
-                 "zipCode":"70502"
-              },
-              "Carrandi":{
-                 "id":"3",
-                 "name":"Carrandi",
-                 "zipCode":"70503"
-              }
-           }
-        },
-        "Guácimo":{
-           "id":"6",
-           "name":"Guácimo",
-           "locationsLevel3":{
-              "Guácimo":{
-                 "id":"1",
-                 "name":"Guácimo",
-                 "zipCode":"70601"
-              },
-              "Mercedes":{
-                 "id":"2",
-                 "name":"Mercedes",
-                 "zipCode":"70602"
-              },
-              "Pocora":{
-                 "id":"3",
-                 "name":"Pocora",
-                 "zipCode":"70603"
-              },
-              "Rio Jiménez":{
-                 "id":"4",
-                 "name":"Rio Jiménez",
-                 "zipCode":"70604"
-              },
-              "Duacari":{
-                 "id":"5",
-                 "name":"Duacari",
-                 "zipCode":"70605"
-              }
-           }
+    "id":"7",
+    "name":"Limón",
+    "locationsLevel2":{
+      "Central":{
+        "id":"1",
+        "name":"Central",
+        "locationsLevel3":{
+          "Limón":{
+            "id":"1",
+            "name":"Limón",
+            "zipCode":"70101"
+          },
+          "Valle La Estrella":{
+            "id":"2",
+            "name":"Valle La Estrella",
+            "zipCode":"70102"
+          },
+          "Rio Blanco":{
+            "id":"3",
+            "name":"Rio Blanco",
+            "zipCode":"70103"
+          },
+          "Matama":{
+            "id":"4",
+            "name":"Matama",
+            "zipCode":"70104"
+          }
         }
-     }
+      },
+      "Pococí":{
+        "id":"2",
+        "name":"Pococí",
+        "locationsLevel3":{
+          "Guapiles":{
+            "id":"1",
+            "name":"Guapiles",
+            "zipCode":"70201"
+          },
+          "Jiménez":{
+            "id":"2",
+            "name":"Jiménez",
+            "zipCode":"70202"
+          },
+          "Rita":{
+            "id":"3",
+            "name":"Rita",
+            "zipCode":"70203"
+          },
+          "Roxana":{
+            "id":"4",
+            "name":"Roxana",
+            "zipCode":"70204"
+          },
+          "Cariari":{
+            "id":"5",
+            "name":"Cariari",
+            "zipCode":"70205"
+          },
+          "Colorado":{
+            "id":"6",
+            "name":"Colorado",
+            "zipCode":"70206"
+          },
+          "La Colonia":{
+            "id":"7",
+            "name":"La Colonia",
+            "zipCode":"70207"
+          }
+        }
+      },
+      "Siquirres":{
+        "id":"3",
+        "name":"Siquirres",
+        "locationsLevel3":{
+          "Siquirres":{
+            "id":"1",
+            "name":"Siquirres",
+            "zipCode":"70301"
+          },
+          "Pacuarito":{
+            "id":"2",
+            "name":"Pacuarito",
+            "zipCode":"70302"
+          },
+          "Florida":{
+            "id":"3",
+            "name":"Florida",
+            "zipCode":"70303"
+          },
+          "Germania":{
+            "id":"4",
+            "name":"Germania",
+            "zipCode":"70304"
+          },
+          "El Cairo":{
+            "id":"5",
+            "name":"El Cairo",
+            "zipCode":"70305"
+          },
+          "Alegría":{
+            "id":"6",
+            "name":"Alegría",
+            "zipCode":"70306"
+          }
+        }
+      },
+      "Talamanca":{
+        "id":"4",
+        "name":"Talamanca",
+        "locationsLevel3":{
+          "Bratsi":{
+            "id":"1",
+            "name":"Bratsi",
+            "zipCode":"70401"
+          },
+          "Sixaola":{
+            "id":"2",
+            "name":"Sixaola",
+            "zipCode":"70402"
+          },
+          "Cahuita":{
+            "id":"3",
+            "name":"Cahuita",
+            "zipCode":"70403"
+          },
+          "Telire":{
+            "id":"4",
+            "name":"Telire",
+            "zipCode":"70404"
+          }
+        }
+      },
+      "Matina":{
+        "id":"5",
+        "name":"Matina",
+        "locationsLevel3":{
+          "Matina":{
+            "id":"1",
+            "name":"Matina",
+            "zipCode":"70501"
+          },
+          "Batán":{
+            "id":"2",
+            "name":"Batán",
+            "zipCode":"70502"
+          },
+          "Carrandi":{
+            "id":"3",
+            "name":"Carrandi",
+            "zipCode":"70503"
+          }
+        }
+      },
+      "Guácimo":{
+        "id":"6",
+        "name":"Guácimo",
+        "locationsLevel3":{
+          "Guácimo":{
+            "id":"1",
+            "name":"Guácimo",
+            "zipCode":"70601"
+          },
+          "Mercedes":{
+            "id":"2",
+            "name":"Mercedes",
+            "zipCode":"70602"
+          },
+          "Pocora":{
+            "id":"3",
+            "name":"Pocora",
+            "zipCode":"70603"
+          },
+          "Rio Jiménez":{
+            "id":"4",
+            "name":"Rio Jiménez",
+            "zipCode":"70604"
+          },
+          "Duacari":{
+            "id":"5",
+            "name":"Duacari",
+            "zipCode":"70605"
+          }
+        }
+      }
+    }
   }
 }

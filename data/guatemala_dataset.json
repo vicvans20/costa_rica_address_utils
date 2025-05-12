@@ -1,2674 +1,2674 @@
 {
   "Sacatepéquez":{
-     "id":"03",
-     "name":"Sacatepéquez",
-     "locationsLevel2":{
-        "Antigua Guatemala":{
-           "id":"001",
-           "name":"Antigua Guatemala",
-           "zipCode":"03001"
-        },
-        "Jocotenango":{
-           "id":"002",
-           "name":"Jocotenango",
-           "zipCode":"03002"
-        },
-        "Pastores":{
-           "id":"003",
-           "name":"Pastores",
-           "zipCode":"03003"
-        },
-        "Sumpango":{
-           "id":"004",
-           "name":"Sumpango",
-           "zipCode":"03004"
-        },
-        "Santo Domingo Xenacoj":{
-           "id":"005",
-           "name":"Santo Domingo Xenacoj",
-           "zipCode":"03005"
-        },
-        "Santiago Sacatepequez":{
-           "id":"006",
-           "name":"Santiago Sacatepequez",
-           "zipCode":"03006"
-        },
-        "San Bartolome Milpas Altas":{
-           "id":"007",
-           "name":"San Bartolome Milpas Altas",
-           "zipCode":"03007"
-        },
-        "San Lucas Sacatepequez":{
-           "id":"008",
-           "name":"San Lucas Sacatepequez",
-           "zipCode":"03008"
-        },
-        "Santa Lucia Milpas Altas":{
-           "id":"009",
-           "name":"Santa Lucia Milpas Altas",
-           "zipCode":"03009"
-        },
-        "Magdalena Milpas Altas":{
-           "id":"010",
-           "name":"Magdalena Milpas Altas",
-           "zipCode":"03010"
-        },
-        "Santa Maria De Jesus":{
-           "id":"011",
-           "name":"Santa Maria De Jesus",
-           "zipCode":"03011"
-        },
-        "Ciudad Vieja":{
-           "id":"012",
-           "name":"Ciudad Vieja",
-           "zipCode":"03012"
-        },
-        "San Miguel Duenas":{
-           "id":"013",
-           "name":"San Miguel Duenas",
-           "zipCode":"03013"
-        },
-        "Alotenango":{
-           "id":"014",
-           "name":"Alotenango",
-           "zipCode":"03014"
-        },
-        "San Antonio Aguas Calientes":{
-           "id":"015",
-           "name":"San Antonio Aguas Calientes",
-           "zipCode":"03015"
-        },
-        "Santa Catarina Barahona":{
-           "id":"016",
-           "name":"Santa Catarina Barahona",
-           "zipCode":"03016"
-        },
-        "Santa Maria Cauque":{
-           "id":"017",
-           "name":"Santa Maria Cauque",
-           "zipCode":"03017"
-        }
-     }
+    "id":"03",
+    "name":"Sacatepéquez",
+    "locationsLevel2":{
+      "Antigua Guatemala":{
+        "id":"001",
+        "name":"Antigua Guatemala",
+        "zipCode":"03001"
+      },
+      "Jocotenango":{
+        "id":"002",
+        "name":"Jocotenango",
+        "zipCode":"03002"
+      },
+      "Pastores":{
+        "id":"003",
+        "name":"Pastores",
+        "zipCode":"03003"
+      },
+      "Sumpango":{
+        "id":"004",
+        "name":"Sumpango",
+        "zipCode":"03004"
+      },
+      "Santo Domingo Xenacoj":{
+        "id":"005",
+        "name":"Santo Domingo Xenacoj",
+        "zipCode":"03005"
+      },
+      "Santiago Sacatepequez":{
+        "id":"006",
+        "name":"Santiago Sacatepequez",
+        "zipCode":"03006"
+      },
+      "San Bartolome Milpas Altas":{
+        "id":"007",
+        "name":"San Bartolome Milpas Altas",
+        "zipCode":"03007"
+      },
+      "San Lucas Sacatepequez":{
+        "id":"008",
+        "name":"San Lucas Sacatepequez",
+        "zipCode":"03008"
+      },
+      "Santa Lucia Milpas Altas":{
+        "id":"009",
+        "name":"Santa Lucia Milpas Altas",
+        "zipCode":"03009"
+      },
+      "Magdalena Milpas Altas":{
+        "id":"010",
+        "name":"Magdalena Milpas Altas",
+        "zipCode":"03010"
+      },
+      "Santa Maria De Jesus":{
+        "id":"011",
+        "name":"Santa Maria De Jesus",
+        "zipCode":"03011"
+      },
+      "Ciudad Vieja":{
+        "id":"012",
+        "name":"Ciudad Vieja",
+        "zipCode":"03012"
+      },
+      "San Miguel Duenas":{
+        "id":"013",
+        "name":"San Miguel Duenas",
+        "zipCode":"03013"
+      },
+      "Alotenango":{
+        "id":"014",
+        "name":"Alotenango",
+        "zipCode":"03014"
+      },
+      "San Antonio Aguas Calientes":{
+        "id":"015",
+        "name":"San Antonio Aguas Calientes",
+        "zipCode":"03015"
+      },
+      "Santa Catarina Barahona":{
+        "id":"016",
+        "name":"Santa Catarina Barahona",
+        "zipCode":"03016"
+      },
+      "Santa Maria Cauque":{
+        "id":"017",
+        "name":"Santa Maria Cauque",
+        "zipCode":"03017"
+      }
+    }
   },
   "Chimaltenango":{
-     "id":"04",
-     "name":"Chimaltenango",
-     "locationsLevel2":{
-        "Chimaltenango":{
-           "id":"001",
-           "name":"Chimaltenango",
-           "zipCode":"04001"
-        },
-        "San Jose Poaquil":{
-           "id":"002",
-           "name":"San Jose Poaquil",
-           "zipCode":"04002"
-        },
-        "San Martin Jilotepeque":{
-           "id":"003",
-           "name":"San Martin Jilotepeque",
-           "zipCode":"04003"
-        },
-        "Comalapa":{
-           "id":"004",
-           "name":"Comalapa",
-           "zipCode":"04004"
-        },
-        "Santa Apolonia":{
-           "id":"005",
-           "name":"Santa Apolonia",
-           "zipCode":"04005"
-        },
-        "Tecpan Guatemala":{
-           "id":"006",
-           "name":"Tecpan Guatemala",
-           "zipCode":"04006"
-        },
-        "Patzun":{
-           "id":"007",
-           "name":"Patzun",
-           "zipCode":"04007"
-        },
-        "Pochuta":{
-           "id":"008",
-           "name":"Pochuta",
-           "zipCode":"04008"
-        },
-        "Patzicia":{
-           "id":"009",
-           "name":"Patzicia",
-           "zipCode":"04009"
-        },
-        "Santa Cruz Balanya":{
-           "id":"010",
-           "name":"Santa Cruz Balanya",
-           "zipCode":"04010"
-        },
-        "Acatenango":{
-           "id":"011",
-           "name":"Acatenango",
-           "zipCode":"04011"
-        },
-        "Yepocapa":{
-           "id":"012",
-           "name":"Yepocapa",
-           "zipCode":"04012"
-        },
-        "San Andres Itzapa":{
-           "id":"013",
-           "name":"San Andres Itzapa",
-           "zipCode":"04013"
-        },
-        "Parramos":{
-           "id":"014",
-           "name":"Parramos",
-           "zipCode":"04014"
-        },
-        "Zaragoza":{
-           "id":"015",
-           "name":"Zaragoza",
-           "zipCode":"04015"
-        },
-        "El Tejar":{
-           "id":"016",
-           "name":"El Tejar",
-           "zipCode":"04016"
-        }
-     }
+    "id":"04",
+    "name":"Chimaltenango",
+    "locationsLevel2":{
+      "Chimaltenango":{
+        "id":"001",
+        "name":"Chimaltenango",
+        "zipCode":"04001"
+      },
+      "San Jose Poaquil":{
+        "id":"002",
+        "name":"San Jose Poaquil",
+        "zipCode":"04002"
+      },
+      "San Martin Jilotepeque":{
+        "id":"003",
+        "name":"San Martin Jilotepeque",
+        "zipCode":"04003"
+      },
+      "Comalapa":{
+        "id":"004",
+        "name":"Comalapa",
+        "zipCode":"04004"
+      },
+      "Santa Apolonia":{
+        "id":"005",
+        "name":"Santa Apolonia",
+        "zipCode":"04005"
+      },
+      "Tecpan Guatemala":{
+        "id":"006",
+        "name":"Tecpan Guatemala",
+        "zipCode":"04006"
+      },
+      "Patzun":{
+        "id":"007",
+        "name":"Patzun",
+        "zipCode":"04007"
+      },
+      "Pochuta":{
+        "id":"008",
+        "name":"Pochuta",
+        "zipCode":"04008"
+      },
+      "Patzicia":{
+        "id":"009",
+        "name":"Patzicia",
+        "zipCode":"04009"
+      },
+      "Santa Cruz Balanya":{
+        "id":"010",
+        "name":"Santa Cruz Balanya",
+        "zipCode":"04010"
+      },
+      "Acatenango":{
+        "id":"011",
+        "name":"Acatenango",
+        "zipCode":"04011"
+      },
+      "Yepocapa":{
+        "id":"012",
+        "name":"Yepocapa",
+        "zipCode":"04012"
+      },
+      "San Andres Itzapa":{
+        "id":"013",
+        "name":"San Andres Itzapa",
+        "zipCode":"04013"
+      },
+      "Parramos":{
+        "id":"014",
+        "name":"Parramos",
+        "zipCode":"04014"
+      },
+      "Zaragoza":{
+        "id":"015",
+        "name":"Zaragoza",
+        "zipCode":"04015"
+      },
+      "El Tejar":{
+        "id":"016",
+        "name":"El Tejar",
+        "zipCode":"04016"
+      }
+    }
   },
   "Escuintla":{
-     "id":"05",
-     "name":"Escuintla",
-     "locationsLevel2":{
-        "Escuintla":{
-           "id":"001",
-           "name":"Escuintla",
-           "zipCode":"05001"
-        },
-        "Santa Lucia Cotzumalguapa":{
-           "id":"002",
-           "name":"Santa Lucia Cotzumalguapa",
-           "zipCode":"05002"
-        },
-        "La Democracia":{
-           "id":"003",
-           "name":"La Democracia",
-           "zipCode":"05003"
-        },
-        "Siquinala":{
-           "id":"004",
-           "name":"Siquinala",
-           "zipCode":"05004"
-        },
-        "Masagua":{
-           "id":"005",
-           "name":"Masagua",
-           "zipCode":"05005"
-        },
-        "Tiquisate":{
-           "id":"006",
-           "name":"Tiquisate",
-           "zipCode":"05006"
-        },
-        "La Gomera":{
-           "id":"007",
-           "name":"La Gomera",
-           "zipCode":"05007"
-        },
-        "San Jose":{
-           "id":"009",
-           "name":"San Jose",
-           "zipCode":"05009"
-        },
-        "Itzapa":{
-           "id":"010",
-           "name":"Itzapa",
-           "zipCode":"05010"
-        },
-        "Palin":{
-           "id":"011",
-           "name":"Palin",
-           "zipCode":"05011"
-        },
-        "San Vicente Pacaya":{
-           "id":"012",
-           "name":"San Vicente Pacaya",
-           "zipCode":"05012"
-        },
-        "Nueva Concepcion":{
-           "id":"013",
-           "name":"Nueva Concepcion",
-           "zipCode":"05013"
-        },
-        "Obero (Masagua)":{
-           "id":"014",
-           "name":"Obero (Masagua)",
-           "zipCode":"05014"
-        },
-        "Brito (Guanagazapa)":{
-           "id":"015",
-           "name":"Brito (Guanagazapa)",
-           "zipCode":"05015"
-        },
-        "Santa Ana Mixtan (Nueva Concepcion)":{
-           "id":"016",
-           "name":"Santa Ana Mixtan (Nueva Concepcion)",
-           "zipCode":"05016"
-        },
-        "El Naranjo (Masagua)":{
-           "id":"017",
-           "name":"El Naranjo (Masagua)",
-           "zipCode":"05017"
-        },
-        "San Andres Osuma (Escuintla)":{
-           "id":"018",
-           "name":"San Andres Osuma (Escuintla)",
-           "zipCode":"05018"
-        },
-        "Cuyuta (Masagua)":{
-           "id":"019",
-           "name":"Cuyuta (Masagua)",
-           "zipCode":"05019"
-        },
-        "El Porvenir Ticanlu (Tiquisate)":{
-           "id":"020",
-           "name":"El Porvenir Ticanlu (Tiquisate)",
-           "zipCode":"05020"
-        },
-        "Sipacate (La Gomera)":{
-           "id":"021",
-           "name":"Sipacate (La Gomera)",
-           "zipCode":"05021"
-        }
-     }
+    "id":"05",
+    "name":"Escuintla",
+    "locationsLevel2":{
+      "Escuintla":{
+        "id":"001",
+        "name":"Escuintla",
+        "zipCode":"05001"
+      },
+      "Santa Lucia Cotzumalguapa":{
+        "id":"002",
+        "name":"Santa Lucia Cotzumalguapa",
+        "zipCode":"05002"
+      },
+      "La Democracia":{
+        "id":"003",
+        "name":"La Democracia",
+        "zipCode":"05003"
+      },
+      "Siquinala":{
+        "id":"004",
+        "name":"Siquinala",
+        "zipCode":"05004"
+      },
+      "Masagua":{
+        "id":"005",
+        "name":"Masagua",
+        "zipCode":"05005"
+      },
+      "Tiquisate":{
+        "id":"006",
+        "name":"Tiquisate",
+        "zipCode":"05006"
+      },
+      "La Gomera":{
+        "id":"007",
+        "name":"La Gomera",
+        "zipCode":"05007"
+      },
+      "San Jose":{
+        "id":"009",
+        "name":"San Jose",
+        "zipCode":"05009"
+      },
+      "Itzapa":{
+        "id":"010",
+        "name":"Itzapa",
+        "zipCode":"05010"
+      },
+      "Palin":{
+        "id":"011",
+        "name":"Palin",
+        "zipCode":"05011"
+      },
+      "San Vicente Pacaya":{
+        "id":"012",
+        "name":"San Vicente Pacaya",
+        "zipCode":"05012"
+      },
+      "Nueva Concepcion":{
+        "id":"013",
+        "name":"Nueva Concepcion",
+        "zipCode":"05013"
+      },
+      "Obero (Masagua)":{
+        "id":"014",
+        "name":"Obero (Masagua)",
+        "zipCode":"05014"
+      },
+      "Brito (Guanagazapa)":{
+        "id":"015",
+        "name":"Brito (Guanagazapa)",
+        "zipCode":"05015"
+      },
+      "Santa Ana Mixtan (Nueva Concepcion)":{
+        "id":"016",
+        "name":"Santa Ana Mixtan (Nueva Concepcion)",
+        "zipCode":"05016"
+      },
+      "El Naranjo (Masagua)":{
+        "id":"017",
+        "name":"El Naranjo (Masagua)",
+        "zipCode":"05017"
+      },
+      "San Andres Osuma (Escuintla)":{
+        "id":"018",
+        "name":"San Andres Osuma (Escuintla)",
+        "zipCode":"05018"
+      },
+      "Cuyuta (Masagua)":{
+        "id":"019",
+        "name":"Cuyuta (Masagua)",
+        "zipCode":"05019"
+      },
+      "El Porvenir Ticanlu (Tiquisate)":{
+        "id":"020",
+        "name":"El Porvenir Ticanlu (Tiquisate)",
+        "zipCode":"05020"
+      },
+      "Sipacate (La Gomera)":{
+        "id":"021",
+        "name":"Sipacate (La Gomera)",
+        "zipCode":"05021"
+      }
+    }
   },
   "Santa Rosa":{
-     "id":"06",
-     "name":"Santa Rosa",
-     "locationsLevel2":{
-        "Cuilapa":{
-           "id":"001",
-           "name":"Cuilapa",
-           "zipCode":"06001"
-        },
-        "Barberena":{
-           "id":"002",
-           "name":"Barberena",
-           "zipCode":"06002"
-        },
-        "Santa Rosa De Lima":{
-           "id":"003",
-           "name":"Santa Rosa De Lima",
-           "zipCode":"06003"
-        },
-        "Casillas":{
-           "id":"004",
-           "name":"Casillas",
-           "zipCode":"06004"
-        },
-        "San Rafael Las Flores":{
-           "id":"005",
-           "name":"San Rafael Las Flores",
-           "zipCode":"06005"
-        },
-        "Oratorio":{
-           "id":"006",
-           "name":"Oratorio",
-           "zipCode":"06006"
-        },
-        "San Juan Tecuaco":{
-           "id":"007",
-           "name":"San Juan Tecuaco",
-           "zipCode":"06007"
-        },
-        "Chiquimulilla":{
-           "id":"008",
-           "name":"Chiquimulilla",
-           "zipCode":"06008"
-        },
-        "Taxisco":{
-           "id":"009",
-           "name":"Taxisco",
-           "zipCode":"06009"
-        },
-        "Santa Maria Ixhuatan":{
-           "id":"010",
-           "name":"Santa Maria Ixhuatan",
-           "zipCode":"06010"
-        },
-        "Guazacapan":{
-           "id":"011",
-           "name":"Guazacapan",
-           "zipCode":"06011"
-        },
-        "Santa Cruz Naranjo":{
-           "id":"012",
-           "name":"Santa Cruz Naranjo",
-           "zipCode":"06012"
-        },
-        "Pueblo Nuevo Vinas":{
-           "id":"013",
-           "name":"Pueblo Nuevo Vinas",
-           "zipCode":"06013"
-        },
-        "Nueva Santa Rosa":{
-           "id":"014",
-           "name":"Nueva Santa Rosa",
-           "zipCode":"06014"
-        },
-        "El Ahumado (Chiquimulilla)":{
-           "id":"015",
-           "name":"El Ahumado (Chiquimulilla)",
-           "zipCode":"06015"
-        },
-        "Los Cerritos (Chiquimulilla)":{
-           "id":"016",
-           "name":"Los Cerritos (Chiquimulilla)",
-           "zipCode":"06016"
-        },
-        "Casas Viejas (Chiquimulilla)":{
-           "id":"017",
-           "name":"Casas Viejas (Chiquimulilla)",
-           "zipCode":"06017"
-        },
-        "Ayarza (Casillas)":{
-           "id":"018",
-           "name":"Ayarza (Casillas)",
-           "zipCode":"06018"
-        },
-        "El Molino (Cuilapa)":{
-           "id":"019",
-           "name":"El Molino (Cuilapa)",
-           "zipCode":"06019"
-        },
-        "Nancinta (Chiquimulilla)":{
-           "id":"020",
-           "name":"Nancinta (Chiquimulilla)",
-           "zipCode":"06020"
-        },
-        "San Miguel Aroche (Chiquimulilla)":{
-           "id":"021",
-           "name":"San Miguel Aroche (Chiquimulilla)",
-           "zipCode":"06021"
-        },
-        "Los Esclavos (Cuilapa)":{
-           "id":"022",
-           "name":"Los Esclavos (Cuilapa)",
-           "zipCode":"06022"
-        },
-        "El Serinal (Barberena)":{
-           "id":"023",
-           "name":"El Serinal (Barberena)",
-           "zipCode":"06023"
-        },
-        "Monterico (Taxisco)":{
-           "id":"024",
-           "name":"Monterico (Taxisco)",
-           "zipCode":"06024"
-        },
-        "San Juan De Arana (Cuilapa)":{
-           "id":"025",
-           "name":"San Juan De Arana (Cuilapa)",
-           "zipCode":"06025"
-        },
-        "El Rinconcito (Santa Rosa De Lima)":{
-           "id":"026",
-           "name":"El Rinconcito (Santa Rosa De Lima)",
-           "zipCode":"06026"
-        },
-        "Cerro Gordo (Santa Rosa De Lima)":{
-           "id":"027",
-           "name":"Cerro Gordo (Santa Rosa De Lima)",
-           "zipCode":"06027"
-        }
-     }
+    "id":"06",
+    "name":"Santa Rosa",
+    "locationsLevel2":{
+      "Cuilapa":{
+        "id":"001",
+        "name":"Cuilapa",
+        "zipCode":"06001"
+      },
+      "Barberena":{
+        "id":"002",
+        "name":"Barberena",
+        "zipCode":"06002"
+      },
+      "Santa Rosa De Lima":{
+        "id":"003",
+        "name":"Santa Rosa De Lima",
+        "zipCode":"06003"
+      },
+      "Casillas":{
+        "id":"004",
+        "name":"Casillas",
+        "zipCode":"06004"
+      },
+      "San Rafael Las Flores":{
+        "id":"005",
+        "name":"San Rafael Las Flores",
+        "zipCode":"06005"
+      },
+      "Oratorio":{
+        "id":"006",
+        "name":"Oratorio",
+        "zipCode":"06006"
+      },
+      "San Juan Tecuaco":{
+        "id":"007",
+        "name":"San Juan Tecuaco",
+        "zipCode":"06007"
+      },
+      "Chiquimulilla":{
+        "id":"008",
+        "name":"Chiquimulilla",
+        "zipCode":"06008"
+      },
+      "Taxisco":{
+        "id":"009",
+        "name":"Taxisco",
+        "zipCode":"06009"
+      },
+      "Santa Maria Ixhuatan":{
+        "id":"010",
+        "name":"Santa Maria Ixhuatan",
+        "zipCode":"06010"
+      },
+      "Guazacapan":{
+        "id":"011",
+        "name":"Guazacapan",
+        "zipCode":"06011"
+      },
+      "Santa Cruz Naranjo":{
+        "id":"012",
+        "name":"Santa Cruz Naranjo",
+        "zipCode":"06012"
+      },
+      "Pueblo Nuevo Vinas":{
+        "id":"013",
+        "name":"Pueblo Nuevo Vinas",
+        "zipCode":"06013"
+      },
+      "Nueva Santa Rosa":{
+        "id":"014",
+        "name":"Nueva Santa Rosa",
+        "zipCode":"06014"
+      },
+      "El Ahumado (Chiquimulilla)":{
+        "id":"015",
+        "name":"El Ahumado (Chiquimulilla)",
+        "zipCode":"06015"
+      },
+      "Los Cerritos (Chiquimulilla)":{
+        "id":"016",
+        "name":"Los Cerritos (Chiquimulilla)",
+        "zipCode":"06016"
+      },
+      "Casas Viejas (Chiquimulilla)":{
+        "id":"017",
+        "name":"Casas Viejas (Chiquimulilla)",
+        "zipCode":"06017"
+      },
+      "Ayarza (Casillas)":{
+        "id":"018",
+        "name":"Ayarza (Casillas)",
+        "zipCode":"06018"
+      },
+      "El Molino (Cuilapa)":{
+        "id":"019",
+        "name":"El Molino (Cuilapa)",
+        "zipCode":"06019"
+      },
+      "Nancinta (Chiquimulilla)":{
+        "id":"020",
+        "name":"Nancinta (Chiquimulilla)",
+        "zipCode":"06020"
+      },
+      "San Miguel Aroche (Chiquimulilla)":{
+        "id":"021",
+        "name":"San Miguel Aroche (Chiquimulilla)",
+        "zipCode":"06021"
+      },
+      "Los Esclavos (Cuilapa)":{
+        "id":"022",
+        "name":"Los Esclavos (Cuilapa)",
+        "zipCode":"06022"
+      },
+      "El Serinal (Barberena)":{
+        "id":"023",
+        "name":"El Serinal (Barberena)",
+        "zipCode":"06023"
+      },
+      "Monterico (Taxisco)":{
+        "id":"024",
+        "name":"Monterico (Taxisco)",
+        "zipCode":"06024"
+      },
+      "San Juan De Arana (Cuilapa)":{
+        "id":"025",
+        "name":"San Juan De Arana (Cuilapa)",
+        "zipCode":"06025"
+      },
+      "El Rinconcito (Santa Rosa De Lima)":{
+        "id":"026",
+        "name":"El Rinconcito (Santa Rosa De Lima)",
+        "zipCode":"06026"
+      },
+      "Cerro Gordo (Santa Rosa De Lima)":{
+        "id":"027",
+        "name":"Cerro Gordo (Santa Rosa De Lima)",
+        "zipCode":"06027"
+      }
+    }
   },
   "Sololá":{
-     "id":"07",
-     "name":"Sololá",
-     "locationsLevel2":{
-        "Sololá":{
-           "id":"001",
-           "name":"Sololá",
-           "zipCode":"07001"
-        },
-        "San Jose Chacaya":{
-           "id":"002",
-           "name":"San Jose Chacaya",
-           "zipCode":"07002"
-        },
-        "Santa Maria Visitacion":{
-           "id":"003",
-           "name":"Santa Maria Visitacion",
-           "zipCode":"07003"
-        },
-        "Santa Lucia Utatlan":{
-           "id":"004",
-           "name":"Santa Lucia Utatlan",
-           "zipCode":"07004"
-        },
-        "Nahuala":{
-           "id":"005",
-           "name":"Nahuala",
-           "zipCode":"07005"
-        },
-        "Santa Catarina Ixtahuacan":{
-           "id":"006",
-           "name":"Santa Catarina Ixtahuacan",
-           "zipCode":"07006"
-        },
-        "Santa Clara La Laguna":{
-           "id":"007",
-           "name":"Santa Clara La Laguna",
-           "zipCode":"07007"
-        },
-        "Concepcion":{
-           "id":"008",
-           "name":"Concepcion",
-           "zipCode":"07008"
-        },
-        "San Andres Semetatabaj":{
-           "id":"009",
-           "name":"San Andres Semetatabaj",
-           "zipCode":"07009"
-        },
-        "Panajachel":{
-           "id":"010",
-           "name":"Panajachel",
-           "zipCode":"07010"
-        },
-        "Santa Catarina Palopo":{
-           "id":"011",
-           "name":"Santa Catarina Palopo",
-           "zipCode":"07011"
-        },
-        "San Antonio Palopo":{
-           "id":"012",
-           "name":"San Antonio Palopo",
-           "zipCode":"07012"
-        },
-        "San Lucas Toliman":{
-           "id":"013",
-           "name":"San Lucas Toliman",
-           "zipCode":"07013"
-        },
-        "Santa Cruz La Laguna":{
-           "id":"014",
-           "name":"Santa Cruz La Laguna",
-           "zipCode":"07014"
-        },
-        "San Pablo La Laguna":{
-           "id":"015",
-           "name":"San Pablo La Laguna",
-           "zipCode":"07015"
-        },
-        "San Marcos La Laguna":{
-           "id":"016",
-           "name":"San Marcos La Laguna",
-           "zipCode":"07016"
-        },
-        "San Juan La Laguna":{
-           "id":"017",
-           "name":"San Juan La Laguna",
-           "zipCode":"07017"
-        },
-        "San Pedro La Laguna":{
-           "id":"018",
-           "name":"San Pedro La Laguna",
-           "zipCode":"07018"
-        },
-        "Santiago Atitlan":{
-           "id":"019",
-           "name":"Santiago Atitlan",
-           "zipCode":"07019"
-        },
-        "Los Encuentros Solola":{
-           "id":"020",
-           "name":"Los Encuentros Solola",
-           "zipCode":"07020"
-        },
-        "Godinez (San Andres Semetabaj)":{
-           "id":"021",
-           "name":"Godinez (San Andres Semetabaj)",
-           "zipCode":"07021"
-        },
-        "Agua Escondida ( San Antonio Palopo)":{
-           "id":"022",
-           "name":"Agua Escondida ( San Antonio Palopo)",
-           "zipCode":"07022"
-        },
-        "Argueta (Solola)":{
-           "id":"023",
-           "name":"Argueta (Solola)",
-           "zipCode":"07023"
-        },
-        "Pixabaj (Solola)":{
-           "id":"024",
-           "name":"Pixabaj (Solola)",
-           "zipCode":"07024"
-        }
-     }
+    "id":"07",
+    "name":"Sololá",
+    "locationsLevel2":{
+      "Sololá":{
+        "id":"001",
+        "name":"Sololá",
+        "zipCode":"07001"
+      },
+      "San Jose Chacaya":{
+        "id":"002",
+        "name":"San Jose Chacaya",
+        "zipCode":"07002"
+      },
+      "Santa Maria Visitacion":{
+        "id":"003",
+        "name":"Santa Maria Visitacion",
+        "zipCode":"07003"
+      },
+      "Santa Lucia Utatlan":{
+        "id":"004",
+        "name":"Santa Lucia Utatlan",
+        "zipCode":"07004"
+      },
+      "Nahuala":{
+        "id":"005",
+        "name":"Nahuala",
+        "zipCode":"07005"
+      },
+      "Santa Catarina Ixtahuacan":{
+        "id":"006",
+        "name":"Santa Catarina Ixtahuacan",
+        "zipCode":"07006"
+      },
+      "Santa Clara La Laguna":{
+        "id":"007",
+        "name":"Santa Clara La Laguna",
+        "zipCode":"07007"
+      },
+      "Concepcion":{
+        "id":"008",
+        "name":"Concepcion",
+        "zipCode":"07008"
+      },
+      "San Andres Semetatabaj":{
+        "id":"009",
+        "name":"San Andres Semetatabaj",
+        "zipCode":"07009"
+      },
+      "Panajachel":{
+        "id":"010",
+        "name":"Panajachel",
+        "zipCode":"07010"
+      },
+      "Santa Catarina Palopo":{
+        "id":"011",
+        "name":"Santa Catarina Palopo",
+        "zipCode":"07011"
+      },
+      "San Antonio Palopo":{
+        "id":"012",
+        "name":"San Antonio Palopo",
+        "zipCode":"07012"
+      },
+      "San Lucas Toliman":{
+        "id":"013",
+        "name":"San Lucas Toliman",
+        "zipCode":"07013"
+      },
+      "Santa Cruz La Laguna":{
+        "id":"014",
+        "name":"Santa Cruz La Laguna",
+        "zipCode":"07014"
+      },
+      "San Pablo La Laguna":{
+        "id":"015",
+        "name":"San Pablo La Laguna",
+        "zipCode":"07015"
+      },
+      "San Marcos La Laguna":{
+        "id":"016",
+        "name":"San Marcos La Laguna",
+        "zipCode":"07016"
+      },
+      "San Juan La Laguna":{
+        "id":"017",
+        "name":"San Juan La Laguna",
+        "zipCode":"07017"
+      },
+      "San Pedro La Laguna":{
+        "id":"018",
+        "name":"San Pedro La Laguna",
+        "zipCode":"07018"
+      },
+      "Santiago Atitlan":{
+        "id":"019",
+        "name":"Santiago Atitlan",
+        "zipCode":"07019"
+      },
+      "Los Encuentros Solola":{
+        "id":"020",
+        "name":"Los Encuentros Solola",
+        "zipCode":"07020"
+      },
+      "Godinez (San Andres Semetabaj)":{
+        "id":"021",
+        "name":"Godinez (San Andres Semetabaj)",
+        "zipCode":"07021"
+      },
+      "Agua Escondida ( San Antonio Palopo)":{
+        "id":"022",
+        "name":"Agua Escondida ( San Antonio Palopo)",
+        "zipCode":"07022"
+      },
+      "Argueta (Solola)":{
+        "id":"023",
+        "name":"Argueta (Solola)",
+        "zipCode":"07023"
+      },
+      "Pixabaj (Solola)":{
+        "id":"024",
+        "name":"Pixabaj (Solola)",
+        "zipCode":"07024"
+      }
+    }
   },
   "Totonicapán":{
-     "id":"08",
-     "name":"Totonicapán",
-     "locationsLevel2":{
-        "Totonicapan":{
-           "id":"001",
-           "name":"Totonicapan",
-           "zipCode":"08001"
-        },
-        "San Cristobal Totonicapan":{
-           "id":"002",
-           "name":"San Cristobal Totonicapan",
-           "zipCode":"08002"
-        },
-        "San Francisco El Alto":{
-           "id":"003",
-           "name":"San Francisco El Alto",
-           "zipCode":"08003"
-        },
-        "San Andres Xecul":{
-           "id":"004",
-           "name":"San Andres Xecul",
-           "zipCode":"08004"
-        },
-        "Momostenango":{
-           "id":"005",
-           "name":"Momostenango",
-           "zipCode":"08005"
-        },
-        "Santa Maria Chiquimula":{
-           "id":"006",
-           "name":"Santa Maria Chiquimula",
-           "zipCode":"08006"
-        },
-        "Santa Lucia La Reforma":{
-           "id":"007",
-           "name":"Santa Lucia La Reforma",
-           "zipCode":"08007"
-        },
-        "San Bartolo":{
-           "id":"008",
-           "name":"San Bartolo",
-           "zipCode":"08008"
-        }
-     }
+    "id":"08",
+    "name":"Totonicapán",
+    "locationsLevel2":{
+      "Totonicapan":{
+        "id":"001",
+        "name":"Totonicapan",
+        "zipCode":"08001"
+      },
+      "San Cristobal Totonicapan":{
+        "id":"002",
+        "name":"San Cristobal Totonicapan",
+        "zipCode":"08002"
+      },
+      "San Francisco El Alto":{
+        "id":"003",
+        "name":"San Francisco El Alto",
+        "zipCode":"08003"
+      },
+      "San Andres Xecul":{
+        "id":"004",
+        "name":"San Andres Xecul",
+        "zipCode":"08004"
+      },
+      "Momostenango":{
+        "id":"005",
+        "name":"Momostenango",
+        "zipCode":"08005"
+      },
+      "Santa Maria Chiquimula":{
+        "id":"006",
+        "name":"Santa Maria Chiquimula",
+        "zipCode":"08006"
+      },
+      "Santa Lucia La Reforma":{
+        "id":"007",
+        "name":"Santa Lucia La Reforma",
+        "zipCode":"08007"
+      },
+      "San Bartolo":{
+        "id":"008",
+        "name":"San Bartolo",
+        "zipCode":"08008"
+      }
+    }
   },
   "Quetzaltenango":{
-     "id":"09",
-     "name":"Quetzaltenango",
-     "locationsLevel2":{
-        "Quetzaltenango":{
-           "id":"001",
-           "name":"Quetzaltenango",
-           "zipCode":"09001"
-        },
-        "Salcaja":{
-           "id":"002",
-           "name":"Salcaja",
-           "zipCode":"09002"
-        },
-        "Olintepeque":{
-           "id":"003",
-           "name":"Olintepeque",
-           "zipCode":"09003"
-        },
-        "San Carlos Sija":{
-           "id":"004",
-           "name":"San Carlos Sija",
-           "zipCode":"09004"
-        },
-        "Sibilia":{
-           "id":"005",
-           "name":"Sibilia",
-           "zipCode":"09005"
-        },
-        "Cabrican":{
-           "id":"006",
-           "name":"Cabrican",
-           "zipCode":"09006"
-        },
-        "Cajola":{
-           "id":"007",
-           "name":"Cajola",
-           "zipCode":"09007"
-        },
-        "San Miguel Siquinala":{
-           "id":"008",
-           "name":"San Miguel Siquinala",
-           "zipCode":"09008"
-        },
-        "Ostuncalco":{
-           "id":"009",
-           "name":"Ostuncalco",
-           "zipCode":"09009"
-        },
-        "San Mateo":{
-           "id":"010",
-           "name":"San Mateo",
-           "zipCode":"09010"
-        },
-        "Concepcion Chiquirichapa":{
-           "id":"011",
-           "name":"Concepcion Chiquirichapa",
-           "zipCode":"09011"
-        },
-        "San Martin Sacatepequez":{
-           "id":"012",
-           "name":"San Martin Sacatepequez",
-           "zipCode":"09012"
-        },
-        "Almolonga":{
-           "id":"013",
-           "name":"Almolonga",
-           "zipCode":"09013"
-        },
-        "Cantel":{
-           "id":"014",
-           "name":"Cantel",
-           "zipCode":"09014"
-        },
-        "Huitan":{
-           "id":"015",
-           "name":"Huitan",
-           "zipCode":"09015"
-        },
-        "Zunil":{
-           "id":"016",
-           "name":"Zunil",
-           "zipCode":"09016"
-        },
-        "Colomba":{
-           "id":"017",
-           "name":"Colomba",
-           "zipCode":"09017"
-        },
-        "San Francisco La Union":{
-           "id":"018",
-           "name":"San Francisco La Union",
-           "zipCode":"09018"
-        },
-        "El Palmar":{
-           "id":"019",
-           "name":"El Palmar",
-           "zipCode":"09019"
-        },
-        "Coatepeque":{
-           "id":"020",
-           "name":"Coatepeque",
-           "zipCode":"09020"
-        },
-        "Genova":{
-           "id":"021",
-           "name":"Genova",
-           "zipCode":"09021"
-        },
-        "Flores Costa Cuca":{
-           "id":"022",
-           "name":"Flores Costa Cuca",
-           "zipCode":"09022"
-        },
-        "La Esperanza":{
-           "id":"023",
-           "name":"La Esperanza",
-           "zipCode":"09023"
-        },
-        "Palestina De Los Altos":{
-           "id":"024",
-           "name":"Palestina De Los Altos",
-           "zipCode":"09024"
-        },
-        "Santa Maria De Jesus (Zunil)":{
-           "id":"025",
-           "name":"Santa Maria De Jesus (Zunil)",
-           "zipCode":"09025"
-        },
-        "Chiquibal (San Carlos Sija)":{
-           "id":"026",
-           "name":"Chiquibal (San Carlos Sija)",
-           "zipCode":"09026"
-        },
-        "Las Palmas (Coatepeque)":{
-           "id":"027",
-           "name":"Las Palmas (Coatepeque)",
-           "zipCode":"09027"
-        },
-        "Cuicalba (Sibilia)":{
-           "id":"028",
-           "name":"Cuicalba (Sibilia)",
-           "zipCode":"09028"
-        },
-        "San Jose Chiquilaja (Quetzaltenango)":{
-           "id":"029",
-           "name":"San Jose Chiquilaja (Quetzaltenango)",
-           "zipCode":"09029"
-        },
-        "El Eden (Palestina De Los Altos)":{
-           "id":"030",
-           "name":"El Eden (Palestina De Los Altos)",
-           "zipCode":"09030"
-        },
-        "Chuatuj (San Carlos Sija)":{
-           "id":"031",
-           "name":"Chuatuj (San Carlos Sija)",
-           "zipCode":"09031"
-        },
-        "El Tambor (El Palmar)":{
-           "id":"032",
-           "name":"El Tambor (El Palmar)",
-           "zipCode":"09032"
-        },
-        "Las Mercedes (Colomba)":{
-           "id":"033",
-           "name":"Las Mercedes (Colomba)",
-           "zipCode":"09033"
-        },
-        "Palmira (Colomba)":{
-           "id":"034",
-           "name":"Palmira (Colomba)",
-           "zipCode":"09034"
-        }
-     }
+    "id":"09",
+    "name":"Quetzaltenango",
+    "locationsLevel2":{
+      "Quetzaltenango":{
+        "id":"001",
+        "name":"Quetzaltenango",
+        "zipCode":"09001"
+      },
+      "Salcaja":{
+        "id":"002",
+        "name":"Salcaja",
+        "zipCode":"09002"
+      },
+      "Olintepeque":{
+        "id":"003",
+        "name":"Olintepeque",
+        "zipCode":"09003"
+      },
+      "San Carlos Sija":{
+        "id":"004",
+        "name":"San Carlos Sija",
+        "zipCode":"09004"
+      },
+      "Sibilia":{
+        "id":"005",
+        "name":"Sibilia",
+        "zipCode":"09005"
+      },
+      "Cabrican":{
+        "id":"006",
+        "name":"Cabrican",
+        "zipCode":"09006"
+      },
+      "Cajola":{
+        "id":"007",
+        "name":"Cajola",
+        "zipCode":"09007"
+      },
+      "San Miguel Siquinala":{
+        "id":"008",
+        "name":"San Miguel Siquinala",
+        "zipCode":"09008"
+      },
+      "Ostuncalco":{
+        "id":"009",
+        "name":"Ostuncalco",
+        "zipCode":"09009"
+      },
+      "San Mateo":{
+        "id":"010",
+        "name":"San Mateo",
+        "zipCode":"09010"
+      },
+      "Concepcion Chiquirichapa":{
+        "id":"011",
+        "name":"Concepcion Chiquirichapa",
+        "zipCode":"09011"
+      },
+      "San Martin Sacatepequez":{
+        "id":"012",
+        "name":"San Martin Sacatepequez",
+        "zipCode":"09012"
+      },
+      "Almolonga":{
+        "id":"013",
+        "name":"Almolonga",
+        "zipCode":"09013"
+      },
+      "Cantel":{
+        "id":"014",
+        "name":"Cantel",
+        "zipCode":"09014"
+      },
+      "Huitan":{
+        "id":"015",
+        "name":"Huitan",
+        "zipCode":"09015"
+      },
+      "Zunil":{
+        "id":"016",
+        "name":"Zunil",
+        "zipCode":"09016"
+      },
+      "Colomba":{
+        "id":"017",
+        "name":"Colomba",
+        "zipCode":"09017"
+      },
+      "San Francisco La Union":{
+        "id":"018",
+        "name":"San Francisco La Union",
+        "zipCode":"09018"
+      },
+      "El Palmar":{
+        "id":"019",
+        "name":"El Palmar",
+        "zipCode":"09019"
+      },
+      "Coatepeque":{
+        "id":"020",
+        "name":"Coatepeque",
+        "zipCode":"09020"
+      },
+      "Genova":{
+        "id":"021",
+        "name":"Genova",
+        "zipCode":"09021"
+      },
+      "Flores Costa Cuca":{
+        "id":"022",
+        "name":"Flores Costa Cuca",
+        "zipCode":"09022"
+      },
+      "La Esperanza":{
+        "id":"023",
+        "name":"La Esperanza",
+        "zipCode":"09023"
+      },
+      "Palestina De Los Altos":{
+        "id":"024",
+        "name":"Palestina De Los Altos",
+        "zipCode":"09024"
+      },
+      "Santa Maria De Jesus (Zunil)":{
+        "id":"025",
+        "name":"Santa Maria De Jesus (Zunil)",
+        "zipCode":"09025"
+      },
+      "Chiquibal (San Carlos Sija)":{
+        "id":"026",
+        "name":"Chiquibal (San Carlos Sija)",
+        "zipCode":"09026"
+      },
+      "Las Palmas (Coatepeque)":{
+        "id":"027",
+        "name":"Las Palmas (Coatepeque)",
+        "zipCode":"09027"
+      },
+      "Cuicalba (Sibilia)":{
+        "id":"028",
+        "name":"Cuicalba (Sibilia)",
+        "zipCode":"09028"
+      },
+      "San Jose Chiquilaja (Quetzaltenango)":{
+        "id":"029",
+        "name":"San Jose Chiquilaja (Quetzaltenango)",
+        "zipCode":"09029"
+      },
+      "El Eden (Palestina De Los Altos)":{
+        "id":"030",
+        "name":"El Eden (Palestina De Los Altos)",
+        "zipCode":"09030"
+      },
+      "Chuatuj (San Carlos Sija)":{
+        "id":"031",
+        "name":"Chuatuj (San Carlos Sija)",
+        "zipCode":"09031"
+      },
+      "El Tambor (El Palmar)":{
+        "id":"032",
+        "name":"El Tambor (El Palmar)",
+        "zipCode":"09032"
+      },
+      "Las Mercedes (Colomba)":{
+        "id":"033",
+        "name":"Las Mercedes (Colomba)",
+        "zipCode":"09033"
+      },
+      "Palmira (Colomba)":{
+        "id":"034",
+        "name":"Palmira (Colomba)",
+        "zipCode":"09034"
+      }
+    }
   },
   "Suchitepéquez":{
-     "id":"10",
-     "name":"Suchitepéquez",
-     "locationsLevel2":{
-        "Mazatenango":{
-           "id":"001",
-           "name":"Mazatenango",
-           "zipCode":"10001"
-        },
-        "Cuyotenango":{
-           "id":"002",
-           "name":"Cuyotenango",
-           "zipCode":"10002"
-        },
-        "San Francisco Zapotitlan":{
-           "id":"003",
-           "name":"San Francisco Zapotitlan",
-           "zipCode":"10003"
-        },
-        "San Bernardino":{
-           "id":"004",
-           "name":"San Bernardino",
-           "zipCode":"10004"
-        },
-        "San Jose El Idolo":{
-           "id":"005",
-           "name":"San Jose El Idolo",
-           "zipCode":"10005"
-        },
-        "Santo Domingo Suchitepéquez":{
-           "id":"006",
-           "name":"Santo Domingo Suchitepéquez",
-           "zipCode":"10006"
-        },
-        "San Lorenzo":{
-           "id":"007",
-           "name":"San Lorenzo",
-           "zipCode":"10007"
-        },
-        "Samayao":{
-           "id":"008",
-           "name":"Samayao",
-           "zipCode":"10008"
-        },
-        "San Pablo Jocopilas":{
-           "id":"009",
-           "name":"San Pablo Jocopilas",
-           "zipCode":"10009"
-        },
-        "San Antonio Suchitepéquez":{
-           "id":"010",
-           "name":"San Antonio Suchitepéquez",
-           "zipCode":"10010"
-        },
-        "San Miguel Panan":{
-           "id":"011",
-           "name":"San Miguel Panan",
-           "zipCode":"10011"
-        },
-        "San Gabriel":{
-           "id":"012",
-           "name":"San Gabriel",
-           "zipCode":"10012"
-        },
-        "Chicacao":{
-           "id":"013",
-           "name":"Chicacao",
-           "zipCode":"10013"
-        },
-        "Patulul":{
-           "id":"014",
-           "name":"Patulul",
-           "zipCode":"10014"
-        },
-        "Santa Barbara":{
-           "id":"015",
-           "name":"Santa Barbara",
-           "zipCode":"10015"
-        },
-        "San Juan Bautista":{
-           "id":"016",
-           "name":"San Juan Bautista",
-           "zipCode":"10016"
-        },
-        "Santo Tomas La Union":{
-           "id":"017",
-           "name":"Santo Tomas La Union",
-           "zipCode":"10017"
-        },
-        "Zunulito":{
-           "id":"018",
-           "name":"Zunulito",
-           "zipCode":"10018"
-        },
-        "Pueblo Nuevo":{
-           "id":"019",
-           "name":"Pueblo Nuevo",
-           "zipCode":"10019"
-        },
-        "Rio Bravo":{
-           "id":"020",
-           "name":"Rio Bravo",
-           "zipCode":"10020"
-        },
-        "Cocales (Patulul)":{
-           "id":"021",
-           "name":"Cocales (Patulul)",
-           "zipCode":"10021"
-        },
-        "Chocola (San Pablo Jocopilas)":{
-           "id":"022",
-           "name":"Chocola (San Pablo Jocopilas)",
-           "zipCode":"10022"
-        },
-        "Tahuexco (Mazatenango)":{
-           "id":"023",
-           "name":"Tahuexco (Mazatenango)",
-           "zipCode":"10023"
-        },
-        "Guatalon (Rio Bravo)":{
-           "id":"024",
-           "name":"Guatalon (Rio Bravo)",
-           "zipCode":"10024"
-        },
-        "Palo Gordo (San Antonio Suchitepéquez)":{
-           "id":"025",
-           "name":"Palo Gordo (San Antonio Suchitepéquez)",
-           "zipCode":"10025"
-        },
-        "San Rafael Panan (Santa Barbara)":{
-           "id":"026",
-           "name":"San Rafael Panan (Santa Barbara)",
-           "zipCode":"10026"
-        },
-        "Bracitos (Mazatenango)":{
-           "id":"027",
-           "name":"Bracitos (Mazatenango)",
-           "zipCode":"10027"
-        },
-        "Bolivia (Santo Domingo Suchitepéquez)":{
-           "id":"028",
-           "name":"Bolivia (Santo Domingo Suchitepéquez)",
-           "zipCode":"10028"
-        },
-        "Monterrey (Santo Domingo Suchitepéquez)":{
-           "id":"029",
-           "name":"Monterrey (Santo Domingo Suchitepéquez)",
-           "zipCode":"10029"
-        },
-        "La Maquina (Cuyotenango)":{
-           "id":"030",
-           "name":"La Maquina (Cuyotenango)",
-           "zipCode":"10030"
-        }
-     }
+    "id":"10",
+    "name":"Suchitepéquez",
+    "locationsLevel2":{
+      "Mazatenango":{
+        "id":"001",
+        "name":"Mazatenango",
+        "zipCode":"10001"
+      },
+      "Cuyotenango":{
+        "id":"002",
+        "name":"Cuyotenango",
+        "zipCode":"10002"
+      },
+      "San Francisco Zapotitlan":{
+        "id":"003",
+        "name":"San Francisco Zapotitlan",
+        "zipCode":"10003"
+      },
+      "San Bernardino":{
+        "id":"004",
+        "name":"San Bernardino",
+        "zipCode":"10004"
+      },
+      "San Jose El Idolo":{
+        "id":"005",
+        "name":"San Jose El Idolo",
+        "zipCode":"10005"
+      },
+      "Santo Domingo Suchitepéquez":{
+        "id":"006",
+        "name":"Santo Domingo Suchitepéquez",
+        "zipCode":"10006"
+      },
+      "San Lorenzo":{
+        "id":"007",
+        "name":"San Lorenzo",
+        "zipCode":"10007"
+      },
+      "Samayao":{
+        "id":"008",
+        "name":"Samayao",
+        "zipCode":"10008"
+      },
+      "San Pablo Jocopilas":{
+        "id":"009",
+        "name":"San Pablo Jocopilas",
+        "zipCode":"10009"
+      },
+      "San Antonio Suchitepéquez":{
+        "id":"010",
+        "name":"San Antonio Suchitepéquez",
+        "zipCode":"10010"
+      },
+      "San Miguel Panan":{
+        "id":"011",
+        "name":"San Miguel Panan",
+        "zipCode":"10011"
+      },
+      "San Gabriel":{
+        "id":"012",
+        "name":"San Gabriel",
+        "zipCode":"10012"
+      },
+      "Chicacao":{
+        "id":"013",
+        "name":"Chicacao",
+        "zipCode":"10013"
+      },
+      "Patulul":{
+        "id":"014",
+        "name":"Patulul",
+        "zipCode":"10014"
+      },
+      "Santa Barbara":{
+        "id":"015",
+        "name":"Santa Barbara",
+        "zipCode":"10015"
+      },
+      "San Juan Bautista":{
+        "id":"016",
+        "name":"San Juan Bautista",
+        "zipCode":"10016"
+      },
+      "Santo Tomas La Union":{
+        "id":"017",
+        "name":"Santo Tomas La Union",
+        "zipCode":"10017"
+      },
+      "Zunulito":{
+        "id":"018",
+        "name":"Zunulito",
+        "zipCode":"10018"
+      },
+      "Pueblo Nuevo":{
+        "id":"019",
+        "name":"Pueblo Nuevo",
+        "zipCode":"10019"
+      },
+      "Rio Bravo":{
+        "id":"020",
+        "name":"Rio Bravo",
+        "zipCode":"10020"
+      },
+      "Cocales (Patulul)":{
+        "id":"021",
+        "name":"Cocales (Patulul)",
+        "zipCode":"10021"
+      },
+      "Chocola (San Pablo Jocopilas)":{
+        "id":"022",
+        "name":"Chocola (San Pablo Jocopilas)",
+        "zipCode":"10022"
+      },
+      "Tahuexco (Mazatenango)":{
+        "id":"023",
+        "name":"Tahuexco (Mazatenango)",
+        "zipCode":"10023"
+      },
+      "Guatalon (Rio Bravo)":{
+        "id":"024",
+        "name":"Guatalon (Rio Bravo)",
+        "zipCode":"10024"
+      },
+      "Palo Gordo (San Antonio Suchitepéquez)":{
+        "id":"025",
+        "name":"Palo Gordo (San Antonio Suchitepéquez)",
+        "zipCode":"10025"
+      },
+      "San Rafael Panan (Santa Barbara)":{
+        "id":"026",
+        "name":"San Rafael Panan (Santa Barbara)",
+        "zipCode":"10026"
+      },
+      "Bracitos (Mazatenango)":{
+        "id":"027",
+        "name":"Bracitos (Mazatenango)",
+        "zipCode":"10027"
+      },
+      "Bolivia (Santo Domingo Suchitepéquez)":{
+        "id":"028",
+        "name":"Bolivia (Santo Domingo Suchitepéquez)",
+        "zipCode":"10028"
+      },
+      "Monterrey (Santo Domingo Suchitepéquez)":{
+        "id":"029",
+        "name":"Monterrey (Santo Domingo Suchitepéquez)",
+        "zipCode":"10029"
+      },
+      "La Maquina (Cuyotenango)":{
+        "id":"030",
+        "name":"La Maquina (Cuyotenango)",
+        "zipCode":"10030"
+      }
+    }
   },
   "Retalhuleu":{
-     "id":"11",
-     "name":"Retalhuleu",
-     "locationsLevel2":{
-        "Retalhuleu":{
-           "id":"001",
-           "name":"Retalhuleu",
-           "zipCode":"11001"
-        },
-        "San Sebastian":{
-           "id":"002",
-           "name":"San Sebastian",
-           "zipCode":"11002"
-        },
-        "Santa Cruz Mulua":{
-           "id":"003",
-           "name":"Santa Cruz Mulua",
-           "zipCode":"11003"
-        },
-        "San Martin Zapotitlan":{
-           "id":"004",
-           "name":"San Martin Zapotitlan",
-           "zipCode":"11004"
-        },
-        "San Felipe":{
-           "id":"005",
-           "name":"San Felipe",
-           "zipCode":"11005"
-        },
-        "San Andres Villa Seca":{
-           "id":"006",
-           "name":"San Andres Villa Seca",
-           "zipCode":"11006"
-        },
-        "Champerico":{
-           "id":"007",
-           "name":"Champerico",
-           "zipCode":"11007"
-        },
-        "Nuevo San Carlos":{
-           "id":"008",
-           "name":"Nuevo San Carlos",
-           "zipCode":"11008"
-        },
-        "El Asintal":{
-           "id":"009",
-           "name":"El Asintal",
-           "zipCode":"11009"
-        },
-        "Caballo Blanco (Retalhuleu)":{
-           "id":"010",
-           "name":"Caballo Blanco (Retalhuleu)",
-           "zipCode":"11010"
-        },
-        "Candelaria Xolhuitz (Nuevo San Carlos)":{
-           "id":"011",
-           "name":"Candelaria Xolhuitz (Nuevo San Carlos)",
-           "zipCode":"11011"
-        },
-        "Sinavba (El Asintal)":{
-           "id":"012",
-           "name":"Sinavba (El Asintal)",
-           "zipCode":"11012"
-        },
-        "El Xab (El Asintal)":{
-           "id":"013",
-           "name":"El Xab (El Asintal)",
-           "zipCode":"11013"
-        },
-        "La Maquina (San Andres Villa Seca)":{
-           "id":"014",
-           "name":"La Maquina (San Andres Villa Seca)",
-           "zipCode":"11014"
-        }
-     }
+    "id":"11",
+    "name":"Retalhuleu",
+    "locationsLevel2":{
+      "Retalhuleu":{
+        "id":"001",
+        "name":"Retalhuleu",
+        "zipCode":"11001"
+      },
+      "San Sebastian":{
+        "id":"002",
+        "name":"San Sebastian",
+        "zipCode":"11002"
+      },
+      "Santa Cruz Mulua":{
+        "id":"003",
+        "name":"Santa Cruz Mulua",
+        "zipCode":"11003"
+      },
+      "San Martin Zapotitlan":{
+        "id":"004",
+        "name":"San Martin Zapotitlan",
+        "zipCode":"11004"
+      },
+      "San Felipe":{
+        "id":"005",
+        "name":"San Felipe",
+        "zipCode":"11005"
+      },
+      "San Andres Villa Seca":{
+        "id":"006",
+        "name":"San Andres Villa Seca",
+        "zipCode":"11006"
+      },
+      "Champerico":{
+        "id":"007",
+        "name":"Champerico",
+        "zipCode":"11007"
+      },
+      "Nuevo San Carlos":{
+        "id":"008",
+        "name":"Nuevo San Carlos",
+        "zipCode":"11008"
+      },
+      "El Asintal":{
+        "id":"009",
+        "name":"El Asintal",
+        "zipCode":"11009"
+      },
+      "Caballo Blanco (Retalhuleu)":{
+        "id":"010",
+        "name":"Caballo Blanco (Retalhuleu)",
+        "zipCode":"11010"
+      },
+      "Candelaria Xolhuitz (Nuevo San Carlos)":{
+        "id":"011",
+        "name":"Candelaria Xolhuitz (Nuevo San Carlos)",
+        "zipCode":"11011"
+      },
+      "Sinavba (El Asintal)":{
+        "id":"012",
+        "name":"Sinavba (El Asintal)",
+        "zipCode":"11012"
+      },
+      "El Xab (El Asintal)":{
+        "id":"013",
+        "name":"El Xab (El Asintal)",
+        "zipCode":"11013"
+      },
+      "La Maquina (San Andres Villa Seca)":{
+        "id":"014",
+        "name":"La Maquina (San Andres Villa Seca)",
+        "zipCode":"11014"
+      }
+    }
   },
   "Jutiapa":{
-     "id":"22",
-     "name":"Jutiapa",
-     "locationsLevel2":{
-        "Jutiapa":{
-           "id":"001",
-           "name":"Jutiapa",
-           "zipCode":"22001"
-        },
-        "El Progreso":{
-           "id":"002",
-           "name":"El Progreso",
-           "zipCode":"22002"
-        },
-        "Santa Catarina Mita":{
-           "id":"003",
-           "name":"Santa Catarina Mita",
-           "zipCode":"22003"
-        },
-        "Agua Blanca":{
-           "id":"004",
-           "name":"Agua Blanca",
-           "zipCode":"22004"
-        },
-        "Asuncion Mita":{
-           "id":"005",
-           "name":"Asuncion Mita",
-           "zipCode":"22005"
-        },
-        "Yupiltepeque":{
-           "id":"006",
-           "name":"Yupiltepeque",
-           "zipCode":"22006"
-        },
-        "Atescatempa":{
-           "id":"007",
-           "name":"Atescatempa",
-           "zipCode":"22007"
-        },
-        "Jeres":{
-           "id":"008",
-           "name":"Jeres",
-           "zipCode":"22008"
-        },
-        "El Adelanto":{
-           "id":"009",
-           "name":"El Adelanto",
-           "zipCode":"22009"
-        },
-        "Zapotitlan":{
-           "id":"010",
-           "name":"Zapotitlan",
-           "zipCode":"22010"
-        },
-        "Comapa":{
-           "id":"011",
-           "name":"Comapa",
-           "zipCode":"22011"
-        },
-        "Jalpatagua":{
-           "id":"012",
-           "name":"Jalpatagua",
-           "zipCode":"22012"
-        },
-        "Conguanco":{
-           "id":"013",
-           "name":"Conguanco",
-           "zipCode":"22013"
-        },
-        "Moyuta":{
-           "id":"014",
-           "name":"Moyuta",
-           "zipCode":"22014"
-        },
-        "Pasaco":{
-           "id":"015",
-           "name":"Pasaco",
-           "zipCode":"22015"
-        },
-        "San Jose Acatempa":{
-           "id":"016",
-           "name":"San Jose Acatempa",
-           "zipCode":"22016"
-        },
-        "Quesada":{
-           "id":"017",
-           "name":"Quesada",
-           "zipCode":"22017"
-        },
-        "Ciudad Pedro De Alvarado (Moyuta)":{
-           "id":"018",
-           "name":"Ciudad Pedro De Alvarado (Moyuta)",
-           "zipCode":"22018"
-        },
-        "San Crsitobal Frontera (Atescatempa)":{
-           "id":"019",
-           "name":"San Crsitobal Frontera (Atescatempa)",
-           "zipCode":"22019"
-        },
-        "Valle Nuevo Jalpatagua":{
-           "id":"020",
-           "name":"Valle Nuevo Jalpatagua",
-           "zipCode":"22020"
-        },
-        "Rio De Paz":{
-           "id":"021",
-           "name":"Rio De Paz",
-           "zipCode":"22021"
-        },
-        "Horcones (Sta. Cat. Mita)":{
-           "id":"022",
-           "name":"Horcones (Sta. Cat. Mita)",
-           "zipCode":"22022"
-        },
-        "El Ovejero (El Progreso)":{
-           "id":"023",
-           "name":"El Ovejero (El Progreso)",
-           "zipCode":"22023"
-        },
-        "Contepeque (Atescatempa)":{
-           "id":"024",
-           "name":"Contepeque (Atescatempa)",
-           "zipCode":"22024"
-        },
-        "La Esmeralda (Jerez)":{
-           "id":"025",
-           "name":"La Esmeralda (Jerez)",
-           "zipCode":"22025"
-        },
-        "Horcones (Atescatempa)":{
-           "id":"026",
-           "name":"Horcones (Atescatempa)",
-           "zipCode":"22026"
-        },
-        "Tiucal (Asuncion Mita)":{
-           "id":"027",
-           "name":"Tiucal (Asuncion Mita)",
-           "zipCode":"22027"
-        }
-     }
+    "id":"22",
+    "name":"Jutiapa",
+    "locationsLevel2":{
+      "Jutiapa":{
+        "id":"001",
+        "name":"Jutiapa",
+        "zipCode":"22001"
+      },
+      "El Progreso":{
+        "id":"002",
+        "name":"El Progreso",
+        "zipCode":"22002"
+      },
+      "Santa Catarina Mita":{
+        "id":"003",
+        "name":"Santa Catarina Mita",
+        "zipCode":"22003"
+      },
+      "Agua Blanca":{
+        "id":"004",
+        "name":"Agua Blanca",
+        "zipCode":"22004"
+      },
+      "Asuncion Mita":{
+        "id":"005",
+        "name":"Asuncion Mita",
+        "zipCode":"22005"
+      },
+      "Yupiltepeque":{
+        "id":"006",
+        "name":"Yupiltepeque",
+        "zipCode":"22006"
+      },
+      "Atescatempa":{
+        "id":"007",
+        "name":"Atescatempa",
+        "zipCode":"22007"
+      },
+      "Jeres":{
+        "id":"008",
+        "name":"Jeres",
+        "zipCode":"22008"
+      },
+      "El Adelanto":{
+        "id":"009",
+        "name":"El Adelanto",
+        "zipCode":"22009"
+      },
+      "Zapotitlan":{
+        "id":"010",
+        "name":"Zapotitlan",
+        "zipCode":"22010"
+      },
+      "Comapa":{
+        "id":"011",
+        "name":"Comapa",
+        "zipCode":"22011"
+      },
+      "Jalpatagua":{
+        "id":"012",
+        "name":"Jalpatagua",
+        "zipCode":"22012"
+      },
+      "Conguanco":{
+        "id":"013",
+        "name":"Conguanco",
+        "zipCode":"22013"
+      },
+      "Moyuta":{
+        "id":"014",
+        "name":"Moyuta",
+        "zipCode":"22014"
+      },
+      "Pasaco":{
+        "id":"015",
+        "name":"Pasaco",
+        "zipCode":"22015"
+      },
+      "San Jose Acatempa":{
+        "id":"016",
+        "name":"San Jose Acatempa",
+        "zipCode":"22016"
+      },
+      "Quesada":{
+        "id":"017",
+        "name":"Quesada",
+        "zipCode":"22017"
+      },
+      "Ciudad Pedro De Alvarado (Moyuta)":{
+        "id":"018",
+        "name":"Ciudad Pedro De Alvarado (Moyuta)",
+        "zipCode":"22018"
+      },
+      "San Crsitobal Frontera (Atescatempa)":{
+        "id":"019",
+        "name":"San Crsitobal Frontera (Atescatempa)",
+        "zipCode":"22019"
+      },
+      "Valle Nuevo Jalpatagua":{
+        "id":"020",
+        "name":"Valle Nuevo Jalpatagua",
+        "zipCode":"22020"
+      },
+      "Rio De Paz":{
+        "id":"021",
+        "name":"Rio De Paz",
+        "zipCode":"22021"
+      },
+      "Horcones (Sta. Cat. Mita)":{
+        "id":"022",
+        "name":"Horcones (Sta. Cat. Mita)",
+        "zipCode":"22022"
+      },
+      "El Ovejero (El Progreso)":{
+        "id":"023",
+        "name":"El Ovejero (El Progreso)",
+        "zipCode":"22023"
+      },
+      "Contepeque (Atescatempa)":{
+        "id":"024",
+        "name":"Contepeque (Atescatempa)",
+        "zipCode":"22024"
+      },
+      "La Esmeralda (Jerez)":{
+        "id":"025",
+        "name":"La Esmeralda (Jerez)",
+        "zipCode":"22025"
+      },
+      "Horcones (Atescatempa)":{
+        "id":"026",
+        "name":"Horcones (Atescatempa)",
+        "zipCode":"22026"
+      },
+      "Tiucal (Asuncion Mita)":{
+        "id":"027",
+        "name":"Tiucal (Asuncion Mita)",
+        "zipCode":"22027"
+      }
+    }
   },
   "San Marcos":{
-     "id":"12",
-     "name":"San Marcos",
-     "locationsLevel2":{
-        "San Marcos":{
-           "id":"001",
-           "name":"San Marcos",
-           "zipCode":"12001"
-        },
-        "San Pedro Sacatepequez":{
-           "id":"002",
-           "name":"San Pedro Sacatepequez",
-           "zipCode":"12002"
-        },
-        "San Antonio Sacatepequez":{
-           "id":"003",
-           "name":"San Antonio Sacatepequez",
-           "zipCode":"12003"
-        },
-        "Comitancillo":{
-           "id":"004",
-           "name":"Comitancillo",
-           "zipCode":"12004"
-        },
-        "San Miguel Ixtaguacan":{
-           "id":"005",
-           "name":"San Miguel Ixtaguacan",
-           "zipCode":"12005"
-        },
-        "Concepcion Tutuapa":{
-           "id":"006",
-           "name":"Concepcion Tutuapa",
-           "zipCode":"12006"
-        },
-        "Tacana":{
-           "id":"007",
-           "name":"Tacana",
-           "zipCode":"12007"
-        },
-        "Sibinal":{
-           "id":"008",
-           "name":"Sibinal",
-           "zipCode":"12008"
-        },
-        "Tajumulco":{
-           "id":"009",
-           "name":"Tajumulco",
-           "zipCode":"12009"
-        },
-        "Tejutla":{
-           "id":"010",
-           "name":"Tejutla",
-           "zipCode":"12010"
-        },
-        "San Rafael Pie De La Cuesta":{
-           "id":"011",
-           "name":"San Rafael Pie De La Cuesta",
-           "zipCode":"12011"
-        },
-        "Nuevo Progreso":{
-           "id":"012",
-           "name":"Nuevo Progreso",
-           "zipCode":"12012"
-        },
-        "El Tumbador":{
-           "id":"013",
-           "name":"El Tumbador",
-           "zipCode":"12013"
-        },
-        "El Rodeo":{
-           "id":"014",
-           "name":"El Rodeo",
-           "zipCode":"12014"
-        },
-        "Malacatan":{
-           "id":"015",
-           "name":"Malacatan",
-           "zipCode":"12015"
-        },
-        "Catarina":{
-           "id":"016",
-           "name":"Catarina",
-           "zipCode":"12016"
-        },
-        "Tecun Uman":{
-           "id":"017",
-           "name":"Tecun Uman",
-           "zipCode":"12017"
-        },
-        "Ocos":{
-           "id":"018",
-           "name":"Ocos",
-           "zipCode":"12018"
-        },
-        "San Pablo":{
-           "id":"019",
-           "name":"San Pablo",
-           "zipCode":"12019"
-        },
-        "El Quetzal":{
-           "id":"020",
-           "name":"El Quetzal",
-           "zipCode":"12020"
-        },
-        "La Reforma":{
-           "id":"021",
-           "name":"La Reforma",
-           "zipCode":"12021"
-        },
-        "Pajapita":{
-           "id":"022",
-           "name":"Pajapita",
-           "zipCode":"12022"
-        },
-        "Ixchiguan":{
-           "id":"023",
-           "name":"Ixchiguan",
-           "zipCode":"12023"
-        },
-        "San Jose Ojetepan":{
-           "id":"024",
-           "name":"San Jose Ojetepan",
-           "zipCode":"12024"
-        },
-        "San Cristobal Cucho":{
-           "id":"025",
-           "name":"San Cristobal Cucho",
-           "zipCode":"12025"
-        },
-        "Sipacana":{
-           "id":"026",
-           "name":"Sipacana",
-           "zipCode":"12026"
-        },
-        "Esquipulas Palo Gordo":{
-           "id":"027",
-           "name":"Esquipulas Palo Gordo",
-           "zipCode":"12027"
-        },
-        "Rio Blanco":{
-           "id":"028",
-           "name":"Rio Blanco",
-           "zipCode":"12028"
-        },
-        "San Lorenzo":{
-           "id":"029",
-           "name":"San Lorenzo",
-           "zipCode":"12029"
-        },
-        "El Carmen (Malacatan)":{
-           "id":"030",
-           "name":"El Carmen (Malacatan)",
-           "zipCode":"12030"
-        },
-        "Zanjon San Lorenzo (Tecun Uman)":{
-           "id":"031",
-           "name":"Zanjon San Lorenzo (Tecun Uman)",
-           "zipCode":"12031"
-        },
-        "San Jeronimo (El Tumbador)":{
-           "id":"032",
-           "name":"San Jeronimo (El Tumbador)",
-           "zipCode":"12032"
-        },
-        "Serchil ( San Marcos)":{
-           "id":"033",
-           "name":"Serchil ( San Marcos)",
-           "zipCode":"12033"
-        },
-        "La Democracia (El Tumbador)":{
-           "id":"034",
-           "name":"La Democracia (El Tumbador)",
-           "zipCode":"12034"
-        },
-        "San Francisco ( El Rodeo)":{
-           "id":"035",
-           "name":"San Francisco ( El Rodeo)",
-           "zipCode":"12035"
-        },
-        "El Amparo (El Tumbador)":{
-           "id":"036",
-           "name":"El Amparo (El Tumbador)",
-           "zipCode":"12036"
-        },
-        "San Sebastian (San Marcos)":{
-           "id":"037",
-           "name":"San Sebastian (San Marcos)",
-           "zipCode":"12037"
-        },
-        "Los Limines (Ocos)":{
-           "id":"038",
-           "name":"Los Limines (Ocos)",
-           "zipCode":"12038"
-        },
-        "La Blanca (Ocos)":{
-           "id":"039",
-           "name":"La Blanca (Ocos)",
-           "zipCode":"12039"
-        },
-        "El Cielo (El Tumbador)":{
-           "id":"040",
-           "name":"El Cielo (El Tumbador)",
-           "zipCode":"12040"
-        },
-        "San Jose Ixtal (Nuevo Progreso)":{
-           "id":"041",
-           "name":"San Jose Ixtal (Nuevo Progreso)",
-           "zipCode":"12041"
-        },
-        "Platanares (Ocos)":{
-           "id":"042",
-           "name":"Platanares (Ocos)",
-           "zipCode":"12042"
-        },
-        "Las Delicias (El Tumbador)":{
-           "id":"043",
-           "name":"Las Delicias (El Tumbador)",
-           "zipCode":"12043"
-        },
-        "Calapte (Ixchiguan)":{
-           "id":"044",
-           "name":"Calapte (Ixchiguan)",
-           "zipCode":"12044"
-        },
-        "Tocahe(San Pablo)":{
-           "id":"045",
-           "name":"Tocahe(San Pablo)",
-           "zipCode":"12045"
-        },
-        "La Conquista (Nuevo Progreso)":{
-           "id":"046",
-           "name":"La Conquista (Nuevo Progreso)",
-           "zipCode":"12046"
-        },
-        "Champollap (San Pedro Sacatepequez)":{
-           "id":"047",
-           "name":"Champollap (San Pedro Sacatepequez)",
-           "zipCode":"12047"
-        },
-        "Piedra Grande (San Pedro Sacatepequez":{
-           "id":"048",
-           "name":"Piedra Grande (San Pedro Sacatepequez",
-           "zipCode":"12048"
-        },
-        "Santa Lucia Ixcamal (San Marcos)":{
-           "id":"049",
-           "name":"Santa Lucia Ixcamal (San Marcos)",
-           "zipCode":"12049"
-        },
-        "El Sitio (Catarina )":{
-           "id":"050",
-           "name":"El Sitio (Catarina )",
-           "zipCode":"12050"
-        }
-     }
+    "id":"12",
+    "name":"San Marcos",
+    "locationsLevel2":{
+      "San Marcos":{
+        "id":"001",
+        "name":"San Marcos",
+        "zipCode":"12001"
+      },
+      "San Pedro Sacatepequez":{
+        "id":"002",
+        "name":"San Pedro Sacatepequez",
+        "zipCode":"12002"
+      },
+      "San Antonio Sacatepequez":{
+        "id":"003",
+        "name":"San Antonio Sacatepequez",
+        "zipCode":"12003"
+      },
+      "Comitancillo":{
+        "id":"004",
+        "name":"Comitancillo",
+        "zipCode":"12004"
+      },
+      "San Miguel Ixtaguacan":{
+        "id":"005",
+        "name":"San Miguel Ixtaguacan",
+        "zipCode":"12005"
+      },
+      "Concepcion Tutuapa":{
+        "id":"006",
+        "name":"Concepcion Tutuapa",
+        "zipCode":"12006"
+      },
+      "Tacana":{
+        "id":"007",
+        "name":"Tacana",
+        "zipCode":"12007"
+      },
+      "Sibinal":{
+        "id":"008",
+        "name":"Sibinal",
+        "zipCode":"12008"
+      },
+      "Tajumulco":{
+        "id":"009",
+        "name":"Tajumulco",
+        "zipCode":"12009"
+      },
+      "Tejutla":{
+        "id":"010",
+        "name":"Tejutla",
+        "zipCode":"12010"
+      },
+      "San Rafael Pie De La Cuesta":{
+        "id":"011",
+        "name":"San Rafael Pie De La Cuesta",
+        "zipCode":"12011"
+      },
+      "Nuevo Progreso":{
+        "id":"012",
+        "name":"Nuevo Progreso",
+        "zipCode":"12012"
+      },
+      "El Tumbador":{
+        "id":"013",
+        "name":"El Tumbador",
+        "zipCode":"12013"
+      },
+      "El Rodeo":{
+        "id":"014",
+        "name":"El Rodeo",
+        "zipCode":"12014"
+      },
+      "Malacatan":{
+        "id":"015",
+        "name":"Malacatan",
+        "zipCode":"12015"
+      },
+      "Catarina":{
+        "id":"016",
+        "name":"Catarina",
+        "zipCode":"12016"
+      },
+      "Tecun Uman":{
+        "id":"017",
+        "name":"Tecun Uman",
+        "zipCode":"12017"
+      },
+      "Ocos":{
+        "id":"018",
+        "name":"Ocos",
+        "zipCode":"12018"
+      },
+      "San Pablo":{
+        "id":"019",
+        "name":"San Pablo",
+        "zipCode":"12019"
+      },
+      "El Quetzal":{
+        "id":"020",
+        "name":"El Quetzal",
+        "zipCode":"12020"
+      },
+      "La Reforma":{
+        "id":"021",
+        "name":"La Reforma",
+        "zipCode":"12021"
+      },
+      "Pajapita":{
+        "id":"022",
+        "name":"Pajapita",
+        "zipCode":"12022"
+      },
+      "Ixchiguan":{
+        "id":"023",
+        "name":"Ixchiguan",
+        "zipCode":"12023"
+      },
+      "San Jose Ojetepan":{
+        "id":"024",
+        "name":"San Jose Ojetepan",
+        "zipCode":"12024"
+      },
+      "San Cristobal Cucho":{
+        "id":"025",
+        "name":"San Cristobal Cucho",
+        "zipCode":"12025"
+      },
+      "Sipacana":{
+        "id":"026",
+        "name":"Sipacana",
+        "zipCode":"12026"
+      },
+      "Esquipulas Palo Gordo":{
+        "id":"027",
+        "name":"Esquipulas Palo Gordo",
+        "zipCode":"12027"
+      },
+      "Rio Blanco":{
+        "id":"028",
+        "name":"Rio Blanco",
+        "zipCode":"12028"
+      },
+      "San Lorenzo":{
+        "id":"029",
+        "name":"San Lorenzo",
+        "zipCode":"12029"
+      },
+      "El Carmen (Malacatan)":{
+        "id":"030",
+        "name":"El Carmen (Malacatan)",
+        "zipCode":"12030"
+      },
+      "Zanjon San Lorenzo (Tecun Uman)":{
+        "id":"031",
+        "name":"Zanjon San Lorenzo (Tecun Uman)",
+        "zipCode":"12031"
+      },
+      "San Jeronimo (El Tumbador)":{
+        "id":"032",
+        "name":"San Jeronimo (El Tumbador)",
+        "zipCode":"12032"
+      },
+      "Serchil ( San Marcos)":{
+        "id":"033",
+        "name":"Serchil ( San Marcos)",
+        "zipCode":"12033"
+      },
+      "La Democracia (El Tumbador)":{
+        "id":"034",
+        "name":"La Democracia (El Tumbador)",
+        "zipCode":"12034"
+      },
+      "San Francisco ( El Rodeo)":{
+        "id":"035",
+        "name":"San Francisco ( El Rodeo)",
+        "zipCode":"12035"
+      },
+      "El Amparo (El Tumbador)":{
+        "id":"036",
+        "name":"El Amparo (El Tumbador)",
+        "zipCode":"12036"
+      },
+      "San Sebastian (San Marcos)":{
+        "id":"037",
+        "name":"San Sebastian (San Marcos)",
+        "zipCode":"12037"
+      },
+      "Los Limines (Ocos)":{
+        "id":"038",
+        "name":"Los Limines (Ocos)",
+        "zipCode":"12038"
+      },
+      "La Blanca (Ocos)":{
+        "id":"039",
+        "name":"La Blanca (Ocos)",
+        "zipCode":"12039"
+      },
+      "El Cielo (El Tumbador)":{
+        "id":"040",
+        "name":"El Cielo (El Tumbador)",
+        "zipCode":"12040"
+      },
+      "San Jose Ixtal (Nuevo Progreso)":{
+        "id":"041",
+        "name":"San Jose Ixtal (Nuevo Progreso)",
+        "zipCode":"12041"
+      },
+      "Platanares (Ocos)":{
+        "id":"042",
+        "name":"Platanares (Ocos)",
+        "zipCode":"12042"
+      },
+      "Las Delicias (El Tumbador)":{
+        "id":"043",
+        "name":"Las Delicias (El Tumbador)",
+        "zipCode":"12043"
+      },
+      "Calapte (Ixchiguan)":{
+        "id":"044",
+        "name":"Calapte (Ixchiguan)",
+        "zipCode":"12044"
+      },
+      "Tocahe(San Pablo)":{
+        "id":"045",
+        "name":"Tocahe(San Pablo)",
+        "zipCode":"12045"
+      },
+      "La Conquista (Nuevo Progreso)":{
+        "id":"046",
+        "name":"La Conquista (Nuevo Progreso)",
+        "zipCode":"12046"
+      },
+      "Champollap (San Pedro Sacatepequez)":{
+        "id":"047",
+        "name":"Champollap (San Pedro Sacatepequez)",
+        "zipCode":"12047"
+      },
+      "Piedra Grande (San Pedro Sacatepequez":{
+        "id":"048",
+        "name":"Piedra Grande (San Pedro Sacatepequez",
+        "zipCode":"12048"
+      },
+      "Santa Lucia Ixcamal (San Marcos)":{
+        "id":"049",
+        "name":"Santa Lucia Ixcamal (San Marcos)",
+        "zipCode":"12049"
+      },
+      "El Sitio (Catarina )":{
+        "id":"050",
+        "name":"El Sitio (Catarina )",
+        "zipCode":"12050"
+      }
+    }
   },
   "Huehuetenango":{
-     "id":"13",
-     "name":"Huehuetenango",
-     "locationsLevel2":{
-        "Huehuetenango":{
-           "id":"001",
-           "name":"Huehuetenango",
-           "zipCode":"13001"
-        },
-        "Chiantla":{
-           "id":"002",
-           "name":"Chiantla",
-           "zipCode":"13002"
-        },
-        "Malacancito":{
-           "id":"003",
-           "name":"Malacancito",
-           "zipCode":"13003"
-        },
-        "Cuilco":{
-           "id":"004",
-           "name":"Cuilco",
-           "zipCode":"13004"
-        },
-        "Nenton":{
-           "id":"005",
-           "name":"Nenton",
-           "zipCode":"13005"
-        },
-        "San Pedro Necta":{
-           "id":"006",
-           "name":"San Pedro Necta",
-           "zipCode":"13006"
-        },
-        "Jacaltenango":{
-           "id":"007",
-           "name":"Jacaltenango",
-           "zipCode":"13007"
-        },
-        "Soloma":{
-           "id":"008",
-           "name":"Soloma",
-           "zipCode":"13008"
-        },
-        "Ixtahuatan":{
-           "id":"009",
-           "name":"Ixtahuatan",
-           "zipCode":"13009"
-        },
-        "Santa Barbara":{
-           "id":"010",
-           "name":"Santa Barbara",
-           "zipCode":"13010"
-        },
-        "La Libertad":{
-           "id":"011",
-           "name":"La Libertad",
-           "zipCode":"13011"
-        },
-        "La Democracia":{
-           "id":"012",
-           "name":"La Democracia",
-           "zipCode":"13012"
-        },
-        "San Miguel Acatan":{
-           "id":"013",
-           "name":"San Miguel Acatan",
-           "zipCode":"13013"
-        },
-        "San Rafael La Independencia":{
-           "id":"014",
-           "name":"San Rafael La Independencia",
-           "zipCode":"13014"
-        },
-        "Todos Santos Cuchumatan":{
-           "id":"015",
-           "name":"Todos Santos Cuchumatan",
-           "zipCode":"13015"
-        },
-        "San Juan Atitan":{
-           "id":"016",
-           "name":"San Juan Atitan",
-           "zipCode":"13016"
-        },
-        "Santa Eulalia":{
-           "id":"017",
-           "name":"Santa Eulalia",
-           "zipCode":"13017"
-        },
-        "San Mateo Ixtatan":{
-           "id":"018",
-           "name":"San Mateo Ixtatan",
-           "zipCode":"13018"
-        },
-        "Colotenango":{
-           "id":"019",
-           "name":"Colotenango",
-           "zipCode":"13019"
-        },
-        "San Sebastian Huehuetenango":{
-           "id":"020",
-           "name":"San Sebastian Huehuetenango",
-           "zipCode":"13020"
-        },
-        "Tectitan":{
-           "id":"021",
-           "name":"Tectitan",
-           "zipCode":"13021"
-        },
-        "Concepcion":{
-           "id":"022",
-           "name":"Concepcion",
-           "zipCode":"13022"
-        },
-        "San Juan Ixcoy":{
-           "id":"023",
-           "name":"San Juan Ixcoy",
-           "zipCode":"13023"
-        },
-        "San Antonio Huista":{
-           "id":"024",
-           "name":"San Antonio Huista",
-           "zipCode":"13024"
-        },
-        "San Sebastian Costan":{
-           "id":"025",
-           "name":"San Sebastian Costan",
-           "zipCode":"13025"
-        },
-        "Barillas":{
-           "id":"026",
-           "name":"Barillas",
-           "zipCode":"13026"
-        },
-        "Aguacatan":{
-           "id":"027",
-           "name":"Aguacatan",
-           "zipCode":"13027"
-        },
-        "San Rafael Petzal":{
-           "id":"028",
-           "name":"San Rafael Petzal",
-           "zipCode":"13028"
-        },
-        "San Gaspar Ixchil":{
-           "id":"029",
-           "name":"San Gaspar Ixchil",
-           "zipCode":"13029"
-        },
-        "Santiago Chimaltenango":{
-           "id":"030",
-           "name":"Santiago Chimaltenango",
-           "zipCode":"13030"
-        },
-        "Santa Ana Huista":{
-           "id":"031",
-           "name":"Santa Ana Huista",
-           "zipCode":"13031"
-        },
-        "Gracias A Dios (Nenton)":{
-           "id":"032",
-           "name":"Gracias A Dios (Nenton)",
-           "zipCode":"13032"
-        },
-        "San Lorenzo (Huehuetenango)":{
-           "id":"033",
-           "name":"San Lorenzo (Huehuetenango)",
-           "zipCode":"13033"
-        },
-        "San Martin Cuchumatan (Todos Santos Cuchumatan)":{
-           "id":"034",
-           "name":"San Martin Cuchumatan (Todos Santos Cuchumatan)",
-           "zipCode":"13034"
-        },
-        "San Marcos Huista (Jacaltenango)":{
-           "id":"035",
-           "name":"San Marcos Huista (Jacaltenango)",
-           "zipCode":"13035"
-        },
-        "Petatan (Concepcion)":{
-           "id":"036",
-           "name":"Petatan (Concepcion)",
-           "zipCode":"13036"
-        },
-        "Paquix (Chiantla)":{
-           "id":"037",
-           "name":"Paquix (Chiantla)",
-           "zipCode":"13037"
-        },
-        "Michicoy (San Pedro Necta)":{
-           "id":"038",
-           "name":"Michicoy (San Pedro Necta)",
-           "zipCode":"13038"
-        },
-        "San Andres Hiuista (Jacaltenango)":{
-           "id":"039",
-           "name":"San Andres Hiuista (Jacaltenango)",
-           "zipCode":"13039"
-        },
-        "Chalum (La Libertad)":{
-           "id":"040",
-           "name":"Chalum (La Libertad)",
-           "zipCode":"13040"
-        },
-        "La Mesilla":{
-           "id":"041",
-           "name":"La Mesilla",
-           "zipCode":"13041"
-        }
-     }
+    "id":"13",
+    "name":"Huehuetenango",
+    "locationsLevel2":{
+      "Huehuetenango":{
+        "id":"001",
+        "name":"Huehuetenango",
+        "zipCode":"13001"
+      },
+      "Chiantla":{
+        "id":"002",
+        "name":"Chiantla",
+        "zipCode":"13002"
+      },
+      "Malacancito":{
+        "id":"003",
+        "name":"Malacancito",
+        "zipCode":"13003"
+      },
+      "Cuilco":{
+        "id":"004",
+        "name":"Cuilco",
+        "zipCode":"13004"
+      },
+      "Nenton":{
+        "id":"005",
+        "name":"Nenton",
+        "zipCode":"13005"
+      },
+      "San Pedro Necta":{
+        "id":"006",
+        "name":"San Pedro Necta",
+        "zipCode":"13006"
+      },
+      "Jacaltenango":{
+        "id":"007",
+        "name":"Jacaltenango",
+        "zipCode":"13007"
+      },
+      "Soloma":{
+        "id":"008",
+        "name":"Soloma",
+        "zipCode":"13008"
+      },
+      "Ixtahuatan":{
+        "id":"009",
+        "name":"Ixtahuatan",
+        "zipCode":"13009"
+      },
+      "Santa Barbara":{
+        "id":"010",
+        "name":"Santa Barbara",
+        "zipCode":"13010"
+      },
+      "La Libertad":{
+        "id":"011",
+        "name":"La Libertad",
+        "zipCode":"13011"
+      },
+      "La Democracia":{
+        "id":"012",
+        "name":"La Democracia",
+        "zipCode":"13012"
+      },
+      "San Miguel Acatan":{
+        "id":"013",
+        "name":"San Miguel Acatan",
+        "zipCode":"13013"
+      },
+      "San Rafael La Independencia":{
+        "id":"014",
+        "name":"San Rafael La Independencia",
+        "zipCode":"13014"
+      },
+      "Todos Santos Cuchumatan":{
+        "id":"015",
+        "name":"Todos Santos Cuchumatan",
+        "zipCode":"13015"
+      },
+      "San Juan Atitan":{
+        "id":"016",
+        "name":"San Juan Atitan",
+        "zipCode":"13016"
+      },
+      "Santa Eulalia":{
+        "id":"017",
+        "name":"Santa Eulalia",
+        "zipCode":"13017"
+      },
+      "San Mateo Ixtatan":{
+        "id":"018",
+        "name":"San Mateo Ixtatan",
+        "zipCode":"13018"
+      },
+      "Colotenango":{
+        "id":"019",
+        "name":"Colotenango",
+        "zipCode":"13019"
+      },
+      "San Sebastian Huehuetenango":{
+        "id":"020",
+        "name":"San Sebastian Huehuetenango",
+        "zipCode":"13020"
+      },
+      "Tectitan":{
+        "id":"021",
+        "name":"Tectitan",
+        "zipCode":"13021"
+      },
+      "Concepcion":{
+        "id":"022",
+        "name":"Concepcion",
+        "zipCode":"13022"
+      },
+      "San Juan Ixcoy":{
+        "id":"023",
+        "name":"San Juan Ixcoy",
+        "zipCode":"13023"
+      },
+      "San Antonio Huista":{
+        "id":"024",
+        "name":"San Antonio Huista",
+        "zipCode":"13024"
+      },
+      "San Sebastian Costan":{
+        "id":"025",
+        "name":"San Sebastian Costan",
+        "zipCode":"13025"
+      },
+      "Barillas":{
+        "id":"026",
+        "name":"Barillas",
+        "zipCode":"13026"
+      },
+      "Aguacatan":{
+        "id":"027",
+        "name":"Aguacatan",
+        "zipCode":"13027"
+      },
+      "San Rafael Petzal":{
+        "id":"028",
+        "name":"San Rafael Petzal",
+        "zipCode":"13028"
+      },
+      "San Gaspar Ixchil":{
+        "id":"029",
+        "name":"San Gaspar Ixchil",
+        "zipCode":"13029"
+      },
+      "Santiago Chimaltenango":{
+        "id":"030",
+        "name":"Santiago Chimaltenango",
+        "zipCode":"13030"
+      },
+      "Santa Ana Huista":{
+        "id":"031",
+        "name":"Santa Ana Huista",
+        "zipCode":"13031"
+      },
+      "Gracias A Dios (Nenton)":{
+        "id":"032",
+        "name":"Gracias A Dios (Nenton)",
+        "zipCode":"13032"
+      },
+      "San Lorenzo (Huehuetenango)":{
+        "id":"033",
+        "name":"San Lorenzo (Huehuetenango)",
+        "zipCode":"13033"
+      },
+      "San Martin Cuchumatan (Todos Santos Cuchumatan)":{
+        "id":"034",
+        "name":"San Martin Cuchumatan (Todos Santos Cuchumatan)",
+        "zipCode":"13034"
+      },
+      "San Marcos Huista (Jacaltenango)":{
+        "id":"035",
+        "name":"San Marcos Huista (Jacaltenango)",
+        "zipCode":"13035"
+      },
+      "Petatan (Concepcion)":{
+        "id":"036",
+        "name":"Petatan (Concepcion)",
+        "zipCode":"13036"
+      },
+      "Paquix (Chiantla)":{
+        "id":"037",
+        "name":"Paquix (Chiantla)",
+        "zipCode":"13037"
+      },
+      "Michicoy (San Pedro Necta)":{
+        "id":"038",
+        "name":"Michicoy (San Pedro Necta)",
+        "zipCode":"13038"
+      },
+      "San Andres Hiuista (Jacaltenango)":{
+        "id":"039",
+        "name":"San Andres Hiuista (Jacaltenango)",
+        "zipCode":"13039"
+      },
+      "Chalum (La Libertad)":{
+        "id":"040",
+        "name":"Chalum (La Libertad)",
+        "zipCode":"13040"
+      },
+      "La Mesilla":{
+        "id":"041",
+        "name":"La Mesilla",
+        "zipCode":"13041"
+      }
+    }
   },
   "Quiché":{
-     "id":"14",
-     "name":"Quiché",
-     "locationsLevel2":{
-        "Santa Cruz Del Quiché":{
-           "id":"001",
-           "name":"Santa Cruz Del Quiché",
-           "zipCode":"14001"
-        },
-        "Quiché":{
-           "id":"002",
-           "name":"Quiché",
-           "zipCode":"14002"
-        },
-        "Chinisque":{
-           "id":"003",
-           "name":"Chinisque",
-           "zipCode":"14003"
-        },
-        "Zacualpa":{
-           "id":"004",
-           "name":"Zacualpa",
-           "zipCode":"14004"
-        },
-        "Chajul":{
-           "id":"005",
-           "name":"Chajul",
-           "zipCode":"14005"
-        },
-        "Chichicastenango":{
-           "id":"006",
-           "name":"Chichicastenango",
-           "zipCode":"14006"
-        },
-        "Patzite":{
-           "id":"007",
-           "name":"Patzite",
-           "zipCode":"14007"
-        },
-        "San Antonio Ilotenango":{
-           "id":"008",
-           "name":"San Antonio Ilotenango",
-           "zipCode":"14008"
-        },
-        "San Pedro Jocopilas":{
-           "id":"009",
-           "name":"San Pedro Jocopilas",
-           "zipCode":"14009"
-        },
-        "Cunen":{
-           "id":"010",
-           "name":"Cunen",
-           "zipCode":"14010"
-        },
-        "San Juan Cotzal":{
-           "id":"011",
-           "name":"San Juan Cotzal",
-           "zipCode":"14011"
-        },
-        "Joyabaj":{
-           "id":"012",
-           "name":"Joyabaj",
-           "zipCode":"14012"
-        },
-        "Nebaj":{
-           "id":"013",
-           "name":"Nebaj",
-           "zipCode":"14013"
-        },
-        "San Andres Sajcabaja":{
-           "id":"014",
-           "name":"San Andres Sajcabaja",
-           "zipCode":"14014"
-        },
-        "Uspantan":{
-           "id":"015",
-           "name":"Uspantan",
-           "zipCode":"14015"
-        },
-        "Sacapulas":{
-           "id":"016",
-           "name":"Sacapulas",
-           "zipCode":"14016"
-        },
-        "San Bartolome Jocotenango":{
-           "id":"017",
-           "name":"San Bartolome Jocotenango",
-           "zipCode":"14017"
-        },
-        "Canilla":{
-           "id":"018",
-           "name":"Canilla",
-           "zipCode":"14018"
-        },
-        "Playa Grande (Ixcan)":{
-           "id":"019",
-           "name":"Playa Grande (Ixcan)",
-           "zipCode":"14019"
-        },
-        "Chicaman":{
-           "id":"020",
-           "name":"Chicaman",
-           "zipCode":"14020"
-        },
-        "Santa Rosa Chujuyub (Santa Cruz Del Quiché)":{
-           "id":"021",
-           "name":"Santa Rosa Chujuyub (Santa Cruz Del Quiché)",
-           "zipCode":"14021"
-        },
-        "Pachalum":{
-           "id":"022",
-           "name":"Pachalum",
-           "zipCode":"14022"
-        },
-        "Cantabal":{
-           "id":"023",
-           "name":"Cantabal",
-           "zipCode":"14023"
-        },
-        "San Jose La":{
-           "id":"024",
-           "name":"San Jose La",
-           "zipCode":"14024"
-        },
-        "Xacbal":{
-           "id":"025",
-           "name":"Xacbal",
-           "zipCode":"14025"
-        }
-     }
+    "id":"14",
+    "name":"Quiché",
+    "locationsLevel2":{
+      "Santa Cruz Del Quiché":{
+        "id":"001",
+        "name":"Santa Cruz Del Quiché",
+        "zipCode":"14001"
+      },
+      "Quiché":{
+        "id":"002",
+        "name":"Quiché",
+        "zipCode":"14002"
+      },
+      "Chinisque":{
+        "id":"003",
+        "name":"Chinisque",
+        "zipCode":"14003"
+      },
+      "Zacualpa":{
+        "id":"004",
+        "name":"Zacualpa",
+        "zipCode":"14004"
+      },
+      "Chajul":{
+        "id":"005",
+        "name":"Chajul",
+        "zipCode":"14005"
+      },
+      "Chichicastenango":{
+        "id":"006",
+        "name":"Chichicastenango",
+        "zipCode":"14006"
+      },
+      "Patzite":{
+        "id":"007",
+        "name":"Patzite",
+        "zipCode":"14007"
+      },
+      "San Antonio Ilotenango":{
+        "id":"008",
+        "name":"San Antonio Ilotenango",
+        "zipCode":"14008"
+      },
+      "San Pedro Jocopilas":{
+        "id":"009",
+        "name":"San Pedro Jocopilas",
+        "zipCode":"14009"
+      },
+      "Cunen":{
+        "id":"010",
+        "name":"Cunen",
+        "zipCode":"14010"
+      },
+      "San Juan Cotzal":{
+        "id":"011",
+        "name":"San Juan Cotzal",
+        "zipCode":"14011"
+      },
+      "Joyabaj":{
+        "id":"012",
+        "name":"Joyabaj",
+        "zipCode":"14012"
+      },
+      "Nebaj":{
+        "id":"013",
+        "name":"Nebaj",
+        "zipCode":"14013"
+      },
+      "San Andres Sajcabaja":{
+        "id":"014",
+        "name":"San Andres Sajcabaja",
+        "zipCode":"14014"
+      },
+      "Uspantan":{
+        "id":"015",
+        "name":"Uspantan",
+        "zipCode":"14015"
+      },
+      "Sacapulas":{
+        "id":"016",
+        "name":"Sacapulas",
+        "zipCode":"14016"
+      },
+      "San Bartolome Jocotenango":{
+        "id":"017",
+        "name":"San Bartolome Jocotenango",
+        "zipCode":"14017"
+      },
+      "Canilla":{
+        "id":"018",
+        "name":"Canilla",
+        "zipCode":"14018"
+      },
+      "Playa Grande (Ixcan)":{
+        "id":"019",
+        "name":"Playa Grande (Ixcan)",
+        "zipCode":"14019"
+      },
+      "Chicaman":{
+        "id":"020",
+        "name":"Chicaman",
+        "zipCode":"14020"
+      },
+      "Santa Rosa Chujuyub (Santa Cruz Del Quiché)":{
+        "id":"021",
+        "name":"Santa Rosa Chujuyub (Santa Cruz Del Quiché)",
+        "zipCode":"14021"
+      },
+      "Pachalum":{
+        "id":"022",
+        "name":"Pachalum",
+        "zipCode":"14022"
+      },
+      "Cantabal":{
+        "id":"023",
+        "name":"Cantabal",
+        "zipCode":"14023"
+      },
+      "San Jose La":{
+        "id":"024",
+        "name":"San Jose La",
+        "zipCode":"14024"
+      },
+      "Xacbal":{
+        "id":"025",
+        "name":"Xacbal",
+        "zipCode":"14025"
+      }
+    }
   },
   "Baja Verapaz":{
-     "id":"15",
-     "name":"Baja Verapaz",
-     "locationsLevel2":{
-        "Salama":{
-           "id":"001",
-           "name":"Salama",
-           "zipCode":"15001"
-        },
-        "San Miguel Chicaj":{
-           "id":"002",
-           "name":"San Miguel Chicaj",
-           "zipCode":"15002"
-        },
-        "Rabinal":{
-           "id":"003",
-           "name":"Rabinal",
-           "zipCode":"15003"
-        },
-        "Cubulco":{
-           "id":"004",
-           "name":"Cubulco",
-           "zipCode":"15004"
-        },
-        "Granados":{
-           "id":"005",
-           "name":"Granados",
-           "zipCode":"15005"
-        },
-        "El Chol":{
-           "id":"006",
-           "name":"El Chol",
-           "zipCode":"15006"
-        },
-        "San Jeronimo":{
-           "id":"007",
-           "name":"San Jeronimo",
-           "zipCode":"15007"
-        },
-        "Perulha":{
-           "id":"008",
-           "name":"Perulha",
-           "zipCode":"15008"
-        },
-        "Los Amates (El Chol)":{
-           "id":"009",
-           "name":"Los Amates (El Chol)",
-           "zipCode":"15009"
-        },
-        "La Canoa (Salama)":{
-           "id":"010",
-           "name":"La Canoa (Salama)",
-           "zipCode":"15010"
-        },
-        "Saltan (Granados)":{
-           "id":"011",
-           "name":"Saltan (Granados)",
-           "zipCode":"15011"
-        },
-        "San Gabriel Pantzuy (San Miguel Chicaj)":{
-           "id":"012",
-           "name":"San Gabriel Pantzuy (San Miguel Chicaj)",
-           "zipCode":"15012"
-        }
-     }
+    "id":"15",
+    "name":"Baja Verapaz",
+    "locationsLevel2":{
+      "Salama":{
+        "id":"001",
+        "name":"Salama",
+        "zipCode":"15001"
+      },
+      "San Miguel Chicaj":{
+        "id":"002",
+        "name":"San Miguel Chicaj",
+        "zipCode":"15002"
+      },
+      "Rabinal":{
+        "id":"003",
+        "name":"Rabinal",
+        "zipCode":"15003"
+      },
+      "Cubulco":{
+        "id":"004",
+        "name":"Cubulco",
+        "zipCode":"15004"
+      },
+      "Granados":{
+        "id":"005",
+        "name":"Granados",
+        "zipCode":"15005"
+      },
+      "El Chol":{
+        "id":"006",
+        "name":"El Chol",
+        "zipCode":"15006"
+      },
+      "San Jeronimo":{
+        "id":"007",
+        "name":"San Jeronimo",
+        "zipCode":"15007"
+      },
+      "Perulha":{
+        "id":"008",
+        "name":"Perulha",
+        "zipCode":"15008"
+      },
+      "Los Amates (El Chol)":{
+        "id":"009",
+        "name":"Los Amates (El Chol)",
+        "zipCode":"15009"
+      },
+      "La Canoa (Salama)":{
+        "id":"010",
+        "name":"La Canoa (Salama)",
+        "zipCode":"15010"
+      },
+      "Saltan (Granados)":{
+        "id":"011",
+        "name":"Saltan (Granados)",
+        "zipCode":"15011"
+      },
+      "San Gabriel Pantzuy (San Miguel Chicaj)":{
+        "id":"012",
+        "name":"San Gabriel Pantzuy (San Miguel Chicaj)",
+        "zipCode":"15012"
+      }
+    }
   },
   "Alta Verapaz":{
-     "id":"16",
-     "name":"Alta Verapaz",
-     "locationsLevel2":{
-        "Coban":{
-           "id":"001",
-           "name":"Coban",
-           "zipCode":"16001"
-        },
-        "Santa Cruz Verapaz":{
-           "id":"002",
-           "name":"Santa Cruz Verapaz",
-           "zipCode":"16002"
-        },
-        "San Cristobal Verapaz":{
-           "id":"003",
-           "name":"San Cristobal Verapaz",
-           "zipCode":"16003"
-        },
-        "Tactic":{
-           "id":"004",
-           "name":"Tactic",
-           "zipCode":"16004"
-        },
-        "Tamahu":{
-           "id":"005",
-           "name":"Tamahu",
-           "zipCode":"16005"
-        },
-        "Tucuru":{
-           "id":"006",
-           "name":"Tucuru",
-           "zipCode":"16006"
-        },
-        "Panzos":{
-           "id":"007",
-           "name":"Panzos",
-           "zipCode":"16007"
-        },
-        "Senahu":{
-           "id":"008",
-           "name":"Senahu",
-           "zipCode":"16008"
-        },
-        "San Pedro Carcha":{
-           "id":"009",
-           "name":"San Pedro Carcha",
-           "zipCode":"16009"
-        },
-        "San Juan Chamelco":{
-           "id":"010",
-           "name":"San Juan Chamelco",
-           "zipCode":"16010"
-        },
-        "Lanquin":{
-           "id":"011",
-           "name":"Lanquin",
-           "zipCode":"16011"
-        },
-        "Cahabon":{
-           "id":"012",
-           "name":"Cahabon",
-           "zipCode":"16012"
-        },
-        "Chiset":{
-           "id":"013",
-           "name":"Chiset",
-           "zipCode":"16013"
-        },
-        "Chahal":{
-           "id":"014",
-           "name":"Chahal",
-           "zipCode":"16014"
-        },
-        "Fray Bartolome De Las Casas":{
-           "id":"015",
-           "name":"Fray Bartolome De Las Casas",
-           "zipCode":"16015"
-        },
-        "La Tinta (Panzos)":{
-           "id":"016",
-           "name":"La Tinta (Panzos)",
-           "zipCode":"16016"
-        },
-        "Teleman (Panzos)":{
-           "id":"017",
-           "name":"Teleman (Panzos)",
-           "zipCode":"16017"
-        },
-        "Pancajche (Tucuru)":{
-           "id":"018",
-           "name":"Pancajche (Tucuru)",
-           "zipCode":"16018"
-        },
-        "Sebol (Fray Bartolome)":{
-           "id":"019",
-           "name":"Sebol (Fray Bartolome)",
-           "zipCode":"16019"
-        },
-        "Bolonco (Fray Bartolome)":{
-           "id":"020",
-           "name":"Bolonco (Fray Bartolome)",
-           "zipCode":"16020"
-        },
-        "Campur (San Pedro Carcha)":{
-           "id":"021",
-           "name":"Campur (San Pedro Carcha)",
-           "zipCode":"16021"
-        },
-        "Las Casas":{
-           "id":"022",
-           "name":"Las Casas",
-           "zipCode":"16022"
-        },
-        "Salacuin":{
-           "id":"023",
-           "name":"Salacuin",
-           "zipCode":"16023"
-        },
-        "El Rosario":{
-           "id":"024",
-           "name":"El Rosario",
-           "zipCode":"16024"
-        },
-        "Las Conchas":{
-           "id":"025",
-           "name":"Las Conchas",
-           "zipCode":"16025"
-        },
-        "Raxruha (Chisec)":{
-           "id":"026",
-           "name":"Raxruha (Chisec)",
-           "zipCode":"16026"
-        }
-     }
+    "id":"16",
+    "name":"Alta Verapaz",
+    "locationsLevel2":{
+      "Coban":{
+        "id":"001",
+        "name":"Coban",
+        "zipCode":"16001"
+      },
+      "Santa Cruz Verapaz":{
+        "id":"002",
+        "name":"Santa Cruz Verapaz",
+        "zipCode":"16002"
+      },
+      "San Cristobal Verapaz":{
+        "id":"003",
+        "name":"San Cristobal Verapaz",
+        "zipCode":"16003"
+      },
+      "Tactic":{
+        "id":"004",
+        "name":"Tactic",
+        "zipCode":"16004"
+      },
+      "Tamahu":{
+        "id":"005",
+        "name":"Tamahu",
+        "zipCode":"16005"
+      },
+      "Tucuru":{
+        "id":"006",
+        "name":"Tucuru",
+        "zipCode":"16006"
+      },
+      "Panzos":{
+        "id":"007",
+        "name":"Panzos",
+        "zipCode":"16007"
+      },
+      "Senahu":{
+        "id":"008",
+        "name":"Senahu",
+        "zipCode":"16008"
+      },
+      "San Pedro Carcha":{
+        "id":"009",
+        "name":"San Pedro Carcha",
+        "zipCode":"16009"
+      },
+      "San Juan Chamelco":{
+        "id":"010",
+        "name":"San Juan Chamelco",
+        "zipCode":"16010"
+      },
+      "Lanquin":{
+        "id":"011",
+        "name":"Lanquin",
+        "zipCode":"16011"
+      },
+      "Cahabon":{
+        "id":"012",
+        "name":"Cahabon",
+        "zipCode":"16012"
+      },
+      "Chiset":{
+        "id":"013",
+        "name":"Chiset",
+        "zipCode":"16013"
+      },
+      "Chahal":{
+        "id":"014",
+        "name":"Chahal",
+        "zipCode":"16014"
+      },
+      "Fray Bartolome De Las Casas":{
+        "id":"015",
+        "name":"Fray Bartolome De Las Casas",
+        "zipCode":"16015"
+      },
+      "La Tinta (Panzos)":{
+        "id":"016",
+        "name":"La Tinta (Panzos)",
+        "zipCode":"16016"
+      },
+      "Teleman (Panzos)":{
+        "id":"017",
+        "name":"Teleman (Panzos)",
+        "zipCode":"16017"
+      },
+      "Pancajche (Tucuru)":{
+        "id":"018",
+        "name":"Pancajche (Tucuru)",
+        "zipCode":"16018"
+      },
+      "Sebol (Fray Bartolome)":{
+        "id":"019",
+        "name":"Sebol (Fray Bartolome)",
+        "zipCode":"16019"
+      },
+      "Bolonco (Fray Bartolome)":{
+        "id":"020",
+        "name":"Bolonco (Fray Bartolome)",
+        "zipCode":"16020"
+      },
+      "Campur (San Pedro Carcha)":{
+        "id":"021",
+        "name":"Campur (San Pedro Carcha)",
+        "zipCode":"16021"
+      },
+      "Las Casas":{
+        "id":"022",
+        "name":"Las Casas",
+        "zipCode":"16022"
+      },
+      "Salacuin":{
+        "id":"023",
+        "name":"Salacuin",
+        "zipCode":"16023"
+      },
+      "El Rosario":{
+        "id":"024",
+        "name":"El Rosario",
+        "zipCode":"16024"
+      },
+      "Las Conchas":{
+        "id":"025",
+        "name":"Las Conchas",
+        "zipCode":"16025"
+      },
+      "Raxruha (Chisec)":{
+        "id":"026",
+        "name":"Raxruha (Chisec)",
+        "zipCode":"16026"
+      }
+    }
   },
   "Petén":{
-     "id":"17",
-     "name":"Petén",
-     "locationsLevel2":{
-        "Flores":{
-           "id":"001",
-           "name":"Flores",
-           "zipCode":"17001"
-        },
-        "San Jose":{
-           "id":"002",
-           "name":"San Jose",
-           "zipCode":"17002"
-        },
-        "San Benito":{
-           "id":"003",
-           "name":"San Benito",
-           "zipCode":"17003"
-        },
-        "San Andres":{
-           "id":"004",
-           "name":"San Andres",
-           "zipCode":"17004"
-        },
-        "La Libertad":{
-           "id":"005",
-           "name":"La Libertad",
-           "zipCode":"17005"
-        },
-        "San Francisco":{
-           "id":"006",
-           "name":"San Francisco",
-           "zipCode":"17006"
-        },
-        "Santa Ana":{
-           "id":"007",
-           "name":"Santa Ana",
-           "zipCode":"17007"
-        },
-        "Dolores":{
-           "id":"008",
-           "name":"Dolores",
-           "zipCode":"17008"
-        },
-        "San Luis":{
-           "id":"009",
-           "name":"San Luis",
-           "zipCode":"17009"
-        },
-        "Sayaxche":{
-           "id":"010",
-           "name":"Sayaxche",
-           "zipCode":"17010"
-        },
-        "Melchor De Mencos":{
-           "id":"011",
-           "name":"Melchor De Mencos",
-           "zipCode":"17011"
-        },
-        "Poptun":{
-           "id":"012",
-           "name":"Poptun",
-           "zipCode":"17012"
-        },
-        "Tikal (Flores)":{
-           "id":"013",
-           "name":"Tikal (Flores)",
-           "zipCode":"17013"
-        },
-        "Dos Lagunas (Flores)":{
-           "id":"014",
-           "name":"Dos Lagunas (Flores)",
-           "zipCode":"17014"
-        },
-        "Santo Toribio (Dolores)":{
-           "id":"015",
-           "name":"Santo Toribio (Dolores)",
-           "zipCode":"17015"
-        },
-        "Paso Caballos (San Andres)":{
-           "id":"016",
-           "name":"Paso Caballos (San Andres)",
-           "zipCode":"17016"
-        },
-        "Uaxactun (Flores)":{
-           "id":"017",
-           "name":"Uaxactun (Flores)",
-           "zipCode":"17017"
-        },
-        "Carmelita (San Andres)":{
-           "id":"018",
-           "name":"Carmelita (San Andres)",
-           "zipCode":"17018"
-        },
-        "Machaquila (Dolores)":{
-           "id":"019",
-           "name":"Machaquila (Dolores)",
-           "zipCode":"17019"
-        },
-        "El Chal ( Dolores )":{
-           "id":"020",
-           "name":"El Chal ( Dolores )",
-           "zipCode":"17020"
-        },
-        "Macanche (Dolores)":{
-           "id":"021",
-           "name":"Macanche (Dolores)",
-           "zipCode":"17021"
-        },
-        "El Remate (Flores)":{
-           "id":"022",
-           "name":"El Remate (Flores)",
-           "zipCode":"17022"
-        },
-        "La Felicidad (Sayaxche)":{
-           "id":"023",
-           "name":"La Felicidad (Sayaxche)",
-           "zipCode":"17023"
-        },
-        "El Naranjo (La Libertad)":{
-           "id":"024",
-           "name":"El Naranjo (La Libertad)",
-           "zipCode":"17024"
-        },
-        "Sacpuy (San Andres)":{
-           "id":"025",
-           "name":"Sacpuy (San Andres)",
-           "zipCode":"17025"
-        },
-        "Paxcaman (Flores)":{
-           "id":"026",
-           "name":"Paxcaman (Flores)",
-           "zipCode":"17026"
-        },
-        "Las Cruces (La Libertad)":{
-           "id":"027",
-           "name":"Las Cruces (La Libertad)",
-           "zipCode":"17027"
-        },
-        "Sabaneta (Dolores)":{
-           "id":"028",
-           "name":"Sabaneta (Dolores)",
-           "zipCode":"17028"
-        },
-        "Santa Elena":{
-           "id":"029",
-           "name":"Santa Elena",
-           "zipCode":"17029"
-        }
-     }
+    "id":"17",
+    "name":"Petén",
+    "locationsLevel2":{
+      "Flores":{
+        "id":"001",
+        "name":"Flores",
+        "zipCode":"17001"
+      },
+      "San Jose":{
+        "id":"002",
+        "name":"San Jose",
+        "zipCode":"17002"
+      },
+      "San Benito":{
+        "id":"003",
+        "name":"San Benito",
+        "zipCode":"17003"
+      },
+      "San Andres":{
+        "id":"004",
+        "name":"San Andres",
+        "zipCode":"17004"
+      },
+      "La Libertad":{
+        "id":"005",
+        "name":"La Libertad",
+        "zipCode":"17005"
+      },
+      "San Francisco":{
+        "id":"006",
+        "name":"San Francisco",
+        "zipCode":"17006"
+      },
+      "Santa Ana":{
+        "id":"007",
+        "name":"Santa Ana",
+        "zipCode":"17007"
+      },
+      "Dolores":{
+        "id":"008",
+        "name":"Dolores",
+        "zipCode":"17008"
+      },
+      "San Luis":{
+        "id":"009",
+        "name":"San Luis",
+        "zipCode":"17009"
+      },
+      "Sayaxche":{
+        "id":"010",
+        "name":"Sayaxche",
+        "zipCode":"17010"
+      },
+      "Melchor De Mencos":{
+        "id":"011",
+        "name":"Melchor De Mencos",
+        "zipCode":"17011"
+      },
+      "Poptun":{
+        "id":"012",
+        "name":"Poptun",
+        "zipCode":"17012"
+      },
+      "Tikal (Flores)":{
+        "id":"013",
+        "name":"Tikal (Flores)",
+        "zipCode":"17013"
+      },
+      "Dos Lagunas (Flores)":{
+        "id":"014",
+        "name":"Dos Lagunas (Flores)",
+        "zipCode":"17014"
+      },
+      "Santo Toribio (Dolores)":{
+        "id":"015",
+        "name":"Santo Toribio (Dolores)",
+        "zipCode":"17015"
+      },
+      "Paso Caballos (San Andres)":{
+        "id":"016",
+        "name":"Paso Caballos (San Andres)",
+        "zipCode":"17016"
+      },
+      "Uaxactun (Flores)":{
+        "id":"017",
+        "name":"Uaxactun (Flores)",
+        "zipCode":"17017"
+      },
+      "Carmelita (San Andres)":{
+        "id":"018",
+        "name":"Carmelita (San Andres)",
+        "zipCode":"17018"
+      },
+      "Machaquila (Dolores)":{
+        "id":"019",
+        "name":"Machaquila (Dolores)",
+        "zipCode":"17019"
+      },
+      "El Chal ( Dolores )":{
+        "id":"020",
+        "name":"El Chal ( Dolores )",
+        "zipCode":"17020"
+      },
+      "Macanche (Dolores)":{
+        "id":"021",
+        "name":"Macanche (Dolores)",
+        "zipCode":"17021"
+      },
+      "El Remate (Flores)":{
+        "id":"022",
+        "name":"El Remate (Flores)",
+        "zipCode":"17022"
+      },
+      "La Felicidad (Sayaxche)":{
+        "id":"023",
+        "name":"La Felicidad (Sayaxche)",
+        "zipCode":"17023"
+      },
+      "El Naranjo (La Libertad)":{
+        "id":"024",
+        "name":"El Naranjo (La Libertad)",
+        "zipCode":"17024"
+      },
+      "Sacpuy (San Andres)":{
+        "id":"025",
+        "name":"Sacpuy (San Andres)",
+        "zipCode":"17025"
+      },
+      "Paxcaman (Flores)":{
+        "id":"026",
+        "name":"Paxcaman (Flores)",
+        "zipCode":"17026"
+      },
+      "Las Cruces (La Libertad)":{
+        "id":"027",
+        "name":"Las Cruces (La Libertad)",
+        "zipCode":"17027"
+      },
+      "Sabaneta (Dolores)":{
+        "id":"028",
+        "name":"Sabaneta (Dolores)",
+        "zipCode":"17028"
+      },
+      "Santa Elena":{
+        "id":"029",
+        "name":"Santa Elena",
+        "zipCode":"17029"
+      }
+    }
   },
   "Izabal":{
-     "id":"18",
-     "name":"Izabal",
-     "locationsLevel2":{
-        "Puerto Barrios":{
-           "id":"001",
-           "name":"Puerto Barrios",
-           "zipCode":"18001"
-        },
-        "Livingston":{
-           "id":"002",
-           "name":"Livingston",
-           "zipCode":"18002"
-        },
-        "El Estor":{
-           "id":"003",
-           "name":"El Estor",
-           "zipCode":"18003"
-        },
-        "Morales":{
-           "id":"004",
-           "name":"Morales",
-           "zipCode":"18004"
-        },
-        "Los Amates":{
-           "id":"005",
-           "name":"Los Amates",
-           "zipCode":"18005"
-        },
-        "Playitas (Morales)":{
-           "id":"006",
-           "name":"Playitas (Morales)",
-           "zipCode":"18006"
-        },
-        "El Rico (Los Amates)":{
-           "id":"007",
-           "name":"El Rico (Los Amates)",
-           "zipCode":"18007"
-        },
-        "Cayuga (Morales)":{
-           "id":"008",
-           "name":"Cayuga (Morales)",
-           "zipCode":"18008"
-        },
-        "Quirigua (Los Amates)":{
-           "id":"009",
-           "name":"Quirigua (Los Amates)",
-           "zipCode":"18009"
-        },
-        "El Cinchado (Puerto Barrios)":{
-           "id":"010",
-           "name":"El Cinchado (Puerto Barrios)",
-           "zipCode":"18010"
-        },
-        "Las Quebradas (Morales)":{
-           "id":"011",
-           "name":"Las Quebradas (Morales)",
-           "zipCode":"18011"
-        },
-        "Entre Rios (Puerto Barrios)":{
-           "id":"012",
-           "name":"Entre Rios (Puerto Barrios)",
-           "zipCode":"18012"
-        },
-        "Santo Tomas De Castilla (Puerto Barrios)":{
-           "id":"013",
-           "name":"Santo Tomas De Castilla (Puerto Barrios)",
-           "zipCode":"18013"
-        },
-        "El Mitchal (Morales)":{
-           "id":"014",
-           "name":"El Mitchal (Morales)",
-           "zipCode":"18014"
-        },
-        "Las Vinas (Morales)":{
-           "id":"015",
-           "name":"Las Vinas (Morales)",
-           "zipCode":"18015"
-        },
-        "El Refugio (Los Amates)":{
-           "id":"016",
-           "name":"El Refugio (Los Amates)",
-           "zipCode":"18016"
-        },
-        "Santa Ines (Los Amates)":{
-           "id":"017",
-           "name":"Santa Ines (Los Amates)",
-           "zipCode":"18017"
-        },
-        "Tenedores (Morales)":{
-           "id":"018",
-           "name":"Tenedores (Morales)",
-           "zipCode":"18018"
-        },
-        "San Felipe (Livingston)":{
-           "id":"019",
-           "name":"San Felipe (Livingston)",
-           "zipCode":"18019"
-        },
-        "Bananera (Morales)":{
-           "id":"020",
-           "name":"Bananera (Morales)",
-           "zipCode":"18020"
-        },
-        "Fronteras (Livingston)":{
-           "id":"021",
-           "name":"Fronteras (Livingston)",
-           "zipCode":"18021"
-        },
-        "Mariscos (Los Amates)":{
-           "id":"022",
-           "name":"Mariscos (Los Amates)",
-           "zipCode":"18022"
-        },
-        "Buenos Aires (Morales)":{
-           "id":"023",
-           "name":"Buenos Aires (Morales)",
-           "zipCode":"18023"
-        }
-     }
+    "id":"18",
+    "name":"Izabal",
+    "locationsLevel2":{
+      "Puerto Barrios":{
+        "id":"001",
+        "name":"Puerto Barrios",
+        "zipCode":"18001"
+      },
+      "Livingston":{
+        "id":"002",
+        "name":"Livingston",
+        "zipCode":"18002"
+      },
+      "El Estor":{
+        "id":"003",
+        "name":"El Estor",
+        "zipCode":"18003"
+      },
+      "Morales":{
+        "id":"004",
+        "name":"Morales",
+        "zipCode":"18004"
+      },
+      "Los Amates":{
+        "id":"005",
+        "name":"Los Amates",
+        "zipCode":"18005"
+      },
+      "Playitas (Morales)":{
+        "id":"006",
+        "name":"Playitas (Morales)",
+        "zipCode":"18006"
+      },
+      "El Rico (Los Amates)":{
+        "id":"007",
+        "name":"El Rico (Los Amates)",
+        "zipCode":"18007"
+      },
+      "Cayuga (Morales)":{
+        "id":"008",
+        "name":"Cayuga (Morales)",
+        "zipCode":"18008"
+      },
+      "Quirigua (Los Amates)":{
+        "id":"009",
+        "name":"Quirigua (Los Amates)",
+        "zipCode":"18009"
+      },
+      "El Cinchado (Puerto Barrios)":{
+        "id":"010",
+        "name":"El Cinchado (Puerto Barrios)",
+        "zipCode":"18010"
+      },
+      "Las Quebradas (Morales)":{
+        "id":"011",
+        "name":"Las Quebradas (Morales)",
+        "zipCode":"18011"
+      },
+      "Entre Rios (Puerto Barrios)":{
+        "id":"012",
+        "name":"Entre Rios (Puerto Barrios)",
+        "zipCode":"18012"
+      },
+      "Santo Tomas De Castilla (Puerto Barrios)":{
+        "id":"013",
+        "name":"Santo Tomas De Castilla (Puerto Barrios)",
+        "zipCode":"18013"
+      },
+      "El Mitchal (Morales)":{
+        "id":"014",
+        "name":"El Mitchal (Morales)",
+        "zipCode":"18014"
+      },
+      "Las Vinas (Morales)":{
+        "id":"015",
+        "name":"Las Vinas (Morales)",
+        "zipCode":"18015"
+      },
+      "El Refugio (Los Amates)":{
+        "id":"016",
+        "name":"El Refugio (Los Amates)",
+        "zipCode":"18016"
+      },
+      "Santa Ines (Los Amates)":{
+        "id":"017",
+        "name":"Santa Ines (Los Amates)",
+        "zipCode":"18017"
+      },
+      "Tenedores (Morales)":{
+        "id":"018",
+        "name":"Tenedores (Morales)",
+        "zipCode":"18018"
+      },
+      "San Felipe (Livingston)":{
+        "id":"019",
+        "name":"San Felipe (Livingston)",
+        "zipCode":"18019"
+      },
+      "Bananera (Morales)":{
+        "id":"020",
+        "name":"Bananera (Morales)",
+        "zipCode":"18020"
+      },
+      "Fronteras (Livingston)":{
+        "id":"021",
+        "name":"Fronteras (Livingston)",
+        "zipCode":"18021"
+      },
+      "Mariscos (Los Amates)":{
+        "id":"022",
+        "name":"Mariscos (Los Amates)",
+        "zipCode":"18022"
+      },
+      "Buenos Aires (Morales)":{
+        "id":"023",
+        "name":"Buenos Aires (Morales)",
+        "zipCode":"18023"
+      }
+    }
   },
   "Zacapa":{
-     "id":"19",
-     "name":"Zacapa",
-     "locationsLevel2":{
-        "Zacapa":{
-           "id":"001",
-           "name":"Zacapa",
-           "zipCode":"19001"
-        },
-        "Estanzuela":{
-           "id":"002",
-           "name":"Estanzuela",
-           "zipCode":"19002"
-        },
-        "Rio Hondo":{
-           "id":"003",
-           "name":"Rio Hondo",
-           "zipCode":"19003"
-        },
-        "Gualan":{
-           "id":"004",
-           "name":"Gualan",
-           "zipCode":"19004"
-        },
-        "Teculutan":{
-           "id":"005",
-           "name":"Teculutan",
-           "zipCode":"19005"
-        },
-        "Usumatlan":{
-           "id":"006",
-           "name":"Usumatlan",
-           "zipCode":"19006"
-        },
-        "Cabanas":{
-           "id":"007",
-           "name":"Cabanas",
-           "zipCode":"19007"
-        },
-        "San Diego":{
-           "id":"008",
-           "name":"San Diego",
-           "zipCode":"19008"
-        },
-        "La Union":{
-           "id":"009",
-           "name":"La Union",
-           "zipCode":"19009"
-        },
-        "Huite":{
-           "id":"010",
-           "name":"Huite",
-           "zipCode":"19010"
-        },
-        "La Reforma (Huite)":{
-           "id":"011",
-           "name":"La Reforma (Huite)",
-           "zipCode":"19011"
-        },
-        "San Jose (Teculutan)":{
-           "id":"012",
-           "name":"San Jose (Teculutan)",
-           "zipCode":"19012"
-        },
-        "San Jorge (Zacapa)":{
-           "id":"013",
-           "name":"San Jorge (Zacapa)",
-           "zipCode":"19013"
-        },
-        "Santa Rosalia (Zacapa)":{
-           "id":"014",
-           "name":"Santa Rosalia (Zacapa)",
-           "zipCode":"19014"
-        },
-        "Santa Lucia (Zacapa)":{
-           "id":"015",
-           "name":"Santa Lucia (Zacapa)",
-           "zipCode":"19015"
-        },
-        "La Fragua (Zacapa)":{
-           "id":"016",
-           "name":"La Fragua (Zacapa)",
-           "zipCode":"19016"
-        },
-        "San Pablo (Zacapa)":{
-           "id":"017",
-           "name":"San Pablo (Zacapa)",
-           "zipCode":"19017"
-        },
-        "San Vicente":{
-           "id":"018",
-           "name":"San Vicente",
-           "zipCode":"19018"
-        }
-     }
+    "id":"19",
+    "name":"Zacapa",
+    "locationsLevel2":{
+      "Zacapa":{
+        "id":"001",
+        "name":"Zacapa",
+        "zipCode":"19001"
+      },
+      "Estanzuela":{
+        "id":"002",
+        "name":"Estanzuela",
+        "zipCode":"19002"
+      },
+      "Rio Hondo":{
+        "id":"003",
+        "name":"Rio Hondo",
+        "zipCode":"19003"
+      },
+      "Gualan":{
+        "id":"004",
+        "name":"Gualan",
+        "zipCode":"19004"
+      },
+      "Teculutan":{
+        "id":"005",
+        "name":"Teculutan",
+        "zipCode":"19005"
+      },
+      "Usumatlan":{
+        "id":"006",
+        "name":"Usumatlan",
+        "zipCode":"19006"
+      },
+      "Cabanas":{
+        "id":"007",
+        "name":"Cabanas",
+        "zipCode":"19007"
+      },
+      "San Diego":{
+        "id":"008",
+        "name":"San Diego",
+        "zipCode":"19008"
+      },
+      "La Union":{
+        "id":"009",
+        "name":"La Union",
+        "zipCode":"19009"
+      },
+      "Huite":{
+        "id":"010",
+        "name":"Huite",
+        "zipCode":"19010"
+      },
+      "La Reforma (Huite)":{
+        "id":"011",
+        "name":"La Reforma (Huite)",
+        "zipCode":"19011"
+      },
+      "San Jose (Teculutan)":{
+        "id":"012",
+        "name":"San Jose (Teculutan)",
+        "zipCode":"19012"
+      },
+      "San Jorge (Zacapa)":{
+        "id":"013",
+        "name":"San Jorge (Zacapa)",
+        "zipCode":"19013"
+      },
+      "Santa Rosalia (Zacapa)":{
+        "id":"014",
+        "name":"Santa Rosalia (Zacapa)",
+        "zipCode":"19014"
+      },
+      "Santa Lucia (Zacapa)":{
+        "id":"015",
+        "name":"Santa Lucia (Zacapa)",
+        "zipCode":"19015"
+      },
+      "La Fragua (Zacapa)":{
+        "id":"016",
+        "name":"La Fragua (Zacapa)",
+        "zipCode":"19016"
+      },
+      "San Pablo (Zacapa)":{
+        "id":"017",
+        "name":"San Pablo (Zacapa)",
+        "zipCode":"19017"
+      },
+      "San Vicente":{
+        "id":"018",
+        "name":"San Vicente",
+        "zipCode":"19018"
+      }
+    }
   },
   "Chiquimula":{
-     "id":"20",
-     "name":"Chiquimula",
-     "locationsLevel2":{
-        "Chiquimula":{
-           "id":"001",
-           "name":"Chiquimula",
-           "zipCode":"20001"
-        },
-        "San Jose La Arada":{
-           "id":"002",
-           "name":"San Jose La Arada",
-           "zipCode":"20002"
-        },
-        "San Juan Ermita":{
-           "id":"003",
-           "name":"San Juan Ermita",
-           "zipCode":"20003"
-        },
-        "Jocotan":{
-           "id":"004",
-           "name":"Jocotan",
-           "zipCode":"20004"
-        },
-        "Camotan":{
-           "id":"005",
-           "name":"Camotan",
-           "zipCode":"20005"
-        },
-        "Olopa":{
-           "id":"006",
-           "name":"Olopa",
-           "zipCode":"20006"
-        },
-        "Esquipulas":{
-           "id":"007",
-           "name":"Esquipulas",
-           "zipCode":"20007"
-        },
-        "Concepcion Las Minas":{
-           "id":"008",
-           "name":"Concepcion Las Minas",
-           "zipCode":"20008"
-        },
-        "Quetzaltepeque":{
-           "id":"009",
-           "name":"Quetzaltepeque",
-           "zipCode":"20009"
-        },
-        "San Jacinto":{
-           "id":"010",
-           "name":"San Jacinto",
-           "zipCode":"20010"
-        },
-        "Ipala":{
-           "id":"011",
-           "name":"Ipala",
-           "zipCode":"20011"
-        },
-        "Anguiatu (Concep. Las Minas )":{
-           "id":"012",
-           "name":"Anguiatu (Concep. Las Minas )",
-           "zipCode":"20012"
-        },
-        "El Amatillo (Jocotan)":{
-           "id":"013",
-           "name":"El Amatillo (Jocotan)",
-           "zipCode":"20013"
-        },
-        "El Florido (Camotan)":{
-           "id":"014",
-           "name":"El Florido (Camotan)",
-           "zipCode":"20014"
-        },
-        "Santa Elena (Chiquimula)":{
-           "id":"015",
-           "name":"Santa Elena (Chiquimula)",
-           "zipCode":"20015"
-        },
-        "Valdo Hondo (Chiquimula)":{
-           "id":"016",
-           "name":"Valdo Hondo (Chiquimula)",
-           "zipCode":"20016"
-        },
-        "San Esteban (Chiquimula)":{
-           "id":"017",
-           "name":"San Esteban (Chiquimula)",
-           "zipCode":"20017"
-        },
-        "Tierra Colorada ( San Jose La Arada)":{
-           "id":"018",
-           "name":"Tierra Colorada ( San Jose La Arada)",
-           "zipCode":"20018"
-        },
-        "Agua Caliente ( Esquipulas)":{
-           "id":"019",
-           "name":"Agua Caliente ( Esquipulas)",
-           "zipCode":"20019"
-        },
-        "Nueva Anguiatu (Concep. Las Minas)":{
-           "id":"020",
-           "name":"Nueva Anguiatu (Concep. Las Minas)",
-           "zipCode":"20020"
-        }
-     }
+    "id":"20",
+    "name":"Chiquimula",
+    "locationsLevel2":{
+      "Chiquimula":{
+        "id":"001",
+        "name":"Chiquimula",
+        "zipCode":"20001"
+      },
+      "San Jose La Arada":{
+        "id":"002",
+        "name":"San Jose La Arada",
+        "zipCode":"20002"
+      },
+      "San Juan Ermita":{
+        "id":"003",
+        "name":"San Juan Ermita",
+        "zipCode":"20003"
+      },
+      "Jocotan":{
+        "id":"004",
+        "name":"Jocotan",
+        "zipCode":"20004"
+      },
+      "Camotan":{
+        "id":"005",
+        "name":"Camotan",
+        "zipCode":"20005"
+      },
+      "Olopa":{
+        "id":"006",
+        "name":"Olopa",
+        "zipCode":"20006"
+      },
+      "Esquipulas":{
+        "id":"007",
+        "name":"Esquipulas",
+        "zipCode":"20007"
+      },
+      "Concepcion Las Minas":{
+        "id":"008",
+        "name":"Concepcion Las Minas",
+        "zipCode":"20008"
+      },
+      "Quetzaltepeque":{
+        "id":"009",
+        "name":"Quetzaltepeque",
+        "zipCode":"20009"
+      },
+      "San Jacinto":{
+        "id":"010",
+        "name":"San Jacinto",
+        "zipCode":"20010"
+      },
+      "Ipala":{
+        "id":"011",
+        "name":"Ipala",
+        "zipCode":"20011"
+      },
+      "Anguiatu (Concep. Las Minas )":{
+        "id":"012",
+        "name":"Anguiatu (Concep. Las Minas )",
+        "zipCode":"20012"
+      },
+      "El Amatillo (Jocotan)":{
+        "id":"013",
+        "name":"El Amatillo (Jocotan)",
+        "zipCode":"20013"
+      },
+      "El Florido (Camotan)":{
+        "id":"014",
+        "name":"El Florido (Camotan)",
+        "zipCode":"20014"
+      },
+      "Santa Elena (Chiquimula)":{
+        "id":"015",
+        "name":"Santa Elena (Chiquimula)",
+        "zipCode":"20015"
+      },
+      "Valdo Hondo (Chiquimula)":{
+        "id":"016",
+        "name":"Valdo Hondo (Chiquimula)",
+        "zipCode":"20016"
+      },
+      "San Esteban (Chiquimula)":{
+        "id":"017",
+        "name":"San Esteban (Chiquimula)",
+        "zipCode":"20017"
+      },
+      "Tierra Colorada ( San Jose La Arada)":{
+        "id":"018",
+        "name":"Tierra Colorada ( San Jose La Arada)",
+        "zipCode":"20018"
+      },
+      "Agua Caliente ( Esquipulas)":{
+        "id":"019",
+        "name":"Agua Caliente ( Esquipulas)",
+        "zipCode":"20019"
+      },
+      "Nueva Anguiatu (Concep. Las Minas)":{
+        "id":"020",
+        "name":"Nueva Anguiatu (Concep. Las Minas)",
+        "zipCode":"20020"
+      }
+    }
   },
   "Jalapa":{
-     "id":"21",
-     "name":"Jalapa",
-     "locationsLevel2":{
-        "Jalapa":{
-           "id":"001",
-           "name":"Jalapa",
-           "zipCode":"21001"
-        },
-        "San Pedro Pinula":{
-           "id":"002",
-           "name":"San Pedro Pinula",
-           "zipCode":"21002"
-        },
-        "San Luis Jilotepeque":{
-           "id":"003",
-           "name":"San Luis Jilotepeque",
-           "zipCode":"21003"
-        },
-        "San Manuel Chaparron":{
-           "id":"004",
-           "name":"San Manuel Chaparron",
-           "zipCode":"21004"
-        },
-        "San Carlos Alzatate":{
-           "id":"005",
-           "name":"San Carlos Alzatate",
-           "zipCode":"21005"
-        },
-        "Monjas":{
-           "id":"006",
-           "name":"Monjas",
-           "zipCode":"21006"
-        },
-        "Matatescuintla":{
-           "id":"007",
-           "name":"Matatescuintla",
-           "zipCode":"21007"
-        },
-        "Llano Grande":{
-           "id":"008",
-           "name":"Llano Grande",
-           "zipCode":"21008"
-        }
-     }
+    "id":"21",
+    "name":"Jalapa",
+    "locationsLevel2":{
+      "Jalapa":{
+        "id":"001",
+        "name":"Jalapa",
+        "zipCode":"21001"
+      },
+      "San Pedro Pinula":{
+        "id":"002",
+        "name":"San Pedro Pinula",
+        "zipCode":"21002"
+      },
+      "San Luis Jilotepeque":{
+        "id":"003",
+        "name":"San Luis Jilotepeque",
+        "zipCode":"21003"
+      },
+      "San Manuel Chaparron":{
+        "id":"004",
+        "name":"San Manuel Chaparron",
+        "zipCode":"21004"
+      },
+      "San Carlos Alzatate":{
+        "id":"005",
+        "name":"San Carlos Alzatate",
+        "zipCode":"21005"
+      },
+      "Monjas":{
+        "id":"006",
+        "name":"Monjas",
+        "zipCode":"21006"
+      },
+      "Matatescuintla":{
+        "id":"007",
+        "name":"Matatescuintla",
+        "zipCode":"21007"
+      },
+      "Llano Grande":{
+        "id":"008",
+        "name":"Llano Grande",
+        "zipCode":"21008"
+      }
+    }
   },
   "El Progreso":{
-     "id":"02",
-     "name":"El Progreso",
-     "locationsLevel2":{
-        "Guastatoya":{
-           "id":"001",
-           "name":"Guastatoya",
-           "zipCode":"02001"
-        },
-        "Morazan":{
-           "id":"002",
-           "name":"Morazan",
-           "zipCode":"02002"
-        },
-        "San Agustin Acasaguastlan":{
-           "id":"003",
-           "name":"San Agustin Acasaguastlan",
-           "zipCode":"02003"
-        },
-        "San Cristobal Acasaguastlan":{
-           "id":"004",
-           "name":"San Cristobal Acasaguastlan",
-           "zipCode":"02004"
-        },
-        "El Jicaro":{
-           "id":"005",
-           "name":"El Jicaro",
-           "zipCode":"02005"
-        },
-        "Sansare":{
-           "id":"006",
-           "name":"Sansare",
-           "zipCode":"02006"
-        },
-        "Sanarate":{
-           "id":"007",
-           "name":"Sanarate",
-           "zipCode":"02007"
-        },
-        "San Antonio La Paz":{
-           "id":"008",
-           "name":"San Antonio La Paz",
-           "zipCode":"02008"
-        },
-        "Tulumajillo (San Agustin Acasaguastlan)":{
-           "id":"009",
-           "name":"Tulumajillo (San Agustin Acasaguastlan)",
-           "zipCode":"02009"
-        },
-        "Estacion Jalapa (Sansare)":{
-           "id":"010",
-           "name":"Estacion Jalapa (Sansare)",
-           "zipCode":"02010"
-        },
-        "Tulumaje (San Agustin Acasaguastlan)":{
-           "id":"011",
-           "name":"Tulumaje (San Agustin Acasaguastlan)",
-           "zipCode":"02011"
-        },
-        "Estancia De La Virgen (San Cristobal Acasaguastlan)":{
-           "id":"012",
-           "name":"Estancia De La Virgen (San Cristobal Acasaguastlan)",
-           "zipCode":"02012"
-        },
-        "Paso De Los Jalapas (El Jicaro)":{
-           "id":"013",
-           "name":"Paso De Los Jalapas (El Jicaro)",
-           "zipCode":"02013"
-        },
-        "Santa Rita (Guastatoya)":{
-           "id":"014",
-           "name":"Santa Rita (Guastatoya)",
-           "zipCode":"02014"
-        },
-        "El Rancho ( San Agustin Acasaguastlan)":{
-           "id":"015",
-           "name":"El Rancho ( San Agustin Acasaguastlan)",
-           "zipCode":"02015"
-        }
-     }
+    "id":"02",
+    "name":"El Progreso",
+    "locationsLevel2":{
+      "Guastatoya":{
+        "id":"001",
+        "name":"Guastatoya",
+        "zipCode":"02001"
+      },
+      "Morazan":{
+        "id":"002",
+        "name":"Morazan",
+        "zipCode":"02002"
+      },
+      "San Agustin Acasaguastlan":{
+        "id":"003",
+        "name":"San Agustin Acasaguastlan",
+        "zipCode":"02003"
+      },
+      "San Cristobal Acasaguastlan":{
+        "id":"004",
+        "name":"San Cristobal Acasaguastlan",
+        "zipCode":"02004"
+      },
+      "El Jicaro":{
+        "id":"005",
+        "name":"El Jicaro",
+        "zipCode":"02005"
+      },
+      "Sansare":{
+        "id":"006",
+        "name":"Sansare",
+        "zipCode":"02006"
+      },
+      "Sanarate":{
+        "id":"007",
+        "name":"Sanarate",
+        "zipCode":"02007"
+      },
+      "San Antonio La Paz":{
+        "id":"008",
+        "name":"San Antonio La Paz",
+        "zipCode":"02008"
+      },
+      "Tulumajillo (San Agustin Acasaguastlan)":{
+        "id":"009",
+        "name":"Tulumajillo (San Agustin Acasaguastlan)",
+        "zipCode":"02009"
+      },
+      "Estacion Jalapa (Sansare)":{
+        "id":"010",
+        "name":"Estacion Jalapa (Sansare)",
+        "zipCode":"02010"
+      },
+      "Tulumaje (San Agustin Acasaguastlan)":{
+        "id":"011",
+        "name":"Tulumaje (San Agustin Acasaguastlan)",
+        "zipCode":"02011"
+      },
+      "Estancia De La Virgen (San Cristobal Acasaguastlan)":{
+        "id":"012",
+        "name":"Estancia De La Virgen (San Cristobal Acasaguastlan)",
+        "zipCode":"02012"
+      },
+      "Paso De Los Jalapas (El Jicaro)":{
+        "id":"013",
+        "name":"Paso De Los Jalapas (El Jicaro)",
+        "zipCode":"02013"
+      },
+      "Santa Rita (Guastatoya)":{
+        "id":"014",
+        "name":"Santa Rita (Guastatoya)",
+        "zipCode":"02014"
+      },
+      "El Rancho ( San Agustin Acasaguastlan)":{
+        "id":"015",
+        "name":"El Rancho ( San Agustin Acasaguastlan)",
+        "zipCode":"02015"
+      }
+    }
   },
   "Guatemala":{
-     "id":"01",
-     "name":"Guatemala",
-     "locationsLevel2":{
-        "Santa Catarina Pinula":{
-           "id":"051",
-           "name":"Santa Catarina Pinula",
-           "zipCode":"01051"
-        },
-        "San Jose Pinula":{
-           "id":"052",
-           "name":"San Jose Pinula",
-           "zipCode":"01052"
-        },
-        "San Jose Del Golfo":{
-           "id":"053",
-           "name":"San Jose Del Golfo",
-           "zipCode":"01053"
-        },
-        "Palencia":{
-           "id":"054",
-           "name":"Palencia",
-           "zipCode":"01054"
-        },
-        "Chinautla":{
-           "id":"055",
-           "name":"Chinautla",
-           "zipCode":"01055"
-        },
-        "San Pedro Ayampuc":{
-           "id":"056",
-           "name":"San Pedro Ayampuc",
-           "zipCode":"01056"
-        },
-        "Mixco":{
-           "id":"057",
-           "name":"Mixco",
-           "zipCode":"01057"
-        },
-        "San Pedro Sacatepequez":{
-           "id":"058",
-           "name":"San Pedro Sacatepequez",
-           "zipCode":"01058"
-        },
-        "San Juan Sacatepequez":{
-           "id":"059",
-           "name":"San Juan Sacatepequez",
-           "zipCode":"01059"
-        },
-        "San Raymundo":{
-           "id":"060",
-           "name":"San Raymundo",
-           "zipCode":"01060"
-        },
-        "Chuarrancho":{
-           "id":"061",
-           "name":"Chuarrancho",
-           "zipCode":"01061"
-        },
-        "Fraijanes":{
-           "id":"062",
-           "name":"Fraijanes",
-           "zipCode":"01062"
-        },
-        "Amatitlan":{
-           "id":"063",
-           "name":"Amatitlan",
-           "zipCode":"01063"
-        },
-        "Villa Nueva":{
-           "id":"064",
-           "name":"Villa Nueva",
-           "zipCode":"01064"
-        },
-        "Villa Canales":{
-           "id":"065",
-           "name":"Villa Canales",
-           "zipCode":"01065"
-        },
-        "Petapa":{
-           "id":"066",
-           "name":"Petapa",
-           "zipCode":"01066"
-        },
-        "Canalitos (Zona":{
-           "id":"067",
-           "name":"Canalitos (Zona",
-           "zipCode":"01067"
-        },
-        "El Fiscal (Palencia)":{
-           "id":"068",
-           "name":"El Fiscal (Palencia)",
-           "zipCode":"01068"
-        },
-        "Boca Del Monte (Villa Canales)":{
-           "id":"069",
-           "name":"Boca Del Monte (Villa Canales)",
-           "zipCode":"01069"
-        },
-        "Vuelta Grande (San Raymundo)":{
-           "id":"070",
-           "name":"Vuelta Grande (San Raymundo)",
-           "zipCode":"01070"
-        },
-        "Trapiche Grande (Chuarrancho)":{
-           "id":"071",
-           "name":"Trapiche Grande (Chuarrancho)",
-           "zipCode":"01071"
-        },
-        "Santa Elena Barillas (Villa Canales)":{
-           "id":"072",
-           "name":"Santa Elena Barillas (Villa Canales)",
-           "zipCode":"01072"
-        },
-        "Puerta Parada (Santa Catarina Pinula)":{
-           "id":"073",
-           "name":"Puerta Parada (Santa Catarina Pinula)",
-           "zipCode":"01073"
-        },
-        "Guatemala":{
-           "id":"021",
-           "name":"Guatemala",
-           "zipCode":"01021"
-        }
-     }
+    "id":"01",
+    "name":"Guatemala",
+    "locationsLevel2":{
+      "Santa Catarina Pinula":{
+        "id":"051",
+        "name":"Santa Catarina Pinula",
+        "zipCode":"01051"
+      },
+      "San Jose Pinula":{
+        "id":"052",
+        "name":"San Jose Pinula",
+        "zipCode":"01052"
+      },
+      "San Jose Del Golfo":{
+        "id":"053",
+        "name":"San Jose Del Golfo",
+        "zipCode":"01053"
+      },
+      "Palencia":{
+        "id":"054",
+        "name":"Palencia",
+        "zipCode":"01054"
+      },
+      "Chinautla":{
+        "id":"055",
+        "name":"Chinautla",
+        "zipCode":"01055"
+      },
+      "San Pedro Ayampuc":{
+        "id":"056",
+        "name":"San Pedro Ayampuc",
+        "zipCode":"01056"
+      },
+      "Mixco":{
+        "id":"057",
+        "name":"Mixco",
+        "zipCode":"01057"
+      },
+      "San Pedro Sacatepequez":{
+        "id":"058",
+        "name":"San Pedro Sacatepequez",
+        "zipCode":"01058"
+      },
+      "San Juan Sacatepequez":{
+        "id":"059",
+        "name":"San Juan Sacatepequez",
+        "zipCode":"01059"
+      },
+      "San Raymundo":{
+        "id":"060",
+        "name":"San Raymundo",
+        "zipCode":"01060"
+      },
+      "Chuarrancho":{
+        "id":"061",
+        "name":"Chuarrancho",
+        "zipCode":"01061"
+      },
+      "Fraijanes":{
+        "id":"062",
+        "name":"Fraijanes",
+        "zipCode":"01062"
+      },
+      "Amatitlan":{
+        "id":"063",
+        "name":"Amatitlan",
+        "zipCode":"01063"
+      },
+      "Villa Nueva":{
+        "id":"064",
+        "name":"Villa Nueva",
+        "zipCode":"01064"
+      },
+      "Villa Canales":{
+        "id":"065",
+        "name":"Villa Canales",
+        "zipCode":"01065"
+      },
+      "Petapa":{
+        "id":"066",
+        "name":"Petapa",
+        "zipCode":"01066"
+      },
+      "Canalitos (Zona":{
+        "id":"067",
+        "name":"Canalitos (Zona",
+        "zipCode":"01067"
+      },
+      "El Fiscal (Palencia)":{
+        "id":"068",
+        "name":"El Fiscal (Palencia)",
+        "zipCode":"01068"
+      },
+      "Boca Del Monte (Villa Canales)":{
+        "id":"069",
+        "name":"Boca Del Monte (Villa Canales)",
+        "zipCode":"01069"
+      },
+      "Vuelta Grande (San Raymundo)":{
+        "id":"070",
+        "name":"Vuelta Grande (San Raymundo)",
+        "zipCode":"01070"
+      },
+      "Trapiche Grande (Chuarrancho)":{
+        "id":"071",
+        "name":"Trapiche Grande (Chuarrancho)",
+        "zipCode":"01071"
+      },
+      "Santa Elena Barillas (Villa Canales)":{
+        "id":"072",
+        "name":"Santa Elena Barillas (Villa Canales)",
+        "zipCode":"01072"
+      },
+      "Puerta Parada (Santa Catarina Pinula)":{
+        "id":"073",
+        "name":"Puerta Parada (Santa Catarina Pinula)",
+        "zipCode":"01073"
+      },
+      "Guatemala":{
+        "id":"021",
+        "name":"Guatemala",
+        "zipCode":"01021"
+      }
+    }
   }
 }
