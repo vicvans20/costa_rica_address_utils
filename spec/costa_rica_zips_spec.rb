@@ -121,6 +121,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('10704', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Piedras Negras')
           expect(described_class.fetch_address_from_zip!('10705', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Picagres')
           expect(described_class.fetch_address_from_zip!('10706', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Jaris')
+          expect(described_class.fetch_address_from_zip!('10707', new_dataset:)).to include(province: 'San José', canton: 'Mora', district: 'Quitirrisí')
         end
       end
 
@@ -304,6 +305,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('11909', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Barú')
           expect(described_class.fetch_address_from_zip!('11910', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Río Nuevo')
           expect(described_class.fetch_address_from_zip!('11911', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'Páramo')
+          expect(described_class.fetch_address_from_zip!('11912', new_dataset:)).to include(province: 'San José', canton: 'Pérez Zeledón', district: 'La Amistad')
         end
       end
 
@@ -315,7 +317,7 @@ RSpec.describe CostaRicaAddressUtils do
       shared_examples "zip code dataset" do |new_dataset|
         it "validates zip codes for 'León Cortés Castro'" do
           expect(described_class.fetch_address_from_zip!('12001', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Pablo')
-          expect(described_class.fetch_address_from_zip!('12002', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Andres')
+          expect(described_class.fetch_address_from_zip!('12002', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Andrés')
           expect(described_class.fetch_address_from_zip!('12003', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Llano Bonito')
           expect(described_class.fetch_address_from_zip!('12004', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'San Isidro')
           expect(described_class.fetch_address_from_zip!('12005', new_dataset:)).to include(province: 'San José', canton: 'León Cortés Castro', district: 'Santa Cruz')
@@ -386,9 +388,8 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('20303', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'San José')
           expect(described_class.fetch_address_from_zip!('20304', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'San Roque')
           expect(described_class.fetch_address_from_zip!('20305', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'Tacares')
-          expect(described_class.fetch_address_from_zip!('20306', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'Río Cuarto')
           expect(described_class.fetch_address_from_zip!('20307', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'Puente de Piedra')
-          expect(described_class.fetch_address_from_zip!('20308', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'Bolivar')
+          expect(described_class.fetch_address_from_zip!('20308', new_dataset:)).to include(province: 'Alajuela', canton: 'Grecia', district: 'Bolívar')
         end
       end
 
@@ -540,7 +541,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('21202', new_dataset:)).to include(province: 'Alajuela', canton: 'Sarchí', district: 'Sarchí Sur')
           expect(described_class.fetch_address_from_zip!('21203', new_dataset:)).to include(province: 'Alajuela', canton: 'Sarchí', district: 'Toro Amarillo')
           expect(described_class.fetch_address_from_zip!('21204', new_dataset:)).to include(province: 'Alajuela', canton: 'Sarchí', district: 'San Pedro')
-          expect(described_class.fetch_address_from_zip!('21205', new_dataset:)).to include(province: 'Alajuela', canton: 'Sarchí', district: 'Rodriguez')
+          expect(described_class.fetch_address_from_zip!('21205', new_dataset:)).to include(province: 'Alajuela', canton: 'Sarchí', district: 'Rodríguez')
         end
       end
 
@@ -639,6 +640,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('30203', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Orosi')
           expect(described_class.fetch_address_from_zip!('30204', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Cachí')
           expect(described_class.fetch_address_from_zip!('30205', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Llanos de Santa Lucía')
+          expect(described_class.fetch_address_from_zip!('30206', new_dataset:)).to include(province: 'Cartago', canton: 'Paraíso', district: 'Birrisito')
         end
       end
 
@@ -669,7 +671,8 @@ RSpec.describe CostaRicaAddressUtils do
         it "validates zip codes for 'Jiménez'" do
           expect(described_class.fetch_address_from_zip!('30401', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Juan Viñas')
           expect(described_class.fetch_address_from_zip!('30402', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Tucurrique')
-          expect(described_class.fetch_address_from_zip!('30403', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Pejibaye')
+          expect(described_class.fetch_address_from_zip!('30403', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'Pejivalle')
+          expect(described_class.fetch_address_from_zip!('30404', new_dataset:)).to include(province: 'Cartago', canton: 'Jiménez', district: 'La Victoria')
         end
       end
 
@@ -768,6 +771,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('40204', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San Roque')
           expect(described_class.fetch_address_from_zip!('40205', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'Santa Lucía')
           expect(described_class.fetch_address_from_zip!('40206', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'San José de la Montaña')
+          expect(described_class.fetch_address_from_zip!('40207', new_dataset:)).to include(province: 'Heredia', canton: 'Barva', district: 'Puente Salas')
         end
       end
 
@@ -815,7 +819,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('40501', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'San Rafael')
           expect(described_class.fetch_address_from_zip!('40502', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'San Josecito')
           expect(described_class.fetch_address_from_zip!('40503', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Santiago')
-          expect(described_class.fetch_address_from_zip!('40504', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Los Ángeles')
+          expect(described_class.fetch_address_from_zip!('40504', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Ángeles')
           expect(described_class.fetch_address_from_zip!('40505', new_dataset:)).to include(province: 'Heredia', canton: 'San Rafael', district: 'Concepción')
         end
       end
@@ -952,6 +956,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('50402', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'La Fortuna')
           expect(described_class.fetch_address_from_zip!('50403', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Mogote')
           expect(described_class.fetch_address_from_zip!('50404', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Río Naranjo')
+          expect(described_class.fetch_address_from_zip!('50405', new_dataset:)).to include(province: 'Guanacaste', canton: 'Bagaces', district: 'Pijije')
         end
       end
 
@@ -1056,6 +1061,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('51102', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Monte Romo')
           expect(described_class.fetch_address_from_zip!('51103', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Puerto Carrillo')
           expect(described_class.fetch_address_from_zip!('51104', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Huacas')
+          expect(described_class.fetch_address_from_zip!('51105', new_dataset:)).to include(province: 'Guanacaste', canton: 'Hojancha', district: 'Matambú')
         end
       end
 
@@ -1077,7 +1083,6 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('60106', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Manzanillo')
           expect(described_class.fetch_address_from_zip!('60107', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Guacimal')
           expect(described_class.fetch_address_from_zip!('60108', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Barranca')
-          expect(described_class.fetch_address_from_zip!('60109', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Monte Verde')
           expect(described_class.fetch_address_from_zip!('60110', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Isla del Coco')
           expect(described_class.fetch_address_from_zip!('60111', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Cóbano')
           expect(described_class.fetch_address_from_zip!('60112', new_dataset:)).to include(province: 'Puntarenas', canton: 'Central', district: 'Chacarita')
@@ -1120,6 +1125,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('60307', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Chánguena')
           expect(described_class.fetch_address_from_zip!('60308', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Biolley')
           expect(described_class.fetch_address_from_zip!('60309', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Brunka')
+          expect(described_class.fetch_address_from_zip!('60310', new_dataset:)).to include(province: 'Puntarenas', canton: 'Buenos Aires', district: 'Cabagra')
         end
       end
 
@@ -1173,7 +1179,6 @@ RSpec.describe CostaRicaAddressUtils do
       shared_examples "zip code dataset" do |new_dataset|
         it "validates zip codes for 'Golfito'" do
           expect(described_class.fetch_address_from_zip!('60701', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Golfito')
-          expect(described_class.fetch_address_from_zip!('60702', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Puerto Jiménez')
           expect(described_class.fetch_address_from_zip!('60703', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Guaycará')
           expect(described_class.fetch_address_from_zip!('60704', new_dataset:)).to include(province: 'Puntarenas', canton: 'Golfito', district: 'Pavón')
         end
@@ -1191,6 +1196,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('60803', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Aguabuena')
           expect(described_class.fetch_address_from_zip!('60804', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Limoncito')
           expect(described_class.fetch_address_from_zip!('60805', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Pittier')
+          expect(described_class.fetch_address_from_zip!('60806', new_dataset:)).to include(province: 'Puntarenas', canton: 'Coto Brus', district: 'Gutiérrez Braun')
         end
       end
 
@@ -1228,6 +1234,29 @@ RSpec.describe CostaRicaAddressUtils do
         it "validates zip codes for 'Garabito'" do
           expect(described_class.fetch_address_from_zip!('61101', new_dataset:)).to include(province: 'Puntarenas', canton: 'Garabito', district: 'Jacó')
           expect(described_class.fetch_address_from_zip!('61102', new_dataset:)).to include(province: 'Puntarenas', canton: 'Garabito', district: 'Tárcoles')
+          expect(described_class.fetch_address_from_zip!('61103', new_dataset:)).to include(province: 'Puntarenas', canton: 'Garabito', district: 'Lagunillas')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Monteverde'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Monteverde'" do
+          expect(described_class.fetch_address_from_zip!('61201', new_dataset:)).to include(province: 'Puntarenas', canton: 'Monteverde', district: 'Monteverde')
+        end
+      end
+
+      it_behaves_like "zip code dataset", true
+      it_behaves_like "zip code dataset", false
+    end
+
+    context "Canton 'Puerto Jiménez'" do
+      shared_examples "zip code dataset" do |new_dataset|
+        it "validates zip codes for 'Puerto Jiménez'" do
+          expect(described_class.fetch_address_from_zip!('61301', new_dataset:)).to include(province: 'Puntarenas', canton: 'Puerto Jiménez', district: 'Puerto Jiménez')
         end
       end
 
@@ -1278,6 +1307,7 @@ RSpec.describe CostaRicaAddressUtils do
           expect(described_class.fetch_address_from_zip!('70304', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Germania')
           expect(described_class.fetch_address_from_zip!('70305', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'El Cairo')
           expect(described_class.fetch_address_from_zip!('70306', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Alegría')
+          expect(described_class.fetch_address_from_zip!('70307', new_dataset:)).to include(province: 'Limón', canton: 'Siquirres', district: 'Reventazón')
         end
       end
 
@@ -1304,7 +1334,7 @@ RSpec.describe CostaRicaAddressUtils do
         it "validates zip codes for 'Matina'" do
           expect(described_class.fetch_address_from_zip!('70501', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Matina')
           expect(described_class.fetch_address_from_zip!('70502', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Batán')
-          expect(described_class.fetch_address_from_zip!('70503', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Carrandi')
+          expect(described_class.fetch_address_from_zip!('70503', new_dataset:)).to include(province: 'Limón', canton: 'Matina', district: 'Carrandí')
         end
       end
 

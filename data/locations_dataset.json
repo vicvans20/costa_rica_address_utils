@@ -302,6 +302,11 @@
             "id":"6",
             "name":"Jaris",
             "zip_code":"10706"
+          },
+          "Quitirrisí":{
+            "id":"7",
+            "name":"Quitirrisí",
+            "zip_code":"10707"
           }
         }
       },
@@ -689,6 +694,11 @@
             "id":"11",
             "name":"Páramo",
             "zip_code":"11911"
+          },
+          "La Amistad":{
+            "id":"12",
+            "name":"La Amistad",
+            "zip_code":"11912"
           }
         }
       },
@@ -701,9 +711,9 @@
             "name":"San Pablo",
             "zip_code":"12001"
           },
-          "San Andres":{
+          "San Andrés":{
             "id":"2",
-            "name":"San Andres",
+            "name":"San Andrés",
             "zip_code":"12002"
           },
           "Llano Bonito":{
@@ -915,19 +925,14 @@
             "name":"Tacares",
             "zip_code":"20305"
           },
-          "Río Cuarto":{
-            "id":"6",
-            "name":"Río Cuarto",
-            "zip_code":"20306"
-          },
           "Puente de Piedra":{
             "id":"7",
             "name":"Puente de Piedra",
             "zip_code":"20307"
           },
-          "Bolivar":{
+          "Bolívar":{
             "id":"8",
-            "name":"Bolivar",
+            "name":"Bolívar",
             "zip_code":"20308"
           }
         }
@@ -1289,9 +1294,9 @@
             "name":"San Pedro",
             "zip_code":"21204"
           },
-          "Rodriguez":{
+          "Rodríguez":{
             "id":"5",
-            "name":"Rodriguez",
+            "name":"Rodríguez",
             "zip_code":"21205"
           }
         }
@@ -1510,6 +1515,11 @@
             "id":"5",
             "name":"Llanos de Santa Lucía",
             "zip_code":"30205"
+          },
+          "Birrisito":{
+            "id":"6",
+            "name":"Birrisito",
+            "zip_code":"30206"
           }
         }
       },
@@ -1573,10 +1583,15 @@
             "name":"Tucurrique",
             "zip_code":"30402"
           },
-          "Pejibaye":{
+          "Pejivalle":{
             "id":"3",
-            "name":"Pejibaye",
+            "name":"Pejivalle",
             "zip_code":"30403"
+          },
+          "La Victoria":{
+            "id":"4",
+            "name":"La Victoria",
+            "zip_code":"30404"
           }
         }
       },
@@ -1794,6 +1809,11 @@
             "id":"6",
             "name":"San José de la Montaña",
             "zip_code":"40206"
+          },
+          "Puente Salas":{
+            "id":"7",
+            "name":"Puente Salas",
+            "zip_code":"40207"
           }
         }
       },
@@ -1898,9 +1918,9 @@
             "name":"Santiago",
             "zip_code":"40503"
           },
-          "Los Ángeles":{
+          "Ángeles":{
             "id":"4",
-            "name":"Los Ángeles",
+            "name":"Ángeles",
             "zip_code":"40504"
           },
           "Concepción":{
@@ -2177,6 +2197,11 @@
             "id":"4",
             "name":"Río Naranjo",
             "zip_code":"50404"
+          },
+          "Pijije":{
+            "id":"5",
+            "name":"Pijije",
+            "zip_code":"50405"
           }
         }
       },
@@ -2394,6 +2419,11 @@
             "id":"4",
             "name":"Huacas",
             "zip_code":"51104"
+          },
+          "Matambú":{
+            "id":"5",
+            "name":"Matambú",
+            "zip_code":"51105"
           }
         }
       }
@@ -2446,11 +2476,6 @@
             "id":"8",
             "name":"Barranca",
             "zip_code":"60108"
-          },
-          "Monte Verde":{
-            "id":"9",
-            "name":"Monte Verde",
-            "zip_code":"60109"
           },
           "Isla del Coco":{
             "id":"10",
@@ -2573,6 +2598,11 @@
             "id":"9",
             "name":"Brunka",
             "zip_code":"60309"
+          },
+          "Cabagra":{
+            "id":"10",
+            "name":"Cabagra",
+            "zip_code":"60310"
           }
         }
       },
@@ -2663,11 +2693,6 @@
             "name":"Golfito",
             "zip_code":"60701"
           },
-          "Puerto Jiménez":{
-            "id":"2",
-            "name":"Puerto Jiménez",
-            "zip_code":"60702"
-          },
           "Guaycará":{
             "id":"3",
             "name":"Guaycará",
@@ -2708,6 +2733,11 @@
             "id":"5",
             "name":"Pittier",
             "zip_code":"60805"
+          },
+          "Gutiérrez Braun":{
+            "id":"6",
+            "name":"Gutiérrez Braun",
+            "zip_code":"60806"
           }
         }
       },
@@ -2761,6 +2791,33 @@
             "id":"2",
             "name":"Tárcoles",
             "zip_code":"61102"
+          },
+          "Lagunillas":{
+            "id":"3",
+            "name":"Lagunillas",
+            "zip_code":"61103"
+          }
+        }
+      },
+      "Monteverde":{
+        "id":"12",
+        "name":"Monteverde",
+        "districts":{
+          "Monteverde":{
+            "id":"1",
+            "name":"Monteverde",
+            "zip_code":"61201"
+          }
+        }
+      },
+      "Puerto Jiménez":{
+        "id":"13",
+        "name":"Puerto Jiménez",
+        "districts":{
+          "Puerto Jiménez":{
+            "id":"1",
+            "name":"Puerto Jiménez",
+            "zip_code":"61301"
           }
         }
       }
@@ -2870,6 +2927,11 @@
             "id":"6",
             "name":"Alegría",
             "zip_code":"70306"
+          },
+          "Reventazón":{
+            "id":"7",
+            "name":"Reventazón",
+            "zip_code":"70307"
           }
         }
       },
@@ -2913,9 +2975,9 @@
             "name":"Batán",
             "zip_code":"70502"
           },
-          "Carrandi":{
+          "Carrandí":{
             "id":"3",
-            "name":"Carrandi",
+            "name":"Carrandí",
             "zip_code":"70503"
           }
         }
