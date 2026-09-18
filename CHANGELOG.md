@@ -1,3 +1,12 @@
+## [0.6.0]
+
+* Updated the Costa Rica datasets to the *División Territorial Administrativa 2026* (IGN / Registro Nacional): 84 cantones and 494 distritos.
+* Added cantones `Monteverde` (61201) and `Puerto Jiménez` (61301) on `Puntarenas`, plus the 11 districts created since the datasets were last built.
+* Removed the codes they absorbed: `Río Cuarto` (20306), `Monte Verde` (60109) and `Puerto Jiménez` (60702). Codes are not renumbered.
+* Fixed six district names: `San Andrés` (12002), `Bolívar` (20308), `Rodríguez` (21205), `Pejivalle` (30403), `Ángeles` (40504) and `Carrandí` (70503).
+
+> Consumers that match addresses by name must remap before upgrading: nine locations changed identity since `0.5.0`.
+
 ## [0.5.0]
 
 * Changed datasets form to be uncompressed for more clarity (performance shouldn't be affected)
